@@ -16,14 +16,13 @@ var schema = new mongoose.Schema({
     CollClaimFreeYears: Number,
     DriverBirthYear: Number,
     DriverYearsLicenced: Number,
-    DriverYearsLicencedExp: String,
+    DriverYearsLicencedExp: Number,
     DriverTrainingInd: String,
     DriverGender: String,
     ExcludedDriverInd: String,
     LastUpdateDate: Date,
     PolicyVehicleId: String,
     IAOCompanyInd: String,
-    Source: String,
 
 });
 

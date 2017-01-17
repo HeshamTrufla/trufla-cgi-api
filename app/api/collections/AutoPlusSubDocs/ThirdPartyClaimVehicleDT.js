@@ -1,5 +1,6 @@
 var mongoose = require('mongoose');
 
+// duplicated
 
 var schema = new mongoose.Schema({
 
@@ -26,7 +27,7 @@ var schema = new mongoose.Schema({
     UseCode: String,
     VehicleDescEng: String,
     VehicleDescFre: String,
-    VehicleDescInd: String,
+    VehicleDescInd: String
 
 });
 

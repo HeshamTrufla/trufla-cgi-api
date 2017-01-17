@@ -31,8 +31,7 @@ var schema = new mongoose.Schema({
     AtFaultInd: String,
     AtFaultPct: String,
     CompanyName: String,
-    Abbreviation: String,
-    LastUpdateDate: String,
+    Abbreviation: String
 
 });
 
