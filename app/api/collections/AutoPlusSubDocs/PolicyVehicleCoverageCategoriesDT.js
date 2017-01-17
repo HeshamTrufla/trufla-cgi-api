@@ -6,7 +6,7 @@ var schema = new mongoose.Schema({
     CompanyCode: String,
     PolicyNumber: String,
     PolicyVehicleId: String,
-    CoverageCategoryCode: String,
+    CoverageCategoryCode: String
 
 });
 
