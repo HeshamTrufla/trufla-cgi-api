@@ -1,6 +1,6 @@
 'use strict';
 var mongoose = require('mongoose');
-var subDocs = require('./mvrSubDocs'); // load MVR Sub-documents 
+var subDocs = require('./MvrSubDocs'); // load MVR Sub-documents 
 
 var schema = new mongoose.Schema({
     
