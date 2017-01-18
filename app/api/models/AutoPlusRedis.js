@@ -7,7 +7,7 @@ module.exports = {
             primaryKey: true
 		},
         autoPlusId: {
-            type: 'String'
+            type: 'string'
         }
 	}
 };

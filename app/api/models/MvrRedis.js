@@ -7,7 +7,7 @@ module.exports = {
             primaryKey: true
 		},
         mvrId: {
-            type: 'String'
+            type: 'string'
         }
 	}
 };
