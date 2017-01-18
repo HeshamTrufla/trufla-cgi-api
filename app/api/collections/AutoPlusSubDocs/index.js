@@ -1,2 +1,32 @@
-exports.PolicyBaseInfoDT = require('./PolicyBaseInfoDT');
+module.exports = {
 
+    InsuredDT: require('./InsuredDT'),
+    PolicyBaseInfoDT: require('./PolicyBaseInfoDT'),
+    PolicyClaimDT: require('./PolicyClaimDT'),
+    PolicyClaimFirstPartyAccidentDriverDT: require('./PolicyClaimFirstPartyAccidentDriverDT'),
+    PolicyClaimKindOfLossDT: require('./PolicyClaimKindOfLossDT'),
+    PolicyClaimKindOfLossTransDT: require('./PolicyClaimKindOfLossTransDT'),
+    PolicyClaimThirdPartyAccidentDriverDT: require('./PolicyClaimThirdPartyAccidentDriverDT'),
+    PolicyClaimVehicleDT: require('./PolicyClaimVehicleDT'),
+    PolicyDriverDT: require('./PolicyDriverDT'),
+    PolicyHolderDT: require('./PolicyHolderDT'),
+    PolicyVehicleCoverageCategoriesDT: require('./PolicyVehicleCoverageCategoriesDT'),
+    PolicyVehicleDT: require('./PolicyVehicleDT'),
+    PreviousInquiryDT: require('./PreviousInquiryDT'),
+    ProviderServiceProviderDT: require('./ProviderServiceProviderDT'),
+    RequestDT: require('./RequestDT'),
+    SummaryInfoDT: require('./SummaryInfoDT'),
+    ThirdPartyClaimDT: require('./ThirdPartyClaimDT'),
+    ThirdPartyClaimFirstPartyAccidentDriverDT: require('./ThirdPartyClaimFirstPartyAccidentDriverDT'),
+    ThirdPartyClaimKindOfLossDT: require('./ThirdPartyClaimKindOfLossDT'),
+    ThirdPartyClaimThirdPartyAccidentDriverDT: require('./ThirdPartyClaimThirdPartyAccidentDriverDT'),
+    ThirdPartyClaimVehicleDT: require('./ThirdPartyClaimVehicleDT'),
+    VehicleAntiTheftMarkingDT: require('./VehicleAntiTheftMarkingDT'),
+    VehicleEventDetailDT: require('./VehicleEventDetailDT'),
+    VehicleEventDT: require('./VehicleEventDT'),
+    VehicleLienDetailDT: require('./VehicleLienDetailDT'),
+    VehicleLienDT: require('./VehicleLienDT'),
+    VehicleRepairHistoryDetailDT: require('./VehicleRepairHistoryDetailDT'),
+    VehicleRepairHistoryDT: require('./VehicleRepairHistoryDT')
+    
+};
