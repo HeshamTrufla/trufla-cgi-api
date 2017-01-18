@@ -23,7 +23,7 @@ var schema = new mongoose.Schema({
     ProvinceCode: String,
     PostalCode: String,
     StructuredAddressInd: String,
-    UnstructuredAddress: String,
+    UnstructuredAddress: String
 
 });
 

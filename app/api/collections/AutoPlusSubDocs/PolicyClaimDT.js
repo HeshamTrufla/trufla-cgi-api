@@ -23,7 +23,7 @@ var schema = new mongoose.Schema({
     LastUpdateDate: Date,
     PolicyVehicleId: String,
     IAOCompanyInd: String,
-    Source: String,
+    Source: String
 
 });
 

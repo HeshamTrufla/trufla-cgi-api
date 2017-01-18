@@ -35,7 +35,7 @@ var schema = new mongoose.Schema({
     DriverGridScoreYear: Number,
     Age: String,
     LastUpdateDate: String,
-    MaritalStatus: String,
+    MaritalStatus: String
 
 });
 

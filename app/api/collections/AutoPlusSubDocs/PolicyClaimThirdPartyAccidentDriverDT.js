@@ -28,7 +28,7 @@ var schema = new mongoose.Schema({
     CompanyName: String,
     Abbreviation: String,
     PolicyNumberExp: String,
-    LastUpdateDate: String,
+    LastUpdateDate: String
 
 });
 

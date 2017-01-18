@@ -82,7 +82,7 @@ var schema = new mongoose.Schema({
     CommutingDistance: String,
     AnnualDrivingDistance: String,
     BusinessPercentage: String,
-    WinterTireDiscount: String,
+    WinterTireDiscount: String
     
 });
 

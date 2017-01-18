@@ -10,7 +10,7 @@ var schema = new mongoose.Schema({
     CompanyName: String,
     InquiryYear: Number,
     InquiryMonth: Number,
-    InquiryDay: Number,
+    InquiryDay: Number
 
 });
 

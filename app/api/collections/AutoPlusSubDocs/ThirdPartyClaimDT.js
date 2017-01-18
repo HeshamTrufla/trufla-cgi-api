@@ -22,7 +22,7 @@ var schema = new mongoose.Schema({
     ExcludedDriverInd: String,
     LastUpdateDate: Date,
     PolicyVehicleId: String,
-    IAOCompanyInd: String,
+    IAOCompanyInd: String
 
 });
 

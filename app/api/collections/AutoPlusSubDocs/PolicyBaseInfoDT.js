@@ -34,7 +34,7 @@ var schema = new mongoose.Schema({
     NoFrillPolicy: String,
     FARejectedCompany: String,
     MarketingGroup: String,
-    AlbertaGridInd: String,
+    AlbertaGridInd: String
 
 });
 
