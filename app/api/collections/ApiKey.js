@@ -6,7 +6,7 @@ var schema = new mongoose.Schema({
     Key: String,
 
     AccessPrivillage: {
-        type: String,
+        type: mongoose.Schema.Types.ObjectId,
         ref: 'AccessPrivillage'
     }
 
