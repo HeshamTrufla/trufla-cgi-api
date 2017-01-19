@@ -23,7 +23,8 @@
     "friendlyName": "mvr",
     "machineDir": "machines/",
     "machines": [
-      "SubmitRequest"
+      "SubmitRequest",
+      "GetResponse"
     ]
   }
 }
