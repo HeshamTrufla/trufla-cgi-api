@@ -1,0 +1,29 @@
+{
+  "name": "machinepack-mvr",
+  "version": "0.1.0",
+  "description": "cgi - mvr service integrator, to make requests and convert the returned xml response into json ",
+  "scripts": {
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+  },
+  "keywords": [
+    "mvr",
+    "machines",
+    "machinepack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "machine": "^12.2.5",
+    "soap": "^0.18.0"
+  },
+  "devDependencies": {
+    "test-machinepack-mocha": "^2.1.5"
+  },
+  "machinepack": {
+    "friendlyName": "mvr",
+    "machineDir": "machines/",
+    "machines": [
+      "SubmitRequest"
+    ]
+  }
+}
