@@ -1,7 +1,7 @@
 module.exports = {
 
 
-    friendlyName: 'MVR - GetResponse',
+    friendlyName: 'MVR - GetRequestedMVR',
 
     description: 'This method provides authorized users to view the MVR for an MVR request by the MVR request receipt number.',
 
@@ -57,16 +57,16 @@ module.exports = {
     },
 
 
-    fn: function(inputs, exits) {
+    fn: function (inputs, exits) {
 
         // Module Dependencies
         const soap = require('soap');
-        
-         /** request args */
+
+        /** request args */
         const url = inputs.Url;
-        
-        // set headers.
-        var headers = {
+
+        // set request headers.
+        const headers = {
             "Credentials": {
                 "UserName": inputs.UserName,
                 "Password": inputs.Password
@@ -76,12 +76,13 @@ module.exports = {
             }
         };
 
-        var args = {
+        // set request body
+        const body = {
 
             "MVRResponseRequestDS": {
                 "attributes": {
                     "xmlns": "http://localhost/IISDOTNETAPP/XMLSchemas/MVRResponseRequestDS.xsd"
-                }, 
+                },
                 "MVRResponseRequestDT": {
                     "RequestReceipt": inputs.RequestReceipt,
                     "AbstractFormat": inputs.AbstractFormat,
@@ -91,18 +92,18 @@ module.exports = {
         };
 
         // create soap client.
-        soap.createClient(url, function(err, client) {
+        soap.createClient(url, (err, client) => {
             if (err) return exits.error(err);
 
             // add headers to the client object.
             client.addSoapHeader(headers);
-            
+
             // make a service call to the soap method GetResponse.
-            client.GetResponse(args, function(err, result) {
+            client.GetResponse(body, (err, result) => {
                 if (err) return exits.error(err);
                 return exits.success(result);
             });
-            
+
         });
 
     }

@@ -1,7 +1,7 @@
-# SubmitRequest
+# RequestMVR
 
-machinepack exec SubmitRequest --Url='https://ibs.ct.rapidwebservices.cgi.com/rapidwebservices/WebServices/MVRWS.asmx?wsdl' --UserName='ws.test@sharpinsurance.ca' --Password='SharpTest1' --DriverLicenceProvinceCode='ON' --DriverLicenceNumber='W35127230540505'
+machinepack exec RequestMVR --Url='https://ibs.ct.rapidwebservices.cgi.com/rapidwebservices/WebServices/MVRWS.asmx?wsdl' --UserName='ws.test@sharpinsurance.ca' --Password='SharpTest1' --DriverLicenceProvinceCode='ON' --DriverLicenceNumber='W35127230540505'
 
-#GetResponse
+#GetRequestedMVR
 
-machinepack exec GetResponse --Url='https://ibs.ct.rapidwebservices.cgi.com/rapidwebservices/WebServices/MVRWS.asmx?wsdl' --UserName='ws.test@sharpinsurance.ca' --Password='SharpTest1' --RequestReceipt='7139716' --AbstractFormat='D'
+machinepack exec GetRequestedMVR --Url='https://ibs.ct.rapidwebservices.cgi.com/rapidwebservices/WebServices/MVRWS.asmx?wsdl' --UserName='ws.test@sharpinsurance.ca' --Password='SharpTest1' --RequestReceipt='7139716' --AbstractFormat='D'

@@ -1,131 +1,133 @@
 module.exports = {
 
-  friendlyName: 'AutoPlus - GetDCHUsingLicence',
+    friendlyName: 'AutoPlus - GetDCHUsingLicence',
 
-  description: 'AutoPlus GOLD enables clients to view the claim history of a driver and all his or her policies. Information is retrieved based on the driver\'s licence.',
+    description: 'AutoPlus GOLD enables clients to view the claim history of a driver and all his or her policies. Information is retrieved based on the driver\'s licence.',
 
-  extendedDescription: 'AutoPlus - GetDCHUsingLicence GOLD enables clients to view the claim history of a driver and all his or her policies. Information is retrieved based on the driver\'s licence.',
+    extendedDescription: 'AutoPlus - GetDCHUsingLicence GOLD enables clients to view the claim history of a driver and all his or her policies. Information is retrieved based on the driver\'s licence.',
 
-  inputs: {
+    inputs: {
 
-    Url: {
-      example: 'https://ibs.ct.rapidwebservices.cgi.com/rapidwebservices/WebServices/MVRWS.asmx?wsdl',
-      required: true,
-      description: ''
-    },
-    UserName: {
-      example: 'ws.test@sharpinsurance.ca',
-      required: true,
-      description: ''
-    },
-    Password: {
-      example: 'SharpTest1',
-      required: true,
-      description: ''
-    },
-    LicenceProvinceCode: {
-      example: 'AB',
-      required: true,
-      description: 'The jurisdiction of the driver’s licence number.'
-    },
-    LicenceNumber: {
-      example: '146252-598',
-      required: true,
-      description: 'Requested licence number'
-    },
-    RequestReference: {
-      example: '',
-      description: 'User Memo Field.'
-    },
-    Identifier: {
-      example: '',
-    },
-    Insured: {
-      example: '',
-      description: 'User Memo Field for Insured'
-    },
-    OverrideYearLimitFeature: {
-      example: 'NO'
-    },
-    ExplicitRequestResponsePoolInd: {
-      example: 'N',
-      description: ''
-    },
-    AbstractFormat: {
-      example: 'D',
-      description: 'Data or Data/Print format to be returned in the response xml'
-    },
-    AutoFillRequestInd: {
-      example: 'N',
-      description: 'AutoFill Request Indicator'
-    },
-    AutoFillRequestReceipt: {
-      example: '0',
-      description: 'AutoFill Request receipt'
-    },
+        Url: {
+            example: 'https://ibs.ct.rapidwebservices.cgi.com/rapidwebservices/WebServices/MVRWS.asmx?wsdl',
+            required: true,
+            description: ''
+        },
+        UserName: {
+            example: 'ws.test@sharpinsurance.ca',
+            required: true,
+            description: ''
+        },
+        Password: {
+            example: 'SharpTest1',
+            required: true,
+            description: ''
+        },
+        LicenceProvinceCode: {
+            example: 'AB',
+            required: true,
+            description: 'The jurisdiction of the driver’s licence number.'
+        },
+        LicenceNumber: {
+            example: '146252-598',
+            required: true,
+            description: 'Requested licence number'
+        },
+        RequestReference: {
+            example: '',
+            description: 'User Memo Field.'
+        },
+        Identifier: {
+            example: '',
+        },
+        Insured: {
+            example: '',
+            description: 'User Memo Field for Insured'
+        },
+        OverrideYearLimitFeature: {
+            example: 'NO'
+        },
+        ExplicitRequestResponsePoolInd: {
+            example: 'N',
+            description: ''
+        },
+        AbstractFormat: {
+            example: 'D',
+            description: 'Data or Data/Print format to be returned in the response xml'
+        },
+        AutoFillRequestInd: {
+            example: 'N',
+            description: 'AutoFill Request Indicator'
+        },
+        AutoFillRequestReceipt: {
+            example: '0',
+            description: 'AutoFill Request receipt'
+        },
 
-  },
-
-  defaultExit: 'success',
-
-  exits: {
-
-    error: {
-      description: 'An unexpected error occurred.'
     },
 
-    success: {
-      result: 'autoplus result'
-    }
-  },
+    defaultExit: 'success',
 
-  fn: function (inputs, exits) {
+    exits: {
 
-    /**
-     * Module Dependencies
-     */
-    const soap = require('soap');
+        error: {
+            description: 'An unexpected error occurred.'
+        },
 
-    const url = inputs.Url;
-
-    const headers = {
-      "Credentials": {
-        "UserName": inputs.UserName,
-        "Password": inputs.Password
-      }
-    };
-
-    const args = {
-      GetDCHUsingLicence: {
-        DriverClaimHistoryGoldRequestDS: {
-          RequestParametersDT: {
-            LicenceProvinceCode: inputs.LicenceProvinceCode,
-            LicenceNumber: inputs.LicenceNumber,
-            RequestReference: inputs.RequestReference || '',
-            Identifier: inputs.Identifier || '',
-            Insured: inputs.Insured || '',
-            OverrideYearLimitFeature: inputs.OverrideYearLimitFeature || 'NO',
-            ExplicitRequestResponsePoolInd: inputs.ExplicitRequestResponsePoolInd || 'N',
-            AbstractFormat: inputs.AbstractFormat || 'D',
-            AutoFillRequestInd: inputs.AutoFillRequestInd || 'N',
-            AutoFillRequestReceipt: inputs.AutoFillRequestReceipt || '0'
-          }
+        success: {
+            result: 'autoplus result'
         }
-      }
-    };
+    },
 
-    soap.createClient(url, function (err, client) {
+    fn: function (inputs, exits) {
 
-      client.addSoapHeader(headers);
+        /**
+         * Module Dependencies
+         */
+        const soap = require('soap');
 
-      client.GetDCHUsingLicence(args, function (err, result) {
-        if (err) return exits.error(err);
+        /** request args */
+        const url = inputs.Url;
 
-        return exits.success(result);
-      });
-    });
+        // set request headers.
+        const headers = {
+            "Credentials": {
+                "UserName": inputs.UserName,
+                "Password": inputs.Password
+            }
+        };
 
+        // set request body.
+        const body = {
+            GetDCHUsingLicence: {
+                DriverClaimHistoryGoldRequestDS: {
+                    RequestParametersDT: {
+                        LicenceProvinceCode: inputs.LicenceProvinceCode,
+                        LicenceNumber: inputs.LicenceNumber,
+                        RequestReference: inputs.RequestReference || '',
+                        Identifier: inputs.Identifier || '',
+                        Insured: inputs.Insured || '',
+                        OverrideYearLimitFeature: inputs.OverrideYearLimitFeature || 'NO',
+                        ExplicitRequestResponsePoolInd: inputs.ExplicitRequestResponsePoolInd || 'N',
+                        AbstractFormat: inputs.AbstractFormat || 'D',
+                        AutoFillRequestInd: inputs.AutoFillRequestInd || 'N',
+                        AutoFillRequestReceipt: inputs.AutoFillRequestReceipt || '0'
+                    }
+                }
+            }
+        };
 
-  }
+        soap.createClient(url, (err, client) => {
+
+            client.addSoapHeader(headers);
+
+            client.GetDCHUsingLicence(body, (err, result) => {
+                if (err) return exits.error(err);
+                return exits.success(result);
+            });
+
+        });
+
+    }
 
 };
