@@ -4,10 +4,12 @@ module.exports = {
 	attributes: {
 		licence: {
 			type: 'string',
-            primaryKey: true
+			unique: true,
+			required:true
 		},
         autoPlusId: {
-            type: 'string'
+            type: 'string',
+			required: true
         }
 	}
 };

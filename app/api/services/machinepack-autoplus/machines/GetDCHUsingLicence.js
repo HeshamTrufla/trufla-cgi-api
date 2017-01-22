@@ -23,6 +23,10 @@ module.exports = {
             required: true,
             description: ''
         },
+        SponsorSubscriberID: {
+            example: '12345',
+            description: 'The subscriber id of the Insurance company paying for the service.'
+        },
         LicenceProvinceCode: {
             example: 'AB',
             required: true,
@@ -86,7 +90,11 @@ module.exports = {
          */
         const soap = require('soap');
 
-        /** request args */
+
+        /** 
+         * Request Arguments
+         */
+
         const url = inputs.Url;
 
         // set request headers.
@@ -94,6 +102,9 @@ module.exports = {
             "Credentials": {
                 "UserName": inputs.UserName,
                 "Password": inputs.Password
+            },
+            "CredentialsContext": {
+                "SponsorSubscriberId": inputs.SponsorSubscriberID
             }
         };
 
