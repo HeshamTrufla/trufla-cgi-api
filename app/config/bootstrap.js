@@ -84,20 +84,7 @@ function bindMongooseToModels() {
 
 				// append promisifed mongoose model to global db object
 				db[model] = mongooseModel;
-
-				// bind discriminators
-				if (_.isArray(Model.discriminators) && !_.isEmpty(Model.discriminators)) {
-					_.each(Model.discriminators, function(d) {
-						console.log('binding discriminator:', d.name, 'for model', model);
-						Model.mongoose[d.name] = Model.mongoose.discriminator(d.name, d.schema);
-						console.log('mongoose discriminator bound to:', model + '.mongoose.' + d.name);
-					});
-				}
 			});
-
-			_.each(models, function(model) {
-				
-			}); // _.each
 		}) // .then
 		.catch(console.error);
 }
