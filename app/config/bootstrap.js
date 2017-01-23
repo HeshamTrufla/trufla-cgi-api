@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 /**
  * Bootstrap
  * (sails.config.bootstrap)
@@ -9,9 +10,112 @@
  * http://sailsjs.org/#!/documentation/reference/sails.config/sails.config.bootstrap.html
  */
 
-module.exports.bootstrap = function(cb) {
+var Promise = require('bluebird');
+var glob = Promise.promisify(require('glob'));
+var path = require('path');
+var mongoose = require('mongoose');
+// var _ = require('lodash');
+mongoose.Promise = Promise;
 
-  // It's very important to trigger this callback method when you are finished
-  // with the bootstrap!  (otherwise your server will never lift, since it's waiting on the bootstrap)
-  cb();
+/**
+ * connect mongoose to db
+ * @return {promise} [successful promise]
+ */
+var connectMongoose = function() {
+	const dbConnection = 'mongoDev';
+	const connConfigs = sails.config.connections[dbConnection];
+	const mongoUrl = connConfigs.url ? connConfigs.url : connConfigs.user ? 'mongodb://' + connConfigs.user + ':' + connConfigs.password + '@' + connConfigs.host + ':' + connConfigs.port + '/' + connConfigs.database : 'mongodb://' + connConfigs.host + ':' + connConfigs.port + '/' + connConfigs.database;
+	// initialize mongoose to mongodb connection
+	mongoose.connect(mongoUrl);
+	// mongoose.createConnection(mongoUrl);
+
+	var db = mongoose.connection;
+	Promise.promisifyAll(db);
+
+	db.onAsync('error')
+		.then(function() {
+			console.error.bind(console, 'Mongoose connection error:');
+			throw new Error('Mongoose connection error');
+		});
+
+	return db.onceAsync('open')
+		.then(function() {
+			console.log('Connected Mongoose to', mongoUrl);
+		});
+};
+
+/**
+ * bind promisified mongoose functions to Model.mongoose. doing this in
+ * bootstrap because waterline does something to functions in its build
+ * phase (probably promisifying them)
+ */
+function bindMongooseToModels() {
+	return glob("api/collections/*.js")
+		.then(function(files) {
+			var models = [];
+			global.db = {};
+			_.each(files, function(file) {
+				var model = path.basename(file, '.js');
+				console.log('file :', file);
+				console.log('initing mongoose schema for model', model);
+				// define lowercase model names
+				var lowerCaseModelName = model.toLowerCase();
+				// get model object
+				// var Model = sails.models[lowerCaseModelName];
+				var Model = require('../'+file);
+				// get mongoose schema
+				var schema = Model.schema;
+
+				// if no schema, move to the next model
+				if (!schema) return;
+
+				// add __label to mongoose models if in unit testing mode
+				if (process.env.NODE_ENV === 'testing') {
+					schema.add({
+						__label: String
+					});
+				}
+
+				// set schema collection name
+				schema.set('collection', lowerCaseModelName);
+
+				// declare mongoose model
+				var mongooseModel = mongoose.model(model, schema);
+
+				// append promisifed mongoose model to global db object
+				db[model] = mongooseModel;
+
+				// bind discriminators
+				if (_.isArray(Model.discriminators) && !_.isEmpty(Model.discriminators)) {
+					_.each(Model.discriminators, function(d) {
+						console.log('binding discriminator:', d.name, 'for model', model);
+						Model.mongoose[d.name] = Model.mongoose.discriminator(d.name, d.schema);
+						console.log('mongoose discriminator bound to:', model + '.mongoose.' + d.name);
+					});
+				}
+			});
+
+			_.each(models, function(model) {
+				
+			}); // _.each
+		}) // .then
+		.catch(console.error);
+}
+
+module.exports.bootstrap = function(cb) {
+	connectMongoose()
+		.then(bindMongooseToModels)
+		.then(function() {
+			// Illustrative example
+			/*db.ApiKey.create({
+				Key: 'sdasadsda'
+			})
+			.then(function(ApiKey) {
+				console.log('ApiKey: ', ApiKey);
+			})
+			.catch(function(err) {
+				console.log('er: ', err);
+			});*/
+			return cb();
+		});
 };

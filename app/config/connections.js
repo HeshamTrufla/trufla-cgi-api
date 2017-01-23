@@ -64,12 +64,19 @@ module.exports.connections = {
     // password: 'password', //optional
     database: 'cgi' //optional
   },
-  
+  mongoDev: {
+    // url: process.env.MONGO_URI,
+    host: 'localhost', //192.168.0.2
+    port: 27017,
+    // user: 'username', //optional
+    // password: 'password', //optional
+    database: 'cgidev' //optional
+  },
 
   redis: {
     adapter: "sails-redis",
     port: 6379,
-    host: 'localhost'
+    host: 'localhost' //192.168.0.3
   }
 
   /***************************************************************************
