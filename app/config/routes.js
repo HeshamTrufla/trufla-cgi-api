@@ -32,7 +32,7 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  'get /autplus': 'AutPlusController.findByLicenceNumber'
+  'get /autoplus': 'AutoPlusController.findByLicenceNumber'
 
   /***************************************************************************
   *                                                                          *

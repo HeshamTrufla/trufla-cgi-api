@@ -1,5 +1,5 @@
 
-var mvr = require('./machinepack-autoplus');
+var autoplus = require('./machinepack-autoplus');
 var Promise = require('bluebird');
 
 
@@ -15,7 +15,7 @@ module.exports = {
             args.Password = sails.config.cgi.password;
             args.SponsorSubscriberID = '';
 
-            mvr.GetDCHUsingLicence(args).exec({
+            autoplus.GetDCHUsingLicence(args).exec({
 
                 success: (result) => {
                     resolve(result);
