@@ -4,7 +4,7 @@ var subDocs = require('./AutoPlusSubDocs');
 
 var schema = new mongoose.Schema({
 
-    DriverLicence: String,
+    LicenceNumber: String,
 
     DriverClaimHistoryGoldDS: {
 
