@@ -3,12 +3,12 @@ var mongoose = require('mongoose');
 
 var schema = new mongoose.Schema({
 
-    Key: String,
+    key: String,
     name: String,
     category: String,
     revoked: Boolean,
 
-    AccessPrivillage: {
+    accessPrivillage: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'AccessPrivillage'
     }

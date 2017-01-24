@@ -3,16 +3,15 @@ var mongoose = require('mongoose');
 
 var schema = new mongoose.Schema({
     
-    Read: [{
-        Table: String,
-        Attributes: []
+    read: [{
+        table: String,
+        attributes: []
     }],
 
-    Write: [{
-        Table: String,
-        Attributes: []
+    write: [{
+        table: String,
+        attributes: []
     }]
-
 
 }, {
     timestamps: true

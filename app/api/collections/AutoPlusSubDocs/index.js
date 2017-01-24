@@ -19,6 +19,7 @@ module.exports = {
     ThirdPartyClaimDT: require('./ThirdPartyClaimDT'),
     ThirdPartyClaimFirstPartyAccidentDriverDT: require('./ThirdPartyClaimFirstPartyAccidentDriverDT'),
     ThirdPartyClaimKindOfLossDT: require('./ThirdPartyClaimKindOfLossDT'),
+    ThirdPartyClaimKindOfLossTransDT: require('./ThirdPartyClaimKindOfLossTransDT'),
     ThirdPartyClaimThirdPartyAccidentDriverDT: require('./ThirdPartyClaimThirdPartyAccidentDriverDT'),
     ThirdPartyClaimVehicleDT: require('./ThirdPartyClaimVehicleDT'),
     VehicleAntiTheftMarkingDT: require('./VehicleAntiTheftMarkingDT'),
