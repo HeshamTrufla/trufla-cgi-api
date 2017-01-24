@@ -2,7 +2,7 @@
 module.exports = {
 
 	attributes: {
-		DriverLicenceNumber: {
+		LicenceNumber: {
 			type: 'string',
             primaryKey: true,
 			unique: true,

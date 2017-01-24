@@ -89,32 +89,9 @@ function bindMongooseToModels() {
 		.catch(console.error);
 }
 
-/**
- * update MVR Redis on bootstrapping, 
- * to reflect the same data as Mongo.
- */
-function updateMVRRedis () {
-	return MVRRedis.destroy({})
-		.then(() => {
-			// get only the required fields by redis, from MongoDB.
-			return db.MVR.find({}).select('DriverLicenceNumber _id');
-		})
-		.then((mvrDocs) => {
-			
-			var refs = _.map(mvrDocs, (doc) => {
-				return { DriverLicenceNumber: doc.DriverLicenceNumber, MVR_ID: doc._id.toString() };
-			});
-			return MVRRedis.create(refs);
-
-		});
-}
-
-// TODO: implement updateAutoPlusRedis
-
 module.exports.bootstrap = function(cb) {
 	connectMongoose()
 		.then(bindMongooseToModels)
-		.then(() => updateMVRRedis())
 		.then(function() {
 			// Illustrative example
 			/*db.ApiKey.create({
