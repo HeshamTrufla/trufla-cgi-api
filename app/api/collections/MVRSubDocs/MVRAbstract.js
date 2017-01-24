@@ -1,6 +1,5 @@
 'use strict';
 var mongoose = require('mongoose');
-var subDocs = require('./index');
 
 var schema = new mongoose.Schema({
 
@@ -15,18 +14,18 @@ var schema = new mongoose.Schema({
         DriverLicenceNumber: String,
         BirthDate: Date
     },
-    DriverInfo: subDocs.DriverInfo,
+    DriverInfo: require('./DriverInfo'),
     Condition: {
         Date: Date,
         Description: String
     },
-    Conviction: [subDocs.Conviction],
-    Suspension: [subDocs.Suspension],
-    Reinstatement: subDocs.Reinstatement,
-    Prohibition: subDocs.Prohibition,
-    Restriction: subDocs.Restriction,
-    Merit: subDocs.Merit,
-    Accident: subDocs.Accident,
+    Conviction: [ require('./Conviction') ],
+    Suspension: [ require('./Suspension') ],
+    Reinstatement: require('./Reinstatement'),
+    Prohibition: require('./Prohibition'),
+    Restriction: require('./Restriction'),
+    Merit: require('./Merit'),
+    Accident: require('./Accident'),
     Report: {
         PrintLineWidth: Number,
         PrintLine: String

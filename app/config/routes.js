@@ -32,7 +32,8 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  'get /autoplus': 'AutoPlusController.findByLicenceNumber'
+  'get /api/autplus/:LicenceNumber': 'AutPlusController.findOne',
+  'get /api/mvr/:LicenceNumber': 'MVRController.findOne'
 
   /***************************************************************************
   *                                                                          *
