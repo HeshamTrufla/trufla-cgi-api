@@ -19,16 +19,15 @@ module.exports = {
 
         // get all params.
         var params = req.allParams();
-        var filteredParams = {};
 
         // filter params.
-        var filteredParams =  _.pick(params, ['LicenceNumber']);
+        var licenceNumber =  params.DriverLicenceNumber;
 
         // make sure we have the licence number.
-        if (!filteredParams || !filteredParams.licenceNumber) return res.badRequest(new Error('licence number not found!'));
+        if (!licenceNumber) return res.badRequest(new Error('licence number not found!'));
 
         // find MVR Document in redis cache.
-        MVRService.findOneFromCache(filteredParams)
+        MVRService.findOneFromCache(licenceNumber)
             // handle returned MVR Document Reference if found in the cache memory.
             .then((mvrRef) => {
                 if (mvrRef) {
@@ -37,7 +36,7 @@ module.exports = {
                 }
                 else {
                     // get From CGI
-                    return findOneFromCGIAndSave(params);
+                    return MVRService.findOneFromCGIAndSave(params);
                 }
             })
             // handle returned MVR Document either from the database or the CGI webservice.
@@ -57,23 +56,3 @@ module.exports = {
     }
 
 };
-
-/**
- * this function will make async promise based calls to the MVRService
- * to get the MVR Document from CGI, and then insert the document in MonogoDB,
- * and put a reference for the MVR Document in the cache memory 'Redis'.
- */
-function findOneFromCGIAndSave (reqParams) {
-    return MVRService.findOneFromCGI(reqParams)
-        .then((mvrDoc) => {
-            // set IsReady flag.
-            mvrDoc.IsReady = mvrDoc.DataFormatAbstractDT ? true : false;
-            // set IsDelivered flag.
-            mvrDoc.IsDelivered = mvrDoc.IsReady;
-            // set Callback URL.
-            mvrDoc.Callback = reqParams.Callback;
-            // save in MongoDB.
-            return MVRService.createInDB(mvrDoc);
-        })
-        .then((mvrFromDB) => MVRService.createInCache({ LicenceNumber: mvrFromDB.mvrFromDB, MVR_ID: mvrFromDB.MVR_ID }));
-}

@@ -6,13 +6,13 @@ const cgiPassword = sails.config.cgi.MVR.PASSWORD;
 module.exports = {
     
     // get MVR Document from Cach.
-    findOneFromCach: function (reqParams) {
+    findOneFromCache: function (reqParams) {
         return MVRRedis.findOne(reqParams);
     },
 
     // get MVR Document from DB.
     findOneFromDB: function (reqParams) {
-        return MVR.findOne(reqParams);
+        return db.MVR.findOne(reqParams);
     },
 
     // get MVR Document from CGI.
@@ -40,12 +40,47 @@ module.exports = {
 
     // save requested MVR document in MongoDB.
     createInDB: function (mvrDoc) {
-        return MVR.create(mvrDoc);
+        return db.MVR.create(mvrDoc);
     },
 
     // save reference to the requested MVR Document in Redis Cache.
     createInCache: function (docInfo) {
         return MVRRedis.create(docInfo);
+    },
+
+    /**
+     * this function will make async promise based calls to the MVRService
+     * to get the MVR Document from CGI, and then insert the document in MonogoDB,
+     * and put a reference for the MVR Document in the cache memory 'Redis'.
+     */
+    findOneFromCGIAndSave: function (reqParams) {
+        var _mvrFromDB = null;
+
+        return this.findOneFromCGI(reqParams)
+            .then((mvrDoc) => {
+
+                // validate incoming MVR Document.
+                if (!mvrDoc) throw new Error('no mvr response returned!');
+                if (!mvrDoc.SubmitRequestResult || !mvrDoc.SubmitRequestResult.MVRRequestResponseDS) throw new Error('returned MVR Document doesn\'t contain a result!');
+
+                var requestResult = mvrDoc.SubmitRequestResult.MVRRequestResponseDS;
+
+                var dbDoc = {
+                    DriverLicenceNumber: reqParams.DriverLicenceNumber,
+                    MVRRequestResponseDS: requestResult,
+                    Callback: reqParams.Callback,
+                    IsReady: requestResult.DataFormatAbstractDT ? true : false,
+                    IsDelivered: requestResult.DataFormatAbstractDT ? true : false
+                };
+
+                return this.createInDB(dbDoc);
+
+            })
+            .then((mvrFromDB) => {
+                _mvrFromDB = mvrFromDB; 
+                return this.createInCache({ DriverLicenceNumber: mvrFromDB.DriverLicenceNumber, MVR_ID: mvrFromDB._id.toString() });
+            })
+            .then(() => _mvrFromDB);
     }
 
 };
