@@ -14,8 +14,11 @@
     sudo docker pull mongo:3.2.8
 	sudo docker pull redis:3.0
     sudo docker network create --driver=bridge --subnet=192.168.0.0/16 app-net
-    sudo docker run -d --network=app-net --ip="192.168.0.2" --name mongod -p 27017:27017 mongo:3.2.8 mongod
+    sudo docker run -d --network=app-net --ip="192.168.0.2" --name mongod -p 27017:27017 mongo:3.2.8 mongod --auth
+    sudo docker exec -it mongod sh -c 'echo "Mongo root Password: $mongo_root" && mongo admin --eval "db.createUser({ user: \"root\", pwd: \"$mongo_root\", roles: [ { role: \"root\", db: \"admin\" } ] });"'
+    sudo docker exec -it mongod sh -c 'mongo admin -u root -p $mongo_root --host localhost --eval "db.createUser({ user: \"cgidev\", pwd: \"863cb08a86e8e23721f89aaa63e49d2438816968752ce363391d9a089090884d\", roles: [ { role: \"readWrite\", db: \"cgidev\" } ] });"'
 	sudo docker run -d --network=app-net --ip="192.168.0.3" --name redis -p 6379:6379 redis:3.0 redis-server
+    sudo docker exec -it redis sh -c 'echo "requirepass f288198d9d1ba43ad6ed958dee83b68da7350ae4e12bf22273323725cacb630a" >> /etc/redis/redis.conf'
     cd /vagrant/Dockerfiles/cgiDev/ && sudo docker build -t cgidev .
  
 
