@@ -4,7 +4,10 @@ var subDocs = require('./MVRSubDocs'); // load MVR Sub-documents
 
 var schema = new mongoose.Schema({
     
-    DriverLicence: String,
+    DriverLicenceNumber: {
+        type: String,
+        unique: true
+    },
     MVRRequestResponseDS: {
         MVRRequestDT: subDocs.MVRRequestDT,
         MVRResponseDT: subDocs.MVRResponseDT,
@@ -25,6 +28,10 @@ var schema = new mongoose.Schema({
 
 },{
     timestamps: true
+});
+
+schema.virtual('MVR_ID').get(function () {
+  return this._id;
 });
 
 exports.schema = schema;
