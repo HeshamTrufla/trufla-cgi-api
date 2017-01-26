@@ -14,6 +14,7 @@ var Promise = require('bluebird');
 var glob = Promise.promisify(require('glob'));
 var path = require('path');
 var mongoose = require('mongoose');
+var schedule = require('node-schedule');
 // var _ = require('lodash');
 mongoose.Promise = Promise;
 
@@ -116,6 +117,14 @@ module.exports.bootstrap = function(cb) {
 		.then(bindMongooseToModels)
 		.then(() => updateMVRRedis())
 		.then(function() {
+
+			/** 
+			 * those function that for testing purposes only,
+			 * later this has to be a timed cron jobs.
+			 */
+			MVRService.getRequestedMVRDocs();
+			MVRService.sendReadyMVRDocs();
+			
 			// Illustrative example
 			/*db.ApiKey.create({
 				Key: 'sdasadsda'

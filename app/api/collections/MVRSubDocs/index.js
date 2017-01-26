@@ -11,6 +11,7 @@ module.exports = {
     Prohibition: require('./Prohibition'),
     Restriction: require('./Restriction'),
     Merit: require('./Merit'),
-    Accident: require('./Accident')
+    Accident: require('./Accident'),
+    Clients: require('./Clients')
 
 };
