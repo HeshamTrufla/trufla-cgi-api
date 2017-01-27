@@ -25,7 +25,10 @@ mongoose.Promise = Promise;
 var connectMongoose = function() {
 	const dbConnection = 'mongoDev';
 	const connConfigs = sails.config.connections[dbConnection];
-	const mongoUrl = connConfigs.url ? connConfigs.url : connConfigs.user ? 'mongodb://' + connConfigs.user + ':' + connConfigs.password + '@' + connConfigs.host + ':' + connConfigs.port + '/' + connConfigs.database : 'mongodb://' + connConfigs.host + ':' + connConfigs.port + '/' + connConfigs.database;
+	var mongoUrl = connConfigs.url ? connConfigs.url : connConfigs.user ? 'mongodb://' + connConfigs.user + ':' + connConfigs.password + '@' + connConfigs.host + ':' + connConfigs.port + '/' + connConfigs.database : 'mongodb://' + connConfigs.host + ':' + connConfigs.port + '/' + connConfigs.database;
+
+	mongoUrl += '?authSource=admin'; // specify the collection which contains users and roles.
+
 	// initialize mongoose to mongodb connection
 	mongoose.connect(mongoUrl);
 	// mongoose.createConnection(mongoUrl);

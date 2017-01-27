@@ -66,17 +66,18 @@ module.exports.connections = {
   },
   mongoDev: {
     // url: process.env.MONGO_URI,
-    host: 'localhost', //192.168.0.2
+    host: process.env.MONGO_SERVER || 'localhost', //192.168.0.2
     port: 27017,
-    // user: 'username', //optional
-    // password: 'password', //optional
-    database: 'cgidev' //optional
+    user: 'cgidev',
+    password: '863cb08a86e8e23721f89aaa63e49d2438816968752ce363391d9a089090884d',
+    database: 'cgidev'
   },
 
   redis: {
     adapter: "sails-redis",
     port: 6379,
-    host: 'localhost' //192.168.0.3
+    host: process.env.REDIS_SERVER || 'localhost', //192.168.0.3
+    password: 'f288198d9d1ba43ad6ed958dee83b68da7350ae4e12bf22273323725cacb630a'
   }
 
   /***************************************************************************
