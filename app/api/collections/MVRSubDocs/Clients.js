@@ -7,7 +7,7 @@ var schema = new mongoose.Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref: 'ApiKey'
     },
-    CallBack: String,
+    Callback: String,
     IsDelivered: {
         type: Boolean,
         default: false

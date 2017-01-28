@@ -12,7 +12,7 @@ module.exports = {
             required: true
         },
         data: {
-            example: '[Object]',
+            example: {},
             description: 'requested data',
             required: true
         }

@@ -289,15 +289,15 @@ module.exports = {
      * and update it's status according to it.
      */
     sendDocToClientTask: function (task, cb) {
-        
+
         var self = this;
-        
+
         ClientCBMachine.callClient({
             url: task.clientUrl,
-            data: task.mvrDoc 
+            data: task.mvrDoc
         })
         .exec({
-            success: function (result) {
+            success: (result) => {
                 // update this client status
                 self.updateDB(
                     { _id: task.mvrDoc._id, 'Clients._id': task.clientId }, 
@@ -311,7 +311,10 @@ module.exports = {
                     cb();
                 });
             },
-            error: function (err) {
+            error: (err) => {
+
+                sails.log.error('while trying to send mvr to client', err);
+                
                 // add 1 to the client RetriesNumber.
                 self.updateDB(
                     { _id: task.mvrDoc._id, 'Clients._id': task.clientId }, 
@@ -324,8 +327,10 @@ module.exports = {
                     sails.log.error('while trying to update Client status:', err);
                     cb();
                 });
+
             }
         });
+
     }
 
 };
