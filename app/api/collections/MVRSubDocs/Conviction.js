@@ -4,7 +4,9 @@ var mongoose = require('mongoose');
 var schema = new mongoose.Schema({
 
     attributes: {
-        type: String
+        type: {
+            type: String
+        }
     },
     Code: String,
     MinistryCode: String,

@@ -37,8 +37,7 @@ module.exports = {
         },
         AbstractFormat: {
             example: 'D',
-            description: 'The response can be returned in various formats: Data only, formatted print or both. D, P, B',
-            required: true
+            description: 'The response can be returned in various formats: Data only, formatted print or both. D, P, B'
         }
     },
 

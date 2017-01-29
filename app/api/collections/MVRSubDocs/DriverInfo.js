@@ -31,7 +31,10 @@ var schema = new mongoose.Schema({
     Type: String,
     ExpiryDate: Date,
     Description: String,
-    Address: String,
+    Address: {
+        AddressLine: [String],
+        PostalCode: String
+    },
     FirstLicenceComment: String
 
 });

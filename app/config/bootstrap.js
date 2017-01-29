@@ -14,6 +14,7 @@ var Promise = require('bluebird');
 var glob = Promise.promisify(require('glob'));
 var path = require('path');
 var mongoose = require('mongoose');
+var schedule = require('node-schedule');
 // var _ = require('lodash');
 mongoose.Promise = Promise;
 
@@ -114,11 +115,26 @@ function updateMVRRedis () {
 
 // TODO: implement updateAutoPlusRedis
 
+// START CRON JOBS.
+function startCrons () {
+
+	schedule.scheduleJob('0 */3 * * *', function(){
+		MVRService.getRequestedMVRDocs();
+	});
+
+	schedule.scheduleJob('30 */3 * * *', function(){
+		MVRService.sendReadyMVRDocs();
+	});
+}
+
 module.exports.bootstrap = function(cb) {
 	connectMongoose()
 		.then(bindMongooseToModels)
 		.then(() => updateMVRRedis())
 		.then(function() {
+
+			startCrons();
+			
 			// Illustrative example
 			/*db.ApiKey.create({
 				Key: 'sdasadsda'

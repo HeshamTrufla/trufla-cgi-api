@@ -19,19 +19,12 @@ var schema = new mongoose.Schema({
         },
         MessageDT: subDocs.MessageDT
     },
-    Callback: String,
+    Clients: [subDocs.Clients],
     IsReady: Boolean,
-    IsDelivered: {
-        type: Boolean,
-        default: false
-    }
+    ReadyDate: Date
 
 },{
     timestamps: true
-});
-
-schema.virtual('MVR_ID').get(function () {
-  return this._id;
 });
 
 exports.schema = schema;
