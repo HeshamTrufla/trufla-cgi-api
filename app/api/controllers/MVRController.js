@@ -4,6 +4,9 @@
  * @description :: Server-side logic for managing mvrs
  * @help        :: See http://sailsjs.org/#!/documentation/concepts/Controllers
  */
+
+var unhandledError = _.find(sails.config.cgi.MVR.MESSAGES, (msg) => msg.INTERNAL_CODE === 'UNHANDLED_ERROR');
+
 module.exports = {
 
     /**
@@ -41,16 +44,50 @@ module.exports = {
             })
             // handle returned MVR Document either from the database or the CGI webservice.
             .then((mvrDoc) => {
-                if (mvrDoc) {
-                    res.ok(mvrDoc);
+                if (!mvrDoc) return res.serverError({ error_code: unhandledError.INTERNAL_CODE, message: unhandledError.TEXT });
+
+                // check if the document is ready or not.
+                if (!mvrDoc.IsReady && params.Callback) {
+                    /**
+                     * mvr document is not ready, so check 
+                     * if we already has the requested 
+                     * client information or not.
+                     */
+                    var clientInfo = _.find(mvrDoc.Clients, (client) => client.Callback == params.Callback);
+                    if (clientInfo) return res.ok(mvrDoc);
+                    // add client to the Document Clients.
+                    MVRService.addClientToDoc(mvrDoc._id, {
+                        //ApiKey: '',
+                        Callback: params.Callback
+                    })
+                    .then(() => res.ok(mvrDoc))
+                    .catch((err) => {
+                        // log the error and then send the document to the client anyway.
+                        sails.log.error('error saving new client => ' + params.Callback + ' <= information into db document ' + mvrDoc._id, err);
+                        res.ok(mvrDoc);
+                    });
                 }
                 else {
-                    res.notFound();
+                    res.ok(mvrDoc);
                 }
+
             })
             .catch((err) => {
-                // TODO: handle cgi errors.
-                res.serverError(err);
+                sails.log.error(err);
+
+                if (err.HTTP_STATUS) {
+                    switch (err.HTTP_STATUS) {
+                        case 404:
+                            res.notFound({ error_code: err.INTERNAL_CODE, message: err.TEXT });
+                            break;
+                        default:
+                            res.serverError({ error_code: err.INTERNAL_CODE, message: err.TEXT });    
+                    }
+                }
+                else {
+                    res.serverError({ error_code: unhandledError.INTERNAL_CODE, message: unhandledError.TEXT });
+                }
+
             });
 
     }

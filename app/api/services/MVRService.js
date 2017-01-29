@@ -71,15 +71,16 @@ module.exports = {
         var _mvrFromDB = null;
 
         return this.findOneFromCGI(reqParams)
-            .then((mvrDoc) => {
+            .then((mvrDoc) => ResHandlerService.MVR(mvrDoc)) // validate incoming MVR Document.
+            .then((mvrObj) => {
 
-                // validate incoming MVR Document.
-                if (!mvrDoc) throw new Error('no mvr response returned!');
-                if (!mvrDoc.SubmitRequestResult || !mvrDoc.SubmitRequestResult.MVRRequestResponseDS) throw new Error('returned MVR Document doesn\'t contain a result!');
+                var mvrDoc = mvrObj.mvrDoc;
+                var message = mvrObj.message;
+                var isReady = false;
 
-                var requestResult = mvrDoc.SubmitRequestResult.MVRRequestResponseDS;
+                if (message.INTERNAL_CODE === 'ABSTRACT_FOUND') isReady = true;
 
-                var isReady = requestResult.DataFormatAbstractDT;
+                var requestResult = _.get(mvrDoc, 'SubmitRequestResult.MVRRequestResponseDS');
 
                 var dbDoc = {
                     DriverLicenceNumber: reqParams.DriverLicenceNumber,
@@ -97,7 +98,7 @@ module.exports = {
 
             })
             .then((mvrFromDB) => {
-                _mvrFromDB = mvrFromDB; 
+                _mvrFromDB = mvrFromDB;
                 return this.createInCache({ DriverLicenceNumber: mvrFromDB.DriverLicenceNumber, MVR_ID: mvrFromDB._id.toString() });
             })
             .then(() => _mvrFromDB);
@@ -331,6 +332,10 @@ module.exports = {
             }
         });
 
+    },
+
+    addClientToDoc: function (mvrId, clientInfo) {
+        return db.MVR.update({ _id: mvrId }, { $push: { Clients: clientInfo } });
     }
 
 };

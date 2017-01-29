@@ -115,18 +115,25 @@ function updateMVRRedis () {
 
 // TODO: implement updateAutoPlusRedis
 
+// START CRON JOBS.
+function startCrons () {
+
+	schedule.scheduleJob('0 */3 * * *', function(){
+		MVRService.getRequestedMVRDocs();
+	});
+
+	schedule.scheduleJob('30 */3 * * *', function(){
+		MVRService.sendReadyMVRDocs();
+	});
+}
+
 module.exports.bootstrap = function(cb) {
 	connectMongoose()
 		.then(bindMongooseToModels)
 		.then(() => updateMVRRedis())
 		.then(function() {
 
-			/** 
-			 * those function that for testing purposes only,
-			 * later this has to be a timed cron jobs.
-			 */
-			MVRService.getRequestedMVRDocs();
-			MVRService.sendReadyMVRDocs();
+			startCrons();
 			
 			// Illustrative example
 			/*db.ApiKey.create({
