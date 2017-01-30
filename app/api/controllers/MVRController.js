@@ -4,9 +4,6 @@
  * @description :: Server-side logic for managing mvrs
  * @help        :: See http://sailsjs.org/#!/documentation/concepts/Controllers
  */
-
-var unhandledError = _.find(sails.config.cgi.MVR.MESSAGES, (msg) => msg.INTERNAL_CODE === 'UNHANDLED_ERROR');
-
 module.exports = {
 
     /**
@@ -26,9 +23,6 @@ module.exports = {
         // filter params.
         var licenceNumber =  params.DriverLicenceNumber;
 
-        // make sure we have the licence number.
-        if (!licenceNumber) return res.badRequest(new Error('licence number not found!'));
-
         // find MVR Document in redis cache.
         MVRService.findOneFromCache(licenceNumber)
             // handle returned MVR Document Reference if found in the cache memory.
@@ -44,8 +38,8 @@ module.exports = {
             })
             // handle returned MVR Document either from the database or the CGI webservice.
             .then((mvrDoc) => {
-                if (!mvrDoc) return res.serverError({ error_code: unhandledError.INTERNAL_CODE, message: unhandledError.TEXT });
-
+                if (!mvrDoc) return res.serverError(ResHandlerService.errorObject('UNHANDLED_ERROR', true));
+                
                 // check if the document is ready or not.
                 if (!mvrDoc.IsReady && params.Callback) {
                     /**
@@ -78,14 +72,20 @@ module.exports = {
                 if (err.HTTP_STATUS) {
                     switch (err.HTTP_STATUS) {
                         case 404:
-                            res.notFound({ error_code: err.INTERNAL_CODE, message: err.TEXT });
+                            res.notFound(ResHandlerService.errorObject(err.INTERNAL_CODE, true));
+                            break;
+                        case 400:
+                            res.badRequest(ResHandlerService.errorObject(err.INTERNAL_CODE, true));
+                            break;
+                        case 403: 
+                            res.forbidden(ResHandlerService.errorObject(err.INTERNAL_CODE, true));
                             break;
                         default:
-                            res.serverError({ error_code: err.INTERNAL_CODE, message: err.TEXT });    
+                            res.serverError(ResHandlerService.errorObject(err.INTERNAL_CODE, true));    
                     }
                 }
                 else {
-                    res.serverError({ error_code: unhandledError.INTERNAL_CODE, message: unhandledError.TEXT });
+                    res.serverError(ResHandlerService.errorObject('UNHANDLED_ERROR', true));
                 }
 
             });

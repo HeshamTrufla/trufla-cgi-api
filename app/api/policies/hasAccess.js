@@ -5,7 +5,7 @@ module.exports = (req, res, next) => {
     // or if this is the last policy, the controller
 
     var method = req.method.toLowerCase() === 'get' ? 'read' : 'write';
-    var apiKey = req.headers.apikey;
+    var apiKey = req.headers['api_key'];
 
     if (apiKey) {
 
@@ -15,11 +15,11 @@ module.exports = (req, res, next) => {
 
             switch(req.options.controller) { 
                 case 'mvr':
-                    var accessSet = _.find(accessKey.accessPrivillage[method], (acc) => acc.table == 'mvr');
+                    var accessSet = _.find(accessKey.accessPrivillage[method], (access) => access.table == 'mvr');
                     if (accessSet) return next();
                     break;
                 case 'autplus':
-                    var accessSet = _.find(accessKey.accessPrivillage[method], ['table', 'autoPlus']);
+                    var accessSet = _.find(accessKey.accessPrivillage[method], (access) => access.table == 'autoplus');
                     if (accessSet) return next();
                     break;
             }
@@ -28,7 +28,5 @@ module.exports = (req, res, next) => {
     }
 
     // User is not allowed
-    // (default res.forbidden() behavior can be overridden in `config/403.js`)
-
-    return res.forbidden('You are not permitted to perform this action.');
+    return res.forbidden(ResHandlerService.errorObject('INVALID_ACCESS_KEY', true));
 };

@@ -31,6 +31,11 @@ module.exports = {
 
     // get MVR Document from CGI.
     findOneFromCGI: function (reqParams) {
+
+        // check if the client sent the province code.
+        if (!reqParams.DriverLicenceProvinceCode)
+            throw ResHandlerService.getMessage('PROVINCE_CODE_REQUIRED', true);
+
         // set request headers.
         reqParams.Url = cgiUrl;
         reqParams.UserName = cgiUserName;

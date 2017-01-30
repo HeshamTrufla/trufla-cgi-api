@@ -81,6 +81,30 @@ module.exports.cgi = {
                 SOURCE: 'CT',
                 HTTP_STATUS: 403,
                 IS_ERROR: true 
+            },
+            {
+                INTERNAL_CODE: 'INVALID_LICENSE_NUMBER',
+                CODE: 'LV03',
+                TEXT: 'The Licence Number Birthdate is invalid.' ,
+                SOURCE: 'CGI',
+                HTTP_STATUS: 400,
+                IS_ERROR: true 
+            },
+            {
+                INTERNAL_CODE: 'INVALID_LICENSE_NUMBER',
+                CODE: 'LV02',
+                TEXT: 'The Licence Number Check Digit is incorrect.' ,
+                SOURCE: 'CGI',
+                HTTP_STATUS: 400,
+                IS_ERROR: true 
+            },
+            {
+                INTERNAL_CODE: 'PROVINCE_CODE_REQUIRED',
+                CODE: 'CODETOUCH508',
+                TEXT: 'DriverLicenceProvinceCode missing.' ,
+                SOURCE: 'CT',
+                HTTP_STATUS: 400,
+                IS_ERROR: true 
             }
         ]
     }
