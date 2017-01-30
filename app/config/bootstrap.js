@@ -127,14 +127,37 @@ function startCrons () {
 	});
 }
 
+function loadApiKeys () {
+	return db.ApiKey.find({}).populate('accessPrivillage')
+		.then((apiKeys) => {
+			sails.config.apiKeys = apiKeys;
+			sails.log.info(apiKeys.length, 'API Keys Loaded!');
+			return true;
+		})
+		.catch((err) => {
+			sails.log.error('error loading api keys', err);
+			return false;
+		});
+}
+
+function createTestKey () {
+	return db.AccessPrivillage.create({
+		read: [{ table: 'mvr' }, { table: 'autoplus' }],
+		write: [{ table: 'mvr' }, { table: 'autoplus' }]
+	}).then((accessSet) => db.ApiKey.create({ key: 'S33E89QP87BEE46WQ', accessPrivillage: accessSet._id }))
+	.catch((err) => sails.log.error(err));
+}
+
 module.exports.bootstrap = function(cb) {
 	connectMongoose()
 		.then(bindMongooseToModels)
-		.then(() => updateMVRRedis())
+		.then(updateMVRRedis)
+		//.then(createTestKey)
+		.then(loadApiKeys)
 		.then(function() {
 
 			startCrons();
-			
+
 			// Illustrative example
 			/*db.ApiKey.create({
 				Key: 'sdasadsda'

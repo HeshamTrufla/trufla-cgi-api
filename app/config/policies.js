@@ -50,7 +50,11 @@ module.exports.policies = {
 	// }
 
     
-  // 'AutoPlusController': {
-  //   'findOne': ['hasAccess']
-  // }
+    'AutoPlusController': {
+        'findOne': ['hasAccess']
+    },
+
+    'MVRController': {
+      'findOne': ['hasAccess']
+    }
 };

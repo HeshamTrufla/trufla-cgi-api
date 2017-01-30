@@ -8,6 +8,7 @@ module.exports.cgi = {
         URL: 'https://ibs.ct.rapidwebservices.cgi.com/rapidwebservices/WebServices/MVRWS.asmx?wsdl',
         USER_NAME: 'ws.test@sharpinsurance.ca',
         PASSWORD: 'SharpTest1',
+        // TODO: add more messages.
         MESSAGES: [
             {
                 INTERNAL_CODE: 'SUCCESS',
@@ -71,6 +72,14 @@ module.exports.cgi = {
                 TEXT: 'DRIVER LICENSE NUMBER NOT FOUND ON DATABASE' ,
                 SOURCE: 'PR',
                 HTTP_STATUS: 404,
+                IS_ERROR: true 
+            },
+            {
+                INTERNAL_CODE: 'INVALID_ACCESS_KEY',
+                CODE: 'CODETOUCH507',
+                TEXT: 'You are not permitted to perform this action.' ,
+                SOURCE: 'CT',
+                HTTP_STATUS: 403,
                 IS_ERROR: true 
             }
         ]
