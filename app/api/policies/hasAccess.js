@@ -18,7 +18,7 @@ module.exports = (req, res, next) => {
                     var accessSet = _.find(accessKey.accessPrivillage[method], (access) => access.table == 'mvr');
                     if (accessSet) return next();
                     break;
-                case 'autplus':
+                case 'autoplus':
                     var accessSet = _.find(accessKey.accessPrivillage[method], (access) => access.table == 'autoplus');
                     if (accessSet) return next();
                     break;

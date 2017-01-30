@@ -1,7 +1,7 @@
 
 module.exports = {
 
-    findOne: (req, res) => {
+    findOneByLicence: (req, res) => {
         
         // TODO validate params
 
@@ -40,6 +40,24 @@ module.exports = {
             .catch((err) => {
                 res.serverError(err);
             });
+    },
+
+    findOneById: function (req, res) {
+        // get all params.
+        var params = req.allParams();
+
+        AutoPlusService.findOneFromDB(params.id)
+            .then((autoPlusDoc) => {
+                if (!autoPlusDoc) return res.serverError(ResHandlerService.errorObject('UNHANDLED_ERROR', true));
+
+                res.ok(autoPlusDoc);
+
+            })
+            .catch((err) => {
+                sails.log.error(err);
+                res.serverError(ResHandlerService.errorObject('UNHANDLED_ERROR', true));
+            });
+
     }
 
 };

@@ -51,10 +51,12 @@ module.exports.policies = {
 
     
     'AutoPlusController': {
-        'findOne': ['hasAccess']
+        'findOneByLicence': ['hasAccess'],
+        'findOneById': ['hasAccess']
     },
 
     'MVRController': {
-      'findOne': ['hasAccess']
+      'findOneByLicence': ['hasAccess'],
+      'findOneById': ['hasAccess']
     }
 };

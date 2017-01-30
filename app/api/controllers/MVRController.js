@@ -15,7 +15,7 @@ module.exports = {
      * 5. add reference to Redis.
      * 6. return to MVR Document.
      */
-    findOne: (req, res) => {
+    findOneByLicence: function (req, res) {
 
         // get all params.
         var params = req.allParams();
@@ -88,6 +88,24 @@ module.exports = {
                     res.serverError(ResHandlerService.errorObject('UNHANDLED_ERROR', true));
                 }
 
+            });
+
+    },
+
+    findOneById: function (req, res) {
+        // get all params.
+        var params = req.allParams();
+
+        MVRService.findOneFromDB({ _id: params.id })
+            .then((mvrDoc) => {
+                if (!mvrDoc) return res.serverError(ResHandlerService.errorObject('UNHANDLED_ERROR', true));
+
+                res.ok(mvrDoc);
+
+            })
+            .catch((err) => {
+                sails.log.error(err);
+                res.serverError(ResHandlerService.errorObject('UNHANDLED_ERROR', true));
             });
 
     }

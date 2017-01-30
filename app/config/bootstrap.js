@@ -152,7 +152,7 @@ module.exports.bootstrap = function(cb) {
 	connectMongoose()
 		.then(bindMongooseToModels)
 		.then(updateMVRRedis)
-		//.then(createTestKey)
+		//.then(createTestKey) // api_key => S33E89QP87BEE46WQ
 		.then(loadApiKeys)
 		.then(function() {
 
