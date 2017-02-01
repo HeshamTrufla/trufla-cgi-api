@@ -41,5 +41,47 @@ module.exports = {
                 }
             });
         });
+    },
+
+    findOneFromCGIAndSave : function (params) {
+        var _autoPlus;
+
+        // Licence not found so we are getting autoPlus from CGI
+        return this.findOneFromCGI(params)
+            .then((autoPlus) => {
+                // var x = JSON.stringify(autoPlus);
+                // console.log(`CGI autoplus: ${x}`);
+                                console.log(JSON.stringify(autoPlus));
+
+                if (!autoPlus) {
+                    var err = new Error('no AutoPlus response returned!');
+                    err.status = 500;
+                    throw err;
+                }
+                if (!autoPlus.GetDCHUsingLicenceResult.DriverClaimHistoryGoldDS.PolicyBaseInfoDT) {
+                    var err = new Error('returned AutoPlus Document doesn\'t contain a result!');
+                    err.status = 404;
+                    throw err;
+                }
+                    
+                var data = {
+                    'LicenceNumber': params.LicenceNumber,
+                    'DriverClaimHistoryGoldDS': autoPlus.GetDCHUsingLicenceResult.DriverClaimHistoryGoldDS
+                };
+
+                // Insert autoPlus in mongodb
+                return this.createInMongo(data);
+            })
+            .then ((autoPlus)=> {
+
+                _autoPlus = autoPlus;
+
+                // Create reference in redis
+                var autoPlusRef = { 'LicenceNumber': autoPlus.LicenceNumber, 'autoPlusId': autoPlus._id.toString() }
+
+                return this.createInRedis(autoPlusRef);
+            })
+            .then(() => _autoPlus);
+
     }
 };

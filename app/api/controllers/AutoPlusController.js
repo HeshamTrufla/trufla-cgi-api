@@ -5,7 +5,6 @@ module.exports = {
         
         // TODO validate params
 
-
         var params = req.params.all();
 
         if (!params.LicenceNumber) {
@@ -18,16 +17,12 @@ module.exports = {
             .then((autoPlusRef) => {
 
                 if (autoPlusRef) {
-
                     // Found licence in redis and getting autoPlus from mongodb
                     return AutoPlusService.findOneFromDB(autoPlusRef.autoPlusId);
-
                 } else {
-
                     // Licence not found so we are getting autoPlus from CGI
-                    return findOneFromCGIAndSave(params);
+                    return AutoPlusService.findOneFromCGIAndSave(params);
                 }
-                
             })
             .then((autoPlus) => {
                 // AutoPlus not found
@@ -35,10 +30,19 @@ module.exports = {
 
                 // Return autoPlus to user
                 res.ok(autoPlus);
-
             })
             .catch((err) => {
-                res.serverError(err);
+                switch (err.status) {
+                    case 404:
+                        res.notFound(err);
+                        break;
+                    case 400:
+                        res.badRequest(err);
+                        break;
+                    default:
+                        res.serverError(err);
+                }
+                
             });
     },
 
@@ -63,28 +67,4 @@ module.exports = {
 };
 
 
-function findOneFromCGIAndSave (params) {
 
-    // Licence not found so we are getting autoPlus from CGI
-    return AutoPlusService.findOneFromCGI(params)
-        .then((autoPlus) => {
-
-            var data = {
-                'LicenceNumber': params.LicenceNumber,
-                'DriverClaimHistoryGoldDS': autoPlus.GetDCHUsingLicenceResult.DriverClaimHistoryGoldDS
-            };
-
-            // Insert autoPlus in mongodb
-            return AutoPlusService.createInMongo(data);
-        })
-        .then ((autoPlus)=> {
-            
-            // Create reference in redis
-            var autoPlusRef = { 'LicenceNumber': autoPlus.LicenceNumber, 'autoPlusId': autoPlus._id.toString() }
-
-            AutoPlusService.createInRedis(autoPlusRef)
-                .then((autoPlusRef)=>{})
-
-            return autoPlus;
-        })
-}

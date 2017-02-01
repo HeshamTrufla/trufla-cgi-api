@@ -8,11 +8,11 @@ var schema = new mongoose.Schema({
 
     DriverClaimHistoryGoldDS: {
 
-        PolicyBaseInfoDT: subDocs.PolicyBaseInfoDT,
+        PolicyBaseInfoDT: [subDocs.PolicyBaseInfoDT],
         PolicyDriverDT: [subDocs.PolicyDriverDT],
         PolicyVehicleDT: [subDocs.PolicyVehicleDT],
         PolicyVehicleCoverageCategoriesDT: [subDocs.PolicyVehicleCoverageCategoriesDT],
-        PolicyHolderDT: subDocs.PolicyHolderDT,
+        PolicyHolderDT: [subDocs.PolicyHolderDT],
         PreviousInquiryDT: [subDocs.PreviousInquiryDT],
         PolicyClaimDT: [subDocs.PolicyClaimDT],
         PolicyClaimVehicleDT: [subDocs.PolicyClaimVehicleDT],
