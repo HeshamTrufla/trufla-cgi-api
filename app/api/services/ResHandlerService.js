@@ -2,17 +2,17 @@ module.exports = {
 
     getMessage: function (msgCode, internalCode) {
         if (internalCode) {
-            return _.find(sails.config.cgi.MVR.MESSAGES, (msg) => msg.INTERNAL_CODE == msgCode);
+            return _.find(sails.config.cgi.MESSAGES, (msg) => msg.INTERNAL_CODE == msgCode);
         }
         else {
-            return _.find(sails.config.cgi.MVR.MESSAGES, (msg) => msg.CODE == msgCode);
+            return _.find(sails.config.cgi.MESSAGES, (msg) => msg.CODE == msgCode);
         }
     },
 
-    bindMessage: function (mvrResponse, msgCode, internalCode) {
+    bindMessage: function (Response, msgCode, internalCode) {
         var msg = this.getMessage(msgCode, internalCode);
         return {
-            mvrDoc: mvrResponse,
+            doc: Response,
             message: msg
         };
     },
@@ -56,6 +56,34 @@ module.exports = {
             return resolve(this.bindMessage(mvrResponse, 'ABSTRACT_FOUND', true));
 
         });
-    }  
+    },
+
+    AutoPlus: function (autoPlusResponse) {
+        return new Promise ((resolve, reject) => {
+
+            if (!autoPlusResponse) return reject(this.getMessage('NO_RESPONSE', true));
+            if (!autoPlusResponse.GetDCHUsingLicenceResult || !autoPlusResponse.GetDCHUsingLicenceResult.DriverClaimHistoryGoldDS) return reject(this.getMessage('NO_RESULTS', true));
+            var requestResult = autoPlusResponse.GetDCHUsingLicenceResult.DriverClaimHistoryGoldDS;
+            // check CGI Messages
+            if (!requestResult.MessageDT) return reject(this.getMessage('NO_MESSAGE', true)); 
+
+            if (Array.isArray(requestResult.MessageDT)) {
+                var message = requestResult.MessageDT[0];
+            } else {
+                var message = requestResult.MessageDT;
+            }
+
+            // get cgi message.
+            var cgiMessage = this.getMessage(message.Code); 
+            // if message not found, return Unhandled Exception Error.
+            if (!cgiMessage) return reject(this.getMessage('UNHANDLED_ERROR', true)); 
+            // check if cgi returned error message.
+            if (cgiMessage.IS_ERROR) return reject(cgiMessage); 
+
+            // otherwise by now we should have the abstract.            
+            return resolve(this.bindMessage(autoPlusResponse, 'AUTOPLUS_SUCCESS', true));
+
+        });
+    }
 
 };

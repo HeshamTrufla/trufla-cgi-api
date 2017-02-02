@@ -1,6 +1,8 @@
 
 const autoPlusMachine = require('./machinepack-autoplus');
-
+const cgiUrl = sails.config.cgi.AutoPlus.URL;
+const cgiUserName = sails.config.cgi.AutoPlus.USER_NAME;
+const cgiPassword = sails.config.cgi.AutoPlus.PASSWORD;
 
 module.exports = {
 
@@ -22,18 +24,23 @@ module.exports = {
     
     findOneFromCGI: (params) => {
 
-        return new Promise((resolve, reject) => {
+        // check if the client sent the province code.
+        if (!params.LicenceProvinceCode)
+            throw ResHandlerService.getMessage('PROVINCE_CODE_REQUIRED', true);
 
+        return new Promise((resolve, reject) => {
+            
             // adding config params
-            params.Url = sails.config.cgi.autoPlusUrl;
-            params.UserName = sails.config.cgi.userName;
-            params.Password = sails.config.cgi.password;
+            params.Url = cgiUrl;
+            params.UserName = cgiUserName;
+            params.Password = cgiPassword;
             params.SponsorSubscriberID = '';
 
             // calling CGI using machinepack to get autoPlus
             autoPlusMachine.GetDCHUsingLicence(params).exec({
 
                 success: (result) => {
+                    console.log('response: ' + JSON.stringify(result));
                     resolve(result);
                 },
                 error: (err) => {
@@ -44,29 +51,16 @@ module.exports = {
     },
 
     findOneFromCGIAndSave : function (params) {
-        var _autoPlus;
 
+        var _autoPlus;
         // Licence not found so we are getting autoPlus from CGI
         return this.findOneFromCGI(params)
+            .then((autoPlus) => ResHandlerService.AutoPlus(autoPlus)) // validate incoming MVR Document.
             .then((autoPlus) => {
-                // var x = JSON.stringify(autoPlus);
-                // console.log(`CGI autoplus: ${x}`);
-                                console.log(JSON.stringify(autoPlus));
-
-                if (!autoPlus) {
-                    var err = new Error('no AutoPlus response returned!');
-                    err.status = 500;
-                    throw err;
-                }
-                if (!autoPlus.GetDCHUsingLicenceResult.DriverClaimHistoryGoldDS.PolicyBaseInfoDT) {
-                    var err = new Error('returned AutoPlus Document doesn\'t contain a result!');
-                    err.status = 404;
-                    throw err;
-                }
-                    
+                var autoPlusDoc = _.get(autoPlus.doc, 'GetDCHUsingLicenceResult.DriverClaimHistoryGoldDS');
                 var data = {
                     'LicenceNumber': params.LicenceNumber,
-                    'DriverClaimHistoryGoldDS': autoPlus.GetDCHUsingLicenceResult.DriverClaimHistoryGoldDS
+                    'DriverClaimHistoryGoldDS': autoPlusDoc
                 };
 
                 // Insert autoPlus in mongodb

@@ -79,7 +79,7 @@ module.exports = {
             .then((mvrDoc) => ResHandlerService.MVR(mvrDoc)) // validate incoming MVR Document.
             .then((mvrObj) => {
 
-                var mvrDoc = mvrObj.mvrDoc;
+                var mvrDoc = mvrObj.doc;
                 var message = mvrObj.message;
                 var isReady = false;
 

@@ -3,13 +3,8 @@ module.exports = {
 
     findOneByLicence: (req, res) => {
         
-        // TODO validate params
-
         var params = req.params.all();
 
-        if (!params.LicenceNumber) {
-            res.badRequest('You must specify a LicenceNumber.');
-        }
 
         // Check if the autoPlus is available in redisautoPlusRef
         AutoPlusService.findOneFromCach(params.LicenceNumber)
@@ -26,22 +21,33 @@ module.exports = {
             })
             .then((autoPlus) => {
                 // AutoPlus not found
-                if (!autoPlus) res.notFound();
+                if (!autoPlus) return res.serverError(ResHandlerService.errorObject('UNHANDLED_ERROR', true));
 
                 // Return autoPlus to user
                 res.ok(autoPlus);
             })
             .catch((err) => {
-                switch (err.status) {
-                    case 404:
-                        res.notFound(err);
-                        break;
-                    case 400:
-                        res.badRequest(err);
-                        break;
-                    default:
-                        res.serverError(err);
+                sails.log.error(err);
+
+                if (err.HTTP_STATUS) {
+                    switch (err.HTTP_STATUS) {
+                        case 404:
+                            res.notFound(ResHandlerService.errorObject(err.INTERNAL_CODE, true));
+                            break;
+                        case 400:
+                            res.badRequest(ResHandlerService.errorObject(err.INTERNAL_CODE, true));
+                            break;
+                        case 403: 
+                            res.forbidden(ResHandlerService.errorObject(err.INTERNAL_CODE, true));
+                            break;
+                        default:
+                            res.serverError(ResHandlerService.errorObject(err.INTERNAL_CODE, true));    
+                    }
                 }
+                else {
+                    res.serverError(ResHandlerService.errorObject('UNHANDLED_ERROR', true));
+                }
+
                 
             });
     },
