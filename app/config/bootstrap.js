@@ -113,7 +113,25 @@ function updateMVRRedis () {
 		});
 }
 
-// TODO: implement updateAutoPlusRedis
+/**
+ * update AutoPlus Redis on bootstrapping, 
+ * to reflect the same data as Mongo.
+ */
+function updateAutoPlusRedis () {
+	return AutoPlusRedis.destroy({})
+		.then(() => {
+			// get only the required fields by redis, from MongoDB.
+			return db.AutoPlus.find({}).select('LicenceNumber _id');
+		})
+		.then((autoPlusDoc) => {
+			
+			var refs = _.map(autoPlusDoc, (doc) => {
+				return { LicenceNumber: doc.LicenceNumber, autoPlusId: doc._id.toString() };
+			});
+			return AutoPlusRedis.create(refs);
+
+		});
+}
 
 // START CRON JOBS.
 function startCrons () {
@@ -152,6 +170,7 @@ module.exports.bootstrap = function(cb) {
 	connectMongoose()
 		.then(bindMongooseToModels)
 		.then(updateMVRRedis)
+		.then(updateAutoPlusRedis)
 		//.then(createTestKey) // api_key => S33E89QP87BEE46WQ
 		.then(loadApiKeys)
 		.then(function() {

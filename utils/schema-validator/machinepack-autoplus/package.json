@@ -1,0 +1,26 @@
+{
+  "name": "machinepack-autoplus",
+  "version": "0.1.0",
+  "description": "AutoPlus GOLD enables clients to view the claim history of a driver and all his or her policies.",
+  "scripts": {
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+  },
+  "keywords": [
+    "autoplus",
+    "machines",
+    "machinepack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies":{
+    "machine": "^12.2.5"
+  },
+  "devDependencies": {
+    "test-machinepack-mocha": "^2.1.5"
+  },
+  "machinepack": {
+    "friendlyName": "autoplus",
+    "machineDir": "machines/",
+    "machines": ["GetDCHUsingLicence"]
+  }
+}
