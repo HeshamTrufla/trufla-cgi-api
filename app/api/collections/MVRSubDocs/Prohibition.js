@@ -11,7 +11,7 @@ var schema = new mongoose.Schema({
     AppealEndDate: Date,
     ReinstateDate: String,
     Description: String,
-    PrintLine: String,
+    PrintLine: [String],
     Type: String
 
 });

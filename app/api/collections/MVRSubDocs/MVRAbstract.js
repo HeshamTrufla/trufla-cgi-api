@@ -15,30 +15,39 @@ var schema = new mongoose.Schema({
         BirthDate: Date
     },
     DriverInfo: require('./DriverInfo'),
-    Condition: {
+    Condition: [{
         Date: Date,
         Description: String
-    },
+    }],
     Conviction: [ require('./Conviction') ],
     Suspension: [ require('./Suspension') ],
-    Reinstatement: require('./Reinstatement'),
+    Reinstatement: [require('./Reinstatement')],
     Prohibition: require('./Prohibition'),
     Restriction: require('./Restriction'),
     Merit: require('./Merit'),
-    Accident: require('./Accident'),
+    Accident: [require('./Accident')],
     Report: {
         PrintLineWidth: Number,
         PrintLine: String
     },
-    ProviderMessage: {
+    ProviderMessage: [{
         Code: String,
-        Text: String
-    },
+        Text: [String]
+    }],
     ProviderError: {
         Code: String,
         Type: String,
         Text: String
-    }
+    },
+    Endorsement: [{
+        Id: String,
+        EndorsementName: String
+    }],
+    Course: [{
+        Code: String,
+        Description: String,
+        Date: Date
+    }]
 
 });
 

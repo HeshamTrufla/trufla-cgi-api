@@ -7,7 +7,7 @@ var schema = new mongoose.Schema({
     Date: Date,
     Description: String,
     DemeritPoints: Number,
-    PrintLine: String
+    PrintLine: [String]
 
 });
 

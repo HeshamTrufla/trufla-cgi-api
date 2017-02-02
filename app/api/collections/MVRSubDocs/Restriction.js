@@ -8,7 +8,7 @@ var schema = new mongoose.Schema({
     StartDate: Date,
     ExpiryDate: Date,
     Description: String,
-    PrintLine: String,
+    PrintLine: [String],
     Type: String
 
 });

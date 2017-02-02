@@ -129,7 +129,8 @@ module.exports = {
         };
 
         soap.createClient(url, (err, client) => {
-
+            if (err) return exits.error(err);
+            
             client.addSoapHeader(headers);
 
             client.GetDCHUsingLicence(body, (err, result) => {
