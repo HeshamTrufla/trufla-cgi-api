@@ -10,11 +10,18 @@ var schema = new mongoose.Schema({
     },
     Code: String,
     MinistryCode: String,
+    ProvinceCode: String,
     OffenceDate: Date,
     ConvictionDate: Date,
     StartDate: Date,
     ExpiryDate: Date,
-    Description: [String],
+    Description: [{
+        type: String,
+        set: function (v) {
+            v = v['$value'];
+            return v;
+        }
+    }],
     ReferenceNumber: String,
     CaseNumber: String,
     Jurisdiction: String,

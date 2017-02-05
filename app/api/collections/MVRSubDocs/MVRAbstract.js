@@ -10,12 +10,14 @@ var schema = new mongoose.Schema({
     RequestId: String,
     IBCRequestId: String,
     IBCProductId: String,
+    AccountNumber: String,
     RequestInfo: {
         DriverLicenceNumber: String,
         BirthDate: Date
     },
     DriverInfo: require('./DriverInfo'),
     Condition: [{
+        ConditionId: String,
         Date: Date,
         Description: String
     }],
@@ -32,7 +34,13 @@ var schema = new mongoose.Schema({
     },
     ProviderMessage: [{
         Code: String,
-        Text: [String]
+        Text: [{
+            type: String,
+            set: function (v) {
+                v = v['$value'];
+                return v;
+            }
+        }]
     }],
     ProviderError: {
         Code: String,

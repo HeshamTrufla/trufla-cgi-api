@@ -18,6 +18,7 @@ var schema = new mongoose.Schema({
     FirstName: String,
     MiddleName: String,
     OldLicenceNumber: String,
+    Gender: String,
     Height: Number,
     Weight: Number,
     LicenceCondition: String,
@@ -26,12 +27,19 @@ var schema = new mongoose.Schema({
     LicenceIssueDate: Date,
     LicenceExpiryDate: Date,
     IsLicenceSuspended: Boolean,
+    FirstLicencedComment: String,
     DemeritPoints: Number,
-    GraduatedDriverLicence: String,
+    GraduatedDriverLicence: {
+        Type: String,
+        Description: String,
+        ExpiryDate: Date
+    },
     Type: String,
     ExpiryDate: Date,
-    Description: String,
     Address: {
+        Street: String,
+        Municipality: String,
+        Province: String,
         AddressLine: [String],
         PostalCode: String
     },

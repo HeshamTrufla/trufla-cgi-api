@@ -34,10 +34,17 @@ module.exports = {
             if (!mvrResponse) return reject(this.getMessage('NO_RESPONSE', true));
             if (!mvrResponse.SubmitRequestResult || !mvrResponse.SubmitRequestResult.MVRRequestResponseDS) return reject(this.getMessage('NO_RESULTS', true));
             var requestResult = mvrResponse.SubmitRequestResult.MVRRequestResponseDS;
+            
             // check CGI Messages
             if (!requestResult.MessageDT) return reject(this.getMessage('NO_MESSAGE', true)); 
+            
             // get cgi message.
-            var cgiMessage = this.getMessage(requestResult.MessageDT.Code); 
+            var cgiMessage = {};
+            if (Array.isArray(requestResult.MessageDT))
+                this.getMessage(requestResult.MessageDT[0].Code);
+            else
+                this.getMessage(requestResult.MessageDT.Code);
+
             // if message not found, return Unhandled Exception Error.
             if (!cgiMessage) return reject(this.getMessage('UNHANDLED_ERROR', true)); 
             // check if cgi returned error message.
