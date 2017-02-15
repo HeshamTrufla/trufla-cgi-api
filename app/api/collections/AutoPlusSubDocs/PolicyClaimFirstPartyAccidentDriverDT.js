@@ -32,7 +32,8 @@ var schema = new mongoose.Schema({
     AtFaultPct: String,
     CompanyName: String,
     Abbreviation: String,
-    LastUpdateDate: String
+    LastUpdateDate: String,
+    PolicyDriverClaimCode: String
 
 });
 

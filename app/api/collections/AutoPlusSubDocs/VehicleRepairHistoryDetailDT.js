@@ -29,7 +29,8 @@ var schema = new mongoose.Schema({
     VehicleRemoveDay: Number,
     APLPolicyNumber: String,
     APLInsuranceCompanyCode: String,
-    APLInsuranceCompanyName: String
+    APLInsuranceCompanyName: String,
+    TotalLoss: String
 
 });
 

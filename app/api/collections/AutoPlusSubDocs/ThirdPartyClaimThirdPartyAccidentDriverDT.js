@@ -27,7 +27,8 @@ var schema = new mongoose.Schema({
     Gender: String,
     PolicyDriverClaimsCode: String,
     CompanyName: String,
-    Abbreviation: String
+    Abbreviation: String,
+    LastUpdateDate: String
 
 });
 
