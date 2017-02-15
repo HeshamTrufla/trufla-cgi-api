@@ -11,12 +11,22 @@ var schema = new mongoose.Schema({
     Code: String,
     MinistryCode: String,
     OffenceDate: Date,
+    ConvictionCode: String,
     ConvictionDate: Date,
     StartDate: Date,
     ExpiryDate: Date,
-    Description: [String],
+    SuspendDate: Date,
+    Description: [{
+        type: String,
+        set: function (v) {
+            v = v['$value'];
+            return v;
+        }
+    }],
     ReferenceNumber: String,
     CaseNumber: String,
+    ReinstateDate: Date,
+    TermLength: String,
     Jurisdiction: String,
     LocationCode: String,
     Status: String,
