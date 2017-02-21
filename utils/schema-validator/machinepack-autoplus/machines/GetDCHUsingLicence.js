@@ -9,7 +9,7 @@ module.exports = {
     inputs: {
 
         Url: {
-            example: 'https://ibs.ct.rapidwebservices.cgi.com/rapidwebservices/WebServices/MVRWS.asmx?wsdl',
+            example: 'https://ibs.ct.rapidwebservices.cgi.com/rapidwebservices/WebServices/DriverClaimHistoryGoldWS.asmx?WSDL',
             required: true,
             description: ''
         },

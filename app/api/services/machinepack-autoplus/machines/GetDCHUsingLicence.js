@@ -9,7 +9,7 @@ module.exports = {
     inputs: {
 
         Url: {
-            example: 'https://ibs.ct.rapidwebservices.cgi.com/rapidwebservices/WebServices/MVRWS.asmx?wsdl',
+            example: 'https://ibs.ct.rapidwebservices.cgi.com/rapidwebservices/WebServices/DriverClaimHistoryGoldWS.asmx?WSDL',
             required: true,
             description: ''
         },
@@ -132,8 +132,9 @@ module.exports = {
 
             client.addSoapHeader(headers);
 
-            client.GetDCHUsingLicence(body, (err, result) => {
+            client.GetDCHUsingLicence(body, (err, result, raw) => {
                 if (err) return exits.error(err);
+                result.raw=raw;
                 return exits.success(result);
             });
 

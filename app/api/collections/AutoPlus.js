@@ -50,8 +50,8 @@ var schema = new mongoose.Schema({
         VehicleRepairHistoryDT: [subDocs.VehicleRepairHistoryDT],
         VehicleRepairHistoryDetailDT: [subDocs.VehicleRepairHistoryDetailDT],
 
-    }
-
+    },
+    raw: String
 }, {
     timestamps: true
 });
