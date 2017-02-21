@@ -1,0 +1,2295 @@
+<DriverClaimHistoryGoldDS xmlns="http://localhost/IISDOTNETAPP/XMLSchemas/DriverClaimHistoryGoldDS.xsd">
+  <PolicyBaseInfoDT>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <CompanyName>Northbridge General Ins. Cor.</CompanyName>
+    <PolicyStatus>RN</PolicyStatus>
+    <PolicyCoverageYear>2008</PolicyCoverageYear>
+    <PolicyCoverageMonth>2</PolicyCoverageMonth>
+    <PolicyCoverageDay>18</PolicyCoverageDay>
+    <ProcessYear>2007</ProcessYear>
+    <ProcessMonth>8</ProcessMonth>
+    <ProcessDay>14</ProcessDay>
+    <OriginalEffectiveYear>2008</OriginalEffectiveYear>
+    <OriginalEffectiveMonth>2</OriginalEffectiveMonth>
+    <CurrentEffectiveYear>2008</CurrentEffectiveYear>
+    <CurrentEffectiveMonth>2</CurrentEffectiveMonth>
+    <CurrentExpiryYear>2020</CurrentExpiryYear>
+    <CurrentExpiryMonth>2</CurrentExpiryMonth>
+    <CurrentExpiryDay>18</CurrentExpiryDay>
+    <CoverageExpiryYear>2020</CoverageExpiryYear>
+    <CoverageExpiryMonth>2</CoverageExpiryMonth>
+    <CoverageExpiryDay>18</CoverageExpiryDay>
+    <NumberOfPreviousInquiries>99</NumberOfPreviousInquiries>
+    <PolicyHolderId>0700000000800003</PolicyHolderId>
+    <PolicyOnHoldInd>N</PolicyOnHoldInd>
+    <MostRecentPolicyInd>Y</MostRecentPolicyInd>
+    <OriginalEffectiveDay>18</OriginalEffectiveDay>
+    <CurrentEffectiveDay>18</CurrentEffectiveDay>
+    <CommercialPolicyInd>N</CommercialPolicyInd>
+    <LineOfBusinessCode>PA</LineOfBusinessCode>
+    <NoFrillPolicy />
+    <FARejectedCompany />
+    <MarketingGroup>N</MarketingGroup>
+    <AlbertaGridInd>N</AlbertaGridInd>
+  </PolicyBaseInfoDT>
+  <PolicyDriverDT>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <PolicyDriverId>0700000000800000</PolicyDriverId>
+    <DeletedInd>N</DeletedInd>
+    <LicenceNumberStatus>VL</LicenceNumberStatus>
+    <DriverRelationshipCode>OTH</DriverRelationshipCode>
+    <PrincipalOperatorInd>N</PrincipalOperatorInd>
+    <PolicyVehicleId>0700000000800013</PolicyVehicleId>
+    <LicenceProvinceCode>ON</LicenceProvinceCode>
+    <LicenceNumber>A12341234805101</LicenceNumber>
+    <YearsLicenced>0</YearsLicenced>
+    <YearsLicencedExp>0</YearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <FirstName> ASP</FirstName>
+    <MiddleName />
+    <LastName>SIT</LastName>
+    <UnstructuredName>SIT, ASP</UnstructuredName>
+    <StructuredNameInd>Y</StructuredNameInd>
+    <CompanyInd>N</CompanyInd>
+    <BirthYear>1980</BirthYear>
+    <BirthMonth>1</BirthMonth>
+    <BirthDay>1</BirthDay>
+    <Gender>F</Gender>
+    <ICPBWarningPossibleMatchInd>N</ICPBWarningPossibleMatchInd>
+    <PolicyVehicleCode>000</PolicyVehicleCode>
+    <Age>28</Age>
+    <MaritalStatus />
+  </PolicyDriverDT>
+  <PolicyDriverDT>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <PolicyDriverId>0700000000800002</PolicyDriverId>
+    <DeletedInd>N</DeletedInd>
+    <LicenceNumberStatus>VL</LicenceNumberStatus>
+    <DriverRelationshipCode>PRN</DriverRelationshipCode>
+    <PrincipalOperatorInd>Y</PrincipalOperatorInd>
+    <PolicyVehicleId>0700000000800009</PolicyVehicleId>
+    <LicenceProvinceCode>AB</LicenceProvinceCode>
+    <LicenceNumber>043335199</LicenceNumber>
+    <YearsLicenced>0</YearsLicenced>
+    <YearsLicencedExp>29</YearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <FirstName> EDWARD</FirstName>
+    <MiddleName />
+    <LastName>SMITH</LastName>
+    <UnstructuredName>SMITH, EDWARD</UnstructuredName>
+    <StructuredNameInd>Y</StructuredNameInd>
+    <CompanyInd>N</CompanyInd>
+    <BirthYear>0</BirthYear>
+    <BirthMonth>0</BirthMonth>
+    <BirthDay>0</BirthDay>
+    <Gender>M</Gender>
+    <ICPBWarningPossibleMatchInd>N</ICPBWarningPossibleMatchInd>
+    <PolicyVehicleCode>008</PolicyVehicleCode>
+    <Age />
+    <MaritalStatus />
+  </PolicyDriverDT>
+  <PolicyDriverDT>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <PolicyDriverId>0700000000800003</PolicyDriverId>
+    <DeletedInd>N</DeletedInd>
+    <LicenceNumberStatus>VL</LicenceNumberStatus>
+    <DriverRelationshipCode>INS</DriverRelationshipCode>
+    <PrincipalOperatorInd>N</PrincipalOperatorInd>
+    <PolicyVehicleId>0700000000800013</PolicyVehicleId>
+    <LicenceProvinceCode>AB</LicenceProvinceCode>
+    <LicenceNumber>043335199</LicenceNumber>
+    <YearsLicenced>0</YearsLicenced>
+    <YearsLicencedExp>0</YearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <FirstName> EDWARD</FirstName>
+    <MiddleName />
+    <LastName>SMITH</LastName>
+    <UnstructuredName>SMITH, EDWARD</UnstructuredName>
+    <StructuredNameInd>Y</StructuredNameInd>
+    <CompanyInd>N</CompanyInd>
+    <BirthYear>0</BirthYear>
+    <BirthMonth>0</BirthMonth>
+    <BirthDay>0</BirthDay>
+    <Gender>U</Gender>
+    <ICPBWarningPossibleMatchInd>N</ICPBWarningPossibleMatchInd>
+    <PolicyVehicleCode>000</PolicyVehicleCode>
+    <Age />
+    <MaritalStatus />
+  </PolicyDriverDT>
+  <PolicyVehicleDT>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <PolicyVehicleId>0700000000800004</PolicyVehicleId>
+    <PolicyDriverId />
+    <TerritoryCode>0</TerritoryCode>
+    <TerritoryDesc />
+    <TypeOfBusinessCode />
+    <ClassTypeOfUseCode>00</ClassTypeOfUseCode>
+    <UseCode>0</UseCode>
+    <PrincipalOperatorBirthYear>0</PrincipalOperatorBirthYear>
+    <PrincipalOperatorYearsLicenced>0</PrincipalOperatorYearsLicenced>
+    <PrincipalOperatorYearsLicencedExp>0</PrincipalOperatorYearsLicencedExp>
+    <PrincipalOperatorGender>U</PrincipalOperatorGender>
+    <YearsClaimFree>0</YearsClaimFree>
+    <YearsClaimFreeExp>0</YearsClaimFreeExp>
+    <YearsClaimFreeTP>0</YearsClaimFreeTP>
+    <YearsClaimFreeColl>0</YearsClaimFreeColl>
+    <YearsOtherClaimFreeTP>0</YearsOtherClaimFreeTP>
+    <YearsOtherClaimFreeColl>0</YearsOtherClaimFreeColl>
+    <FacilityAccidentCount>0</FacilityAccidentCount>
+    <FacilityAConvictionCount>0</FacilityAConvictionCount>
+    <FacilityBConvictionCount>0</FacilityBConvictionCount>
+    <FacilityCConvictionCount>0</FacilityCConvictionCount>
+    <VIN>5N1AR18W15C771321</VIN>
+    <VINStatus>ST</VINStatus>
+    <VehicleCode>0913</VehicleCode>
+    <ModelYear>2005</ModelYear>
+    <ICPBReportReference />
+    <VehicleFixableInd />
+    <VehicleType>A</VehicleType>
+    <BodyTypeCode>MP</BodyTypeCode>
+    <DriveTypeCode>2</DriveTypeCode>
+    <CarCode>091300</CarCode>
+    <MakeEng>NISSAN TRUCK/VAN</MakeEng>
+    <MakeFre>NISSAN TRUCK/VAN</MakeFre>
+    <ModelEng>PATHFINDER LE 4DR 4WD</ModelEng>
+    <ModelFre>PATHFINDER LE 4DR 4WD</ModelFre>
+    <VehicleDescEng />
+    <VehicleDescFre />
+    <VehicleDescInd>N</VehicleDescInd>
+    <IAOSubClassType />
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <NumberOfClaims>0</NumberOfClaims>
+    <OtherOperatorCode>0</OtherOperatorCode>
+    <OtherOperatorMinimumYearsLicenced>0</OtherOperatorMinimumYearsLicenced>
+    <IAOUseCode />
+    <PolicyDriverCode>001</PolicyDriverCode>
+    <RIN />
+    <TerritoryFSA />
+    <MandatoryCoverage />
+    <TrailerIndicator />
+    <NewDriverDiscount />
+    <RetirementDiscount />
+    <CleanDriverIndicator />
+    <FADriverTrainingCode />
+    <FAInsuranceFraudConvictions />
+    <LastUpdateDate>00000000</LastUpdateDate>
+    <AfterMarketSecurityDevice>NA</AfterMarketSecurityDevice>
+    <LeasedVehicle>NA</LeasedVehicle>
+    <MultiCarDiscount />
+    <MultiLineDiscount />
+    <RenewalDiscount />
+    <CommutingDistance />
+    <AnnualDrivingDistance />
+    <BusinessUsePercentage />
+    <WinterTireDiscount />
+  </PolicyVehicleDT>
+  <PolicyVehicleDT>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <PolicyVehicleId>0700000000800007</PolicyVehicleId>
+    <PolicyDriverId />
+    <TerritoryCode>102</TerritoryCode>
+    <TerritoryDesc>Edmonton District</TerritoryDesc>
+    <TypeOfBusinessCode>1</TypeOfBusinessCode>
+    <ClassTypeOfUseCode>01</ClassTypeOfUseCode>
+    <UseCode>1</UseCode>
+    <PrincipalOperatorBirthYear>1948</PrincipalOperatorBirthYear>
+    <PrincipalOperatorYearsLicenced>0</PrincipalOperatorYearsLicenced>
+    <PrincipalOperatorYearsLicencedExp>37</PrincipalOperatorYearsLicencedExp>
+    <PrincipalOperatorGender>M</PrincipalOperatorGender>
+    <YearsClaimFree>7</YearsClaimFree>
+    <YearsClaimFreeExp>7</YearsClaimFreeExp>
+    <YearsClaimFreeTP>0</YearsClaimFreeTP>
+    <YearsClaimFreeColl>0</YearsClaimFreeColl>
+    <YearsOtherClaimFreeTP>0</YearsOtherClaimFreeTP>
+    <YearsOtherClaimFreeColl>0</YearsOtherClaimFreeColl>
+    <FacilityAccidentCount>0</FacilityAccidentCount>
+    <FacilityAConvictionCount>1</FacilityAConvictionCount>
+    <FacilityBConvictionCount>2</FacilityBConvictionCount>
+    <FacilityCConvictionCount>3</FacilityCConvictionCount>
+    <VIN>1FAFP33P6YW210374</VIN>
+    <VINStatus>ST</VINStatus>
+    <VehicleCode>902000</VehicleCode>
+    <ModelYear>2004</ModelYear>
+    <ICPBReportReference />
+    <VehicleFixableInd />
+    <VehicleType>A</VehicleType>
+    <BodyTypeCode>4D</BodyTypeCode>
+    <DriveTypeCode>1</DriveTypeCode>
+    <CarCode>902000</CarCode>
+    <MakeEng>FORD</MakeEng>
+    <MakeFre>FORD</MakeFre>
+    <ModelEng>FOCUS LX 4DR</ModelEng>
+    <ModelFre>FOCUS LX 4DR</ModelFre>
+    <VehicleDescEng />
+    <VehicleDescFre />
+    <VehicleDescInd>N</VehicleDescInd>
+    <IAOSubClassType />
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <NumberOfClaims>0</NumberOfClaims>
+    <OtherOperatorCode>1</OtherOperatorCode>
+    <OtherOperatorMinimumYearsLicenced>9</OtherOperatorMinimumYearsLicenced>
+    <IAOUseCode />
+    <PolicyDriverCode>002</PolicyDriverCode>
+    <RIN />
+    <TerritoryFSA>T6P</TerritoryFSA>
+    <MandatoryCoverage />
+    <TrailerIndicator>N</TrailerIndicator>
+    <NewDriverDiscount>0</NewDriverDiscount>
+    <RetirementDiscount>000</RetirementDiscount>
+    <CleanDriverIndicator />
+    <FADriverTrainingCode />
+    <FAInsuranceFraudConvictions>0</FAInsuranceFraudConvictions>
+    <LastUpdateDate>20071114</LastUpdateDate>
+    <AfterMarketSecurityDevice>NA</AfterMarketSecurityDevice>
+    <LeasedVehicle>NA</LeasedVehicle>
+    <MultiCarDiscount />
+    <MultiLineDiscount />
+    <RenewalDiscount />
+    <CommutingDistance />
+    <AnnualDrivingDistance />
+    <BusinessUsePercentage />
+    <WinterTireDiscount />
+  </PolicyVehicleDT>
+  <PolicyVehicleDT>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <PolicyVehicleId>0700000000800008</PolicyVehicleId>
+    <PolicyDriverId />
+    <TerritoryCode>102</TerritoryCode>
+    <TerritoryDesc>Edmonton District</TerritoryDesc>
+    <TypeOfBusinessCode>1</TypeOfBusinessCode>
+    <ClassTypeOfUseCode>02</ClassTypeOfUseCode>
+    <UseCode>2</UseCode>
+    <PrincipalOperatorBirthYear>1958</PrincipalOperatorBirthYear>
+    <PrincipalOperatorYearsLicenced>0</PrincipalOperatorYearsLicenced>
+    <PrincipalOperatorYearsLicencedExp>29</PrincipalOperatorYearsLicencedExp>
+    <PrincipalOperatorGender>M</PrincipalOperatorGender>
+    <YearsClaimFree>0</YearsClaimFree>
+    <YearsClaimFreeExp>29</YearsClaimFreeExp>
+    <YearsClaimFreeTP>0</YearsClaimFreeTP>
+    <YearsClaimFreeColl>0</YearsClaimFreeColl>
+    <YearsOtherClaimFreeTP>0</YearsOtherClaimFreeTP>
+    <YearsOtherClaimFreeColl>0</YearsOtherClaimFreeColl>
+    <FacilityAccidentCount>0</FacilityAccidentCount>
+    <FacilityAConvictionCount>0</FacilityAConvictionCount>
+    <FacilityBConvictionCount>0</FacilityBConvictionCount>
+    <FacilityCConvictionCount>0</FacilityCConvictionCount>
+    <VIN>1FAFP33P6YW215090</VIN>
+    <VINStatus>ST</VINStatus>
+    <VehicleCode>902000</VehicleCode>
+    <ModelYear>2004</ModelYear>
+    <ICPBReportReference />
+    <VehicleFixableInd />
+    <VehicleType>A</VehicleType>
+    <BodyTypeCode>4D</BodyTypeCode>
+    <DriveTypeCode>1</DriveTypeCode>
+    <CarCode>902000</CarCode>
+    <MakeEng>FORD</MakeEng>
+    <MakeFre>FORD</MakeFre>
+    <ModelEng>FOCUS LX 4DR</ModelEng>
+    <ModelFre>FOCUS LX 4DR</ModelFre>
+    <VehicleDescEng />
+    <VehicleDescFre />
+    <VehicleDescInd>N</VehicleDescInd>
+    <IAOSubClassType />
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <NumberOfClaims>0</NumberOfClaims>
+    <OtherOperatorCode>1</OtherOperatorCode>
+    <OtherOperatorMinimumYearsLicenced>9</OtherOperatorMinimumYearsLicenced>
+    <IAOUseCode />
+    <PolicyDriverCode>006</PolicyDriverCode>
+    <RIN />
+    <TerritoryFSA>T6P</TerritoryFSA>
+    <MandatoryCoverage />
+    <TrailerIndicator>N</TrailerIndicator>
+    <NewDriverDiscount>0</NewDriverDiscount>
+    <RetirementDiscount>000</RetirementDiscount>
+    <CleanDriverIndicator />
+    <FADriverTrainingCode />
+    <FAInsuranceFraudConvictions>0</FAInsuranceFraudConvictions>
+    <LastUpdateDate>20071114</LastUpdateDate>
+    <AfterMarketSecurityDevice>NA</AfterMarketSecurityDevice>
+    <LeasedVehicle>NA</LeasedVehicle>
+    <MultiCarDiscount />
+    <MultiLineDiscount />
+    <RenewalDiscount />
+    <CommutingDistance />
+    <AnnualDrivingDistance />
+    <BusinessUsePercentage />
+    <WinterTireDiscount />
+  </PolicyVehicleDT>
+  <PolicyVehicleDT>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <PolicyVehicleId>0700000000800009</PolicyVehicleId>
+    <PolicyDriverId>0700000000800002</PolicyDriverId>
+    <TerritoryCode>102</TerritoryCode>
+    <TerritoryDesc>Edmonton District</TerritoryDesc>
+    <TypeOfBusinessCode>1</TypeOfBusinessCode>
+    <ClassTypeOfUseCode>02</ClassTypeOfUseCode>
+    <UseCode>2</UseCode>
+    <PrincipalOperatorBirthYear>1958</PrincipalOperatorBirthYear>
+    <PrincipalOperatorYearsLicenced>0</PrincipalOperatorYearsLicenced>
+    <PrincipalOperatorYearsLicencedExp>29</PrincipalOperatorYearsLicencedExp>
+    <PrincipalOperatorGender>M</PrincipalOperatorGender>
+    <YearsClaimFree>0</YearsClaimFree>
+    <YearsClaimFreeExp>29</YearsClaimFreeExp>
+    <YearsClaimFreeTP>0</YearsClaimFreeTP>
+    <YearsClaimFreeColl>0</YearsClaimFreeColl>
+    <YearsOtherClaimFreeTP>0</YearsOtherClaimFreeTP>
+    <YearsOtherClaimFreeColl>0</YearsOtherClaimFreeColl>
+    <FacilityAccidentCount>0</FacilityAccidentCount>
+    <FacilityAConvictionCount>0</FacilityAConvictionCount>
+    <FacilityBConvictionCount>0</FacilityBConvictionCount>
+    <FacilityCConvictionCount>0</FacilityCConvictionCount>
+    <VIN>JH4KA4646JC800890</VIN>
+    <VINStatus>ST</VINStatus>
+    <VehicleCode>021700</VehicleCode>
+    <ModelYear>1988</ModelYear>
+    <ICPBReportReference />
+    <VehicleFixableInd />
+    <VehicleType>A</VehicleType>
+    <BodyTypeCode>4D</BodyTypeCode>
+    <DriveTypeCode>1</DriveTypeCode>
+    <CarCode>021700</CarCode>
+    <MakeEng>ACURA</MakeEng>
+    <MakeFre>ACURA</MakeFre>
+    <ModelEng>LEGEND 4DR</ModelEng>
+    <ModelFre>LEGEND 4DR</ModelFre>
+    <VehicleDescEng />
+    <VehicleDescFre />
+    <VehicleDescInd>N</VehicleDescInd>
+    <IAOSubClassType />
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <NumberOfClaims>0</NumberOfClaims>
+    <OtherOperatorCode>1</OtherOperatorCode>
+    <OtherOperatorMinimumYearsLicenced>9</OtherOperatorMinimumYearsLicenced>
+    <IAOUseCode />
+    <PolicyDriverCode>008</PolicyDriverCode>
+    <RIN />
+    <TerritoryFSA>T6P</TerritoryFSA>
+    <MandatoryCoverage />
+    <TrailerIndicator>N</TrailerIndicator>
+    <NewDriverDiscount>0</NewDriverDiscount>
+    <RetirementDiscount>000</RetirementDiscount>
+    <CleanDriverIndicator />
+    <FADriverTrainingCode />
+    <FAInsuranceFraudConvictions>0</FAInsuranceFraudConvictions>
+    <LastUpdateDate>20071114</LastUpdateDate>
+    <AfterMarketSecurityDevice>NA</AfterMarketSecurityDevice>
+    <LeasedVehicle>NA</LeasedVehicle>
+    <MultiCarDiscount />
+    <MultiLineDiscount />
+    <RenewalDiscount />
+    <CommutingDistance />
+    <AnnualDrivingDistance />
+    <BusinessUsePercentage />
+    <WinterTireDiscount />
+  </PolicyVehicleDT>
+  <PolicyVehicleDT>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <PolicyVehicleId>0700000000800010</PolicyVehicleId>
+    <PolicyDriverId />
+    <TerritoryCode>102</TerritoryCode>
+    <TerritoryDesc>Edmonton District</TerritoryDesc>
+    <TypeOfBusinessCode>1</TypeOfBusinessCode>
+    <ClassTypeOfUseCode>03</ClassTypeOfUseCode>
+    <UseCode>2</UseCode>
+    <PrincipalOperatorBirthYear>0</PrincipalOperatorBirthYear>
+    <PrincipalOperatorYearsLicenced>0</PrincipalOperatorYearsLicenced>
+    <PrincipalOperatorYearsLicencedExp>0</PrincipalOperatorYearsLicencedExp>
+    <PrincipalOperatorGender>U</PrincipalOperatorGender>
+    <YearsClaimFree>0</YearsClaimFree>
+    <YearsClaimFreeExp>0</YearsClaimFreeExp>
+    <YearsClaimFreeTP>0</YearsClaimFreeTP>
+    <YearsClaimFreeColl>0</YearsClaimFreeColl>
+    <YearsOtherClaimFreeTP>0</YearsOtherClaimFreeTP>
+    <YearsOtherClaimFreeColl>0</YearsOtherClaimFreeColl>
+    <FacilityAccidentCount>0</FacilityAccidentCount>
+    <FacilityAConvictionCount>0</FacilityAConvictionCount>
+    <FacilityBConvictionCount>0</FacilityBConvictionCount>
+    <FacilityCConvictionCount>0</FacilityCConvictionCount>
+    <VIN>1N4AL21E39C193554</VIN>
+    <VINStatus>ST</VINStatus>
+    <VehicleCode>0910</VehicleCode>
+    <ModelYear>2009</ModelYear>
+    <ICPBReportReference />
+    <VehicleFixableInd />
+    <VehicleType>A</VehicleType>
+    <BodyTypeCode>4D</BodyTypeCode>
+    <DriveTypeCode>1</DriveTypeCode>
+    <CarCode>091000</CarCode>
+    <MakeEng>NISSAN</MakeEng>
+    <MakeFre>NISSAN</MakeFre>
+    <ModelEng>ALTIMA 4DR</ModelEng>
+    <ModelFre>ALTIMA 4DR</ModelFre>
+    <VehicleDescEng />
+    <VehicleDescFre />
+    <VehicleDescInd>N</VehicleDescInd>
+    <IAOSubClassType />
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <NumberOfClaims>0</NumberOfClaims>
+    <OtherOperatorCode>0</OtherOperatorCode>
+    <OtherOperatorMinimumYearsLicenced>0</OtherOperatorMinimumYearsLicenced>
+    <IAOUseCode />
+    <PolicyDriverCode>001</PolicyDriverCode>
+    <RIN />
+    <TerritoryFSA />
+    <MandatoryCoverage />
+    <TrailerIndicator />
+    <NewDriverDiscount />
+    <RetirementDiscount />
+    <CleanDriverIndicator />
+    <FADriverTrainingCode />
+    <FAInsuranceFraudConvictions />
+    <LastUpdateDate>00000000</LastUpdateDate>
+    <AfterMarketSecurityDevice>NA</AfterMarketSecurityDevice>
+    <LeasedVehicle>NA</LeasedVehicle>
+    <MultiCarDiscount />
+    <MultiLineDiscount />
+    <RenewalDiscount />
+    <CommutingDistance />
+    <AnnualDrivingDistance />
+    <BusinessUsePercentage />
+    <WinterTireDiscount />
+  </PolicyVehicleDT>
+  <PolicyVehicleDT>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <PolicyVehicleId>0700000000800011</PolicyVehicleId>
+    <PolicyDriverId />
+    <TerritoryCode>102</TerritoryCode>
+    <TerritoryDesc>Edmonton District</TerritoryDesc>
+    <TypeOfBusinessCode>1</TypeOfBusinessCode>
+    <ClassTypeOfUseCode>03</ClassTypeOfUseCode>
+    <UseCode>2</UseCode>
+    <PrincipalOperatorBirthYear>0</PrincipalOperatorBirthYear>
+    <PrincipalOperatorYearsLicenced>0</PrincipalOperatorYearsLicenced>
+    <PrincipalOperatorYearsLicencedExp>0</PrincipalOperatorYearsLicencedExp>
+    <PrincipalOperatorGender>U</PrincipalOperatorGender>
+    <YearsClaimFree>0</YearsClaimFree>
+    <YearsClaimFreeExp>0</YearsClaimFreeExp>
+    <YearsClaimFreeTP>0</YearsClaimFreeTP>
+    <YearsClaimFreeColl>0</YearsClaimFreeColl>
+    <YearsOtherClaimFreeTP>0</YearsOtherClaimFreeTP>
+    <YearsOtherClaimFreeColl>0</YearsOtherClaimFreeColl>
+    <FacilityAccidentCount>0</FacilityAccidentCount>
+    <FacilityAConvictionCount>0</FacilityAConvictionCount>
+    <FacilityBConvictionCount>0</FacilityBConvictionCount>
+    <FacilityCConvictionCount>0</FacilityCConvictionCount>
+    <VIN>JHLRD78556C801652</VIN>
+    <VINStatus>ST</VINStatus>
+    <VehicleCode>0271</VehicleCode>
+    <ModelYear>2006</ModelYear>
+    <ICPBReportReference />
+    <VehicleFixableInd />
+    <VehicleType>A</VehicleType>
+    <BodyTypeCode>MP</BodyTypeCode>
+    <DriveTypeCode>2</DriveTypeCode>
+    <CarCode>027100</CarCode>
+    <MakeEng>HONDA TRUCK/VAN</MakeEng>
+    <MakeFre>HONDA TRUCK/VAN</MakeFre>
+    <ModelEng>CR-V 4DR AWD</ModelEng>
+    <ModelFre>CR-V 4DR AWD</ModelFre>
+    <VehicleDescEng />
+    <VehicleDescFre />
+    <VehicleDescInd>N</VehicleDescInd>
+    <IAOSubClassType />
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <NumberOfClaims>0</NumberOfClaims>
+    <OtherOperatorCode>0</OtherOperatorCode>
+    <OtherOperatorMinimumYearsLicenced>0</OtherOperatorMinimumYearsLicenced>
+    <IAOUseCode />
+    <PolicyDriverCode>001</PolicyDriverCode>
+    <RIN />
+    <TerritoryFSA />
+    <MandatoryCoverage />
+    <TrailerIndicator />
+    <NewDriverDiscount />
+    <RetirementDiscount />
+    <CleanDriverIndicator />
+    <FADriverTrainingCode />
+    <FAInsuranceFraudConvictions />
+    <LastUpdateDate>00000000</LastUpdateDate>
+    <AfterMarketSecurityDevice>NA</AfterMarketSecurityDevice>
+    <LeasedVehicle>NA</LeasedVehicle>
+    <MultiCarDiscount />
+    <MultiLineDiscount />
+    <RenewalDiscount />
+    <CommutingDistance />
+    <AnnualDrivingDistance />
+    <BusinessUsePercentage />
+    <WinterTireDiscount />
+  </PolicyVehicleDT>
+  <PolicyVehicleDT>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <PolicyVehicleId>0700000000800012</PolicyVehicleId>
+    <PolicyDriverId />
+    <TerritoryCode>0</TerritoryCode>
+    <TerritoryDesc />
+    <TypeOfBusinessCode>1</TypeOfBusinessCode>
+    <ClassTypeOfUseCode>01</ClassTypeOfUseCode>
+    <UseCode>1</UseCode>
+    <PrincipalOperatorBirthYear>0</PrincipalOperatorBirthYear>
+    <PrincipalOperatorYearsLicenced>0</PrincipalOperatorYearsLicenced>
+    <PrincipalOperatorYearsLicencedExp>0</PrincipalOperatorYearsLicencedExp>
+    <PrincipalOperatorGender>U</PrincipalOperatorGender>
+    <YearsClaimFree>0</YearsClaimFree>
+    <YearsClaimFreeExp>0</YearsClaimFreeExp>
+    <YearsClaimFreeTP>0</YearsClaimFreeTP>
+    <YearsClaimFreeColl>0</YearsClaimFreeColl>
+    <YearsOtherClaimFreeTP>0</YearsOtherClaimFreeTP>
+    <YearsOtherClaimFreeColl>0</YearsOtherClaimFreeColl>
+    <FacilityAccidentCount>0</FacilityAccidentCount>
+    <FacilityAConvictionCount>0</FacilityAConvictionCount>
+    <FacilityBConvictionCount>0</FacilityBConvictionCount>
+    <FacilityCConvictionCount>0</FacilityCConvictionCount>
+    <VIN>JM1GD2432L1830464</VIN>
+    <VINStatus>ST</VINStatus>
+    <VehicleCode>0354</VehicleCode>
+    <ModelYear>1990</ModelYear>
+    <ICPBReportReference />
+    <VehicleFixableInd />
+    <VehicleType>A</VehicleType>
+    <BodyTypeCode>4D</BodyTypeCode>
+    <DriveTypeCode>1</DriveTypeCode>
+    <CarCode>035400</CarCode>
+    <MakeEng>MAZDA</MakeEng>
+    <MakeFre>MAZDA</MakeFre>
+    <ModelEng>626 GT TURBO 4DR</ModelEng>
+    <ModelFre>626 GT TURBO 4DR</ModelFre>
+    <VehicleDescEng />
+    <VehicleDescFre />
+    <VehicleDescInd>N</VehicleDescInd>
+    <IAOSubClassType />
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <NumberOfClaims>0</NumberOfClaims>
+    <OtherOperatorCode>0</OtherOperatorCode>
+    <OtherOperatorMinimumYearsLicenced>0</OtherOperatorMinimumYearsLicenced>
+    <IAOUseCode />
+    <PolicyDriverCode>001</PolicyDriverCode>
+    <RIN />
+    <TerritoryFSA />
+    <MandatoryCoverage />
+    <TrailerIndicator />
+    <NewDriverDiscount />
+    <RetirementDiscount />
+    <CleanDriverIndicator />
+    <FADriverTrainingCode />
+    <FAInsuranceFraudConvictions />
+    <LastUpdateDate>00000000</LastUpdateDate>
+    <AfterMarketSecurityDevice>NA</AfterMarketSecurityDevice>
+    <LeasedVehicle>NA</LeasedVehicle>
+    <MultiCarDiscount />
+    <MultiLineDiscount />
+    <RenewalDiscount />
+    <CommutingDistance />
+    <AnnualDrivingDistance />
+    <BusinessUsePercentage />
+    <WinterTireDiscount />
+  </PolicyVehicleDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <PolicyVehicleId>0700000000800004</PolicyVehicleId>
+    <CoverageCategoryCode>TP</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <PolicyVehicleId>0700000000800004</PolicyVehicleId>
+    <CoverageCategoryCode>AB</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <PolicyVehicleId>0700000000800007</PolicyVehicleId>
+    <CoverageCategoryCode>TP</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <PolicyVehicleId>0700000000800007</PolicyVehicleId>
+    <CoverageCategoryCode>AB</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <PolicyVehicleId>0700000000800008</PolicyVehicleId>
+    <CoverageCategoryCode>PE</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <PolicyVehicleId>0700000000800009</PolicyVehicleId>
+    <CoverageCategoryCode>TP</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <PolicyVehicleId>0700000000800009</PolicyVehicleId>
+    <CoverageCategoryCode>AB</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <PolicyVehicleId>0700000000800010</PolicyVehicleId>
+    <CoverageCategoryCode>TP</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <PolicyVehicleId>0700000000800010</PolicyVehicleId>
+    <CoverageCategoryCode>AB</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <PolicyVehicleId>0700000000800011</PolicyVehicleId>
+    <CoverageCategoryCode>TP</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <PolicyVehicleId>0700000000800011</PolicyVehicleId>
+    <CoverageCategoryCode>AB</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <PolicyVehicleId>0700000000800012</PolicyVehicleId>
+    <CoverageCategoryCode>TP</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <PolicyVehicleId>0700000000800012</PolicyVehicleId>
+    <CoverageCategoryCode>AB</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyHolderDT>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <PolicyHolderId>0700000000800003</PolicyHolderId>
+    <PolicyDriverId>0700000000800003</PolicyDriverId>
+    <DeletedInd>N</DeletedInd>
+    <FirstName> EDWARD</FirstName>
+    <MiddleName />
+    <LastName>SMITH</LastName>
+    <UnstructuredName>SMITH, EDWARD</UnstructuredName>
+    <StructuredNameInd>Y</StructuredNameInd>
+    <CompanyInd>N</CompanyInd>
+    <BirthYear>0</BirthYear>
+    <BirthMonth>0</BirthMonth>
+    <BirthDay>0</BirthDay>
+    <Gender>U</Gender>
+    <StreetAndUnit>456 ANY STREET</StreetAndUnit>
+    <City>EDMONTON</City>
+    <ProvinceCode>AB</ProvinceCode>
+    <PostalCode>T6P1P8</PostalCode>
+    <StructuredAddressInd>Y</StructuredAddressInd>
+    <UnstructuredAddress />
+  </PolicyHolderDT>
+  <PreviousInquiryDT>
+    <CompanyCodePolicyCompany>850</CompanyCodePolicyCompany>
+    <PolicyNumber>319500</PolicyNumber>
+    <InquiryIncidence>1</InquiryIncidence>
+    <CompanyCodeInquiryCompany>631</CompanyCodeInquiryCompany>
+    <CompanyName>Liberty Mutual Ins</CompanyName>
+    <InquiryYear>2016</InquiryYear>
+    <InquiryMonth>9</InquiryMonth>
+  </PreviousInquiryDT>
+  <PreviousInquiryDT>
+    <CompanyCodePolicyCompany>850</CompanyCodePolicyCompany>
+    <PolicyNumber>319500</PolicyNumber>
+    <InquiryIncidence>2</InquiryIncidence>
+    <CompanyCodeInquiryCompany>631</CompanyCodeInquiryCompany>
+    <CompanyName>Liberty Mutual Ins</CompanyName>
+    <InquiryYear>2016</InquiryYear>
+    <InquiryMonth>8</InquiryMonth>
+  </PreviousInquiryDT>
+  <PreviousInquiryDT>
+    <CompanyCodePolicyCompany>850</CompanyCodePolicyCompany>
+    <PolicyNumber>319500</PolicyNumber>
+    <InquiryIncidence>3</InquiryIncidence>
+    <CompanyCodeInquiryCompany>207</CompanyCodeInquiryCompany>
+    <CompanyName>Wawanesa Mutual Ins. Co., The</CompanyName>
+    <InquiryYear>2016</InquiryYear>
+    <InquiryMonth>7</InquiryMonth>
+  </PreviousInquiryDT>
+  <PolicyClaimDT>
+    <ClaimId>070000000080001200000</ClaimId>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <ClaimYear>2005</ClaimYear>
+    <ClaimMonth>9</ClaimMonth>
+    <ClaimDay>15</ClaimDay>
+    <ExpenseAmt>1200</ExpenseAmt>
+    <ClassTypeOfUseCode>01</ClassTypeOfUseCode>
+    <UseCode>1</UseCode>
+    <TPLClaimFreeYears>0</TPLClaimFreeYears>
+    <CollClaimFreeYears>0</CollClaimFreeYears>
+    <DriverBirthYear>1930</DriverBirthYear>
+    <DriverYearsLicenced>9</DriverYearsLicenced>
+    <DriverYearsLicencedExp>9</DriverYearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <DriverGender>U</DriverGender>
+    <ExcludedDriverInd>0</ExcludedDriverInd>
+    <PolicyVehicleId>0700000000800012</PolicyVehicleId>
+    <IAOCompanyInd>N</IAOCompanyInd>
+    <Source>IBC</Source>
+  </PolicyClaimDT>
+  <PolicyClaimDT>
+    <ClaimId>070000000080001100000</ClaimId>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <ClaimYear>2010</ClaimYear>
+    <ClaimMonth>1</ClaimMonth>
+    <ClaimDay>15</ClaimDay>
+    <ExpenseAmt>600</ExpenseAmt>
+    <ClassTypeOfUseCode>01</ClassTypeOfUseCode>
+    <UseCode>1</UseCode>
+    <TPLClaimFreeYears>0</TPLClaimFreeYears>
+    <CollClaimFreeYears>0</CollClaimFreeYears>
+    <DriverBirthYear>0</DriverBirthYear>
+    <DriverYearsLicenced>0</DriverYearsLicenced>
+    <DriverYearsLicencedExp>0</DriverYearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <DriverGender>U</DriverGender>
+    <ExcludedDriverInd>0</ExcludedDriverInd>
+    <PolicyVehicleId>0700000000800011</PolicyVehicleId>
+    <IAOCompanyInd>N</IAOCompanyInd>
+    <Source>IBC</Source>
+  </PolicyClaimDT>
+  <PolicyClaimDT>
+    <ClaimId>070000000080000600000</ClaimId>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <ClaimYear>2007</ClaimYear>
+    <ClaimMonth>10</ClaimMonth>
+    <ClaimDay>25</ClaimDay>
+    <ExpenseAmt>0</ExpenseAmt>
+    <ClassTypeOfUseCode>02</ClassTypeOfUseCode>
+    <UseCode>2</UseCode>
+    <TPLClaimFreeYears>6</TPLClaimFreeYears>
+    <CollClaimFreeYears>6</CollClaimFreeYears>
+    <DriverBirthYear>1960</DriverBirthYear>
+    <DriverYearsLicenced>9</DriverYearsLicenced>
+    <DriverYearsLicencedExp>9</DriverYearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <DriverGender>F</DriverGender>
+    <ExcludedDriverInd>0</ExcludedDriverInd>
+    <LastUpdateDate>2007-11-14T00:00:00-05:00</LastUpdateDate>
+    <PolicyVehicleId>0700000000800006</PolicyVehicleId>
+    <IAOCompanyInd>N</IAOCompanyInd>
+    <Source>IBC</Source>
+  </PolicyClaimDT>
+  <PolicyClaimDT>
+    <ClaimId>070000000080000500000</ClaimId>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <ClaimYear>2007</ClaimYear>
+    <ClaimMonth>10</ClaimMonth>
+    <ClaimDay>25</ClaimDay>
+    <ExpenseAmt>100</ExpenseAmt>
+    <ClassTypeOfUseCode>02</ClassTypeOfUseCode>
+    <UseCode>2</UseCode>
+    <TPLClaimFreeYears>6</TPLClaimFreeYears>
+    <CollClaimFreeYears>6</CollClaimFreeYears>
+    <DriverBirthYear>1960</DriverBirthYear>
+    <DriverYearsLicenced>9</DriverYearsLicenced>
+    <DriverYearsLicencedExp>9</DriverYearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <DriverGender>F</DriverGender>
+    <ExcludedDriverInd>0</ExcludedDriverInd>
+    <LastUpdateDate>2007-11-14T00:00:00-05:00</LastUpdateDate>
+    <PolicyVehicleId>0700000000800005</PolicyVehicleId>
+    <IAOCompanyInd>N</IAOCompanyInd>
+    <Source>IBC</Source>
+  </PolicyClaimDT>
+  <PolicyClaimDT>
+    <ClaimId>070000000080000400002</ClaimId>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <ClaimYear>2012</ClaimYear>
+    <ClaimMonth>1</ClaimMonth>
+    <ClaimDay>26</ClaimDay>
+    <ExpenseAmt>700</ExpenseAmt>
+    <ClassTypeOfUseCode>01</ClassTypeOfUseCode>
+    <UseCode>1</UseCode>
+    <TPLClaimFreeYears>0</TPLClaimFreeYears>
+    <CollClaimFreeYears>0</CollClaimFreeYears>
+    <DriverBirthYear>0</DriverBirthYear>
+    <DriverYearsLicenced>0</DriverYearsLicenced>
+    <DriverYearsLicencedExp>0</DriverYearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <DriverGender>U</DriverGender>
+    <ExcludedDriverInd>0</ExcludedDriverInd>
+    <PolicyVehicleId>0700000000800004</PolicyVehicleId>
+    <IAOCompanyInd>N</IAOCompanyInd>
+    <Source>IBC</Source>
+  </PolicyClaimDT>
+  <PolicyClaimDT>
+    <ClaimId>070000000080000400001</ClaimId>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <ClaimYear>2007</ClaimYear>
+    <ClaimMonth>2</ClaimMonth>
+    <ClaimDay>3</ClaimDay>
+    <ExpenseAmt>0</ExpenseAmt>
+    <ClassTypeOfUseCode>00</ClassTypeOfUseCode>
+    <UseCode>0</UseCode>
+    <TPLClaimFreeYears>0</TPLClaimFreeYears>
+    <CollClaimFreeYears>0</CollClaimFreeYears>
+    <DriverBirthYear>0</DriverBirthYear>
+    <DriverYearsLicenced>0</DriverYearsLicenced>
+    <DriverYearsLicencedExp>0</DriverYearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <DriverGender>U</DriverGender>
+    <ExcludedDriverInd>0</ExcludedDriverInd>
+    <LastUpdateDate>2011-04-19T00:00:00-04:00</LastUpdateDate>
+    <PolicyVehicleId>0700000000800004</PolicyVehicleId>
+    <IAOCompanyInd>N</IAOCompanyInd>
+    <Source>IBC</Source>
+  </PolicyClaimDT>
+  <PolicyClaimDT>
+    <ClaimId>070000000080000400000</ClaimId>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <ClaimYear>2004</ClaimYear>
+    <ClaimMonth>12</ClaimMonth>
+    <ClaimDay>22</ClaimDay>
+    <ExpenseAmt>100</ExpenseAmt>
+    <ClassTypeOfUseCode>01</ClassTypeOfUseCode>
+    <UseCode>1</UseCode>
+    <TPLClaimFreeYears>6</TPLClaimFreeYears>
+    <CollClaimFreeYears>6</CollClaimFreeYears>
+    <DriverBirthYear>1930</DriverBirthYear>
+    <DriverYearsLicenced>9</DriverYearsLicenced>
+    <DriverYearsLicencedExp>9</DriverYearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <DriverGender>M</DriverGender>
+    <ExcludedDriverInd>0</ExcludedDriverInd>
+    <LastUpdateDate>2007-11-14T00:00:00-05:00</LastUpdateDate>
+    <PolicyVehicleId>0700000000800004</PolicyVehicleId>
+    <IAOCompanyInd>N</IAOCompanyInd>
+    <Source>IBC</Source>
+  </PolicyClaimDT>
+  <PolicyClaimDT>
+    <ClaimId>070000000080000300000</ClaimId>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <ClaimYear>2008</ClaimYear>
+    <ClaimMonth>2</ClaimMonth>
+    <ClaimDay>4</ClaimDay>
+    <ExpenseAmt>0</ExpenseAmt>
+    <ClassTypeOfUseCode>02</ClassTypeOfUseCode>
+    <UseCode>2</UseCode>
+    <TPLClaimFreeYears>5</TPLClaimFreeYears>
+    <CollClaimFreeYears>5</CollClaimFreeYears>
+    <DriverBirthYear>1980</DriverBirthYear>
+    <DriverYearsLicenced>5</DriverYearsLicenced>
+    <DriverYearsLicencedExp>5</DriverYearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <DriverGender>F</DriverGender>
+    <ExcludedDriverInd>0</ExcludedDriverInd>
+    <LastUpdateDate>2007-11-14T00:00:00-05:00</LastUpdateDate>
+    <PolicyVehicleId>0700000000800003</PolicyVehicleId>
+    <IAOCompanyInd>N</IAOCompanyInd>
+    <Source>IBC</Source>
+  </PolicyClaimDT>
+  <PolicyClaimDT>
+    <ClaimId>070000000080000200000</ClaimId>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <ClaimYear>2004</ClaimYear>
+    <ClaimMonth>2</ClaimMonth>
+    <ClaimDay>15</ClaimDay>
+    <ExpenseAmt>0</ExpenseAmt>
+    <ClassTypeOfUseCode>02</ClassTypeOfUseCode>
+    <UseCode>2</UseCode>
+    <TPLClaimFreeYears>6</TPLClaimFreeYears>
+    <CollClaimFreeYears>6</CollClaimFreeYears>
+    <DriverBirthYear>1967</DriverBirthYear>
+    <DriverYearsLicenced>9</DriverYearsLicenced>
+    <DriverYearsLicencedExp>9</DriverYearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <DriverGender>M</DriverGender>
+    <ExcludedDriverInd>0</ExcludedDriverInd>
+    <LastUpdateDate>2007-11-14T00:00:00-05:00</LastUpdateDate>
+    <PolicyVehicleId>0700000000800002</PolicyVehicleId>
+    <IAOCompanyInd>N</IAOCompanyInd>
+    <Source>IBC</Source>
+  </PolicyClaimDT>
+  <PolicyClaimDT>
+    <ClaimId>070000000080000100000</ClaimId>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <ClaimYear>2008</ClaimYear>
+    <ClaimMonth>1</ClaimMonth>
+    <ClaimDay>1</ClaimDay>
+    <ExpenseAmt>0</ExpenseAmt>
+    <ClassTypeOfUseCode>02</ClassTypeOfUseCode>
+    <UseCode>2</UseCode>
+    <TPLClaimFreeYears>7</TPLClaimFreeYears>
+    <CollClaimFreeYears>7</CollClaimFreeYears>
+    <DriverBirthYear>1960</DriverBirthYear>
+    <DriverYearsLicenced>0</DriverYearsLicenced>
+    <DriverYearsLicencedExp>17</DriverYearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <DriverGender>F</DriverGender>
+    <ExcludedDriverInd>0</ExcludedDriverInd>
+    <LastUpdateDate>2007-11-14T00:00:00-05:00</LastUpdateDate>
+    <PolicyVehicleId>0700000000800001</PolicyVehicleId>
+    <IAOCompanyInd>N</IAOCompanyInd>
+    <Source>IBC</Source>
+  </PolicyClaimDT>
+  <PolicyClaimDT>
+    <ClaimId>070000000080000000001</ClaimId>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <ClaimYear>2012</ClaimYear>
+    <ClaimMonth>1</ClaimMonth>
+    <ClaimDay>26</ClaimDay>
+    <ExpenseAmt>300</ExpenseAmt>
+    <ClassTypeOfUseCode>01</ClassTypeOfUseCode>
+    <UseCode>1</UseCode>
+    <TPLClaimFreeYears>0</TPLClaimFreeYears>
+    <CollClaimFreeYears>0</CollClaimFreeYears>
+    <DriverBirthYear>0</DriverBirthYear>
+    <DriverYearsLicenced>0</DriverYearsLicenced>
+    <DriverYearsLicencedExp>0</DriverYearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <DriverGender>U</DriverGender>
+    <ExcludedDriverInd>0</ExcludedDriverInd>
+    <PolicyVehicleId>0700000000800000</PolicyVehicleId>
+    <IAOCompanyInd>N</IAOCompanyInd>
+    <Source>IBC</Source>
+  </PolicyClaimDT>
+  <PolicyClaimDT>
+    <ClaimId>070000000080000000000</ClaimId>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <ClaimYear>2008</ClaimYear>
+    <ClaimMonth>1</ClaimMonth>
+    <ClaimDay>1</ClaimDay>
+    <ExpenseAmt>0</ExpenseAmt>
+    <ClassTypeOfUseCode>02</ClassTypeOfUseCode>
+    <UseCode>2</UseCode>
+    <TPLClaimFreeYears>4</TPLClaimFreeYears>
+    <CollClaimFreeYears>4</CollClaimFreeYears>
+    <DriverBirthYear>1954</DriverBirthYear>
+    <DriverYearsLicenced>4</DriverYearsLicenced>
+    <DriverYearsLicencedExp>4</DriverYearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <DriverGender>M</DriverGender>
+    <ExcludedDriverInd>0</ExcludedDriverInd>
+    <LastUpdateDate>2007-11-14T00:00:00-05:00</LastUpdateDate>
+    <PolicyVehicleId>0700000000800000</PolicyVehicleId>
+    <IAOCompanyInd>N</IAOCompanyInd>
+    <Source>IBC</Source>
+  </PolicyClaimDT>
+  <PolicyClaimVehicleDT>
+    <ClaimId>070000000080001200000</ClaimId>
+    <PolicyVehicleId>0700000000800012</PolicyVehicleId>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <VIN>JM1GD2432L1830464</VIN>
+    <ModelYear>1990</ModelYear>
+    <MakeEng>MAZDA</MakeEng>
+    <MakeFre>MAZDA</MakeFre>
+    <ModelEng>626 GT TURBO 4DR</ModelEng>
+    <ModelFre>626 GT TURBO 4DR</ModelFre>
+    <VehicleType>A</VehicleType>
+    <BodyTypeCode>4D</BodyTypeCode>
+    <DriveTypeCode>1</DriveTypeCode>
+    <CarCode>035400</CarCode>
+    <VehicleFixableInd />
+    <VINStatus>ST</VINStatus>
+    <VehicleCode>0354</VehicleCode>
+    <ClassTypeOfUseCode>01</ClassTypeOfUseCode>
+    <UseCode>1</UseCode>
+    <VehicleDescEng />
+    <VehicleDescFre />
+    <VehicleDescInd>N</VehicleDescInd>
+  </PolicyClaimVehicleDT>
+  <PolicyClaimVehicleDT>
+    <ClaimId>070000000080001100000</ClaimId>
+    <PolicyVehicleId>0700000000800011</PolicyVehicleId>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <VIN>JHLRD78556C801652</VIN>
+    <ModelYear>2006</ModelYear>
+    <MakeEng>HONDA TRUCK/VAN</MakeEng>
+    <MakeFre>HONDA TRUCK/VAN</MakeFre>
+    <ModelEng>CR-V 4DR AWD</ModelEng>
+    <ModelFre>CR-V 4DR AWD</ModelFre>
+    <VehicleType>A</VehicleType>
+    <BodyTypeCode>MP</BodyTypeCode>
+    <DriveTypeCode>2</DriveTypeCode>
+    <CarCode>027100</CarCode>
+    <VehicleFixableInd />
+    <VINStatus>ST</VINStatus>
+    <VehicleCode>0271</VehicleCode>
+    <ClassTypeOfUseCode>03</ClassTypeOfUseCode>
+    <UseCode>2</UseCode>
+    <VehicleDescEng />
+    <VehicleDescFre />
+    <VehicleDescInd>N</VehicleDescInd>
+  </PolicyClaimVehicleDT>
+  <PolicyClaimVehicleDT>
+    <ClaimId>070000000080000600000</ClaimId>
+    <PolicyVehicleId>0700000000800006</PolicyVehicleId>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <VIN>JH4KA4646JC800890</VIN>
+    <ModelYear>1995</ModelYear>
+    <MakeEng>GMC TRUCK/VAN</MakeEng>
+    <MakeFre>GMC TRUCK/VAN</MakeFre>
+    <ModelEng>JIMMY S SERIES 4DR 4WD</ModelEng>
+    <ModelFre>JIMMY S SERIES 4DR 4WD</ModelFre>
+    <VehicleType>A</VehicleType>
+    <BodyTypeCode>MP</BodyTypeCode>
+    <DriveTypeCode>2</DriveTypeCode>
+    <CarCode>670600</CarCode>
+    <VehicleFixableInd />
+    <VINStatus>ST</VINStatus>
+    <VehicleCode>6706</VehicleCode>
+    <ClassTypeOfUseCode>00</ClassTypeOfUseCode>
+    <UseCode>0</UseCode>
+    <VehicleDescEng />
+    <VehicleDescFre />
+    <VehicleDescInd>N</VehicleDescInd>
+  </PolicyClaimVehicleDT>
+  <PolicyClaimVehicleDT>
+    <ClaimId>070000000080000500000</ClaimId>
+    <PolicyVehicleId>0700000000800005</PolicyVehicleId>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <VIN>1FAFP33P6YW215090</VIN>
+    <ModelYear>1995</ModelYear>
+    <MakeEng>GMC TRUCK/VAN</MakeEng>
+    <MakeFre>GMC TRUCK/VAN</MakeFre>
+    <ModelEng>JIMMY S SERIES 4DR 4WD</ModelEng>
+    <ModelFre>JIMMY S SERIES 4DR 4WD</ModelFre>
+    <VehicleType>A</VehicleType>
+    <BodyTypeCode>MP</BodyTypeCode>
+    <DriveTypeCode>2</DriveTypeCode>
+    <CarCode>670600</CarCode>
+    <VehicleFixableInd />
+    <VINStatus>ST</VINStatus>
+    <VehicleCode>6706</VehicleCode>
+    <ClassTypeOfUseCode>00</ClassTypeOfUseCode>
+    <UseCode>0</UseCode>
+    <VehicleDescEng />
+    <VehicleDescFre />
+    <VehicleDescInd>N</VehicleDescInd>
+  </PolicyClaimVehicleDT>
+  <PolicyClaimVehicleDT>
+    <ClaimId>070000000080000400002</ClaimId>
+    <PolicyVehicleId>0700000000800004</PolicyVehicleId>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <VIN>5N1AR18W15C771321</VIN>
+    <ModelYear>2005</ModelYear>
+    <MakeEng>NISSAN TRUCK/VAN</MakeEng>
+    <MakeFre>NISSAN TRUCK/VAN</MakeFre>
+    <ModelEng>PATHFINDER LE 4DR 4WD</ModelEng>
+    <ModelFre>PATHFINDER LE 4DR 4WD</ModelFre>
+    <VehicleType>A</VehicleType>
+    <BodyTypeCode>MP</BodyTypeCode>
+    <DriveTypeCode>2</DriveTypeCode>
+    <CarCode>091300</CarCode>
+    <VehicleFixableInd />
+    <VINStatus>ST</VINStatus>
+    <VehicleCode>0913</VehicleCode>
+    <ClassTypeOfUseCode>00</ClassTypeOfUseCode>
+    <UseCode>0</UseCode>
+    <VehicleDescEng />
+    <VehicleDescFre />
+    <VehicleDescInd>N</VehicleDescInd>
+  </PolicyClaimVehicleDT>
+  <PolicyClaimVehicleDT>
+    <ClaimId>070000000080000400001</ClaimId>
+    <PolicyVehicleId>0700000000800004</PolicyVehicleId>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <VIN>5N1AR18W15C771321</VIN>
+    <ModelYear>2005</ModelYear>
+    <MakeEng>NISSAN TRUCK/VAN</MakeEng>
+    <MakeFre>NISSAN TRUCK/VAN</MakeFre>
+    <ModelEng>PATHFINDER LE 4DR 4WD</ModelEng>
+    <ModelFre>PATHFINDER LE 4DR 4WD</ModelFre>
+    <VehicleType>A</VehicleType>
+    <BodyTypeCode>MP</BodyTypeCode>
+    <DriveTypeCode>2</DriveTypeCode>
+    <CarCode>091300</CarCode>
+    <VehicleFixableInd />
+    <VINStatus>ST</VINStatus>
+    <VehicleCode>0913</VehicleCode>
+    <ClassTypeOfUseCode>00</ClassTypeOfUseCode>
+    <UseCode>0</UseCode>
+    <VehicleDescEng />
+    <VehicleDescFre />
+    <VehicleDescInd>N</VehicleDescInd>
+  </PolicyClaimVehicleDT>
+  <PolicyClaimVehicleDT>
+    <ClaimId>070000000080000400000</ClaimId>
+    <PolicyVehicleId>0700000000800004</PolicyVehicleId>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <VIN>5N1AR18W15C771321</VIN>
+    <ModelYear>2005</ModelYear>
+    <MakeEng>NISSAN TRUCK/VAN</MakeEng>
+    <MakeFre>NISSAN TRUCK/VAN</MakeFre>
+    <ModelEng>PATHFINDER LE 4DR 4WD</ModelEng>
+    <ModelFre>PATHFINDER LE 4DR 4WD</ModelFre>
+    <VehicleType>A</VehicleType>
+    <BodyTypeCode>MP</BodyTypeCode>
+    <DriveTypeCode>2</DriveTypeCode>
+    <CarCode>091300</CarCode>
+    <VehicleFixableInd />
+    <VINStatus>ST</VINStatus>
+    <VehicleCode>0913</VehicleCode>
+    <ClassTypeOfUseCode>00</ClassTypeOfUseCode>
+    <UseCode>0</UseCode>
+    <VehicleDescEng />
+    <VehicleDescFre />
+    <VehicleDescInd>N</VehicleDescInd>
+  </PolicyClaimVehicleDT>
+  <PolicyClaimVehicleDT>
+    <ClaimId>070000000080000300000</ClaimId>
+    <PolicyVehicleId>0700000000800003</PolicyVehicleId>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <VIN>2FMZA5141YBA66954</VIN>
+    <ModelYear>2000</ModelYear>
+    <MakeEng>FORD TRUCK/VAN</MakeEng>
+    <MakeFre>FORD TRUCK/VAN</MakeFre>
+    <ModelEng>WINDSTAR LX</ModelEng>
+    <ModelFre>WINDSTAR LX</ModelFre>
+    <VehicleType>A</VehicleType>
+    <BodyTypeCode>PV</BodyTypeCode>
+    <DriveTypeCode>1</DriveTypeCode>
+    <CarCode>327700</CarCode>
+    <VehicleFixableInd />
+    <VINStatus>ST</VINStatus>
+    <VehicleCode>3277</VehicleCode>
+    <ClassTypeOfUseCode>00</ClassTypeOfUseCode>
+    <UseCode>0</UseCode>
+    <VehicleDescEng />
+    <VehicleDescFre />
+    <VehicleDescInd>N</VehicleDescInd>
+  </PolicyClaimVehicleDT>
+  <PolicyClaimVehicleDT>
+    <ClaimId>070000000080000200000</ClaimId>
+    <PolicyVehicleId>0700000000800002</PolicyVehicleId>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <VIN>1FAFP33P6YW210374</VIN>
+    <ModelYear>1999</ModelYear>
+    <MakeEng>FORD TRUCK/VAN</MakeEng>
+    <MakeFre>FORD TRUCK/VAN</MakeFre>
+    <ModelEng>F150 REG CAB 4WD</ModelEng>
+    <ModelFre>F150 REG CAB 4WD</ModelFre>
+    <VehicleType>A</VehicleType>
+    <BodyTypeCode>1P</BodyTypeCode>
+    <DriveTypeCode>2</DriveTypeCode>
+    <CarCode>363500</CarCode>
+    <VehicleFixableInd />
+    <VINStatus>ST</VINStatus>
+    <VehicleCode>3635</VehicleCode>
+    <ClassTypeOfUseCode>00</ClassTypeOfUseCode>
+    <UseCode>0</UseCode>
+    <VehicleDescEng />
+    <VehicleDescFre />
+    <VehicleDescInd>N</VehicleDescInd>
+  </PolicyClaimVehicleDT>
+  <PolicyClaimVehicleDT>
+    <ClaimId>070000000080000100000</ClaimId>
+    <PolicyVehicleId>0700000000800001</PolicyVehicleId>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <VIN>1FAFP33P6YW210374</VIN>
+    <ModelYear>2000</ModelYear>
+    <MakeEng>FORD TRUCK/VAN</MakeEng>
+    <MakeFre>FORD TRUCK/VAN</MakeFre>
+    <ModelEng>WINDSTAR LX</ModelEng>
+    <ModelFre>WINDSTAR LX</ModelFre>
+    <VehicleType>A</VehicleType>
+    <BodyTypeCode>PV</BodyTypeCode>
+    <DriveTypeCode>1</DriveTypeCode>
+    <CarCode>327700</CarCode>
+    <VehicleFixableInd />
+    <VINStatus>ST</VINStatus>
+    <VehicleCode>3277</VehicleCode>
+    <ClassTypeOfUseCode>00</ClassTypeOfUseCode>
+    <UseCode>0</UseCode>
+    <VehicleDescEng />
+    <VehicleDescFre />
+    <VehicleDescInd>N</VehicleDescInd>
+  </PolicyClaimVehicleDT>
+  <PolicyClaimVehicleDT>
+    <ClaimId>070000000080000000001</ClaimId>
+    <PolicyVehicleId>0700000000800000</PolicyVehicleId>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <VIN>1FAFP33P6YW210374</VIN>
+    <ModelYear>1999</ModelYear>
+    <MakeEng>TOYOTA TRUCK/VAN</MakeEng>
+    <MakeFre>TOYOTA TRUCK/VAN</MakeFre>
+    <ModelEng>SIENNA CE V6</ModelEng>
+    <ModelFre>SIENNA CE V6</ModelFre>
+    <VehicleType>A</VehicleType>
+    <BodyTypeCode>PV</BodyTypeCode>
+    <DriveTypeCode>1</DriveTypeCode>
+    <CarCode>764100</CarCode>
+    <VehicleFixableInd />
+    <VINStatus>ST</VINStatus>
+    <VehicleCode>7641</VehicleCode>
+    <ClassTypeOfUseCode>00</ClassTypeOfUseCode>
+    <UseCode>0</UseCode>
+    <VehicleDescEng />
+    <VehicleDescFre />
+    <VehicleDescInd>N</VehicleDescInd>
+  </PolicyClaimVehicleDT>
+  <PolicyClaimVehicleDT>
+    <ClaimId>070000000080000000000</ClaimId>
+    <PolicyVehicleId>0700000000800000</PolicyVehicleId>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <VIN>1FAFP33P6YW210374</VIN>
+    <ModelYear>1999</ModelYear>
+    <MakeEng>TOYOTA TRUCK/VAN</MakeEng>
+    <MakeFre>TOYOTA TRUCK/VAN</MakeFre>
+    <ModelEng>SIENNA CE V6</ModelEng>
+    <ModelFre>SIENNA CE V6</ModelFre>
+    <VehicleType>A</VehicleType>
+    <BodyTypeCode>PV</BodyTypeCode>
+    <DriveTypeCode>1</DriveTypeCode>
+    <CarCode>764100</CarCode>
+    <VehicleFixableInd />
+    <VINStatus>ST</VINStatus>
+    <VehicleCode>7641</VehicleCode>
+    <ClassTypeOfUseCode>00</ClassTypeOfUseCode>
+    <UseCode>0</UseCode>
+    <VehicleDescEng />
+    <VehicleDescFre />
+    <VehicleDescInd>N</VehicleDescInd>
+  </PolicyClaimVehicleDT>
+  <PolicyClaimFirstPartyAccidentDriverDT>
+    <ClaimId>070000000080000600000</ClaimId>
+    <PolicyDriverId>0700000000800002</PolicyDriverId>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <DeletedInd>N</DeletedInd>
+    <LicenceNumberStatus>VL</LicenceNumberStatus>
+    <DriverRelationshipCode>PRN</DriverRelationshipCode>
+    <PrincipalOperatorInd>N</PrincipalOperatorInd>
+    <PolicyVehicleId>0700000000800006</PolicyVehicleId>
+    <LicenceProvinceCode>AB</LicenceProvinceCode>
+    <LicenceNumber>043335199</LicenceNumber>
+    <YearsLicenced>0</YearsLicenced>
+    <YearsLicencedExp>29</YearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <FirstName>EDWARD</FirstName>
+    <MiddleName />
+    <LastName>SMITH</LastName>
+    <UnstructuredName>SMITH, EDWARD</UnstructuredName>
+    <StructuredNameInd>Y</StructuredNameInd>
+    <CompanyInd>N</CompanyInd>
+    <BirthYear>0</BirthYear>
+    <BirthMonth>0</BirthMonth>
+    <BirthDay>0</BirthDay>
+    <Gender>M</Gender>
+    <NameAvailableInd>Y</NameAvailableInd>
+    <AtFaultInd>U</AtFaultInd>
+    <AtFaultPct>0</AtFaultPct>
+    <PolicyDriverClaimCode />
+    <LastUpdateDate>20071114</LastUpdateDate>
+  </PolicyClaimFirstPartyAccidentDriverDT>
+  <PolicyClaimFirstPartyAccidentDriverDT>
+    <ClaimId>070000000080000500000</ClaimId>
+    <PolicyDriverId>0700000000800002</PolicyDriverId>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <DeletedInd>N</DeletedInd>
+    <LicenceNumberStatus>VL</LicenceNumberStatus>
+    <DriverRelationshipCode>PRN</DriverRelationshipCode>
+    <PrincipalOperatorInd>N</PrincipalOperatorInd>
+    <PolicyVehicleId>0700000000800005</PolicyVehicleId>
+    <LicenceProvinceCode>AB</LicenceProvinceCode>
+    <LicenceNumber>043335199</LicenceNumber>
+    <YearsLicenced>0</YearsLicenced>
+    <YearsLicencedExp>29</YearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <FirstName>EDWARD</FirstName>
+    <MiddleName />
+    <LastName>SMITH</LastName>
+    <UnstructuredName>SMITH, EDWARD</UnstructuredName>
+    <StructuredNameInd>Y</StructuredNameInd>
+    <CompanyInd>N</CompanyInd>
+    <BirthYear>0</BirthYear>
+    <BirthMonth>0</BirthMonth>
+    <BirthDay>0</BirthDay>
+    <Gender>M</Gender>
+    <NameAvailableInd>Y</NameAvailableInd>
+    <AtFaultInd>U</AtFaultInd>
+    <AtFaultPct>0</AtFaultPct>
+    <PolicyDriverClaimCode />
+    <LastUpdateDate>20071114</LastUpdateDate>
+  </PolicyClaimFirstPartyAccidentDriverDT>
+  <PolicyClaimFirstPartyAccidentDriverDT>
+    <ClaimId>070000000080000400000</ClaimId>
+    <PolicyDriverId>0700000000800002</PolicyDriverId>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <DeletedInd>N</DeletedInd>
+    <LicenceNumberStatus>VL</LicenceNumberStatus>
+    <DriverRelationshipCode>PRN</DriverRelationshipCode>
+    <PrincipalOperatorInd>N</PrincipalOperatorInd>
+    <PolicyVehicleId>0700000000800004</PolicyVehicleId>
+    <LicenceProvinceCode>AB</LicenceProvinceCode>
+    <LicenceNumber>043335199</LicenceNumber>
+    <YearsLicenced>0</YearsLicenced>
+    <YearsLicencedExp>29</YearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <FirstName>EDWARD</FirstName>
+    <MiddleName />
+    <LastName>SMITH</LastName>
+    <UnstructuredName>SMITH, EDWARD</UnstructuredName>
+    <StructuredNameInd>Y</StructuredNameInd>
+    <CompanyInd>N</CompanyInd>
+    <BirthYear>0</BirthYear>
+    <BirthMonth>0</BirthMonth>
+    <BirthDay>0</BirthDay>
+    <Gender>M</Gender>
+    <NameAvailableInd>Y</NameAvailableInd>
+    <AtFaultInd>U</AtFaultInd>
+    <AtFaultPct>0</AtFaultPct>
+    <PolicyDriverClaimCode />
+    <LastUpdateDate>20071114</LastUpdateDate>
+  </PolicyClaimFirstPartyAccidentDriverDT>
+  <PolicyClaimFirstPartyAccidentDriverDT>
+    <ClaimId>070000000080000300000</ClaimId>
+    <PolicyDriverId>0700000000800000</PolicyDriverId>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <DeletedInd>N</DeletedInd>
+    <LicenceNumberStatus>VL</LicenceNumberStatus>
+    <DriverRelationshipCode>OTH</DriverRelationshipCode>
+    <PrincipalOperatorInd>N</PrincipalOperatorInd>
+    <PolicyVehicleId>0700000000800003</PolicyVehicleId>
+    <LicenceProvinceCode>ON</LicenceProvinceCode>
+    <LicenceNumber>A12341234805101</LicenceNumber>
+    <YearsLicenced>0</YearsLicenced>
+    <YearsLicencedExp>0</YearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <FirstName>ASP</FirstName>
+    <MiddleName />
+    <LastName>SIT</LastName>
+    <UnstructuredName>SIT, ASP</UnstructuredName>
+    <StructuredNameInd>Y</StructuredNameInd>
+    <CompanyInd>N</CompanyInd>
+    <BirthYear>1980</BirthYear>
+    <BirthMonth>1</BirthMonth>
+    <BirthDay>1</BirthDay>
+    <Gender>F</Gender>
+    <NameAvailableInd>Y</NameAvailableInd>
+    <AtFaultInd>U</AtFaultInd>
+    <AtFaultPct>0</AtFaultPct>
+    <PolicyDriverClaimCode />
+    <LastUpdateDate>20071114</LastUpdateDate>
+  </PolicyClaimFirstPartyAccidentDriverDT>
+  <PolicyClaimFirstPartyAccidentDriverDT>
+    <ClaimId>070000000080000100000</ClaimId>
+    <PolicyDriverId>0700000000800000</PolicyDriverId>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <DeletedInd>N</DeletedInd>
+    <LicenceNumberStatus>VL</LicenceNumberStatus>
+    <DriverRelationshipCode>OTH</DriverRelationshipCode>
+    <PrincipalOperatorInd>N</PrincipalOperatorInd>
+    <PolicyVehicleId>0700000000800001</PolicyVehicleId>
+    <LicenceProvinceCode>ON</LicenceProvinceCode>
+    <LicenceNumber>A12341234805101</LicenceNumber>
+    <YearsLicenced>0</YearsLicenced>
+    <YearsLicencedExp>0</YearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <FirstName>ASP</FirstName>
+    <MiddleName />
+    <LastName>SIT</LastName>
+    <UnstructuredName>SIT, ASP</UnstructuredName>
+    <StructuredNameInd>Y</StructuredNameInd>
+    <CompanyInd>N</CompanyInd>
+    <BirthYear>1980</BirthYear>
+    <BirthMonth>1</BirthMonth>
+    <BirthDay>1</BirthDay>
+    <Gender>F</Gender>
+    <NameAvailableInd>Y</NameAvailableInd>
+    <AtFaultInd>U</AtFaultInd>
+    <AtFaultPct>50</AtFaultPct>
+    <PolicyDriverClaimCode />
+    <LastUpdateDate>20071114</LastUpdateDate>
+  </PolicyClaimFirstPartyAccidentDriverDT>
+  <PolicyClaimThirdPartyAccidentDriverDT>
+    <ClaimId>070000000080000300000</ClaimId>
+    <PolicyDriverId>0700000000800001</PolicyDriverId>
+    <NameAvailableInd>Y</NameAvailableInd>
+    <LicenceNumberStatus>BL</LicenceNumberStatus>
+    <CompanyCode>000</CompanyCode>
+    <PolicyNumber>00000</PolicyNumber>
+    <UtilizationCode>L</UtilizationCode>
+    <LicenceProvinceCode>ON</LicenceProvinceCode>
+    <LicenceNumber>***************</LicenceNumber>
+    <YearsLicenced>00</YearsLicenced>
+    <YearsLicencedExp>00</YearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <FirstName />
+    <MiddleName />
+    <LastName>***************</LastName>
+    <UnstructuredName>***************</UnstructuredName>
+    <StructuredNameInd>Y</StructuredNameInd>
+    <CompanyInd>N</CompanyInd>
+    <BirthYear>0</BirthYear>
+    <BirthMonth>0</BirthMonth>
+    <BirthDay>0</BirthDay>
+    <Gender>U</Gender>
+    <PolicyDriverClaimCode />
+    <LastUpdateDate>20071114</LastUpdateDate>
+    <PolicyNumberExp>00000</PolicyNumberExp>
+  </PolicyClaimThirdPartyAccidentDriverDT>
+  <PolicyClaimThirdPartyAccidentDriverDT>
+    <ClaimId>070000000080000100000</ClaimId>
+    <PolicyDriverId>0700000000800001</PolicyDriverId>
+    <NameAvailableInd>Y</NameAvailableInd>
+    <LicenceNumberStatus>BL</LicenceNumberStatus>
+    <CompanyCode>000</CompanyCode>
+    <PolicyNumber>00000</PolicyNumber>
+    <UtilizationCode>L</UtilizationCode>
+    <LicenceProvinceCode>ON</LicenceProvinceCode>
+    <LicenceNumber>***************</LicenceNumber>
+    <YearsLicenced>00</YearsLicenced>
+    <YearsLicencedExp>00</YearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <FirstName />
+    <MiddleName />
+    <LastName>***************</LastName>
+    <UnstructuredName>***************</UnstructuredName>
+    <StructuredNameInd>Y</StructuredNameInd>
+    <CompanyInd>N</CompanyInd>
+    <BirthYear>0</BirthYear>
+    <BirthMonth>0</BirthMonth>
+    <BirthDay>0</BirthDay>
+    <Gender>U</Gender>
+    <PolicyDriverClaimCode />
+    <LastUpdateDate>20071114</LastUpdateDate>
+    <PolicyNumberExp>00000</PolicyNumberExp>
+  </PolicyClaimThirdPartyAccidentDriverDT>
+  <MessageDT>
+    <Code>200020200</Code>
+    <Text>Request Completed Successfully</Text>
+  </MessageDT>
+  <MessageDT>
+    <Code>200021502</Code>
+    <Text>3 Inquiries in last 12 months</Text>
+  </MessageDT>
+  <MessageDT>
+    <Code>200020211</Code>
+    <Text>AutoPlusCheck not performed.</Text>
+  </MessageDT>
+  <PolicyClaimKindOfLossDT>
+    <ClaimId>070000000080001200000</ClaimId>
+    <KindOfLossCode>20</KindOfLossCode>
+    <KindOfLossCodeExp>20</KindOfLossCodeExp>
+    <OutstandingReserveReportYear>0</OutstandingReserveReportYear>
+    <OutstandingReserveReportMonth>0</OutstandingReserveReportMonth>
+    <VehicleLossCode>K</VehicleLossCode>
+    <LossAmtTotal>1200</LossAmtTotal>
+    <OutstandingReserveReportOccur>N</OutstandingReserveReportOccur>
+  </PolicyClaimKindOfLossDT>
+  <PolicyClaimKindOfLossDT>
+    <ClaimId>070000000080001100000</ClaimId>
+    <KindOfLossCode>40</KindOfLossCode>
+    <KindOfLossCodeExp>40</KindOfLossCodeExp>
+    <OutstandingReserveReportYear>0</OutstandingReserveReportYear>
+    <OutstandingReserveReportMonth>0</OutstandingReserveReportMonth>
+    <VehicleLossCode>K</VehicleLossCode>
+    <LossAmtTotal>600</LossAmtTotal>
+    <OutstandingReserveReportOccur>N</OutstandingReserveReportOccur>
+  </PolicyClaimKindOfLossDT>
+  <PolicyClaimKindOfLossDT>
+    <ClaimId>070000000080000600000</ClaimId>
+    <KindOfLossCode>25</KindOfLossCode>
+    <KindOfLossCodeExp>25</KindOfLossCodeExp>
+    <OutstandingReserveReportYear>0</OutstandingReserveReportYear>
+    <OutstandingReserveReportMonth>0</OutstandingReserveReportMonth>
+    <VehicleLossCode>P</VehicleLossCode>
+    <LossAmtTotal>1059</LossAmtTotal>
+    <OutstandingReserveReportOccur>N</OutstandingReserveReportOccur>
+    <LastUpdateDate>2007-11-14T00:00:00-05:00</LastUpdateDate>
+  </PolicyClaimKindOfLossDT>
+  <PolicyClaimKindOfLossDT>
+    <ClaimId>070000000080000500000</ClaimId>
+    <KindOfLossCode>24</KindOfLossCode>
+    <KindOfLossCodeExp>24</KindOfLossCodeExp>
+    <OutstandingReserveReportYear>0</OutstandingReserveReportYear>
+    <OutstandingReserveReportMonth>0</OutstandingReserveReportMonth>
+    <VehicleLossCode>P</VehicleLossCode>
+    <LossAmtTotal>359</LossAmtTotal>
+    <OutstandingReserveReportOccur>N</OutstandingReserveReportOccur>
+    <LastUpdateDate>2007-11-14T00:00:00-05:00</LastUpdateDate>
+  </PolicyClaimKindOfLossDT>
+  <PolicyClaimKindOfLossDT>
+    <ClaimId>070000000080000400002</ClaimId>
+    <KindOfLossCode>26</KindOfLossCode>
+    <KindOfLossCodeExp>26</KindOfLossCodeExp>
+    <OutstandingReserveReportYear>0</OutstandingReserveReportYear>
+    <OutstandingReserveReportMonth>0</OutstandingReserveReportMonth>
+    <VehicleLossCode>K</VehicleLossCode>
+    <LossAmtTotal>500</LossAmtTotal>
+    <OutstandingReserveReportOccur>N</OutstandingReserveReportOccur>
+    <ABCatastrophicImpairmentIndicator>1</ABCatastrophicImpairmentIndicator>
+    <ABMinorInjuryIndicator>1</ABMinorInjuryIndicator>
+  </PolicyClaimKindOfLossDT>
+  <PolicyClaimKindOfLossDT>
+    <ClaimId>070000000080000400002</ClaimId>
+    <KindOfLossCode>76</KindOfLossCode>
+    <KindOfLossCodeExp>76</KindOfLossCodeExp>
+    <OutstandingReserveReportYear>0</OutstandingReserveReportYear>
+    <OutstandingReserveReportMonth>0</OutstandingReserveReportMonth>
+    <VehicleLossCode>K</VehicleLossCode>
+    <LossAmtTotal>100</LossAmtTotal>
+    <OutstandingReserveReportOccur>N</OutstandingReserveReportOccur>
+    <ABCatastrophicImpairmentIndicator>2</ABCatastrophicImpairmentIndicator>
+    <ABMinorInjuryIndicator>0</ABMinorInjuryIndicator>
+  </PolicyClaimKindOfLossDT>
+  <PolicyClaimKindOfLossDT>
+    <ClaimId>070000000080000400001</ClaimId>
+    <KindOfLossCode>20</KindOfLossCode>
+    <KindOfLossCodeExp>20</KindOfLossCodeExp>
+    <OutstandingReserveReportYear>0</OutstandingReserveReportYear>
+    <OutstandingReserveReportMonth>0</OutstandingReserveReportMonth>
+    <VehicleLossCode>P</VehicleLossCode>
+    <LossAmtTotal>1000</LossAmtTotal>
+    <OutstandingReserveReportOccur>N</OutstandingReserveReportOccur>
+    <LastUpdateDate>2011-04-19T00:00:00-04:00</LastUpdateDate>
+  </PolicyClaimKindOfLossDT>
+  <PolicyClaimKindOfLossDT>
+    <ClaimId>070000000080000400000</ClaimId>
+    <KindOfLossCode>27</KindOfLossCode>
+    <KindOfLossCodeExp>27</KindOfLossCodeExp>
+    <OutstandingReserveReportYear>0</OutstandingReserveReportYear>
+    <OutstandingReserveReportMonth>0</OutstandingReserveReportMonth>
+    <VehicleLossCode>P</VehicleLossCode>
+    <LossAmtTotal>100</LossAmtTotal>
+    <OutstandingReserveReportOccur>N</OutstandingReserveReportOccur>
+    <LastUpdateDate>2007-11-14T00:00:00-05:00</LastUpdateDate>
+  </PolicyClaimKindOfLossDT>
+  <PolicyClaimKindOfLossDT>
+    <ClaimId>070000000080000300000</ClaimId>
+    <KindOfLossCode>20</KindOfLossCode>
+    <KindOfLossCodeExp>20</KindOfLossCodeExp>
+    <OutstandingReserveReportYear>0</OutstandingReserveReportYear>
+    <OutstandingReserveReportMonth>0</OutstandingReserveReportMonth>
+    <VehicleLossCode>P</VehicleLossCode>
+    <LossAmtTotal>46</LossAmtTotal>
+    <OutstandingReserveReportOccur>N</OutstandingReserveReportOccur>
+    <LastUpdateDate>2007-11-14T00:00:00-05:00</LastUpdateDate>
+  </PolicyClaimKindOfLossDT>
+  <PolicyClaimKindOfLossDT>
+    <ClaimId>070000000080000200000</ClaimId>
+    <KindOfLossCode>29</KindOfLossCode>
+    <KindOfLossCodeExp>29</KindOfLossCodeExp>
+    <OutstandingReserveReportYear>0</OutstandingReserveReportYear>
+    <OutstandingReserveReportMonth>0</OutstandingReserveReportMonth>
+    <VehicleLossCode>P</VehicleLossCode>
+    <LossAmtTotal>25</LossAmtTotal>
+    <OutstandingReserveReportOccur>N</OutstandingReserveReportOccur>
+    <LastUpdateDate>2007-11-14T00:00:00-05:00</LastUpdateDate>
+  </PolicyClaimKindOfLossDT>
+  <PolicyClaimKindOfLossDT>
+    <ClaimId>070000000080000100000</ClaimId>
+    <KindOfLossCode>28</KindOfLossCode>
+    <KindOfLossCodeExp>28</KindOfLossCodeExp>
+    <OutstandingReserveReportYear>0</OutstandingReserveReportYear>
+    <OutstandingReserveReportMonth>0</OutstandingReserveReportMonth>
+    <VehicleLossCode>P</VehicleLossCode>
+    <LossAmtTotal>199</LossAmtTotal>
+    <OutstandingReserveReportOccur>N</OutstandingReserveReportOccur>
+    <LastUpdateDate>2007-11-14T00:00:00-05:00</LastUpdateDate>
+  </PolicyClaimKindOfLossDT>
+  <PolicyClaimKindOfLossDT>
+    <ClaimId>070000000080000000001</ClaimId>
+    <KindOfLossCode>22</KindOfLossCode>
+    <KindOfLossCodeExp>22</KindOfLossCodeExp>
+    <OutstandingReserveReportYear>0</OutstandingReserveReportYear>
+    <OutstandingReserveReportMonth>0</OutstandingReserveReportMonth>
+    <VehicleLossCode>K</VehicleLossCode>
+    <LossAmtTotal>200</LossAmtTotal>
+    <OutstandingReserveReportOccur>N</OutstandingReserveReportOccur>
+    <ABCatastrophicImpairmentIndicator>1</ABCatastrophicImpairmentIndicator>
+    <ABMinorInjuryIndicator>1</ABMinorInjuryIndicator>
+  </PolicyClaimKindOfLossDT>
+  <PolicyClaimKindOfLossDT>
+    <ClaimId>070000000080000000000</ClaimId>
+    <KindOfLossCode>26</KindOfLossCode>
+    <KindOfLossCodeExp>26</KindOfLossCodeExp>
+    <OutstandingReserveReportYear>0</OutstandingReserveReportYear>
+    <OutstandingReserveReportMonth>0</OutstandingReserveReportMonth>
+    <VehicleLossCode>P</VehicleLossCode>
+    <LossAmtTotal>199</LossAmtTotal>
+    <OutstandingReserveReportOccur>N</OutstandingReserveReportOccur>
+    <LastUpdateDate>2007-11-14T00:00:00-05:00</LastUpdateDate>
+  </PolicyClaimKindOfLossDT>
+  <PolicyClaimKindOfLossTransDT>
+    <ClaimId>070000000080001200000</ClaimId>
+    <KindOfLossCode>20</KindOfLossCode>
+    <KindOfLossCodeExp>20</KindOfLossCodeExp>
+    <Sequence>1</Sequence>
+    <LossAmt>1200</LossAmt>
+    <UITTransactionTypeCode />
+  </PolicyClaimKindOfLossTransDT>
+  <PolicyClaimKindOfLossTransDT>
+    <ClaimId>070000000080001100000</ClaimId>
+    <KindOfLossCode>40</KindOfLossCode>
+    <KindOfLossCodeExp>40</KindOfLossCodeExp>
+    <Sequence>1</Sequence>
+    <LossAmt>600</LossAmt>
+    <UITTransactionTypeCode />
+  </PolicyClaimKindOfLossTransDT>
+  <PolicyClaimKindOfLossTransDT>
+    <ClaimId>070000000080000600000</ClaimId>
+    <KindOfLossCode>25</KindOfLossCode>
+    <KindOfLossCodeExp>25</KindOfLossCodeExp>
+    <Sequence>1</Sequence>
+    <LossAmt>1059</LossAmt>
+    <UITTransactionTypeCode>9</UITTransactionTypeCode>
+  </PolicyClaimKindOfLossTransDT>
+  <PolicyClaimKindOfLossTransDT>
+    <ClaimId>070000000080000500000</ClaimId>
+    <KindOfLossCode>24</KindOfLossCode>
+    <KindOfLossCodeExp>24</KindOfLossCodeExp>
+    <Sequence>1</Sequence>
+    <LossAmt>359</LossAmt>
+    <UITTransactionTypeCode>9</UITTransactionTypeCode>
+  </PolicyClaimKindOfLossTransDT>
+  <PolicyClaimKindOfLossTransDT>
+    <ClaimId>070000000080000400002</ClaimId>
+    <KindOfLossCode>26</KindOfLossCode>
+    <KindOfLossCodeExp>26</KindOfLossCodeExp>
+    <Sequence>1</Sequence>
+    <LossAmt>500</LossAmt>
+    <UITTransactionTypeCode />
+  </PolicyClaimKindOfLossTransDT>
+  <PolicyClaimKindOfLossTransDT>
+    <ClaimId>070000000080000400002</ClaimId>
+    <KindOfLossCode>76</KindOfLossCode>
+    <KindOfLossCodeExp>76</KindOfLossCodeExp>
+    <Sequence>1</Sequence>
+    <LossAmt>100</LossAmt>
+    <UITTransactionTypeCode />
+  </PolicyClaimKindOfLossTransDT>
+  <PolicyClaimKindOfLossTransDT>
+    <ClaimId>070000000080000400001</ClaimId>
+    <KindOfLossCode>20</KindOfLossCode>
+    <KindOfLossCodeExp>20</KindOfLossCodeExp>
+    <Sequence>1</Sequence>
+    <LossAmt>1000</LossAmt>
+    <UITTransactionTypeCode>K</UITTransactionTypeCode>
+  </PolicyClaimKindOfLossTransDT>
+  <PolicyClaimKindOfLossTransDT>
+    <ClaimId>070000000080000400000</ClaimId>
+    <KindOfLossCode>27</KindOfLossCode>
+    <KindOfLossCodeExp>27</KindOfLossCodeExp>
+    <Sequence>1</Sequence>
+    <LossAmt>100</LossAmt>
+    <UITTransactionTypeCode>9</UITTransactionTypeCode>
+  </PolicyClaimKindOfLossTransDT>
+  <PolicyClaimKindOfLossTransDT>
+    <ClaimId>070000000080000300000</ClaimId>
+    <KindOfLossCode>20</KindOfLossCode>
+    <KindOfLossCodeExp>20</KindOfLossCodeExp>
+    <Sequence>1</Sequence>
+    <LossAmt>46</LossAmt>
+    <UITTransactionTypeCode>9</UITTransactionTypeCode>
+  </PolicyClaimKindOfLossTransDT>
+  <PolicyClaimKindOfLossTransDT>
+    <ClaimId>070000000080000200000</ClaimId>
+    <KindOfLossCode>29</KindOfLossCode>
+    <KindOfLossCodeExp>29</KindOfLossCodeExp>
+    <Sequence>1</Sequence>
+    <LossAmt>25</LossAmt>
+    <UITTransactionTypeCode>9</UITTransactionTypeCode>
+  </PolicyClaimKindOfLossTransDT>
+  <PolicyClaimKindOfLossTransDT>
+    <ClaimId>070000000080000100000</ClaimId>
+    <KindOfLossCode>28</KindOfLossCode>
+    <KindOfLossCodeExp>28</KindOfLossCodeExp>
+    <Sequence>1</Sequence>
+    <LossAmt>199</LossAmt>
+    <UITTransactionTypeCode>9</UITTransactionTypeCode>
+  </PolicyClaimKindOfLossTransDT>
+  <PolicyClaimKindOfLossTransDT>
+    <ClaimId>070000000080000000001</ClaimId>
+    <KindOfLossCode>22</KindOfLossCode>
+    <KindOfLossCodeExp>22</KindOfLossCodeExp>
+    <Sequence>1</Sequence>
+    <LossAmt>200</LossAmt>
+    <UITTransactionTypeCode />
+  </PolicyClaimKindOfLossTransDT>
+  <PolicyClaimKindOfLossTransDT>
+    <ClaimId>070000000080000000000</ClaimId>
+    <KindOfLossCode>26</KindOfLossCode>
+    <KindOfLossCodeExp>26</KindOfLossCodeExp>
+    <Sequence>1</Sequence>
+    <LossAmt>199</LossAmt>
+    <UITTransactionTypeCode>9</UITTransactionTypeCode>
+  </PolicyClaimKindOfLossTransDT>
+  <InsuredDT>
+    <CompanyCode>850</CompanyCode>
+    <PolicyNumber>319500</PolicyNumber>
+    <FirstName> EDWARD</FirstName>
+    <MiddleName />
+    <LastName>SMITH</LastName>
+    <UnstructuredName>SMITH, EDWARD</UnstructuredName>
+    <StructuredNameInd>Y</StructuredNameInd>
+    <LicenceProvinceCode>AB</LicenceProvinceCode>
+    <LicenceNumber>043335199</LicenceNumber>
+  </InsuredDT>
+  <SummaryInfoDT>
+    <YearsOnAutoPlus>8</YearsOnAutoPlus>
+    <YearsClaimFree>8</YearsClaimFree>
+    <ClaimsInLast6Years>0</ClaimsInLast6Years>
+    <AtFaultClaims>0</AtFaultClaims>
+    <FirstPartyClaims>12</FirstPartyClaims>
+    <ThirdPartyClaims>0</ThirdPartyClaims>
+    <TotalLossAmount>5587</TotalLossAmount>
+    <TotalExpenseAmount>3000</TotalExpenseAmount>
+    <AutoPlusCheckResult>UNKNOWN</AutoPlusCheckResult>
+    <PolicyDriverCurrentAge>N/A</PolicyDriverCurrentAge>
+  </SummaryInfoDT>
+  <RequestDT>
+    <CompanyCode />
+    <PolicyNumber />
+    <LicenceProvinceCode>AB</LicenceProvinceCode>
+    <LicenceNumber>043335-199</LicenceNumber>
+    <RequestReference>8793</RequestReference>
+    <Insured />
+    <OverrideYearLimitFeatureBln>false</OverrideYearLimitFeatureBln>
+    <DeferRequestResponseInd>N</DeferRequestResponseInd>
+    <Username>wassim@sharpmobile.ca</Username>
+    <UserFirstName>Wassim</UserFirstName>
+    <UserLastName>Test</UserLastName>
+    <SubscriberName>Sharp Insurance</SubscriberName>
+    <RequestReceipt>6886843</RequestReceipt>
+    <AutoFillRequestInd>N</AutoFillRequestInd>
+    <AutoFillRequestReceipt>0</AutoFillRequestReceipt>
+    <SponsoringSubscriberID>100430</SponsoringSubscriberID>
+    <SponsoringSubscriberName>Aviva PL for Sharp Ins</SponsoringSubscriberName>
+    <RequestDate>2016-09-15T11:30:53.8501407-04:00</RequestDate>
+  </RequestDT>
+  <ProviderServiceProviderDT>
+    <ProviderCode>EXPN</ProviderCode>
+    <ProviderServiceCode>VEVT</ProviderServiceCode>
+    <ProviderServiceStatusCode>UNAVAILABLE</ProviderServiceStatusCode>
+    <DPMBatchRequestID>3437262</DPMBatchRequestID>
+  </ProviderServiceProviderDT>
+  <ProviderServiceProviderDT>
+    <ProviderCode>SHLK</ProviderCode>
+    <ProviderServiceCode>VATM</ProviderServiceCode>
+    <ProviderServiceStatusCode>UNAVAILABLE</ProviderServiceStatusCode>
+    <DPMBatchRequestID>3437262</DPMBatchRequestID>
+  </ProviderServiceProviderDT>
+  <ProviderServiceProviderDT>
+    <ProviderCode>RSR</ProviderCode>
+    <ProviderServiceCode>VATM</ProviderServiceCode>
+    <ProviderServiceStatusCode>UNAVAILABLE</ProviderServiceStatusCode>
+    <DPMBatchRequestID>3437262</DPMBatchRequestID>
+  </ProviderServiceProviderDT>
+  <ProviderServiceProviderDT>
+    <ProviderCode>EXPN</ProviderCode>
+    <ProviderServiceCode>VLIEN</ProviderServiceCode>
+    <ProviderServiceStatusCode>UNAVAILABLE</ProviderServiceStatusCode>
+    <DPMBatchRequestID>3437262</DPMBatchRequestID>
+  </ProviderServiceProviderDT>
+  <ProviderServiceProviderDT>
+    <ProviderCode>CPROOF</ProviderCode>
+    <ProviderServiceCode>VRH</ProviderServiceCode>
+    <ProviderServiceStatusCode>UNAVAILABLE</ProviderServiceStatusCode>
+    <DPMBatchRequestID>3437262</DPMBatchRequestID>
+  </ProviderServiceProviderDT>
+  <ProviderServiceProviderDT>
+    <ProviderCode>CSRS</ProviderCode>
+    <ProviderServiceCode>VLIEN</ProviderServiceCode>
+    <ProviderServiceStatusCode>STUB</ProviderServiceStatusCode>
+    <DPMBatchRequestID>3437262</DPMBatchRequestID>
+  </ProviderServiceProviderDT>
+  <ProviderServiceProviderDT>
+    <ProviderCode>NVS</ProviderCode>
+    <ProviderServiceCode>VLIEN</ProviderServiceCode>
+    <ProviderServiceStatusCode>UNAVAILABLE</ProviderServiceStatusCode>
+    <DPMBatchRequestID>3437262</DPMBatchRequestID>
+  </ProviderServiceProviderDT>
+  <ProviderServiceProviderDT>
+    <ProviderCode>NVS</ProviderCode>
+    <ProviderServiceCode>VEVT</ProviderServiceCode>
+    <ProviderServiceStatusCode>UNAVAILABLE</ProviderServiceStatusCode>
+    <DPMBatchRequestID>3437262</DPMBatchRequestID>
+  </ProviderServiceProviderDT>
+  <VehicleEventDT>
+    <VehicleEventID>6886808</VehicleEventID>
+    <ProviderCode>EXPN</ProviderCode>
+    <ProviderServiceCode>VEVT</ProviderServiceCode>
+    <DPMRequestID>6886808</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>1FAFP33P6YW210374</VIN>
+  </VehicleEventDT>
+  <VehicleEventDT>
+    <VehicleEventID>6886813</VehicleEventID>
+    <ProviderCode>EXPN</ProviderCode>
+    <ProviderServiceCode>VEVT</ProviderServiceCode>
+    <DPMRequestID>6886813</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>1FAFP33P6YW215090</VIN>
+  </VehicleEventDT>
+  <VehicleEventDT>
+    <VehicleEventID>6886818</VehicleEventID>
+    <ProviderCode>EXPN</ProviderCode>
+    <ProviderServiceCode>VEVT</ProviderServiceCode>
+    <DPMRequestID>6886818</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>1N4AL21E39C193554</VIN>
+  </VehicleEventDT>
+  <VehicleEventDT>
+    <VehicleEventID>6886823</VehicleEventID>
+    <ProviderCode>EXPN</ProviderCode>
+    <ProviderServiceCode>VEVT</ProviderServiceCode>
+    <DPMRequestID>6886823</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>5N1AR18W15C771321</VIN>
+  </VehicleEventDT>
+  <VehicleEventDT>
+    <VehicleEventID>6886828</VehicleEventID>
+    <ProviderCode>EXPN</ProviderCode>
+    <ProviderServiceCode>VEVT</ProviderServiceCode>
+    <DPMRequestID>6886828</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>JH4KA4646JC800890</VIN>
+  </VehicleEventDT>
+  <VehicleEventDT>
+    <VehicleEventID>6886833</VehicleEventID>
+    <ProviderCode>EXPN</ProviderCode>
+    <ProviderServiceCode>VEVT</ProviderServiceCode>
+    <DPMRequestID>6886833</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>JHLRD78556C801652</VIN>
+  </VehicleEventDT>
+  <VehicleEventDT>
+    <VehicleEventID>6886838</VehicleEventID>
+    <ProviderCode>EXPN</ProviderCode>
+    <ProviderServiceCode>VEVT</ProviderServiceCode>
+    <DPMRequestID>6886838</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>JM1GD2432L1830464</VIN>
+  </VehicleEventDT>
+  <VehicleEventDT>
+    <VehicleEventID>2</VehicleEventID>
+    <ProviderCode>NVS</ProviderCode>
+    <ProviderServiceCode>VEVT</ProviderServiceCode>
+    <DPMRequestID>2</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>1FAFP33P6YW210374</VIN>
+  </VehicleEventDT>
+  <VehicleEventDT>
+    <VehicleEventID>5</VehicleEventID>
+    <ProviderCode>NVS</ProviderCode>
+    <ProviderServiceCode>VEVT</ProviderServiceCode>
+    <DPMRequestID>5</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>1FAFP33P6YW215090</VIN>
+  </VehicleEventDT>
+  <VehicleEventDT>
+    <VehicleEventID>8</VehicleEventID>
+    <ProviderCode>NVS</ProviderCode>
+    <ProviderServiceCode>VEVT</ProviderServiceCode>
+    <DPMRequestID>8</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>1N4AL21E39C193554</VIN>
+  </VehicleEventDT>
+  <VehicleEventDT>
+    <VehicleEventID>11</VehicleEventID>
+    <ProviderCode>NVS</ProviderCode>
+    <ProviderServiceCode>VEVT</ProviderServiceCode>
+    <DPMRequestID>11</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>5N1AR18W15C771321</VIN>
+  </VehicleEventDT>
+  <VehicleEventDT>
+    <VehicleEventID>14</VehicleEventID>
+    <ProviderCode>NVS</ProviderCode>
+    <ProviderServiceCode>VEVT</ProviderServiceCode>
+    <DPMRequestID>14</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>JH4KA4646JC800890</VIN>
+  </VehicleEventDT>
+  <VehicleEventDT>
+    <VehicleEventID>17</VehicleEventID>
+    <ProviderCode>NVS</ProviderCode>
+    <ProviderServiceCode>VEVT</ProviderServiceCode>
+    <DPMRequestID>17</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>JHLRD78556C801652</VIN>
+  </VehicleEventDT>
+  <VehicleEventDT>
+    <VehicleEventID>20</VehicleEventID>
+    <ProviderCode>NVS</ProviderCode>
+    <ProviderServiceCode>VEVT</ProviderServiceCode>
+    <DPMRequestID>20</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>JM1GD2432L1830464</VIN>
+  </VehicleEventDT>
+  <VehicleAntiTheftMarkingDT>
+    <ProviderCode>SHLK</ProviderCode>
+    <ProviderServiceCode>VATM</ProviderServiceCode>
+    <DPMRequestID>6886809</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>1FAFP33P6YW210374</VIN>
+  </VehicleAntiTheftMarkingDT>
+  <VehicleAntiTheftMarkingDT>
+    <ProviderCode>RSR</ProviderCode>
+    <ProviderServiceCode>VATM</ProviderServiceCode>
+    <DPMRequestID>6886810</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>1FAFP33P6YW210374</VIN>
+  </VehicleAntiTheftMarkingDT>
+  <VehicleAntiTheftMarkingDT>
+    <ProviderCode>SHLK</ProviderCode>
+    <ProviderServiceCode>VATM</ProviderServiceCode>
+    <DPMRequestID>6886814</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>1FAFP33P6YW215090</VIN>
+  </VehicleAntiTheftMarkingDT>
+  <VehicleAntiTheftMarkingDT>
+    <ProviderCode>RSR</ProviderCode>
+    <ProviderServiceCode>VATM</ProviderServiceCode>
+    <DPMRequestID>6886815</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>1FAFP33P6YW215090</VIN>
+  </VehicleAntiTheftMarkingDT>
+  <VehicleAntiTheftMarkingDT>
+    <ProviderCode>SHLK</ProviderCode>
+    <ProviderServiceCode>VATM</ProviderServiceCode>
+    <DPMRequestID>6886819</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>1N4AL21E39C193554</VIN>
+  </VehicleAntiTheftMarkingDT>
+  <VehicleAntiTheftMarkingDT>
+    <ProviderCode>RSR</ProviderCode>
+    <ProviderServiceCode>VATM</ProviderServiceCode>
+    <DPMRequestID>6886820</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>1N4AL21E39C193554</VIN>
+  </VehicleAntiTheftMarkingDT>
+  <VehicleAntiTheftMarkingDT>
+    <ProviderCode>SHLK</ProviderCode>
+    <ProviderServiceCode>VATM</ProviderServiceCode>
+    <DPMRequestID>6886824</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>5N1AR18W15C771321</VIN>
+  </VehicleAntiTheftMarkingDT>
+  <VehicleAntiTheftMarkingDT>
+    <ProviderCode>RSR</ProviderCode>
+    <ProviderServiceCode>VATM</ProviderServiceCode>
+    <DPMRequestID>6886825</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>5N1AR18W15C771321</VIN>
+  </VehicleAntiTheftMarkingDT>
+  <VehicleAntiTheftMarkingDT>
+    <ProviderCode>SHLK</ProviderCode>
+    <ProviderServiceCode>VATM</ProviderServiceCode>
+    <DPMRequestID>6886829</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>JH4KA4646JC800890</VIN>
+  </VehicleAntiTheftMarkingDT>
+  <VehicleAntiTheftMarkingDT>
+    <ProviderCode>RSR</ProviderCode>
+    <ProviderServiceCode>VATM</ProviderServiceCode>
+    <DPMRequestID>6886830</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>JH4KA4646JC800890</VIN>
+  </VehicleAntiTheftMarkingDT>
+  <VehicleAntiTheftMarkingDT>
+    <ProviderCode>SHLK</ProviderCode>
+    <ProviderServiceCode>VATM</ProviderServiceCode>
+    <DPMRequestID>6886834</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>JHLRD78556C801652</VIN>
+  </VehicleAntiTheftMarkingDT>
+  <VehicleAntiTheftMarkingDT>
+    <ProviderCode>RSR</ProviderCode>
+    <ProviderServiceCode>VATM</ProviderServiceCode>
+    <DPMRequestID>6886835</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>JHLRD78556C801652</VIN>
+  </VehicleAntiTheftMarkingDT>
+  <VehicleAntiTheftMarkingDT>
+    <ProviderCode>SHLK</ProviderCode>
+    <ProviderServiceCode>VATM</ProviderServiceCode>
+    <DPMRequestID>6886839</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>JM1GD2432L1830464</VIN>
+  </VehicleAntiTheftMarkingDT>
+  <VehicleAntiTheftMarkingDT>
+    <ProviderCode>RSR</ProviderCode>
+    <ProviderServiceCode>VATM</ProviderServiceCode>
+    <DPMRequestID>6886840</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>JM1GD2432L1830464</VIN>
+  </VehicleAntiTheftMarkingDT>
+  <VehicleLienDT>
+    <VehicleLienID>6886811</VehicleLienID>
+    <ProviderCode>EXPN</ProviderCode>
+    <ProviderServiceCode>VLIEN</ProviderServiceCode>
+    <DPMRequestID>6886811</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>1FAFP33P6YW210374</VIN>
+  </VehicleLienDT>
+  <VehicleLienDT>
+    <VehicleLienID>6886816</VehicleLienID>
+    <ProviderCode>EXPN</ProviderCode>
+    <ProviderServiceCode>VLIEN</ProviderServiceCode>
+    <DPMRequestID>6886816</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>1FAFP33P6YW215090</VIN>
+  </VehicleLienDT>
+  <VehicleLienDT>
+    <VehicleLienID>6886821</VehicleLienID>
+    <ProviderCode>EXPN</ProviderCode>
+    <ProviderServiceCode>VLIEN</ProviderServiceCode>
+    <DPMRequestID>6886821</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>1N4AL21E39C193554</VIN>
+  </VehicleLienDT>
+  <VehicleLienDT>
+    <VehicleLienID>6886826</VehicleLienID>
+    <ProviderCode>EXPN</ProviderCode>
+    <ProviderServiceCode>VLIEN</ProviderServiceCode>
+    <DPMRequestID>6886826</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>5N1AR18W15C771321</VIN>
+  </VehicleLienDT>
+  <VehicleLienDT>
+    <VehicleLienID>6886831</VehicleLienID>
+    <ProviderCode>EXPN</ProviderCode>
+    <ProviderServiceCode>VLIEN</ProviderServiceCode>
+    <DPMRequestID>6886831</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>JH4KA4646JC800890</VIN>
+  </VehicleLienDT>
+  <VehicleLienDT>
+    <VehicleLienID>6886836</VehicleLienID>
+    <ProviderCode>EXPN</ProviderCode>
+    <ProviderServiceCode>VLIEN</ProviderServiceCode>
+    <DPMRequestID>6886836</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>JHLRD78556C801652</VIN>
+  </VehicleLienDT>
+  <VehicleLienDT>
+    <VehicleLienID>6886841</VehicleLienID>
+    <ProviderCode>EXPN</ProviderCode>
+    <ProviderServiceCode>VLIEN</ProviderServiceCode>
+    <DPMRequestID>6886841</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>JM1GD2432L1830464</VIN>
+  </VehicleLienDT>
+  <VehicleLienDT>
+    <VehicleLienID>0</VehicleLienID>
+    <ProviderCode>CSRS</ProviderCode>
+    <ProviderServiceCode>VLIEN</ProviderServiceCode>
+    <DPMRequestID>0</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>1FAFP33P6YW210374</VIN>
+  </VehicleLienDT>
+  <VehicleLienDT>
+    <VehicleLienID>1</VehicleLienID>
+    <ProviderCode>NVS</ProviderCode>
+    <ProviderServiceCode>VLIEN</ProviderServiceCode>
+    <DPMRequestID>1</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>1FAFP33P6YW210374</VIN>
+  </VehicleLienDT>
+  <VehicleLienDT>
+    <VehicleLienID>3</VehicleLienID>
+    <ProviderCode>CSRS</ProviderCode>
+    <ProviderServiceCode>VLIEN</ProviderServiceCode>
+    <DPMRequestID>3</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>1FAFP33P6YW215090</VIN>
+  </VehicleLienDT>
+  <VehicleLienDT>
+    <VehicleLienID>4</VehicleLienID>
+    <ProviderCode>NVS</ProviderCode>
+    <ProviderServiceCode>VLIEN</ProviderServiceCode>
+    <DPMRequestID>4</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>1FAFP33P6YW215090</VIN>
+  </VehicleLienDT>
+  <VehicleLienDT>
+    <VehicleLienID>6</VehicleLienID>
+    <ProviderCode>CSRS</ProviderCode>
+    <ProviderServiceCode>VLIEN</ProviderServiceCode>
+    <DPMRequestID>6</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>1N4AL21E39C193554</VIN>
+  </VehicleLienDT>
+  <VehicleLienDT>
+    <VehicleLienID>7</VehicleLienID>
+    <ProviderCode>NVS</ProviderCode>
+    <ProviderServiceCode>VLIEN</ProviderServiceCode>
+    <DPMRequestID>7</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>1N4AL21E39C193554</VIN>
+  </VehicleLienDT>
+  <VehicleLienDT>
+    <VehicleLienID>9</VehicleLienID>
+    <ProviderCode>CSRS</ProviderCode>
+    <ProviderServiceCode>VLIEN</ProviderServiceCode>
+    <DPMRequestID>9</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>5N1AR18W15C771321</VIN>
+  </VehicleLienDT>
+  <VehicleLienDT>
+    <VehicleLienID>10</VehicleLienID>
+    <ProviderCode>NVS</ProviderCode>
+    <ProviderServiceCode>VLIEN</ProviderServiceCode>
+    <DPMRequestID>10</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>5N1AR18W15C771321</VIN>
+  </VehicleLienDT>
+  <VehicleLienDT>
+    <VehicleLienID>12</VehicleLienID>
+    <ProviderCode>CSRS</ProviderCode>
+    <ProviderServiceCode>VLIEN</ProviderServiceCode>
+    <DPMRequestID>12</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>JH4KA4646JC800890</VIN>
+  </VehicleLienDT>
+  <VehicleLienDT>
+    <VehicleLienID>13</VehicleLienID>
+    <ProviderCode>NVS</ProviderCode>
+    <ProviderServiceCode>VLIEN</ProviderServiceCode>
+    <DPMRequestID>13</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>JH4KA4646JC800890</VIN>
+  </VehicleLienDT>
+  <VehicleLienDT>
+    <VehicleLienID>15</VehicleLienID>
+    <ProviderCode>CSRS</ProviderCode>
+    <ProviderServiceCode>VLIEN</ProviderServiceCode>
+    <DPMRequestID>15</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>JHLRD78556C801652</VIN>
+  </VehicleLienDT>
+  <VehicleLienDT>
+    <VehicleLienID>16</VehicleLienID>
+    <ProviderCode>NVS</ProviderCode>
+    <ProviderServiceCode>VLIEN</ProviderServiceCode>
+    <DPMRequestID>16</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>JHLRD78556C801652</VIN>
+  </VehicleLienDT>
+  <VehicleLienDT>
+    <VehicleLienID>18</VehicleLienID>
+    <ProviderCode>CSRS</ProviderCode>
+    <ProviderServiceCode>VLIEN</ProviderServiceCode>
+    <DPMRequestID>18</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>JM1GD2432L1830464</VIN>
+  </VehicleLienDT>
+  <VehicleLienDT>
+    <VehicleLienID>19</VehicleLienID>
+    <ProviderCode>NVS</ProviderCode>
+    <ProviderServiceCode>VLIEN</ProviderServiceCode>
+    <DPMRequestID>19</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>JM1GD2432L1830464</VIN>
+  </VehicleLienDT>
+  <VehicleRepairHistoryDT>
+    <VehicleRepairHistoryID>6886812</VehicleRepairHistoryID>
+    <ProviderCode>CPROOF</ProviderCode>
+    <ProviderServiceCode>VRH</ProviderServiceCode>
+    <UnavailableSources>2</UnavailableSources>
+    <DPMRequestID>6886812</DPMRequestID>
+    <ResultCode>NOTFOUND</ResultCode>
+    <VIN>1FAFP33P6YW210374</VIN>
+    <Reference />
+  </VehicleRepairHistoryDT>
+  <VehicleRepairHistoryDT>
+    <VehicleRepairHistoryID>6886817</VehicleRepairHistoryID>
+    <ProviderCode>CPROOF</ProviderCode>
+    <ProviderServiceCode>VRH</ProviderServiceCode>
+    <UnavailableSources>2</UnavailableSources>
+    <DPMRequestID>6886817</DPMRequestID>
+    <ResultCode>NOTFOUND</ResultCode>
+    <VIN>1FAFP33P6YW215090</VIN>
+    <Reference />
+  </VehicleRepairHistoryDT>
+  <VehicleRepairHistoryDT>
+    <VehicleRepairHistoryID>6886822</VehicleRepairHistoryID>
+    <ProviderCode>CPROOF</ProviderCode>
+    <ProviderServiceCode>VRH</ProviderServiceCode>
+    <UnavailableSources>2</UnavailableSources>
+    <DPMRequestID>6886822</DPMRequestID>
+    <ResultCode>NOTFOUND</ResultCode>
+    <VIN>1N4AL21E39C193554</VIN>
+    <Reference />
+  </VehicleRepairHistoryDT>
+  <VehicleRepairHistoryDT>
+    <VehicleRepairHistoryID>6886827</VehicleRepairHistoryID>
+    <ProviderCode>CPROOF</ProviderCode>
+    <ProviderServiceCode>VRH</ProviderServiceCode>
+    <UnavailableSources>2</UnavailableSources>
+    <DPMRequestID>6886827</DPMRequestID>
+    <ResultCode>NOTFOUND</ResultCode>
+    <VIN>5N1AR18W15C771321</VIN>
+    <Reference />
+  </VehicleRepairHistoryDT>
+  <VehicleRepairHistoryDT>
+    <VehicleRepairHistoryID>6886832</VehicleRepairHistoryID>
+    <ProviderCode>CPROOF</ProviderCode>
+    <ProviderServiceCode>VRH</ProviderServiceCode>
+    <UnavailableSources>2</UnavailableSources>
+    <DPMRequestID>6886832</DPMRequestID>
+    <ResultCode>NOTFOUND</ResultCode>
+    <VIN>JH4KA4646JC800890</VIN>
+    <Reference />
+  </VehicleRepairHistoryDT>
+  <VehicleRepairHistoryDT>
+    <VehicleRepairHistoryID>6886837</VehicleRepairHistoryID>
+    <ProviderCode>CPROOF</ProviderCode>
+    <ProviderServiceCode>VRH</ProviderServiceCode>
+    <UnavailableSources>2</UnavailableSources>
+    <DPMRequestID>6886837</DPMRequestID>
+    <ResultCode>NOTFOUND</ResultCode>
+    <VIN>JHLRD78556C801652</VIN>
+    <Reference />
+  </VehicleRepairHistoryDT>
+  <VehicleRepairHistoryDT>
+    <VehicleRepairHistoryID>6886842</VehicleRepairHistoryID>
+    <ProviderCode>CPROOF</ProviderCode>
+    <ProviderServiceCode>VRH</ProviderServiceCode>
+    <UnavailableSources>2</UnavailableSources>
+    <DPMRequestID>6886842</DPMRequestID>
+    <ResultCode>NOTFOUND</ResultCode>
+    <VIN>JM1GD2432L1830464</VIN>
+    <Reference />
+  </VehicleRepairHistoryDT>
+</DriverClaimHistoryGoldDS>

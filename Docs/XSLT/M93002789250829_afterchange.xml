@@ -1,0 +1,3104 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type='text/xsl' href='autoplus.xsl'?>
+<DriverClaimHistoryGoldDS>
+
+  <PolicyBaseInfoDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>12372954</PolicyNumber>
+    <CompanyName>Royal &amp; Sun Alliance Ins. Com.</CompanyName>
+    <PolicyStatus>RN</PolicyStatus>
+    <PolicyCoverageYear>1997</PolicyCoverageYear>
+    <PolicyCoverageMonth>1</PolicyCoverageMonth>
+    <PolicyCoverageDay>0</PolicyCoverageDay>
+    <ProcessYear>0</ProcessYear>
+    <ProcessMonth>0</ProcessMonth>
+    <ProcessDay>0</ProcessDay>
+    <OriginalEffectiveYear>1988</OriginalEffectiveYear>
+    <OriginalEffectiveMonth>1</OriginalEffectiveMonth>
+    <CurrentEffectiveYear>1997</CurrentEffectiveYear>
+    <CurrentEffectiveMonth>1</CurrentEffectiveMonth>
+    <CurrentExpiryYear>1998</CurrentExpiryYear>
+    <CurrentExpiryMonth>1</CurrentExpiryMonth>
+    <CurrentExpiryDay>0</CurrentExpiryDay>
+    <CoverageExpiryYear>1998</CoverageExpiryYear>
+    <CoverageExpiryMonth>1</CoverageExpiryMonth>
+    <CoverageExpiryDay>0</CoverageExpiryDay>
+    <NumberOfPreviousInquiries>12</NumberOfPreviousInquiries>
+    <PolicyHolderId>0200197566100000</PolicyHolderId>
+    <PolicyOnHoldInd>N</PolicyOnHoldInd>
+    <MostRecentPolicyInd>N</MostRecentPolicyInd>
+    <OriginalEffectiveDay>0</OriginalEffectiveDay>
+    <CurrentEffectiveDay>0</CurrentEffectiveDay>
+    <CommercialPolicyInd>N</CommercialPolicyInd>
+    <LineOfBusinessCode>PA</LineOfBusinessCode>
+    <NoFrillPolicy />
+    <FARejectedCompany />
+    <MarketingGroup />
+    <AlbertaGridInd>N</AlbertaGridInd>
+  </PolicyBaseInfoDT>
+  <PolicyBaseInfoDT>
+    <CompanyCode>222</CompanyCode>
+    <PolicyNumber>0001196</PolicyNumber>
+    <CompanyName>Intact Insurance (Wellington)</CompanyName>
+    <PolicyStatus>RN</PolicyStatus>
+    <PolicyCoverageYear>1996</PolicyCoverageYear>
+    <PolicyCoverageMonth>4</PolicyCoverageMonth>
+    <PolicyCoverageDay>0</PolicyCoverageDay>
+    <ProcessYear>0</ProcessYear>
+    <ProcessMonth>0</ProcessMonth>
+    <ProcessDay>0</ProcessDay>
+    <OriginalEffectiveYear>1987</OriginalEffectiveYear>
+    <OriginalEffectiveMonth>1</OriginalEffectiveMonth>
+    <CurrentEffectiveYear>1995</CurrentEffectiveYear>
+    <CurrentEffectiveMonth>9</CurrentEffectiveMonth>
+    <CurrentExpiryYear>1996</CurrentExpiryYear>
+    <CurrentExpiryMonth>9</CurrentExpiryMonth>
+    <CurrentExpiryDay>0</CurrentExpiryDay>
+    <CoverageExpiryYear>1996</CoverageExpiryYear>
+    <CoverageExpiryMonth>9</CoverageExpiryMonth>
+    <CoverageExpiryDay>0</CoverageExpiryDay>
+    <NumberOfPreviousInquiries>13</NumberOfPreviousInquiries>
+    <PolicyHolderId>0100000004300004</PolicyHolderId>
+    <PolicyOnHoldInd>N</PolicyOnHoldInd>
+    <MostRecentPolicyInd>N</MostRecentPolicyInd>
+    <OriginalEffectiveDay>0</OriginalEffectiveDay>
+    <CurrentEffectiveDay>0</CurrentEffectiveDay>
+    <CommercialPolicyInd>N</CommercialPolicyInd>
+    <LineOfBusinessCode>PA</LineOfBusinessCode>
+    <NoFrillPolicy />
+    <FARejectedCompany />
+    <MarketingGroup />
+    <AlbertaGridInd>N</AlbertaGridInd>
+  </PolicyBaseInfoDT>
+  <PolicyBaseInfoDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>12201356</PolicyNumber>
+    <CompanyName>Royal &amp; Sun Alliance Ins. Com.</CompanyName>
+    <PolicyStatus>RN</PolicyStatus>
+    <PolicyCoverageYear>1992</PolicyCoverageYear>
+    <PolicyCoverageMonth>2</PolicyCoverageMonth>
+    <PolicyCoverageDay>0</PolicyCoverageDay>
+    <ProcessYear>0</ProcessYear>
+    <ProcessMonth>0</ProcessMonth>
+    <ProcessDay>0</ProcessDay>
+    <OriginalEffectiveYear>1988</OriginalEffectiveYear>
+    <OriginalEffectiveMonth>1</OriginalEffectiveMonth>
+    <CurrentEffectiveYear>1992</CurrentEffectiveYear>
+    <CurrentEffectiveMonth>1</CurrentEffectiveMonth>
+    <CurrentExpiryYear>1993</CurrentExpiryYear>
+    <CurrentExpiryMonth>1</CurrentExpiryMonth>
+    <CurrentExpiryDay>0</CurrentExpiryDay>
+    <CoverageExpiryYear>1993</CoverageExpiryYear>
+    <CoverageExpiryMonth>1</CoverageExpiryMonth>
+    <CoverageExpiryDay>0</CoverageExpiryDay>
+    <NumberOfPreviousInquiries>1</NumberOfPreviousInquiries>
+    <PolicyHolderId>0200196657300000</PolicyHolderId>
+    <PolicyOnHoldInd>N</PolicyOnHoldInd>
+    <MostRecentPolicyInd>N</MostRecentPolicyInd>
+    <OriginalEffectiveDay>0</OriginalEffectiveDay>
+    <CurrentEffectiveDay>0</CurrentEffectiveDay>
+    <CommercialPolicyInd>N</CommercialPolicyInd>
+    <LineOfBusinessCode>PA</LineOfBusinessCode>
+    <NoFrillPolicy />
+    <FARejectedCompany />
+    <MarketingGroup />
+    <AlbertaGridInd>N</AlbertaGridInd>
+  </PolicyBaseInfoDT>
+  <PolicyBaseInfoDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>13062499</PolicyNumber>
+    <CompanyName>Royal &amp; Sun Alliance Ins. Com.</CompanyName>
+    <PolicyStatus>RN</PolicyStatus>
+    <PolicyCoverageYear>2001</PolicyCoverageYear>
+    <PolicyCoverageMonth>1</PolicyCoverageMonth>
+    <PolicyCoverageDay>0</PolicyCoverageDay>
+    <ProcessYear>2000</ProcessYear>
+    <ProcessMonth>11</ProcessMonth>
+    <ProcessDay>5</ProcessDay>
+    <OriginalEffectiveYear>1998</OriginalEffectiveYear>
+    <OriginalEffectiveMonth>1</OriginalEffectiveMonth>
+    <CurrentEffectiveYear>2001</CurrentEffectiveYear>
+    <CurrentEffectiveMonth>1</CurrentEffectiveMonth>
+    <CurrentExpiryYear>2002</CurrentExpiryYear>
+    <CurrentExpiryMonth>1</CurrentExpiryMonth>
+    <CurrentExpiryDay>0</CurrentExpiryDay>
+    <CoverageExpiryYear>2002</CoverageExpiryYear>
+    <CoverageExpiryMonth>1</CoverageExpiryMonth>
+    <CoverageExpiryDay>0</CoverageExpiryDay>
+    <NumberOfPreviousInquiries>2</NumberOfPreviousInquiries>
+    <PolicyHolderId>0200427921100000</PolicyHolderId>
+    <PolicyOnHoldInd>N</PolicyOnHoldInd>
+    <MostRecentPolicyInd>Y</MostRecentPolicyInd>
+    <OriginalEffectiveDay>0</OriginalEffectiveDay>
+    <CurrentEffectiveDay>0</CurrentEffectiveDay>
+    <CommercialPolicyInd>N</CommercialPolicyInd>
+    <LineOfBusinessCode>PA</LineOfBusinessCode>
+    <NoFrillPolicy />
+    <FARejectedCompany />
+    <MarketingGroup />
+    <AlbertaGridInd>N</AlbertaGridInd>
+  </PolicyBaseInfoDT>
+  <PolicyDriverDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>12372954</PolicyNumber>
+    <PolicyDriverId>0200197566100000</PolicyDriverId>
+    <DeletedInd>N</DeletedInd>
+    <LicenceNumberStatus>VL</LicenceNumberStatus>
+    <DriverRelationshipCode>PRN</DriverRelationshipCode>
+    <PrincipalOperatorInd>Y</PrincipalOperatorInd>
+    <PolicyVehicleId>0200197566100002</PolicyVehicleId>
+    <LicenceProvinceCode>ON</LicenceProvinceCode>
+    <LicenceNumber>M93002789250829</LicenceNumber>
+    <YearsLicenced>9</YearsLicenced>
+    <YearsLicencedExp>9</YearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <FirstName> GEORGE</FirstName>
+    <MiddleName />
+    <LastName>MUNT</LastName>
+    <UnstructuredName>MUNT, GEORGE</UnstructuredName>
+    <StructuredNameInd>Y</StructuredNameInd>
+    <CompanyInd>N</CompanyInd>
+    <BirthYear>1925</BirthYear>
+    <BirthMonth>8</BirthMonth>
+    <BirthDay>29</BirthDay>
+    <Gender>M</Gender>
+    <ICPBWarningPossibleMatchInd>N</ICPBWarningPossibleMatchInd>
+    <PolicyVehicleCode>004</PolicyVehicleCode>
+    <Age>71</Age>
+    <MaritalStatus />
+  </PolicyDriverDT>
+  <PolicyDriverDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>12372954</PolicyNumber>
+    <PolicyDriverId>0200197566100001</PolicyDriverId>
+    <DeletedInd>N</DeletedInd>
+    <LicenceNumberStatus>VL</LicenceNumberStatus>
+    <DriverRelationshipCode>PRN</DriverRelationshipCode>
+    <PrincipalOperatorInd>Y</PrincipalOperatorInd>
+    <PolicyVehicleId>0200197566100002</PolicyVehicleId>
+    <LicenceProvinceCode>ON</LicenceProvinceCode>
+    <LicenceNumber>M93005763306014</LicenceNumber>
+    <YearsLicenced>9</YearsLicenced>
+    <YearsLicencedExp>9</YearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <FirstName> NADIA</FirstName>
+    <MiddleName />
+    <LastName>MUNT</LastName>
+    <UnstructuredName>MUNT, NADIA</UnstructuredName>
+    <StructuredNameInd>Y</StructuredNameInd>
+    <CompanyInd>N</CompanyInd>
+    <BirthYear>1930</BirthYear>
+    <BirthMonth>12</BirthMonth>
+    <BirthDay>14</BirthDay>
+    <Gender>F</Gender>
+    <ICPBWarningPossibleMatchInd>N</ICPBWarningPossibleMatchInd>
+    <PolicyVehicleCode>003</PolicyVehicleCode>
+    <Age>66</Age>
+    <MaritalStatus />
+  </PolicyDriverDT>
+  <PolicyDriverDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>12372954</PolicyNumber>
+    <PolicyDriverId>0200197566100002</PolicyDriverId>
+    <DeletedInd>Y</DeletedInd>
+    <LicenceNumberStatus>VL</LicenceNumberStatus>
+    <DriverRelationshipCode />
+    <PrincipalOperatorInd>N</PrincipalOperatorInd>
+    <PolicyVehicleId />
+    <LicenceProvinceCode>ON</LicenceProvinceCode>
+    <LicenceNumber>M93007041645105</LicenceNumber>
+    <YearsLicenced>0</YearsLicenced>
+    <YearsLicencedExp>0</YearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <FirstName> SHEILA</FirstName>
+    <MiddleName />
+    <LastName>MUNT</LastName>
+    <UnstructuredName>MUNT, SHEILA</UnstructuredName>
+    <StructuredNameInd>Y</StructuredNameInd>
+    <CompanyInd>N</CompanyInd>
+    <BirthYear>1964</BirthYear>
+    <BirthMonth>3</BirthMonth>
+    <BirthDay>5</BirthDay>
+    <Gender>U</Gender>
+    <ICPBWarningPossibleMatchInd>N</ICPBWarningPossibleMatchInd>
+    <PolicyVehicleCode>000</PolicyVehicleCode>
+    <Age>32</Age>
+    <MaritalStatus />
+  </PolicyDriverDT>
+  <PolicyDriverDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>12372954</PolicyNumber>
+    <PolicyDriverId>0200197566100003</PolicyDriverId>
+    <DeletedInd>Y</DeletedInd>
+    <LicenceNumberStatus>BL</LicenceNumberStatus>
+    <DriverRelationshipCode>INS</DriverRelationshipCode>
+    <PrincipalOperatorInd>N</PrincipalOperatorInd>
+    <PolicyVehicleId />
+    <LicenceProvinceCode />
+    <LicenceNumber />
+    <YearsLicenced>0</YearsLicenced>
+    <YearsLicencedExp>0</YearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <FirstName> GEORGE</FirstName>
+    <MiddleName />
+    <LastName>MUNT</LastName>
+    <UnstructuredName>MUNT, GEORGE</UnstructuredName>
+    <StructuredNameInd>Y</StructuredNameInd>
+    <CompanyInd>N</CompanyInd>
+    <BirthYear>0</BirthYear>
+    <BirthMonth>0</BirthMonth>
+    <BirthDay>0</BirthDay>
+    <Gender>U</Gender>
+    <ICPBWarningPossibleMatchInd>N</ICPBWarningPossibleMatchInd>
+    <PolicyVehicleCode>000</PolicyVehicleCode>
+    <Age />
+    <MaritalStatus />
+  </PolicyDriverDT>
+  <PolicyDriverDT>
+    <CompanyCode>222</CompanyCode>
+    <PolicyNumber>0001196</PolicyNumber>
+    <PolicyDriverId>0100000004300000</PolicyDriverId>
+    <DeletedInd>Y</DeletedInd>
+    <LicenceNumberStatus>VL</LicenceNumberStatus>
+    <DriverRelationshipCode>INS</DriverRelationshipCode>
+    <PrincipalOperatorInd>N</PrincipalOperatorInd>
+    <PolicyVehicleId />
+    <LicenceProvinceCode>ON</LicenceProvinceCode>
+    <LicenceNumber>M93002789250829</LicenceNumber>
+    <YearsLicenced>0</YearsLicenced>
+    <YearsLicencedExp>0</YearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <FirstName>MUNT</FirstName>
+    <MiddleName />
+    <LastName>GEORGE</LastName>
+    <UnstructuredName>GEORGE MUNT</UnstructuredName>
+    <StructuredNameInd>Y</StructuredNameInd>
+    <CompanyInd>N</CompanyInd>
+    <BirthYear>1925</BirthYear>
+    <BirthMonth>8</BirthMonth>
+    <BirthDay>29</BirthDay>
+    <Gender>U</Gender>
+    <ICPBWarningPossibleMatchInd>N</ICPBWarningPossibleMatchInd>
+    <PolicyVehicleCode>000</PolicyVehicleCode>
+    <Age>70</Age>
+    <MaritalStatus />
+  </PolicyDriverDT>
+  <PolicyDriverDT>
+    <CompanyCode>222</CompanyCode>
+    <PolicyNumber>0001196</PolicyNumber>
+    <PolicyDriverId>0100000004300001</PolicyDriverId>
+    <DeletedInd>Y</DeletedInd>
+    <LicenceNumberStatus>VL</LicenceNumberStatus>
+    <DriverRelationshipCode>SP</DriverRelationshipCode>
+    <PrincipalOperatorInd>N</PrincipalOperatorInd>
+    <PolicyVehicleId />
+    <LicenceProvinceCode>ON</LicenceProvinceCode>
+    <LicenceNumber>M93005763306014</LicenceNumber>
+    <YearsLicenced>0</YearsLicenced>
+    <YearsLicencedExp>0</YearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <FirstName>MUNT</FirstName>
+    <MiddleName />
+    <LastName>NADIA</LastName>
+    <UnstructuredName>NADIA MUNT</UnstructuredName>
+    <StructuredNameInd>Y</StructuredNameInd>
+    <CompanyInd>N</CompanyInd>
+    <BirthYear>1930</BirthYear>
+    <BirthMonth>10</BirthMonth>
+    <BirthDay>14</BirthDay>
+    <Gender>U</Gender>
+    <ICPBWarningPossibleMatchInd>N</ICPBWarningPossibleMatchInd>
+    <PolicyVehicleCode>000</PolicyVehicleCode>
+    <Age>64</Age>
+    <MaritalStatus />
+  </PolicyDriverDT>
+  <PolicyDriverDT>
+    <CompanyCode>222</CompanyCode>
+    <PolicyNumber>0001196</PolicyNumber>
+    <PolicyDriverId>0100000004300002</PolicyDriverId>
+    <DeletedInd>N</DeletedInd>
+    <LicenceNumberStatus>VL</LicenceNumberStatus>
+    <DriverRelationshipCode />
+    <PrincipalOperatorInd>N</PrincipalOperatorInd>
+    <PolicyVehicleId>0100000004300002</PolicyVehicleId>
+    <LicenceProvinceCode>ON</LicenceProvinceCode>
+    <LicenceNumber>R94435180480508</LicenceNumber>
+    <YearsLicenced>0</YearsLicenced>
+    <YearsLicencedExp>0</YearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <FirstName>RUSINONSKI</FirstName>
+    <MiddleName />
+    <LastName>MARK</LastName>
+    <UnstructuredName>MARK RUSINONSKI</UnstructuredName>
+    <StructuredNameInd>Y</StructuredNameInd>
+    <CompanyInd>N</CompanyInd>
+    <BirthYear>0</BirthYear>
+    <BirthMonth>0</BirthMonth>
+    <BirthDay>0</BirthDay>
+    <Gender>U</Gender>
+    <ICPBWarningPossibleMatchInd>N</ICPBWarningPossibleMatchInd>
+    <PolicyVehicleCode>000</PolicyVehicleCode>
+    <Age />
+    <MaritalStatus />
+  </PolicyDriverDT>
+  <PolicyDriverDT>
+    <CompanyCode>222</CompanyCode>
+    <PolicyNumber>0001196</PolicyNumber>
+    <PolicyDriverId>0100000004300003</PolicyDriverId>
+    <DeletedInd>N</DeletedInd>
+    <LicenceNumberStatus>VL</LicenceNumberStatus>
+    <DriverRelationshipCode />
+    <PrincipalOperatorInd>N</PrincipalOperatorInd>
+    <PolicyVehicleId>0100000004300002</PolicyVehicleId>
+    <LicenceProvinceCode>ON</LicenceProvinceCode>
+    <LicenceNumber>R94433798535724</LicenceNumber>
+    <YearsLicenced>0</YearsLicenced>
+    <YearsLicencedExp>0</YearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <FirstName>S. RUSINOWSKA</FirstName>
+    <MiddleName />
+    <LastName>IWONA</LastName>
+    <UnstructuredName>IWONA S. RUSINOWSKA</UnstructuredName>
+    <StructuredNameInd>Y</StructuredNameInd>
+    <CompanyInd>N</CompanyInd>
+    <BirthYear>0</BirthYear>
+    <BirthMonth>0</BirthMonth>
+    <BirthDay>0</BirthDay>
+    <Gender>U</Gender>
+    <ICPBWarningPossibleMatchInd>N</ICPBWarningPossibleMatchInd>
+    <PolicyVehicleCode>000</PolicyVehicleCode>
+    <Age />
+    <MaritalStatus />
+  </PolicyDriverDT>
+  <PolicyDriverDT>
+    <CompanyCode>222</CompanyCode>
+    <PolicyNumber>0001196</PolicyNumber>
+    <PolicyDriverId>0100000004300004</PolicyDriverId>
+    <DeletedInd>N</DeletedInd>
+    <LicenceNumberStatus>BL</LicenceNumberStatus>
+    <DriverRelationshipCode>INS</DriverRelationshipCode>
+    <PrincipalOperatorInd>N</PrincipalOperatorInd>
+    <PolicyVehicleId>0100000004300002</PolicyVehicleId>
+    <LicenceProvinceCode />
+    <LicenceNumber />
+    <YearsLicenced>0</YearsLicenced>
+    <YearsLicencedExp>0</YearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <FirstName>RUSINOWSKI</FirstName>
+    <MiddleName />
+    <LastName>IWONA</LastName>
+    <UnstructuredName>IWONA RUSINOWSKI</UnstructuredName>
+    <StructuredNameInd>Y</StructuredNameInd>
+    <CompanyInd>N</CompanyInd>
+    <BirthYear>0</BirthYear>
+    <BirthMonth>0</BirthMonth>
+    <BirthDay>0</BirthDay>
+    <Gender>U</Gender>
+    <ICPBWarningPossibleMatchInd>N</ICPBWarningPossibleMatchInd>
+    <PolicyVehicleCode>000</PolicyVehicleCode>
+    <Age />
+    <MaritalStatus />
+  </PolicyDriverDT>
+  <PolicyDriverDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>12201356</PolicyNumber>
+    <PolicyDriverId>0200196657300000</PolicyDriverId>
+    <DeletedInd>N</DeletedInd>
+    <LicenceNumberStatus>VL</LicenceNumberStatus>
+    <DriverRelationshipCode />
+    <PrincipalOperatorInd>N</PrincipalOperatorInd>
+    <PolicyVehicleId>0200196657300000</PolicyVehicleId>
+    <LicenceProvinceCode>ON</LicenceProvinceCode>
+    <LicenceNumber>M93002789250829</LicenceNumber>
+    <YearsLicenced>0</YearsLicenced>
+    <YearsLicencedExp>0</YearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <FirstName> GEORGE</FirstName>
+    <MiddleName />
+    <LastName>MUNT</LastName>
+    <UnstructuredName>MUNT, GEORGE</UnstructuredName>
+    <StructuredNameInd>Y</StructuredNameInd>
+    <CompanyInd>N</CompanyInd>
+    <BirthYear>1925</BirthYear>
+    <BirthMonth>8</BirthMonth>
+    <BirthDay>29</BirthDay>
+    <Gender>U</Gender>
+    <ICPBWarningPossibleMatchInd>N</ICPBWarningPossibleMatchInd>
+    <PolicyVehicleCode>000</PolicyVehicleCode>
+    <Age>66</Age>
+    <MaritalStatus />
+  </PolicyDriverDT>
+  <PolicyDriverDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>12201356</PolicyNumber>
+    <PolicyDriverId>0200196657300001</PolicyDriverId>
+    <DeletedInd>Y</DeletedInd>
+    <LicenceNumberStatus>VL</LicenceNumberStatus>
+    <DriverRelationshipCode />
+    <PrincipalOperatorInd>N</PrincipalOperatorInd>
+    <PolicyVehicleId />
+    <LicenceProvinceCode>ON</LicenceProvinceCode>
+    <LicenceNumber>M93002789250829</LicenceNumber>
+    <YearsLicenced>0</YearsLicenced>
+    <YearsLicencedExp>0</YearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <FirstName> GEORGE</FirstName>
+    <MiddleName />
+    <LastName>MUNT</LastName>
+    <UnstructuredName>MUNT, GEORGE</UnstructuredName>
+    <StructuredNameInd>Y</StructuredNameInd>
+    <CompanyInd>N</CompanyInd>
+    <BirthYear>1925</BirthYear>
+    <BirthMonth>8</BirthMonth>
+    <BirthDay>29</BirthDay>
+    <Gender>U</Gender>
+    <ICPBWarningPossibleMatchInd>N</ICPBWarningPossibleMatchInd>
+    <PolicyVehicleCode>000</PolicyVehicleCode>
+    <Age>66</Age>
+    <MaritalStatus />
+  </PolicyDriverDT>
+  <PolicyDriverDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>13062499</PolicyNumber>
+    <PolicyDriverId>0200427921100000</PolicyDriverId>
+    <DeletedInd>N</DeletedInd>
+    <LicenceNumberStatus>VL</LicenceNumberStatus>
+    <DriverRelationshipCode>INS</DriverRelationshipCode>
+    <PrincipalOperatorInd>Y</PrincipalOperatorInd>
+    <PolicyVehicleId>0200427921100000</PolicyVehicleId>
+    <LicenceProvinceCode>ON</LicenceProvinceCode>
+    <LicenceNumber>M93005763306014</LicenceNumber>
+    <YearsLicenced>9</YearsLicenced>
+    <YearsLicencedExp>9</YearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <FirstName> NADIA</FirstName>
+    <MiddleName />
+    <LastName>MUNT</LastName>
+    <UnstructuredName>MUNT, NADIA</UnstructuredName>
+    <StructuredNameInd>Y</StructuredNameInd>
+    <CompanyInd>N</CompanyInd>
+    <BirthYear>1930</BirthYear>
+    <BirthMonth>12</BirthMonth>
+    <BirthDay>14</BirthDay>
+    <Gender>F</Gender>
+    <ICPBWarningPossibleMatchInd>N</ICPBWarningPossibleMatchInd>
+    <PolicyVehicleCode>001</PolicyVehicleCode>
+    <Age>70</Age>
+    <MaritalStatus />
+  </PolicyDriverDT>
+  <PolicyDriverDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>13062499</PolicyNumber>
+    <PolicyDriverId>0200427921100001</PolicyDriverId>
+    <DeletedInd>Y</DeletedInd>
+    <LicenceNumberStatus>VL</LicenceNumberStatus>
+    <DriverRelationshipCode>PRN</DriverRelationshipCode>
+    <PrincipalOperatorInd>Y</PrincipalOperatorInd>
+    <PolicyVehicleId />
+    <LicenceProvinceCode>ON</LicenceProvinceCode>
+    <LicenceNumber>M93005763306014</LicenceNumber>
+    <YearsLicenced>9</YearsLicenced>
+    <YearsLicencedExp>9</YearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <FirstName> NADIA</FirstName>
+    <MiddleName />
+    <LastName>MUNT</LastName>
+    <UnstructuredName>MUNT, NADIA</UnstructuredName>
+    <StructuredNameInd>Y</StructuredNameInd>
+    <CompanyInd>N</CompanyInd>
+    <BirthYear>0</BirthYear>
+    <BirthMonth>0</BirthMonth>
+    <BirthDay>0</BirthDay>
+    <Gender>F</Gender>
+    <ICPBWarningPossibleMatchInd>N</ICPBWarningPossibleMatchInd>
+    <PolicyVehicleCode>001</PolicyVehicleCode>
+    <Age />
+    <MaritalStatus />
+  </PolicyDriverDT>
+  <PolicyDriverDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>13062499</PolicyNumber>
+    <PolicyDriverId>0200427921100002</PolicyDriverId>
+    <DeletedInd>Y</DeletedInd>
+    <LicenceNumberStatus>VL</LicenceNumberStatus>
+    <DriverRelationshipCode>PRN</DriverRelationshipCode>
+    <PrincipalOperatorInd>Y</PrincipalOperatorInd>
+    <PolicyVehicleId />
+    <LicenceProvinceCode>ON</LicenceProvinceCode>
+    <LicenceNumber>M93002789250829</LicenceNumber>
+    <YearsLicenced>9</YearsLicenced>
+    <YearsLicencedExp>9</YearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <FirstName> GEORGE</FirstName>
+    <MiddleName />
+    <LastName>MUNT</LastName>
+    <UnstructuredName>MUNT, GEORGE</UnstructuredName>
+    <StructuredNameInd>Y</StructuredNameInd>
+    <CompanyInd>N</CompanyInd>
+    <BirthYear>1925</BirthYear>
+    <BirthMonth>8</BirthMonth>
+    <BirthDay>29</BirthDay>
+    <Gender>M</Gender>
+    <ICPBWarningPossibleMatchInd>N</ICPBWarningPossibleMatchInd>
+    <PolicyVehicleCode>002</PolicyVehicleCode>
+    <Age>75</Age>
+    <MaritalStatus />
+  </PolicyDriverDT>
+  <PolicyDriverDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>13062499</PolicyNumber>
+    <PolicyDriverId>0200427921100003</PolicyDriverId>
+    <DeletedInd>Y</DeletedInd>
+    <LicenceNumberStatus>BL</LicenceNumberStatus>
+    <DriverRelationshipCode>INS</DriverRelationshipCode>
+    <PrincipalOperatorInd>N</PrincipalOperatorInd>
+    <PolicyVehicleId />
+    <LicenceProvinceCode />
+    <LicenceNumber />
+    <YearsLicenced>0</YearsLicenced>
+    <YearsLicencedExp>0</YearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <FirstName> NADIA</FirstName>
+    <MiddleName />
+    <LastName>MUNT</LastName>
+    <UnstructuredName>MUNT, NADIA</UnstructuredName>
+    <StructuredNameInd>Y</StructuredNameInd>
+    <CompanyInd>N</CompanyInd>
+    <BirthYear>0</BirthYear>
+    <BirthMonth>0</BirthMonth>
+    <BirthDay>0</BirthDay>
+    <Gender>U</Gender>
+    <ICPBWarningPossibleMatchInd>N</ICPBWarningPossibleMatchInd>
+    <PolicyVehicleCode>000</PolicyVehicleCode>
+    <Age />
+    <MaritalStatus />
+  </PolicyDriverDT>
+  <PolicyVehicleDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>12372954</PolicyNumber>
+    <PolicyVehicleId>0200197566100000</PolicyVehicleId>
+    <PolicyDriverId />
+    <TerritoryCode>728</TerritoryCode>
+    <TerritoryDesc>Sarnia District</TerritoryDesc>
+    <TypeOfBusinessCode>1</TypeOfBusinessCode>
+    <ClassTypeOfUseCode>01</ClassTypeOfUseCode>
+    <UseCode>1</UseCode>
+    <PrincipalOperatorBirthYear>1930</PrincipalOperatorBirthYear>
+    <PrincipalOperatorYearsLicenced>9</PrincipalOperatorYearsLicenced>
+    <PrincipalOperatorYearsLicencedExp>9</PrincipalOperatorYearsLicencedExp>
+    <PrincipalOperatorGender>F</PrincipalOperatorGender>
+    <YearsClaimFree>9</YearsClaimFree>
+    <YearsClaimFreeExp>9</YearsClaimFreeExp>
+    <YearsClaimFreeTP>6</YearsClaimFreeTP>
+    <YearsClaimFreeColl>6</YearsClaimFreeColl>
+    <YearsOtherClaimFreeTP>0</YearsOtherClaimFreeTP>
+    <YearsOtherClaimFreeColl>0</YearsOtherClaimFreeColl>
+    <FacilityAccidentCount>0</FacilityAccidentCount>
+    <FacilityAConvictionCount>0</FacilityAConvictionCount>
+    <FacilityBConvictionCount>0</FacilityBConvictionCount>
+    <FacilityCConvictionCount>0</FacilityCConvictionCount>
+    <VIN />
+    <VINStatus>NA</VINStatus>
+    <VehicleCode>2359</VehicleCode>
+    <ModelYear>1987</ModelYear>
+    <ICPBReportReference />
+    <VehicleFixableInd />
+    <VehicleType>A</VehicleType>
+    <BodyTypeCode>2D</BodyTypeCode>
+    <DriveTypeCode>1</DriveTypeCode>
+    <CarCode>235900</CarCode>
+    <MakeEng>DODGE</MakeEng>
+    <MakeFre>DODGE</MakeFre>
+    <ModelEng>ARIES LE 2DR</ModelEng>
+    <ModelFre>ARIES LE 2DR</ModelFre>
+    <VehicleDescEng />
+    <VehicleDescFre />
+    <VehicleDescInd>N</VehicleDescInd>
+    <IAOSubClassType />
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <NumberOfClaims>0</NumberOfClaims>
+    <OtherOperatorCode>6</OtherOperatorCode>
+    <OtherOperatorMinimumYearsLicenced>0</OtherOperatorMinimumYearsLicenced>
+    <IAOUseCode />
+    <PolicyDriverCode>000</PolicyDriverCode>
+    <RIN />
+    <TerritoryFSA />
+    <MandatoryCoverage />
+    <TrailerIndicator />
+    <NewDriverDiscount />
+    <RetirementDiscount />
+    <CleanDriverIndicator />
+    <FADriverTrainingCode />
+    <FAInsuranceFraudConvictions />
+    <LastUpdateDate>00000000</LastUpdateDate>
+    <AfterMarketSecurityDevice>NA</AfterMarketSecurityDevice>
+    <LeasedVehicle>NA</LeasedVehicle>
+    <VehicleRemoveYear>1998</VehicleRemoveYear>
+    <VehicleRemoveMonth>1</VehicleRemoveMonth>
+    <MultiCarDiscount />
+    <MultiLineDiscount />
+    <RenewalDiscount />
+    <CommutingDistance />
+    <AnnualDrivingDistance />
+    <BusinessUsePercentage />
+    <WinterTireDiscount />
+  </PolicyVehicleDT>
+  <PolicyVehicleDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>12372954</PolicyNumber>
+    <PolicyVehicleId>0200197566100001</PolicyVehicleId>
+    <PolicyDriverId />
+    <TerritoryCode>728</TerritoryCode>
+    <TerritoryDesc>Sarnia District</TerritoryDesc>
+    <TypeOfBusinessCode>1</TypeOfBusinessCode>
+    <ClassTypeOfUseCode>01</ClassTypeOfUseCode>
+    <UseCode>1</UseCode>
+    <PrincipalOperatorBirthYear>1925</PrincipalOperatorBirthYear>
+    <PrincipalOperatorYearsLicenced>9</PrincipalOperatorYearsLicenced>
+    <PrincipalOperatorYearsLicencedExp>9</PrincipalOperatorYearsLicencedExp>
+    <PrincipalOperatorGender>M</PrincipalOperatorGender>
+    <YearsClaimFree>9</YearsClaimFree>
+    <YearsClaimFreeExp>9</YearsClaimFreeExp>
+    <YearsClaimFreeTP>6</YearsClaimFreeTP>
+    <YearsClaimFreeColl>6</YearsClaimFreeColl>
+    <YearsOtherClaimFreeTP>0</YearsOtherClaimFreeTP>
+    <YearsOtherClaimFreeColl>0</YearsOtherClaimFreeColl>
+    <FacilityAccidentCount>0</FacilityAccidentCount>
+    <FacilityAConvictionCount>0</FacilityAConvictionCount>
+    <FacilityBConvictionCount>0</FacilityBConvictionCount>
+    <FacilityCConvictionCount>0</FacilityCConvictionCount>
+    <VIN />
+    <VINStatus>NA</VINStatus>
+    <VehicleCode>6627</VehicleCode>
+    <ModelYear>1987</ModelYear>
+    <ICPBReportReference />
+    <VehicleFixableInd />
+    <VehicleType>A</VehicleType>
+    <BodyTypeCode>1P</BodyTypeCode>
+    <DriveTypeCode>1</DriveTypeCode>
+    <CarCode>662700</CarCode>
+    <MakeEng>GMC TRUCK/VAN</MakeEng>
+    <MakeFre>GMC TRUCK/VAN</MakeFre>
+    <ModelEng>C/R 1500 PICKUP REG CAB 2WD</ModelEng>
+    <ModelFre>C/R 1500 PICKUP REG CAB 2WD</ModelFre>
+    <VehicleDescEng />
+    <VehicleDescFre />
+    <VehicleDescInd>N</VehicleDescInd>
+    <IAOSubClassType />
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <NumberOfClaims>0</NumberOfClaims>
+    <OtherOperatorCode>6</OtherOperatorCode>
+    <OtherOperatorMinimumYearsLicenced>0</OtherOperatorMinimumYearsLicenced>
+    <IAOUseCode />
+    <PolicyDriverCode>000</PolicyDriverCode>
+    <RIN />
+    <TerritoryFSA />
+    <MandatoryCoverage />
+    <TrailerIndicator />
+    <NewDriverDiscount />
+    <RetirementDiscount />
+    <CleanDriverIndicator />
+    <FADriverTrainingCode />
+    <FAInsuranceFraudConvictions />
+    <LastUpdateDate>00000000</LastUpdateDate>
+    <AfterMarketSecurityDevice>NA</AfterMarketSecurityDevice>
+    <LeasedVehicle>NA</LeasedVehicle>
+    <VehicleRemoveYear>1998</VehicleRemoveYear>
+    <VehicleRemoveMonth>1</VehicleRemoveMonth>
+    <MultiCarDiscount />
+    <MultiLineDiscount />
+    <RenewalDiscount />
+    <CommutingDistance />
+    <AnnualDrivingDistance />
+    <BusinessUsePercentage />
+    <WinterTireDiscount />
+  </PolicyVehicleDT>
+  <PolicyVehicleDT>
+    <CompanyCode>222</CompanyCode>
+    <PolicyNumber>0001196</PolicyNumber>
+    <PolicyVehicleId>0100000004300002</PolicyVehicleId>
+    <PolicyDriverId />
+    <TerritoryCode>717</TerritoryCode>
+    <TerritoryDesc>Toronto, Southern York-Peel</TerritoryDesc>
+    <TypeOfBusinessCode>1</TypeOfBusinessCode>
+    <ClassTypeOfUseCode>02</ClassTypeOfUseCode>
+    <UseCode>2</UseCode>
+    <PrincipalOperatorBirthYear>1953</PrincipalOperatorBirthYear>
+    <PrincipalOperatorYearsLicenced>9</PrincipalOperatorYearsLicenced>
+    <PrincipalOperatorYearsLicencedExp>9</PrincipalOperatorYearsLicencedExp>
+    <PrincipalOperatorGender>F</PrincipalOperatorGender>
+    <YearsClaimFree>9</YearsClaimFree>
+    <YearsClaimFreeExp>9</YearsClaimFreeExp>
+    <YearsClaimFreeTP>6</YearsClaimFreeTP>
+    <YearsClaimFreeColl>6</YearsClaimFreeColl>
+    <YearsOtherClaimFreeTP>0</YearsOtherClaimFreeTP>
+    <YearsOtherClaimFreeColl>0</YearsOtherClaimFreeColl>
+    <FacilityAccidentCount>0</FacilityAccidentCount>
+    <FacilityAConvictionCount>0</FacilityAConvictionCount>
+    <FacilityBConvictionCount>0</FacilityBConvictionCount>
+    <FacilityCConvictionCount>0</FacilityCConvictionCount>
+    <VIN />
+    <VINStatus>NA</VINStatus>
+    <VehicleCode>0561</VehicleCode>
+    <ModelYear>1987</ModelYear>
+    <ICPBReportReference />
+    <VehicleFixableInd />
+    <VehicleType>A</VehicleType>
+    <BodyTypeCode>CV</BodyTypeCode>
+    <DriveTypeCode>2</DriveTypeCode>
+    <CarCode>056100</CarCode>
+    <MakeEng>TOYOTA TRUCK/VAN</MakeEng>
+    <MakeFre>TOYOTA TRUCK/VAN</MakeFre>
+    <ModelEng>VAN CARGO 4WD</ModelEng>
+    <ModelFre>VAN CARGO 4WD</ModelFre>
+    <VehicleDescEng />
+    <VehicleDescFre />
+    <VehicleDescInd>N</VehicleDescInd>
+    <IAOSubClassType />
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <NumberOfClaims>0</NumberOfClaims>
+    <OtherOperatorCode>0</OtherOperatorCode>
+    <OtherOperatorMinimumYearsLicenced>9</OtherOperatorMinimumYearsLicenced>
+    <IAOUseCode />
+    <PolicyDriverCode>000</PolicyDriverCode>
+    <RIN />
+    <TerritoryFSA />
+    <MandatoryCoverage />
+    <TrailerIndicator />
+    <NewDriverDiscount />
+    <RetirementDiscount />
+    <CleanDriverIndicator />
+    <FADriverTrainingCode />
+    <FAInsuranceFraudConvictions />
+    <LastUpdateDate>00000000</LastUpdateDate>
+    <AfterMarketSecurityDevice>NA</AfterMarketSecurityDevice>
+    <LeasedVehicle>NA</LeasedVehicle>
+    <VehicleRemoveYear>1996</VehicleRemoveYear>
+    <VehicleRemoveMonth>9</VehicleRemoveMonth>
+    <MultiCarDiscount />
+    <MultiLineDiscount />
+    <RenewalDiscount />
+    <CommutingDistance />
+    <AnnualDrivingDistance />
+    <BusinessUsePercentage />
+    <WinterTireDiscount />
+  </PolicyVehicleDT>
+  <PolicyVehicleDT>
+    <CompanyCode>222</CompanyCode>
+    <PolicyNumber>0001196</PolicyNumber>
+    <PolicyVehicleId>0100000004300003</PolicyVehicleId>
+    <PolicyDriverId />
+    <TerritoryCode>717</TerritoryCode>
+    <TerritoryDesc>Toronto, Southern York-Peel</TerritoryDesc>
+    <TypeOfBusinessCode>1</TypeOfBusinessCode>
+    <ClassTypeOfUseCode>01</ClassTypeOfUseCode>
+    <UseCode>1</UseCode>
+    <PrincipalOperatorBirthYear>1953</PrincipalOperatorBirthYear>
+    <PrincipalOperatorYearsLicenced>9</PrincipalOperatorYearsLicenced>
+    <PrincipalOperatorYearsLicencedExp>9</PrincipalOperatorYearsLicencedExp>
+    <PrincipalOperatorGender>F</PrincipalOperatorGender>
+    <YearsClaimFree>9</YearsClaimFree>
+    <YearsClaimFreeExp>9</YearsClaimFreeExp>
+    <YearsClaimFreeTP>6</YearsClaimFreeTP>
+    <YearsClaimFreeColl>6</YearsClaimFreeColl>
+    <YearsOtherClaimFreeTP>0</YearsOtherClaimFreeTP>
+    <YearsOtherClaimFreeColl>0</YearsOtherClaimFreeColl>
+    <FacilityAccidentCount>0</FacilityAccidentCount>
+    <FacilityAConvictionCount>0</FacilityAConvictionCount>
+    <FacilityBConvictionCount>0</FacilityBConvictionCount>
+    <FacilityCConvictionCount>0</FacilityCConvictionCount>
+    <VIN />
+    <VINStatus>NA</VINStatus>
+    <VehicleCode>3421</VehicleCode>
+    <ModelYear>1995</ModelYear>
+    <ICPBReportReference />
+    <VehicleFixableInd />
+    <VehicleType>A</VehicleType>
+    <BodyTypeCode>SW</BodyTypeCode>
+    <DriveTypeCode>1</DriveTypeCode>
+    <CarCode>342100</CarCode>
+    <MakeEng>FORD</MakeEng>
+    <MakeFre>FORD</MakeFre>
+    <ModelEng>TAURUS WAGON</ModelEng>
+    <ModelFre>TAURUS WAGON</ModelFre>
+    <VehicleDescEng />
+    <VehicleDescFre />
+    <VehicleDescInd>N</VehicleDescInd>
+    <IAOSubClassType />
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <NumberOfClaims>0</NumberOfClaims>
+    <OtherOperatorCode>6</OtherOperatorCode>
+    <OtherOperatorMinimumYearsLicenced>0</OtherOperatorMinimumYearsLicenced>
+    <IAOUseCode />
+    <PolicyDriverCode>000</PolicyDriverCode>
+    <RIN />
+    <TerritoryFSA />
+    <MandatoryCoverage />
+    <TrailerIndicator />
+    <NewDriverDiscount />
+    <RetirementDiscount />
+    <CleanDriverIndicator />
+    <FADriverTrainingCode />
+    <FAInsuranceFraudConvictions />
+    <LastUpdateDate>00000000</LastUpdateDate>
+    <AfterMarketSecurityDevice>NA</AfterMarketSecurityDevice>
+    <LeasedVehicle>NA</LeasedVehicle>
+    <VehicleRemoveYear>1996</VehicleRemoveYear>
+    <VehicleRemoveMonth>9</VehicleRemoveMonth>
+    <MultiCarDiscount />
+    <MultiLineDiscount />
+    <RenewalDiscount />
+    <CommutingDistance />
+    <AnnualDrivingDistance />
+    <BusinessUsePercentage />
+    <WinterTireDiscount />
+  </PolicyVehicleDT>
+  <PolicyVehicleDT>
+    <CompanyCode>222</CompanyCode>
+    <PolicyNumber>0001196</PolicyNumber>
+    <PolicyVehicleId>0100000004300004</PolicyVehicleId>
+    <PolicyDriverId />
+    <TerritoryCode>717</TerritoryCode>
+    <TerritoryDesc>Toronto, Southern York-Peel</TerritoryDesc>
+    <TypeOfBusinessCode>1</TypeOfBusinessCode>
+    <ClassTypeOfUseCode>01</ClassTypeOfUseCode>
+    <UseCode>1</UseCode>
+    <PrincipalOperatorBirthYear>1953</PrincipalOperatorBirthYear>
+    <PrincipalOperatorYearsLicenced>9</PrincipalOperatorYearsLicenced>
+    <PrincipalOperatorYearsLicencedExp>9</PrincipalOperatorYearsLicencedExp>
+    <PrincipalOperatorGender>F</PrincipalOperatorGender>
+    <YearsClaimFree>9</YearsClaimFree>
+    <YearsClaimFreeExp>9</YearsClaimFreeExp>
+    <YearsClaimFreeTP>6</YearsClaimFreeTP>
+    <YearsClaimFreeColl>0</YearsClaimFreeColl>
+    <YearsOtherClaimFreeTP>0</YearsOtherClaimFreeTP>
+    <YearsOtherClaimFreeColl>0</YearsOtherClaimFreeColl>
+    <FacilityAccidentCount>0</FacilityAccidentCount>
+    <FacilityAConvictionCount>0</FacilityAConvictionCount>
+    <FacilityBConvictionCount>0</FacilityBConvictionCount>
+    <FacilityCConvictionCount>0</FacilityCConvictionCount>
+    <VIN />
+    <VINStatus>NA</VINStatus>
+    <VehicleCode>0725</VehicleCode>
+    <ModelYear>1986</ModelYear>
+    <ICPBReportReference />
+    <VehicleFixableInd />
+    <VehicleType>A</VehicleType>
+    <BodyTypeCode>4D</BodyTypeCode>
+    <DriveTypeCode>1</DriveTypeCode>
+    <CarCode>072500</CarCode>
+    <MakeEng>HYUNDAI</MakeEng>
+    <MakeFre>HYUNDAI</MakeFre>
+    <ModelEng>PONY 4DR</ModelEng>
+    <ModelFre>PONY 4DR</ModelFre>
+    <VehicleDescEng />
+    <VehicleDescFre />
+    <VehicleDescInd>N</VehicleDescInd>
+    <IAOSubClassType />
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <NumberOfClaims>0</NumberOfClaims>
+    <OtherOperatorCode>6</OtherOperatorCode>
+    <OtherOperatorMinimumYearsLicenced>0</OtherOperatorMinimumYearsLicenced>
+    <IAOUseCode />
+    <PolicyDriverCode>000</PolicyDriverCode>
+    <RIN />
+    <TerritoryFSA />
+    <MandatoryCoverage />
+    <TrailerIndicator />
+    <NewDriverDiscount />
+    <RetirementDiscount />
+    <CleanDriverIndicator />
+    <FADriverTrainingCode />
+    <FAInsuranceFraudConvictions />
+    <LastUpdateDate>00000000</LastUpdateDate>
+    <AfterMarketSecurityDevice>NA</AfterMarketSecurityDevice>
+    <LeasedVehicle>NA</LeasedVehicle>
+    <VehicleRemoveYear>1996</VehicleRemoveYear>
+    <VehicleRemoveMonth>9</VehicleRemoveMonth>
+    <MultiCarDiscount />
+    <MultiLineDiscount />
+    <RenewalDiscount />
+    <CommutingDistance />
+    <AnnualDrivingDistance />
+    <BusinessUsePercentage />
+    <WinterTireDiscount />
+  </PolicyVehicleDT>
+  <PolicyVehicleDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>12201356</PolicyNumber>
+    <PolicyVehicleId>0200196657300000</PolicyVehicleId>
+    <PolicyDriverId />
+    <TerritoryCode>728</TerritoryCode>
+    <TerritoryDesc>Sarnia District</TerritoryDesc>
+    <TypeOfBusinessCode>1</TypeOfBusinessCode>
+    <ClassTypeOfUseCode>36</ClassTypeOfUseCode>
+    <UseCode>0</UseCode>
+    <PrincipalOperatorBirthYear>1925</PrincipalOperatorBirthYear>
+    <PrincipalOperatorYearsLicenced>0</PrincipalOperatorYearsLicenced>
+    <PrincipalOperatorYearsLicencedExp>0</PrincipalOperatorYearsLicencedExp>
+    <PrincipalOperatorGender>U</PrincipalOperatorGender>
+    <YearsClaimFree>0</YearsClaimFree>
+    <YearsClaimFreeExp>0</YearsClaimFreeExp>
+    <YearsClaimFreeTP>3</YearsClaimFreeTP>
+    <YearsClaimFreeColl>3</YearsClaimFreeColl>
+    <YearsOtherClaimFreeTP>0</YearsOtherClaimFreeTP>
+    <YearsOtherClaimFreeColl>0</YearsOtherClaimFreeColl>
+    <FacilityAccidentCount>0</FacilityAccidentCount>
+    <FacilityAConvictionCount>0</FacilityAConvictionCount>
+    <FacilityBConvictionCount>0</FacilityBConvictionCount>
+    <FacilityCConvictionCount>0</FacilityCConvictionCount>
+    <VIN />
+    <VINStatus>NA</VINStatus>
+    <VehicleCode>0306</VehicleCode>
+    <ModelYear>1980</ModelYear>
+    <ICPBReportReference />
+    <VehicleFixableInd />
+    <VehicleType>A</VehicleType>
+    <BodyTypeCode />
+    <DriveTypeCode />
+    <CarCode />
+    <MakeEng />
+    <MakeFre />
+    <ModelEng />
+    <ModelFre />
+    <VehicleDescEng>$306,000 Pickup</VehicleDescEng>
+    <VehicleDescFre />
+    <VehicleDescInd>Y</VehicleDescInd>
+    <IAOSubClassType>3</IAOSubClassType>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <NumberOfClaims>0</NumberOfClaims>
+    <OtherOperatorCode>9</OtherOperatorCode>
+    <OtherOperatorMinimumYearsLicenced>0</OtherOperatorMinimumYearsLicenced>
+    <IAOUseCode>N</IAOUseCode>
+    <PolicyDriverCode>000</PolicyDriverCode>
+    <RIN />
+    <TerritoryFSA />
+    <MandatoryCoverage />
+    <TrailerIndicator />
+    <NewDriverDiscount />
+    <RetirementDiscount />
+    <CleanDriverIndicator />
+    <FADriverTrainingCode />
+    <FAInsuranceFraudConvictions />
+    <LastUpdateDate>00000000</LastUpdateDate>
+    <AfterMarketSecurityDevice>NA</AfterMarketSecurityDevice>
+    <LeasedVehicle>NA</LeasedVehicle>
+    <VehicleRemoveYear>1992</VehicleRemoveYear>
+    <VehicleRemoveMonth>1</VehicleRemoveMonth>
+    <MultiCarDiscount />
+    <MultiLineDiscount />
+    <RenewalDiscount />
+    <CommutingDistance />
+    <AnnualDrivingDistance />
+    <BusinessUsePercentage />
+    <WinterTireDiscount />
+  </PolicyVehicleDT>
+  <PolicyVehicleDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>12201356</PolicyNumber>
+    <PolicyVehicleId>0200196657300001</PolicyVehicleId>
+    <PolicyDriverId />
+    <TerritoryCode>728</TerritoryCode>
+    <TerritoryDesc>Sarnia District</TerritoryDesc>
+    <TypeOfBusinessCode>1</TypeOfBusinessCode>
+    <ClassTypeOfUseCode>01</ClassTypeOfUseCode>
+    <UseCode>1</UseCode>
+    <PrincipalOperatorBirthYear>1925</PrincipalOperatorBirthYear>
+    <PrincipalOperatorYearsLicenced>9</PrincipalOperatorYearsLicenced>
+    <PrincipalOperatorYearsLicencedExp>9</PrincipalOperatorYearsLicencedExp>
+    <PrincipalOperatorGender>M</PrincipalOperatorGender>
+    <YearsClaimFree>9</YearsClaimFree>
+    <YearsClaimFreeExp>9</YearsClaimFreeExp>
+    <YearsClaimFreeTP>6</YearsClaimFreeTP>
+    <YearsClaimFreeColl>6</YearsClaimFreeColl>
+    <YearsOtherClaimFreeTP>0</YearsOtherClaimFreeTP>
+    <YearsOtherClaimFreeColl>0</YearsOtherClaimFreeColl>
+    <FacilityAccidentCount>0</FacilityAccidentCount>
+    <FacilityAConvictionCount>0</FacilityAConvictionCount>
+    <FacilityBConvictionCount>0</FacilityBConvictionCount>
+    <FacilityCConvictionCount>0</FacilityCConvictionCount>
+    <VIN />
+    <VINStatus>NA</VINStatus>
+    <VehicleCode>3629</VehicleCode>
+    <ModelYear>1980</ModelYear>
+    <ICPBReportReference />
+    <VehicleFixableInd />
+    <VehicleType>A</VehicleType>
+    <BodyTypeCode>1P</BodyTypeCode>
+    <DriveTypeCode>1</DriveTypeCode>
+    <CarCode>362900</CarCode>
+    <MakeEng>FORD TRUCK/VAN</MakeEng>
+    <MakeFre>FORD TRUCK/VAN</MakeFre>
+    <ModelEng>F150 REG CAB 2WD</ModelEng>
+    <ModelFre>F150 REG CAB 2WD</ModelFre>
+    <VehicleDescEng />
+    <VehicleDescFre />
+    <VehicleDescInd>N</VehicleDescInd>
+    <IAOSubClassType>9</IAOSubClassType>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <NumberOfClaims>0</NumberOfClaims>
+    <OtherOperatorCode>6</OtherOperatorCode>
+    <OtherOperatorMinimumYearsLicenced>0</OtherOperatorMinimumYearsLicenced>
+    <IAOUseCode>A</IAOUseCode>
+    <PolicyDriverCode>000</PolicyDriverCode>
+    <RIN />
+    <TerritoryFSA />
+    <MandatoryCoverage />
+    <TrailerIndicator />
+    <NewDriverDiscount />
+    <RetirementDiscount />
+    <CleanDriverIndicator />
+    <FADriverTrainingCode />
+    <FAInsuranceFraudConvictions />
+    <LastUpdateDate>00000000</LastUpdateDate>
+    <AfterMarketSecurityDevice>NA</AfterMarketSecurityDevice>
+    <LeasedVehicle>NA</LeasedVehicle>
+    <VehicleRemoveYear>1993</VehicleRemoveYear>
+    <VehicleRemoveMonth>1</VehicleRemoveMonth>
+    <MultiCarDiscount />
+    <MultiLineDiscount />
+    <RenewalDiscount />
+    <CommutingDistance />
+    <AnnualDrivingDistance />
+    <BusinessUsePercentage />
+    <WinterTireDiscount />
+  </PolicyVehicleDT>
+  <PolicyVehicleDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>13062499</PolicyNumber>
+    <PolicyVehicleId>0200427921100000</PolicyVehicleId>
+    <PolicyDriverId>0200427921100000</PolicyDriverId>
+    <TerritoryCode>728</TerritoryCode>
+    <TerritoryDesc>Sarnia District</TerritoryDesc>
+    <TypeOfBusinessCode>1</TypeOfBusinessCode>
+    <ClassTypeOfUseCode>01</ClassTypeOfUseCode>
+    <UseCode>1</UseCode>
+    <PrincipalOperatorBirthYear>1930</PrincipalOperatorBirthYear>
+    <PrincipalOperatorYearsLicenced>9</PrincipalOperatorYearsLicenced>
+    <PrincipalOperatorYearsLicencedExp>9</PrincipalOperatorYearsLicencedExp>
+    <PrincipalOperatorGender>F</PrincipalOperatorGender>
+    <YearsClaimFree>9</YearsClaimFree>
+    <YearsClaimFreeExp>9</YearsClaimFreeExp>
+    <YearsClaimFreeTP>6</YearsClaimFreeTP>
+    <YearsClaimFreeColl>6</YearsClaimFreeColl>
+    <YearsOtherClaimFreeTP>0</YearsOtherClaimFreeTP>
+    <YearsOtherClaimFreeColl>0</YearsOtherClaimFreeColl>
+    <FacilityAccidentCount>0</FacilityAccidentCount>
+    <FacilityAConvictionCount>0</FacilityAConvictionCount>
+    <FacilityBConvictionCount>0</FacilityBConvictionCount>
+    <FacilityCConvictionCount>0</FacilityCConvictionCount>
+    <VIN>3B3BD31D5HT259034</VIN>
+    <VINStatus>ST</VINStatus>
+    <VehicleCode>2359</VehicleCode>
+    <ModelYear>1987</ModelYear>
+    <ICPBReportReference />
+    <VehicleFixableInd />
+    <VehicleType>A</VehicleType>
+    <BodyTypeCode>2D</BodyTypeCode>
+    <DriveTypeCode>1</DriveTypeCode>
+    <CarCode>235900</CarCode>
+    <MakeEng>DODGE</MakeEng>
+    <MakeFre>DODGE</MakeFre>
+    <ModelEng>ARIES LE 2DR</ModelEng>
+    <ModelFre>ARIES LE 2DR</ModelFre>
+    <VehicleDescEng />
+    <VehicleDescFre />
+    <VehicleDescInd>N</VehicleDescInd>
+    <IAOSubClassType />
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <NumberOfClaims>0</NumberOfClaims>
+    <OtherOperatorCode>6</OtherOperatorCode>
+    <OtherOperatorMinimumYearsLicenced>0</OtherOperatorMinimumYearsLicenced>
+    <IAOUseCode />
+    <PolicyDriverCode>001</PolicyDriverCode>
+    <RIN />
+    <TerritoryFSA />
+    <MandatoryCoverage />
+    <TrailerIndicator />
+    <NewDriverDiscount />
+    <RetirementDiscount />
+    <CleanDriverIndicator />
+    <FADriverTrainingCode />
+    <FAInsuranceFraudConvictions />
+    <LastUpdateDate>00000000</LastUpdateDate>
+    <AfterMarketSecurityDevice>NA</AfterMarketSecurityDevice>
+    <LeasedVehicle>NA</LeasedVehicle>
+    <VehicleRemoveYear>2002</VehicleRemoveYear>
+    <VehicleRemoveMonth>1</VehicleRemoveMonth>
+    <MultiCarDiscount />
+    <MultiLineDiscount />
+    <RenewalDiscount />
+    <CommutingDistance />
+    <AnnualDrivingDistance />
+    <BusinessUsePercentage />
+    <WinterTireDiscount />
+  </PolicyVehicleDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>12372954</PolicyNumber>
+    <PolicyVehicleId>0200197566100000</PolicyVehicleId>
+    <CoverageCategoryCode>TP</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>12372954</PolicyNumber>
+    <PolicyVehicleId>0200197566100000</PolicyVehicleId>
+    <CoverageCategoryCode>AB</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>12372954</PolicyNumber>
+    <PolicyVehicleId>0200197566100000</PolicyVehicleId>
+    <CoverageCategoryCode>CL</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>12372954</PolicyNumber>
+    <PolicyVehicleId>0200197566100000</PolicyVehicleId>
+    <CoverageCategoryCode>PE</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>12372954</PolicyNumber>
+    <PolicyVehicleId>0200197566100001</PolicyVehicleId>
+    <CoverageCategoryCode>TP</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>12372954</PolicyNumber>
+    <PolicyVehicleId>0200197566100001</PolicyVehicleId>
+    <CoverageCategoryCode>AB</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>12372954</PolicyNumber>
+    <PolicyVehicleId>0200197566100001</PolicyVehicleId>
+    <CoverageCategoryCode>CL</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>12372954</PolicyNumber>
+    <PolicyVehicleId>0200197566100001</PolicyVehicleId>
+    <CoverageCategoryCode>PE</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>222</CompanyCode>
+    <PolicyNumber>0001196</PolicyNumber>
+    <PolicyVehicleId>0100000004300002</PolicyVehicleId>
+    <CoverageCategoryCode>TP</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>222</CompanyCode>
+    <PolicyNumber>0001196</PolicyNumber>
+    <PolicyVehicleId>0100000004300002</PolicyVehicleId>
+    <CoverageCategoryCode>AB</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>222</CompanyCode>
+    <PolicyNumber>0001196</PolicyNumber>
+    <PolicyVehicleId>0100000004300002</PolicyVehicleId>
+    <CoverageCategoryCode>CL</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>222</CompanyCode>
+    <PolicyNumber>0001196</PolicyNumber>
+    <PolicyVehicleId>0100000004300002</PolicyVehicleId>
+    <CoverageCategoryCode>PE</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>222</CompanyCode>
+    <PolicyNumber>0001196</PolicyNumber>
+    <PolicyVehicleId>0100000004300003</PolicyVehicleId>
+    <CoverageCategoryCode>TP</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>222</CompanyCode>
+    <PolicyNumber>0001196</PolicyNumber>
+    <PolicyVehicleId>0100000004300003</PolicyVehicleId>
+    <CoverageCategoryCode>AB</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>222</CompanyCode>
+    <PolicyNumber>0001196</PolicyNumber>
+    <PolicyVehicleId>0100000004300003</PolicyVehicleId>
+    <CoverageCategoryCode>CL</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>222</CompanyCode>
+    <PolicyNumber>0001196</PolicyNumber>
+    <PolicyVehicleId>0100000004300003</PolicyVehicleId>
+    <CoverageCategoryCode>PE</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>222</CompanyCode>
+    <PolicyNumber>0001196</PolicyNumber>
+    <PolicyVehicleId>0100000004300004</PolicyVehicleId>
+    <CoverageCategoryCode>TP</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>222</CompanyCode>
+    <PolicyNumber>0001196</PolicyNumber>
+    <PolicyVehicleId>0100000004300004</PolicyVehicleId>
+    <CoverageCategoryCode>AB</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>222</CompanyCode>
+    <PolicyNumber>0001196</PolicyNumber>
+    <PolicyVehicleId>0100000004300004</PolicyVehicleId>
+    <CoverageCategoryCode>PE</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>12201356</PolicyNumber>
+    <PolicyVehicleId>0200196657300000</PolicyVehicleId>
+    <CoverageCategoryCode>TP</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>12201356</PolicyNumber>
+    <PolicyVehicleId>0200196657300000</PolicyVehicleId>
+    <CoverageCategoryCode>AB</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>12201356</PolicyNumber>
+    <PolicyVehicleId>0200196657300000</PolicyVehicleId>
+    <CoverageCategoryCode>CL</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>12201356</PolicyNumber>
+    <PolicyVehicleId>0200196657300000</PolicyVehicleId>
+    <CoverageCategoryCode>PE</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>12201356</PolicyNumber>
+    <PolicyVehicleId>0200196657300001</PolicyVehicleId>
+    <CoverageCategoryCode>TP</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>12201356</PolicyNumber>
+    <PolicyVehicleId>0200196657300001</PolicyVehicleId>
+    <CoverageCategoryCode>AB</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>12201356</PolicyNumber>
+    <PolicyVehicleId>0200196657300001</PolicyVehicleId>
+    <CoverageCategoryCode>CL</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>12201356</PolicyNumber>
+    <PolicyVehicleId>0200196657300001</PolicyVehicleId>
+    <CoverageCategoryCode>PE</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>13062499</PolicyNumber>
+    <PolicyVehicleId>0200427921100000</PolicyVehicleId>
+    <CoverageCategoryCode>TP</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>13062499</PolicyNumber>
+    <PolicyVehicleId>0200427921100000</PolicyVehicleId>
+    <CoverageCategoryCode>AB</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>13062499</PolicyNumber>
+    <PolicyVehicleId>0200427921100000</PolicyVehicleId>
+    <CoverageCategoryCode>CL</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>13062499</PolicyNumber>
+    <PolicyVehicleId>0200427921100000</PolicyVehicleId>
+    <CoverageCategoryCode>PE</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyHolderDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>12372954</PolicyNumber>
+    <PolicyHolderId>0200197566100000</PolicyHolderId>
+    <PolicyDriverId>0200197566100000</PolicyDriverId>
+    <DeletedInd>N</DeletedInd>
+    <FirstName> GEORGE</FirstName>
+    <MiddleName />
+    <LastName>MUNT</LastName>
+    <UnstructuredName>MUNT, GEORGE</UnstructuredName>
+    <StructuredNameInd>Y</StructuredNameInd>
+    <CompanyInd>N</CompanyInd>
+    <BirthYear>1925</BirthYear>
+    <BirthMonth>8</BirthMonth>
+    <BirthDay>29</BirthDay>
+    <Gender>M</Gender>
+    <StreetAndUnit>##1711 RUTHERGLEN CT</StreetAndUnit>
+    <City>SARNIA</City>
+    <ProvinceCode>ON</ProvinceCode>
+    <PostalCode>N7S3S1</PostalCode>
+    <StructuredAddressInd>N</StructuredAddressInd>
+    <UnstructuredAddress>1711 RUTHERGLEN CT SARNIA ON N7S3S1</UnstructuredAddress>
+  </PolicyHolderDT>
+  <PolicyHolderDT>
+    <CompanyCode>222</CompanyCode>
+    <PolicyNumber>0001196</PolicyNumber>
+    <PolicyHolderId>0100000004300004</PolicyHolderId>
+    <PolicyDriverId>0100000004300004</PolicyDriverId>
+    <DeletedInd>N</DeletedInd>
+    <FirstName>RUSINOWSKI</FirstName>
+    <MiddleName />
+    <LastName>IWONA</LastName>
+    <UnstructuredName>IWONA RUSINOWSKI</UnstructuredName>
+    <StructuredNameInd>Y</StructuredNameInd>
+    <CompanyInd>N</CompanyInd>
+    <BirthYear>0</BirthYear>
+    <BirthMonth>0</BirthMonth>
+    <BirthDay>0</BirthDay>
+    <Gender>U</Gender>
+    <StreetAndUnit />
+    <City />
+    <ProvinceCode />
+    <PostalCode />
+    <StructuredAddressInd />
+    <UnstructuredAddress />
+  </PolicyHolderDT>
+  <PolicyHolderDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>12201356</PolicyNumber>
+    <PolicyHolderId>0200196657300000</PolicyHolderId>
+    <PolicyDriverId>0200196657300000</PolicyDriverId>
+    <DeletedInd>N</DeletedInd>
+    <FirstName> GEORGE</FirstName>
+    <MiddleName />
+    <LastName>MUNT</LastName>
+    <UnstructuredName>MUNT, GEORGE</UnstructuredName>
+    <StructuredNameInd>Y</StructuredNameInd>
+    <CompanyInd>N</CompanyInd>
+    <BirthYear>1925</BirthYear>
+    <BirthMonth>8</BirthMonth>
+    <BirthDay>29</BirthDay>
+    <Gender>U</Gender>
+    <StreetAndUnit>1711 RUTHERGLEN</StreetAndUnit>
+    <City>SARN</City>
+    <ProvinceCode>ON</ProvinceCode>
+    <PostalCode />
+    <StructuredAddressInd>Y</StructuredAddressInd>
+    <UnstructuredAddress />
+  </PolicyHolderDT>
+  <PolicyHolderDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>13062499</PolicyNumber>
+    <PolicyHolderId>0200427921100000</PolicyHolderId>
+    <PolicyDriverId>0200427921100000</PolicyDriverId>
+    <DeletedInd>N</DeletedInd>
+    <FirstName> NADIA</FirstName>
+    <MiddleName />
+    <LastName>MUNT</LastName>
+    <UnstructuredName>MUNT, NADIA</UnstructuredName>
+    <StructuredNameInd>Y</StructuredNameInd>
+    <CompanyInd>N</CompanyInd>
+    <BirthYear>1930</BirthYear>
+    <BirthMonth>12</BirthMonth>
+    <BirthDay>14</BirthDay>
+    <Gender>F</Gender>
+    <StreetAndUnit>##1711 Rutherglen Close,,Sarnia</StreetAndUnit>
+    <City />
+    <ProvinceCode />
+    <PostalCode>N7S3S1</PostalCode>
+    <StructuredAddressInd>N</StructuredAddressInd>
+    <UnstructuredAddress>1711 Rutherglen Close,,Sarnia N7S3S1</UnstructuredAddress>
+  </PolicyHolderDT>
+  <PreviousInquiryDT>
+    <CompanyCodePolicyCompany>487</CompanyCodePolicyCompany>
+    <PolicyNumber>12372954</PolicyNumber>
+    <InquiryIncidence>1</InquiryIncidence>
+    <CompanyCodeInquiryCompany>325</CompanyCodeInquiryCompany>
+    <CompanyName>Allstate Ins. Com. Of Canada</CompanyName>
+    <InquiryYear>2012</InquiryYear>
+    <InquiryMonth>9</InquiryMonth>
+  </PreviousInquiryDT>
+  <PreviousInquiryDT>
+    <CompanyCodePolicyCompany>487</CompanyCodePolicyCompany>
+    <PolicyNumber>12372954</PolicyNumber>
+    <InquiryIncidence>2</InquiryIncidence>
+    <CompanyCodeInquiryCompany>685</CompanyCodeInquiryCompany>
+    <CompanyName>State Farm Fire &amp; Casualty Co.</CompanyName>
+    <InquiryYear>2010</InquiryYear>
+    <InquiryMonth>10</InquiryMonth>
+  </PreviousInquiryDT>
+  <PreviousInquiryDT>
+    <CompanyCodePolicyCompany>487</CompanyCodePolicyCompany>
+    <PolicyNumber>12372954</PolicyNumber>
+    <InquiryIncidence>3</InquiryIncidence>
+    <CompanyCodeInquiryCompany>325</CompanyCodeInquiryCompany>
+    <CompanyName>Allstate Ins. Com. Of Canada</CompanyName>
+    <InquiryYear>2010</InquiryYear>
+    <InquiryMonth>9</InquiryMonth>
+  </PreviousInquiryDT>
+  <PreviousInquiryDT>
+    <CompanyCodePolicyCompany>222</CompanyCodePolicyCompany>
+    <PolicyNumber>0001196</PolicyNumber>
+    <InquiryIncidence>1</InquiryIncidence>
+    <CompanyCodeInquiryCompany>482</CompanyCodeInquiryCompany>
+    <CompanyName>Wawanesa Mutual - Toronto</CompanyName>
+    <InquiryYear>2014</InquiryYear>
+    <InquiryMonth>4</InquiryMonth>
+  </PreviousInquiryDT>
+  <PreviousInquiryDT>
+    <CompanyCodePolicyCompany>222</CompanyCodePolicyCompany>
+    <PolicyNumber>0001196</PolicyNumber>
+    <InquiryIncidence>2</InquiryIncidence>
+    <CompanyCodeInquiryCompany>482</CompanyCodeInquiryCompany>
+    <CompanyName>Wawanesa Mutual - Toronto</CompanyName>
+    <InquiryYear>2008</InquiryYear>
+    <InquiryMonth>6</InquiryMonth>
+  </PreviousInquiryDT>
+  <PreviousInquiryDT>
+    <CompanyCodePolicyCompany>222</CompanyCodePolicyCompany>
+    <PolicyNumber>0001196</PolicyNumber>
+    <InquiryIncidence>3</InquiryIncidence>
+    <CompanyCodeInquiryCompany>655</CompanyCodeInquiryCompany>
+    <CompanyName>Gore Mutual Insurance Company</CompanyName>
+    <InquiryYear>2007</InquiryYear>
+    <InquiryMonth>11</InquiryMonth>
+  </PreviousInquiryDT>
+  <PreviousInquiryDT>
+    <CompanyCodePolicyCompany>487</CompanyCodePolicyCompany>
+    <PolicyNumber>12201356</PolicyNumber>
+    <InquiryIncidence>1</InquiryIncidence>
+    <CompanyCodeInquiryCompany>998</CompanyCodeInquiryCompany>
+    <CompanyName>Broker Accesses</CompanyName>
+    <InquiryYear>1992</InquiryYear>
+    <InquiryMonth>6</InquiryMonth>
+  </PreviousInquiryDT>
+  <PreviousInquiryDT>
+    <CompanyCodePolicyCompany>487</CompanyCodePolicyCompany>
+    <PolicyNumber>13062499</PolicyNumber>
+    <InquiryIncidence>1</InquiryIncidence>
+    <CompanyCodeInquiryCompany>655</CompanyCodeInquiryCompany>
+    <CompanyName>Gore Mutual Insurance Company</CompanyName>
+    <InquiryYear>2007</InquiryYear>
+    <InquiryMonth>11</InquiryMonth>
+  </PreviousInquiryDT>
+  <PreviousInquiryDT>
+    <CompanyCodePolicyCompany>487</CompanyCodePolicyCompany>
+    <PolicyNumber>13062499</PolicyNumber>
+    <InquiryIncidence>2</InquiryIncidence>
+    <CompanyCodeInquiryCompany>078</CompanyCodeInquiryCompany>
+    <CompanyName>Aviva Insurance Co. of Canada</CompanyName>
+    <InquiryYear>2006</InquiryYear>
+    <InquiryMonth>12</InquiryMonth>
+  </PreviousInquiryDT>
+  <PolicyClaimDT>
+    <ClaimId>020019756610000100000</ClaimId>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>12372954</PolicyNumber>
+    <ClaimYear>1994</ClaimYear>
+    <ClaimMonth>7</ClaimMonth>
+    <ClaimDay>20</ClaimDay>
+    <ExpenseAmt>0</ExpenseAmt>
+    <ClassTypeOfUseCode>01</ClassTypeOfUseCode>
+    <UseCode>1</UseCode>
+    <TPLClaimFreeYears>6</TPLClaimFreeYears>
+    <CollClaimFreeYears>6</CollClaimFreeYears>
+    <DriverBirthYear>1925</DriverBirthYear>
+    <DriverYearsLicenced>9</DriverYearsLicenced>
+    <DriverYearsLicencedExp>9</DriverYearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <DriverGender>M</DriverGender>
+    <ExcludedDriverInd>0</ExcludedDriverInd>
+    <PolicyVehicleId>0200197566100001</PolicyVehicleId>
+    <IAOCompanyInd>N</IAOCompanyInd>
+    <Source>IBC</Source>
+  </PolicyClaimDT>
+  <PolicyClaimDT>
+    <ClaimId>020019756610000000001</ClaimId>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>12372954</PolicyNumber>
+    <ClaimYear>1996</ClaimYear>
+    <ClaimMonth>4</ClaimMonth>
+    <ClaimDay>10</ClaimDay>
+    <ExpenseAmt>0</ExpenseAmt>
+    <ClassTypeOfUseCode>01</ClassTypeOfUseCode>
+    <UseCode>1</UseCode>
+    <TPLClaimFreeYears>6</TPLClaimFreeYears>
+    <CollClaimFreeYears>6</CollClaimFreeYears>
+    <DriverBirthYear>1930</DriverBirthYear>
+    <DriverYearsLicenced>9</DriverYearsLicenced>
+    <DriverYearsLicencedExp>9</DriverYearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <DriverGender>F</DriverGender>
+    <ExcludedDriverInd>0</ExcludedDriverInd>
+    <PolicyVehicleId>0200197566100000</PolicyVehicleId>
+    <IAOCompanyInd>N</IAOCompanyInd>
+    <Source>IBC</Source>
+  </PolicyClaimDT>
+  <PolicyClaimDT>
+    <ClaimId>020019756610000000000</ClaimId>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>12372954</PolicyNumber>
+    <ClaimYear>1991</ClaimYear>
+    <ClaimMonth>8</ClaimMonth>
+    <ClaimDay>15</ClaimDay>
+    <ExpenseAmt>126</ExpenseAmt>
+    <ClassTypeOfUseCode>02</ClassTypeOfUseCode>
+    <UseCode>2</UseCode>
+    <TPLClaimFreeYears>6</TPLClaimFreeYears>
+    <CollClaimFreeYears>6</CollClaimFreeYears>
+    <DriverBirthYear>0</DriverBirthYear>
+    <DriverYearsLicenced>0</DriverYearsLicenced>
+    <DriverYearsLicencedExp>0</DriverYearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <DriverGender>U</DriverGender>
+    <ExcludedDriverInd>0</ExcludedDriverInd>
+    <PolicyVehicleId>0200197566100000</PolicyVehicleId>
+    <IAOCompanyInd>N</IAOCompanyInd>
+    <Source>IBC</Source>
+  </PolicyClaimDT>
+  <PolicyClaimVehicleDT>
+    <ClaimId>020019756610000100000</ClaimId>
+    <PolicyVehicleId>0200197566100001</PolicyVehicleId>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>12372954</PolicyNumber>
+    <VIN />
+    <ModelYear>1987</ModelYear>
+    <MakeEng>GMC TRUCK/VAN</MakeEng>
+    <MakeFre>GMC TRUCK/VAN</MakeFre>
+    <ModelEng>C/R 1500 PICKUP REG CAB 2WD</ModelEng>
+    <ModelFre>C/R 1500 PICKUP REG CAB 2WD</ModelFre>
+    <VehicleType>A</VehicleType>
+    <BodyTypeCode>1P</BodyTypeCode>
+    <DriveTypeCode>1</DriveTypeCode>
+    <CarCode>662700</CarCode>
+    <VehicleFixableInd />
+    <VINStatus>NA</VINStatus>
+    <VehicleCode>6627</VehicleCode>
+    <ClassTypeOfUseCode>01</ClassTypeOfUseCode>
+    <UseCode>1</UseCode>
+    <VehicleDescEng />
+    <VehicleDescFre />
+    <VehicleDescInd>N</VehicleDescInd>
+  </PolicyClaimVehicleDT>
+  <PolicyClaimVehicleDT>
+    <ClaimId>020019756610000000001</ClaimId>
+    <PolicyVehicleId>0200197566100000</PolicyVehicleId>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>12372954</PolicyNumber>
+    <VIN />
+    <ModelYear>1987</ModelYear>
+    <MakeEng>DODGE</MakeEng>
+    <MakeFre>DODGE</MakeFre>
+    <ModelEng>ARIES LE 2DR</ModelEng>
+    <ModelFre>ARIES LE 2DR</ModelFre>
+    <VehicleType>A</VehicleType>
+    <BodyTypeCode>2D</BodyTypeCode>
+    <DriveTypeCode>1</DriveTypeCode>
+    <CarCode>235900</CarCode>
+    <VehicleFixableInd />
+    <VINStatus>NA</VINStatus>
+    <VehicleCode>2359</VehicleCode>
+    <ClassTypeOfUseCode>01</ClassTypeOfUseCode>
+    <UseCode>1</UseCode>
+    <VehicleDescEng />
+    <VehicleDescFre />
+    <VehicleDescInd>N</VehicleDescInd>
+  </PolicyClaimVehicleDT>
+  <PolicyClaimVehicleDT>
+    <ClaimId>020019756610000000000</ClaimId>
+    <PolicyVehicleId>0200197566100000</PolicyVehicleId>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>12372954</PolicyNumber>
+    <VIN />
+    <ModelYear>1987</ModelYear>
+    <MakeEng>DODGE</MakeEng>
+    <MakeFre>DODGE</MakeFre>
+    <ModelEng>ARIES LE 2DR</ModelEng>
+    <ModelFre>ARIES LE 2DR</ModelFre>
+    <VehicleType>A</VehicleType>
+    <BodyTypeCode>2D</BodyTypeCode>
+    <DriveTypeCode>1</DriveTypeCode>
+    <CarCode>235900</CarCode>
+    <VehicleFixableInd />
+    <VINStatus>NA</VINStatus>
+    <VehicleCode>2359</VehicleCode>
+    <ClassTypeOfUseCode>01</ClassTypeOfUseCode>
+    <UseCode>1</UseCode>
+    <VehicleDescEng />
+    <VehicleDescFre />
+    <VehicleDescInd>N</VehicleDescInd>
+  </PolicyClaimVehicleDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>1</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>                       AUTOPLUS GOLD REPORT               Jun 10/2016          </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>2</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>3</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>REQUESTED BY: CGI - IBSWebservice Us IDENTIFIER:                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>4</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>FOR:  MUNT, GEORGE                    SEARCH BY: ON;M93002789250829            </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>5</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>ADDRESS:         1711 Rutherglen Close,,Sarnia N7S3S1                          </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>6</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>7</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>*** Claim Check - AutoPlus Check Passed ***                                    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>8</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>9</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>            Inquired Driver                                                    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>10</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>            ---------------                                                    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>11</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>            Licence Number: ON;M93002789250829        Years Licensed: 9+       </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>12</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>                Birth Date: 29 Aug 1925                          Age: 90       </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>13</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>                    Gender: Male                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>14</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>15</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText> Years Insured on AutoPlus: 15                       At Fault Claims: 0        </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>16</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Claims in the Last 6 years: 0                       Years Claim Free: 15       </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>17</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>18</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>     Claims on all policies                                                    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>19</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>     ----------------------                                                    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>20</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>          Number of Claims: 3                                   Paid:$ 2704    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>21</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>        Third party claims: 0                          Expenses paid:$ 126     </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>22</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>23</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>         Previous Inquiries                                                    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>24</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>         ------------------                                                    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>25</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Gore Mutual Insurance Company            Nov, 2007                             </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>26</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Aviva Insurance Co. of Canada            Dec, 2006                             </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>27</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>28</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>    Additional Data Sources                                                    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>29</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>    -----------------------                                                    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>30</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Saskatchewan Claims:                     Available                             </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>31</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>32</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>-------------------------------------------------------------------------------</PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>33</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>                           Disclaimer                                          </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>34</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>CGI and its Partners shall take reasonable steps to ensure that database       </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>35</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>information or data obtained from various sources is reliable and accurate.    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>36</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>However, CGI does not guarantee the accuracy of information obtained from      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>37</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>these sources, and in no event shall CGI be liable in any manner whatsoever    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>38</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>for any loss or injury to CUSTOMER resulting from the obtaining or furnishing  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>39</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>of such information. CGI shall not be liable under this Agreement to any       </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>40</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>third party for any damages or losses arising out of a breach by CUSTOMER.     </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>41</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>42</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>POLICIES                                                                       </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>43</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>========                                                                       </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>44</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>-------------------------------------------------------------------------------</PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>45</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>LATEST CARRIER : 487 - Royal &amp; Sun Alliance Ins. Com. POLICY #: 13062499       </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>46</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>RECORDED DATES : Jan 1998    TO Jan 2002                STATUS: RENEWAL        </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>47</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>ENDORSEMENT DATE :  Jan 2001        CANCELLATION DATE:      N/A                </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>48</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>POLICY HOLDER  : MUNT, NADIA            LAST IBC UPDATE :5 Nov 2000            </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>49</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>50</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>ALB. GRID POL: No       GROUP MARKETING POLICY:Unknown  NO FRILL POL: Unknown  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>51</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>NAME                          ---   LICENCE  --- G DOB       AGE MS REL LIC TRN</PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>52</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>MUNT, NADIA                   ON;M93005763306014 F  12/14/1930 70    INS 9+  N </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>53</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>*MUNT, GEORGE                 ON;M93002789250829 M  8/29/1925  75    PRN 9+  N </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>54</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>55</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>-------------------------------------------------------------------------------</PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>56</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>PRIOR CARRIER  : 487 - Royal &amp; Sun Alliance Ins. Com. POLICY #: 12372954       </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>57</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>RECORDED DATES : Jan 1988    TO Jan 1998                STATUS: RENEWAL        </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>58</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>ENDORSEMENT DATE :  Jan 1997        CANCELLATION DATE:      N/A                </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>59</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>POLICY HOLDER  : MUNT, GEORGE           LAST IBC UPDATE : Jan 1997             </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>60</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>61</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>ALB. GRID POL: No       GROUP MARKETING POLICY:Unknown  NO FRILL POL: Unknown  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>62</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>NAME                          ---   LICENCE  --- G DOB       AGE MS REL LIC TRN</PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>63</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>MUNT, GEORGE                  ON;M93002789250829 M  8/29/1925  71    PRN 9+  N </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>64</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>MUNT, NADIA                   ON;M93005763306014 F  12/14/1930 66    PRN 9+  N </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>65</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>66</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>-------------------------------------------------------------------------------</PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>67</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>PRIOR CARRIER  : 222 - Intact Insurance (Wellington)  POLICY #: 0001196        </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>68</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>RECORDED DATES : Jan 1987    TO Sep 1996                STATUS: RENEWAL        </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>69</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>ENDORSEMENT DATE :  Apr 1996        CANCELLATION DATE:      N/A                </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>70</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>POLICY HOLDER  : IWONA RUSINOWSKI       LAST IBC UPDATE : Apr 1996             </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>71</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>72</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>ALB. GRID POL: No       GROUP MARKETING POLICY:Unknown  NO FRILL POL: Unknown  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>73</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>NAME                          ---   LICENCE  --- G DOB       AGE MS REL LIC TRN</PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>74</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>*GEORGE MUNT                  ON;M93002789250829 U  8/29/1925  70    INS     N </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>75</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>MARK RUSINONSKI               ON;R94435180480508 U                           N </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>76</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>IWONA S. RUSINOWSKA           ON;R94433798535724 U                           N </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>77</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>IWONA RUSINOWSKI                                 U                   INS     N </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>78</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>79</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>-------------------------------------------------------------------------------</PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>80</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>PRIOR CARRIER  : 487 - Royal &amp; Sun Alliance Ins. Com. POLICY #: 12201356       </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>81</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>RECORDED DATES : Jan 1988    TO Jan 1993                STATUS: RENEWAL        </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>82</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>ENDORSEMENT DATE :  Feb 1992        CANCELLATION DATE:      N/A                </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>83</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>POLICY HOLDER  : MUNT, GEORGE           LAST IBC UPDATE : Feb 1992             </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>84</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>85</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>ALB. GRID POL: No       GROUP MARKETING POLICY:Unknown  NO FRILL POL: Unknown  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>86</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>NAME                          ---   LICENCE  --- G DOB       AGE MS REL LIC TRN</PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>87</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>MUNT, GEORGE                  ON;M93002789250829 U  8/29/1925  66            N </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>88</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>*MUNT, GEORGE                 ON;M93002789250829 U  8/29/1925  66            N </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>89</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>90</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>VEHICLES                                                                       </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>91</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>========                                                                       </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>92</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>93</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText> Vehicles for policy:13062499 (Royal &amp; Sun Alliance Ins. Com.)                 </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>94</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>       IBC TERRITORY: 728 Sarnia District                                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>95</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>        LOCATION FSA:                                                          </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>96</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>-------------------------------------------------------------------------------</PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>97</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>2359   - 1987 DODGE ARIES LE 2DR 2/3 Door 2WD                                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>98</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>               VIN #: 3B3BD31D5HT259034    CLASS/SUB DR.: 01    6/6            </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>99</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>            COVERAGE: T.P. A.B. COLL. COMP.          USE: Pleasure             </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>100</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>    VEH ADDED TO POL:               VEH REMOVED FROM POL:  Jan 2002            </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>101</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>BUSINESS USE PERCENT:                           TYPE BUS: 1                    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>102</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>   COMMUTE (ONE WAY):            ANNUAL DRIVING DISTANCE:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>103</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>  MULTI-CAR DISCOUNT:                MULTI-LINE DISCOUNT:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>104</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>    RETIREE DISCOUNT:                NEW DRIVER DISCOUNT:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>105</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>    RENEWAL DISCOUNT:               WINTER TIRE DISCOUNT:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>106</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>107</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>           Principal Operator                                                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>108</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>           ------------------                                                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>109</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>                Name: MUNT, NADIA                                              </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>110</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>  CONVICTION HISTORY: 0 A 0 B 0 C Convictions                                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>111</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>112</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>-------------------------------------------------------------------------------</PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>113</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>114</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText> Vehicles for policy:12372954 (Royal &amp; Sun Alliance Ins. Com.)                 </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>115</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>       IBC TERRITORY: 728 Sarnia District                                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>116</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>        LOCATION FSA:                                                          </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>117</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>-------------------------------------------------------------------------------</PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>118</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>2359   - 1987 DODGE ARIES LE 2DR 2/3 Door 2WD                                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>119</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>               VIN #: N/A                  CLASS/SUB DR.: 01    6/6            </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>120</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>            COVERAGE: T.P. A.B. COLL. COMP.          USE: Pleasure             </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>121</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>    VEH ADDED TO POL:               VEH REMOVED FROM POL:  Jan 1998            </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>122</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>BUSINESS USE PERCENT:                           TYPE BUS: 1                    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>123</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>   COMMUTE (ONE WAY):            ANNUAL DRIVING DISTANCE:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>124</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>  MULTI-CAR DISCOUNT:                MULTI-LINE DISCOUNT:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>125</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>    RETIREE DISCOUNT:                NEW DRIVER DISCOUNT:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>126</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>    RENEWAL DISCOUNT:               WINTER TIRE DISCOUNT:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>127</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>128</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>           Principal Operator                                                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>129</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>           ------------------                                                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>130</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>                Name: Lic 9+        BORN:1930 F                                </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>131</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>  CONVICTION HISTORY: 0 A 0 B 0 C Convictions                                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>132</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>133</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>-------------------------------------------------------------------------------</PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>134</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>6627   - 1987                                                                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>135</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>GMC TRUCK/VAN C/R 1500 PICKUP REG CAB 2WD Small Pickup Truck 2WD               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>136</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>               VIN #: N/A                  CLASS/SUB DR.: 01    6/6            </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>137</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>            COVERAGE: T.P. A.B. COLL. COMP.          USE: Pleasure             </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>138</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>    VEH ADDED TO POL:               VEH REMOVED FROM POL:  Jan 1998            </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>139</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>BUSINESS USE PERCENT:                           TYPE BUS: 1                    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>140</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>   COMMUTE (ONE WAY):            ANNUAL DRIVING DISTANCE:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>141</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>  MULTI-CAR DISCOUNT:                MULTI-LINE DISCOUNT:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>142</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>    RETIREE DISCOUNT:                NEW DRIVER DISCOUNT:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>143</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>    RENEWAL DISCOUNT:               WINTER TIRE DISCOUNT:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>144</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>145</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>           Principal Operator                                                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>146</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>           ------------------                                                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>147</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>                Name: Lic 9+        BORN:1925 M                                </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>148</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>  CONVICTION HISTORY: 0 A 0 B 0 C Convictions                                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>149</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>150</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>-------------------------------------------------------------------------------</PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>151</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>152</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText> Vehicles for policy:0001196 (Intact Insurance (Wellington))                   </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>153</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>       IBC TERRITORY: 717 Toronto, Southern York-Peel                          </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>154</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>        LOCATION FSA:                                                          </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>155</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>-------------------------------------------------------------------------------</PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>156</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>0561   - 1987 TOYOTA TRUCK/VAN VAN CARGO 4WD Cargo Van 4WD                     </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>157</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>               VIN #: N/A                  CLASS/SUB DR.: 02    6/6            </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>158</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>            COVERAGE: T.P. A.B. COLL. COMP.          USE: Commute              </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>159</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>    VEH ADDED TO POL:               VEH REMOVED FROM POL:  Sep 1996            </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>160</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>BUSINESS USE PERCENT:                           TYPE BUS: 1                    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>161</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>   COMMUTE (ONE WAY):            ANNUAL DRIVING DISTANCE:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>162</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>  MULTI-CAR DISCOUNT:                MULTI-LINE DISCOUNT:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>163</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>    RETIREE DISCOUNT:                NEW DRIVER DISCOUNT:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>164</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>    RENEWAL DISCOUNT:               WINTER TIRE DISCOUNT:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>165</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>166</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>           Principal Operator                                                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>167</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>           ------------------                                                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>168</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>                Name: Lic 9+        BORN:1953 F                                </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>169</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>  CONVICTION HISTORY: 0 A 0 B 0 C Convictions                                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>170</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>171</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>-------------------------------------------------------------------------------</PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>172</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>3421   - 1995 FORD TAURUS WAGON Station Wagon 2WD                              </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>173</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>               VIN #: N/A                  CLASS/SUB DR.: 01    6/6            </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>174</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>            COVERAGE: T.P. A.B. COLL. COMP.          USE: Pleasure             </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>175</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>    VEH ADDED TO POL:               VEH REMOVED FROM POL:  Sep 1996            </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>176</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>BUSINESS USE PERCENT:                           TYPE BUS: 1                    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>177</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>   COMMUTE (ONE WAY):            ANNUAL DRIVING DISTANCE:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>178</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>  MULTI-CAR DISCOUNT:                MULTI-LINE DISCOUNT:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>179</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>    RETIREE DISCOUNT:                NEW DRIVER DISCOUNT:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>180</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>    RENEWAL DISCOUNT:               WINTER TIRE DISCOUNT:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>181</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>182</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>           Principal Operator                                                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>183</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>           ------------------                                                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>184</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>                Name: Lic 9+        BORN:1953 F                                </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>185</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>  CONVICTION HISTORY: 0 A 0 B 0 C Convictions                                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>186</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>187</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>-------------------------------------------------------------------------------</PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>188</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>0725   - 1986 HYUNDAI PONY 4DR 4/5 Door 2WD                                    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>189</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>               VIN #: N/A                  CLASS/SUB DR.: 01    6/0            </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>190</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>            COVERAGE: T.P. A.B. COMP.                USE: Pleasure             </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>191</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>    VEH ADDED TO POL:               VEH REMOVED FROM POL:  Sep 1996            </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>192</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>BUSINESS USE PERCENT:                           TYPE BUS: 1                    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>193</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>   COMMUTE (ONE WAY):            ANNUAL DRIVING DISTANCE:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>194</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>  MULTI-CAR DISCOUNT:                MULTI-LINE DISCOUNT:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>195</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>    RETIREE DISCOUNT:                NEW DRIVER DISCOUNT:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>196</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>    RENEWAL DISCOUNT:               WINTER TIRE DISCOUNT:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>197</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>198</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>           Principal Operator                                                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>199</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>           ------------------                                                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>200</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>                Name: Lic 9+        BORN:1953 F                                </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>201</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>  CONVICTION HISTORY: 0 A 0 B 0 C Convictions                                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>202</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>203</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>-------------------------------------------------------------------------------</PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>204</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>205</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText> Vehicles for policy:12201356 (Royal &amp; Sun Alliance Ins. Com.)                 </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>206</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>       IBC TERRITORY: 728 Sarnia District                                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>207</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>        LOCATION FSA:                                                          </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>208</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>-------------------------------------------------------------------------------</PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>209</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>0306   - 1980 $306,000 Pickup                                                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>210</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>               VIN #: N/A                  CLASS/SUB DR.: 36    3/3            </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>211</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>            COVERAGE: T.P. A.B. COLL. COMP.          USE:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>212</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>    VEH ADDED TO POL:               VEH REMOVED FROM POL:  Jan 1992            </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>213</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>BUSINESS USE PERCENT:                           TYPE BUS: 1                    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>214</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>   COMMUTE (ONE WAY):            ANNUAL DRIVING DISTANCE:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>215</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>  MULTI-CAR DISCOUNT:                MULTI-LINE DISCOUNT:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>216</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>    RETIREE DISCOUNT:                NEW DRIVER DISCOUNT:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>217</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>    RENEWAL DISCOUNT:               WINTER TIRE DISCOUNT:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>218</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>219</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>           Principal Operator                                                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>220</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>           ------------------                                                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>221</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>                Name: Lic           BORN:1925 U                                </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>222</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>  CONVICTION HISTORY: 0 A 0 B 0 C Convictions                                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>223</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>224</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>-------------------------------------------------------------------------------</PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>225</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>3629   - 1980 FORD TRUCK/VAN F150 REG CAB 2WD Small Pickup Truck 2WD           </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>226</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>               VIN #: N/A                  CLASS/SUB DR.: 01    6/6            </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>227</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>            COVERAGE: T.P. A.B. COLL. COMP.          USE: Pleasure             </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>228</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>    VEH ADDED TO POL:               VEH REMOVED FROM POL:  Jan 1993            </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>229</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>BUSINESS USE PERCENT:                           TYPE BUS: 1                    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>230</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>   COMMUTE (ONE WAY):            ANNUAL DRIVING DISTANCE:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>231</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>  MULTI-CAR DISCOUNT:                MULTI-LINE DISCOUNT:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>232</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>    RETIREE DISCOUNT:                NEW DRIVER DISCOUNT:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>233</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>    RENEWAL DISCOUNT:               WINTER TIRE DISCOUNT:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>234</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>235</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>           Principal Operator                                                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>236</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>           ------------------                                                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>237</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>                Name: Lic 9+        BORN:1925 M                                </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>238</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>  CONVICTION HISTORY: 0 A 0 B 0 C Convictions                                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>239</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>240</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>-------------------------------------------------------------------------------</PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>241</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>CLAIMS                                                                         </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>242</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>======                                                                         </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>243</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>244</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>-------------------------------------------------------------------------------</PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>245</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Loss Date: 10 APR 1996                            Source: IBC                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>246</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Company: Royal &amp; Sun Alliance Ins. Com.           Policy: 12372954             </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>247</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>1987 DODGE ARIES LE 2DR 2/3 Door 2WD                                           </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>248</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Code/Type: 27-MISC  Paid:$        46 Exp:$       0 Loss: Not Applicable Type:  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>249</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>250</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>1st Reported Driver Lic: 9+     Born:1930 Gender:F Training: N                 </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>251</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>252</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>-------------------------------------------------------------------------------</PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>253</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Loss Date: 20 JUL 1994                            Source: IBC                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>254</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Company: Royal &amp; Sun Alliance Ins. Com.           Policy: 12372954             </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>255</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>1987 GMC TRUCK/VAN C/R 1500 PICKUP REG CAB 2WD Small Pickup Truck 2WD          </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>256</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Code/Type: 27-MISC  Paid:$        46 Exp:$       0 Loss: Not Applicable Type:  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>257</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>258</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>1st Reported Driver Lic: 9+     Born:1925 Gender:M Training: N                 </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>259</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>260</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>-------------------------------------------------------------------------------</PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>261</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Loss Date: 15 AUG 1991                            Source: IBC                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>262</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Company: Royal &amp; Sun Alliance Ins. Com.           Policy: 12372954             </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>263</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>1987 DODGE ARIES LE 2DR 2/3 Door 2WD                                           </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>264</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Code/Type: 20-COLL  Paid:$      2612 Exp:$     126 Loss: Not Applicable Type:  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>265</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>266</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>1st Reported Driver Lic: Unknown     Born:0 Gender:U Training: N               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>267</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>268</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Other Losses                                                                   </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>269</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>============                                                                   </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>270</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>None To Report                                                                 </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>271</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>272</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>REPAIR HISTORY FOR ACTIVE VIN(S):                                              </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>273</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>=================================                                              </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>274</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>None To Report                                                                 </PrintLineText>
+  </PrintFormatAbstractDT>
+  <MessageDT>
+    <Code>200020200</Code>
+    <Text>Request Completed Successfully</Text>
+  </MessageDT>
+  <PolicyClaimKindOfLossDT>
+    <ClaimId>020019756610000100000</ClaimId>
+    <KindOfLossCode>27</KindOfLossCode>
+    <KindOfLossCodeExp>27</KindOfLossCodeExp>
+    <OutstandingReserveReportYear>0</OutstandingReserveReportYear>
+    <OutstandingReserveReportMonth>0</OutstandingReserveReportMonth>
+    <VehicleLossCode>K</VehicleLossCode>
+    <LossAmtTotal>46</LossAmtTotal>
+    <OutstandingReserveReportOccur>N</OutstandingReserveReportOccur>
+  </PolicyClaimKindOfLossDT>
+  <PolicyClaimKindOfLossDT>
+    <ClaimId>020019756610000000001</ClaimId>
+    <KindOfLossCode>27</KindOfLossCode>
+    <KindOfLossCodeExp>27</KindOfLossCodeExp>
+    <OutstandingReserveReportYear>0</OutstandingReserveReportYear>
+    <OutstandingReserveReportMonth>0</OutstandingReserveReportMonth>
+    <VehicleLossCode>K</VehicleLossCode>
+    <LossAmtTotal>46</LossAmtTotal>
+    <OutstandingReserveReportOccur>N</OutstandingReserveReportOccur>
+  </PolicyClaimKindOfLossDT>
+  <PolicyClaimKindOfLossDT>
+    <ClaimId>020019756610000000000</ClaimId>
+    <KindOfLossCode>20</KindOfLossCode>
+    <KindOfLossCodeExp>20</KindOfLossCodeExp>
+    <OutstandingReserveReportYear>0</OutstandingReserveReportYear>
+    <OutstandingReserveReportMonth>0</OutstandingReserveReportMonth>
+    <VehicleLossCode>K</VehicleLossCode>
+    <LossAmtTotal>2612</LossAmtTotal>
+    <OutstandingReserveReportOccur>N</OutstandingReserveReportOccur>
+  </PolicyClaimKindOfLossDT>
+  <PolicyClaimKindOfLossTransDT>
+    <ClaimId>020019756610000100000</ClaimId>
+    <KindOfLossCode>27</KindOfLossCode>
+    <KindOfLossCodeExp>27</KindOfLossCodeExp>
+    <Sequence>1</Sequence>
+    <LossAmt>46</LossAmt>
+    <UITTransactionTypeCode />
+  </PolicyClaimKindOfLossTransDT>
+  <PolicyClaimKindOfLossTransDT>
+    <ClaimId>020019756610000000001</ClaimId>
+    <KindOfLossCode>27</KindOfLossCode>
+    <KindOfLossCodeExp>27</KindOfLossCodeExp>
+    <Sequence>1</Sequence>
+    <LossAmt>46</LossAmt>
+    <UITTransactionTypeCode />
+  </PolicyClaimKindOfLossTransDT>
+  <PolicyClaimKindOfLossTransDT>
+    <ClaimId>020019756610000000000</ClaimId>
+    <KindOfLossCode>20</KindOfLossCode>
+    <KindOfLossCodeExp>20</KindOfLossCodeExp>
+    <Sequence>1</Sequence>
+    <LossAmt>2612</LossAmt>
+    <UITTransactionTypeCode />
+  </PolicyClaimKindOfLossTransDT>
+  <InsuredDT>
+    <CompanyCode>487</CompanyCode>
+    <PolicyNumber>13062499</PolicyNumber>
+    <FirstName> GEORGE</FirstName>
+    <MiddleName />
+    <LastName>MUNT</LastName>
+    <UnstructuredName>MUNT, GEORGE</UnstructuredName>
+    <StructuredNameInd>Y</StructuredNameInd>
+    <LicenceProvinceCode>ON</LicenceProvinceCode>
+    <LicenceNumber>M93002789250829</LicenceNumber>
+  </InsuredDT>
+  <SummaryInfoDT>
+    <YearsOnAutoPlus>15</YearsOnAutoPlus>
+    <YearsClaimFree>15</YearsClaimFree>
+    <ClaimsInLast6Years>0</ClaimsInLast6Years>
+    <AtFaultClaims>0</AtFaultClaims>
+    <FirstPartyClaims>3</FirstPartyClaims>
+    <ThirdPartyClaims>0</ThirdPartyClaims>
+    <TotalLossAmount>2704</TotalLossAmount>
+    <TotalExpenseAmount>126</TotalExpenseAmount>
+    <AutoPlusCheckResult>PASS</AutoPlusCheckResult>
+    <PolicyDriverCurrentAge>90</PolicyDriverCurrentAge>
+  </SummaryInfoDT>
+  <RequestDT>
+    <CompanyCode />
+    <PolicyNumber />
+    <LicenceProvinceCode>ON</LicenceProvinceCode>
+    <LicenceNumber>M93002789250829</LicenceNumber>
+    <RequestReference />
+    <Insured />
+    <OverrideYearLimitFeatureBln>false</OverrideYearLimitFeatureBln>
+    <DeferRequestResponseInd>N</DeferRequestResponseInd>
+    <Username>webserviceuser@cgi.com</Username>
+    <UserFirstName>Webservice</UserFirstName>
+    <UserLastName>User</UserLastName>
+    <SubscriberName>CGI - IBS</SubscriberName>
+    <RequestReceipt>127099</RequestReceipt>
+    <AutoFillRequestInd>N</AutoFillRequestInd>
+    <AutoFillRequestReceipt>0</AutoFillRequestReceipt>
+    <SponsoringSubscriberID>99999</SponsoringSubscriberID>
+    <SponsoringSubscriberName>CGI - IBS</SponsoringSubscriberName>
+    <RequestDate>2016-06-10T10:55:01.3907235-04:00</RequestDate>
+  </RequestDT>
+</DriverClaimHistoryGoldDS>

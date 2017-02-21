@@ -1,0 +1,102 @@
+<MVRRequestResponseDS xmlns="http://localhost/IISDOTNETAPP/XMLSchemas/MVRRequestResponseDS.xsd">
+  <MVRRequestDT>
+    <RequestReceipt>4569948</RequestReceipt>
+    <DriverLicenceProvinceCode>ON</DriverLicenceProvinceCode>
+    <DriverLicenceNumber>B50094077600101</DriverLicenceNumber>
+    <OrderImmediateInd>Y</OrderImmediateInd>
+    <DriverGender>M</DriverGender>
+    <PredictorCheckOverrideInd>N</PredictorCheckOverrideInd>
+    <DuplicateCheckOrderOverrideInd>Y</DuplicateCheckOrderOverrideInd>
+    <AbstractFormat>D</AbstractFormat>
+    <SuspendAbstractResponseInd>N</SuspendAbstractResponseInd>
+    <Username>wstest@xxxxx.ca</Username>
+  </MVRRequestDT>
+  <MVRResponseDT>
+    <RequestReceipt>4569948</RequestReceipt>
+    <RequestErrorInd>N</RequestErrorInd>
+    <RequestOrderInd>Y</RequestOrderInd>
+    <DuplicateRequestInd>N</DuplicateRequestInd>
+    <PredictorInvokedInd>N</PredictorInvokedInd>
+    <PredictorUnavailableInd>N</PredictorUnavailableInd>
+    <PredictorOrderInd>N</PredictorOrderInd>
+    <AbstractInd>Y</AbstractInd>
+    <AbstractHasConvictionCodesInd>Y</AbstractHasConvictionCodesInd>
+    <Username>wstest@xxxxx.ca</Username>
+    <UserFirstName>System to System</UserFirstName>
+    <UserLastName>xxxxx Webservice</UserLastName>
+    <ProviderResponseDateTime>2014-02-14T12:19:32.0558055-05:00</ProviderResponseDateTime>
+    <ResponseSentDateTime>2014-02-14T12:19:37.0828837-05:00</ResponseSentDateTime>
+    <ReceivedDateTime>2014-02-14T12:19:31.9556645-05:00</ReceivedDateTime>
+    <RequestResponsePoolInvokedInd>N</RequestResponsePoolInvokedInd>
+    <SubscriberName>xxxxx - UAT</SubscriberName>
+    <SponsoringSubscriberID>100360</SponsoringSubscriberID>
+    <SponsoringSubscriberName>xxxxx - UAT</SponsoringSubscriberName>
+  </MVRResponseDT>
+  <DataFormatAbstractDT>
+    <RequestReceipt>4569948</RequestReceipt>
+    <Abstract>
+      <MVRAbstract version="1.0" province="ON">
+        <RequestId>4569948</RequestId>
+        <IBCRequestId>0001476749</IBCRequestId>
+        <IBCProductId>MVN0000012</IBCProductId>
+        <RequestInfo>
+          <DriverLicenceNumber>B50094077600101</DriverLicenceNumber>
+        </RequestInfo>
+        <DriverInfo>
+          <LicenceNumber>B50094077600101</LicenceNumber>
+          <Name>BLACK,JOHN,R</Name>
+          <BirthDate>1960-01-01</BirthDate>
+          <LicenceStatus>LICENCED</LicenceStatus>
+          <LicenceClass>B***</LicenceClass>
+          <Gender>M</Gender>
+          <Height>173</Height>
+          <LicenceCondition>X/Y</LicenceCondition>
+          <LicenceIssueDate>1986-06-11</LicenceIssueDate>
+          <LicenceExpiryDate>2020-05-18</LicenceExpiryDate>
+          <IsLicenceSuspended>false</IsLicenceSuspended>
+          <DemeritPoints>03</DemeritPoints>
+        </DriverInfo>
+        <Condition>
+          <Date>2011-03-18</Date>
+          <Description>MEDICAL DUE DATE</Description>
+        </Condition>
+        <Condition>
+          <Description>AIR BRAKE ENDORSEMENT</Description>
+        </Condition>
+        <Condition>
+          <Description>REQUIRES CORRECTIVE LENSES</Description>
+        </Condition>
+        <Conviction>
+          <Code>FRA</Code>
+          <OffenceDate>2012-11-02</OffenceDate>
+          <ConvictionDate>2012-11-15</ConvictionDate>
+          <Description>FAIL TO REPORT ACCIDENT</Description>
+          <Description>OFFENCE DATE 2012/11/02</Description>
+        </Conviction>
+        <Conviction>
+          <Code>SP015</Code>
+          <OffenceDate>2012-11-04</OffenceDate>
+          <ConvictionDate>2012-11-15</ConvictionDate>
+          <Description>SPEEDING 105 KMH IN  90 KMH ZONE</Description>
+          <Description>OFFENCE DATE 2012/11/04</Description>
+        </Conviction>
+        <Conviction>
+          <Code>IT</Code>
+          <OffenceDate>2012-07-02</OffenceDate>
+          <ConvictionDate>2012-07-15</ConvictionDate>
+          <Description>IMPROPER LEFT TURN-ACROSS PATH OF APPROACHING VEHICL</Description>
+          <Description>OFFENCE DATE 2012/07/02</Description>
+        </Conviction>
+        <ProviderMessage>
+          <Code>I1002</Code>
+          <Text>SEARCH SUCCESSFUL - ABSTRACT FOUND</Text>
+        </ProviderMessage>
+      </MVRAbstract>
+    </Abstract>
+  </DataFormatAbstractDT>
+  <MessageDT>
+    <RequestReceipt>4569948</RequestReceipt>
+    <Code>200230100</Code>
+    <Text>Request Completed Successfully.</Text>
+  </MessageDT>
+</MVRRequestResponseDS>

@@ -1,0 +1,435 @@
+<MVRRequestResponseDS xmlns="http://localhost/IISDOTNETAPP/XMLSchemas/MVRRequestResponseDS.xsd">
+  <MVRRequestDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <DriverLicenceProvinceCode>ON</DriverLicenceProvinceCode>
+    <DriverLicenceNumber>B50094077600101</DriverLicenceNumber>
+    <OrderImmediateInd>Y</OrderImmediateInd>
+    <DriverGender>M</DriverGender>
+    <PredictorCheckOverrideInd>N</PredictorCheckOverrideInd>
+    <DuplicateCheckOrderOverrideInd>Y</DuplicateCheckOrderOverrideInd>
+    <AbstractFormat>P</AbstractFormat>
+    <SuspendAbstractResponseInd>N</SuspendAbstractResponseInd>
+    <Username>wstest@xxxx.ca</Username>
+  </MVRRequestDT>
+  <MVRResponseDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <RequestErrorInd>N</RequestErrorInd>
+    <RequestOrderInd>Y</RequestOrderInd>
+    <DuplicateRequestInd>N</DuplicateRequestInd>
+    <PredictorInvokedInd>N</PredictorInvokedInd>
+    <PredictorUnavailableInd>N</PredictorUnavailableInd>
+    <PredictorOrderInd>N</PredictorOrderInd>
+    <AbstractInd>Y</AbstractInd>
+    <AbstractHasConvictionCodesInd>Y</AbstractHasConvictionCodesInd>
+    <Username>wstest@xxxx.ca</Username>
+    <UserFirstName>System to System</UserFirstName>
+    <UserLastName>xxxx Webservice</UserLastName>
+    <ProviderResponseDateTime>2014-02-14T12:20:34.4837049-05:00</ProviderResponseDateTime>
+    <ResponseSentDateTime>2014-02-14T12:20:39.5107831-05:00</ResponseSentDateTime>
+    <ReceivedDateTime>2014-02-14T12:20:34.393578-05:00</ReceivedDateTime>
+    <RequestResponsePoolInvokedInd>N</RequestResponsePoolInvokedInd>
+    <SubscriberName>xxxx - UAT</SubscriberName>
+    <SponsoringSubscriberID>100360</SponsoringSubscriberID>
+    <SponsoringSubscriberName>xxxx - UAT</SponsoringSubscriberName>
+  </MVRResponseDT>
+  <DataFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <Abstract>
+      <MVRAbstract version="1.0" province="ON">
+        <RequestId>4569964</RequestId>
+        <IBCRequestId>0001476749</IBCRequestId>
+        <IBCProductId>MVN0000012</IBCProductId>
+        <RequestInfo>
+          <DriverLicenceNumber>B50094077600101</DriverLicenceNumber>
+        </RequestInfo>
+        <DriverInfo>
+          <LicenceNumber>B50094077600101</LicenceNumber>
+          <Name>BLACK,JOHN,R</Name>
+          <BirthDate>1960-01-01</BirthDate>
+          <LicenceStatus>LICENCED</LicenceStatus>
+          <LicenceClass>B***</LicenceClass>
+          <Gender>M</Gender>
+          <Height>173</Height>
+          <LicenceCondition>X/Y</LicenceCondition>
+          <LicenceIssueDate>1986-06-11</LicenceIssueDate>
+          <LicenceExpiryDate>2020-05-18</LicenceExpiryDate>
+          <IsLicenceSuspended>false</IsLicenceSuspended>
+          <DemeritPoints>03</DemeritPoints>
+        </DriverInfo>
+        <Condition>
+          <Date>2011-03-18</Date>
+          <Description>MEDICAL DUE DATE</Description>
+        </Condition>
+        <Condition>
+          <Description>AIR BRAKE ENDORSEMENT</Description>
+        </Condition>
+        <Condition>
+          <Description>REQUIRES CORRECTIVE LENSES</Description>
+        </Condition>
+        <Conviction>
+          <Code>FRA</Code>
+          <OffenceDate>2012-11-02</OffenceDate>
+          <ConvictionDate>2012-11-15</ConvictionDate>
+          <Description>FAIL TO REPORT ACCIDENT</Description>
+          <Description>OFFENCE DATE 2012/11/02</Description>
+        </Conviction>
+        <Conviction>
+          <Code>SP015</Code>
+          <OffenceDate>2012-11-04</OffenceDate>
+          <ConvictionDate>2012-11-15</ConvictionDate>
+          <Description>SPEEDING 105 KMH IN  90 KMH ZONE</Description>
+          <Description>OFFENCE DATE 2012/11/04</Description>
+        </Conviction>
+        <Conviction>
+          <Code>IT</Code>
+          <OffenceDate>2012-07-02</OffenceDate>
+          <ConvictionDate>2012-07-15</ConvictionDate>
+          <Description>IMPROPER LEFT TURN-ACROSS PATH OF APPROACHING VEHICL</Description>
+          <Description>OFFENCE DATE 2012/07/02</Description>
+        </Conviction>
+        <ProviderMessage>
+          <Code>I1002</Code>
+          <Text>SEARCH SUCCESSFUL - ABSTRACT FOUND</Text>
+        </ProviderMessage>
+      </MVRAbstract>
+    </Abstract>
+  </DataFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>1</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>                             ONTARIO Driving Record                            </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>2</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>
+    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>3</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>                         ***Number of Convictions: 3***                        </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>4</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>
+    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>5</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>
+    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>6</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>License Number:  B5009-40776-00101        Expiry Date:    18/05/2020           </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>7</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Name:            BLACK,JOHN,R             Birth Date:     01/01/1960           </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>8</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Gender:          M                        Height:         173 CM               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>9</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Address:                                                                       </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>10</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>
+    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>11</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>
+    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>12</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>
+    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>13</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Reference:                                                                     </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>14</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Comment:                                                                       </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>15</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>
+    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>16</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Demerit Points:  03            Class: B***            Conditions:     X/Y      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>17</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>
+    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>18</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Status:          LICENCED                 Issue Date:     11/06/1986           </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>19</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>
+    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>20</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Requested By:    xxxx Webservice, System to System                         </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>21</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>User ID:         wstest@xxxx.ca                                            </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>22</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Requested On:    14/02/2014               Reply Date:     14/02/2014           </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>23</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>
+    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>24</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>
+    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>25</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>DATE            CONDITIONS AND ENDORSEMENTS                                    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>26</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>------------------------------------------------------------------------------ </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>27</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>18/03/2011  MEDICAL DUE DATE                                                   </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>28</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>            AIR BRAKE ENDORSEMENT                                              </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>29</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>            REQUIRES CORRECTIVE LENSES                                         </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>30</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>
+    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>31</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>
+    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>32</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>DATE            CONVICTIONS, DISCHARGES AND OTHER ACTIONS                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>33</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>------------------------------------------------------------------------------ </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>34</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>15/11/2012  FAIL TO REPORT ACCIDENT                                            </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>35</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>            OFFENCE DATE 2012/11/02                                            </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>36</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>
+    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>37</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>15/11/2012  SPEEDING 105 KMH IN  90 KMH ZONE                                   </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>38</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>            OFFENCE DATE 2012/11/04                                            </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>39</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>
+    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>40</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>15/07/2012  IMPROPER LEFT TURN-ACROSS PATH OF APPROACHING VEHICL               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>41</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>            OFFENCE DATE 2012/07/02                                            </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>42</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>
+    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>43</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>
+    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>44</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>            SEARCH SUCCESSFUL - ABSTRACT FOUND                                 </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>45</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>
+    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>46</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>                     *** END OF REPORT / FIN DU RAPPORT ***                    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>47</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>
+    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>48</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Licence Number        ReplyDt       BirDt         ExpDt       Class   Pt       </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>49</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>B5009-40776-00101   14/02/2014    01/01/1960    18/05/2020    B***    03       </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>50</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>
+    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>51</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>
+    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <PrintLineSequence>52</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>                                                Receipt Number: 0004569964     </PrintLineText>
+  </PrintFormatAbstractDT>
+  <MessageDT>
+    <RequestReceipt>4569964</RequestReceipt>
+    <Code>200230100</Code>
+    <Text>Request Completed Successfully.</Text>
+  </MessageDT>
+</MVRRequestResponseDS>

@@ -1,0 +1,1484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='AutoPlusPrintFormat.xslt'?>
+<DriverClaimHistoryGoldDS>
+  <PolicyBaseInfoDT>
+    <CompanyCode>007</CompanyCode>
+    <PolicyNumber>1234567</PolicyNumber>
+    <CompanyName>Dominion of Canada Gen. Ins.</CompanyName>
+    <PolicyStatus>RN</PolicyStatus>
+    <PolicyCoverageYear>0</PolicyCoverageYear>
+    <PolicyCoverageMonth>0</PolicyCoverageMonth>
+    <PolicyCoverageDay>0</PolicyCoverageDay>
+    <ProcessYear>1991</ProcessYear>
+    <ProcessMonth>2</ProcessMonth>
+    <ProcessDay>1</ProcessDay>
+    <OriginalEffectiveYear>1997</OriginalEffectiveYear>
+    <OriginalEffectiveMonth>2</OriginalEffectiveMonth>
+    <CurrentEffectiveYear>0</CurrentEffectiveYear>
+    <CurrentEffectiveMonth>0</CurrentEffectiveMonth>
+    <CurrentExpiryYear>2020</CurrentExpiryYear>
+    <CurrentExpiryMonth>2</CurrentExpiryMonth>
+    <CurrentExpiryDay>0</CurrentExpiryDay>
+    <CoverageExpiryYear>2020</CoverageExpiryYear>
+    <CoverageExpiryMonth>2</CoverageExpiryMonth>
+    <CoverageExpiryDay>0</CoverageExpiryDay>
+    <NumberOfPreviousInquiries>99</NumberOfPreviousInquiries>
+    <PolicyHolderId>0100000000700001</PolicyHolderId>
+    <PolicyOnHoldInd>N</PolicyOnHoldInd>
+    <MostRecentPolicyInd>Y</MostRecentPolicyInd>
+    <OriginalEffectiveDay>0</OriginalEffectiveDay>
+    <CurrentEffectiveDay>0</CurrentEffectiveDay>
+    <CommercialPolicyInd>N</CommercialPolicyInd>
+    <LineOfBusinessCode>PA</LineOfBusinessCode>
+    <NoFrillPolicy />
+    <FARejectedCompany />
+    <MarketingGroup />
+    <AlbertaGridInd>N</AlbertaGridInd>
+  </PolicyBaseInfoDT>
+  <PolicyDriverDT>
+    <CompanyCode>007</CompanyCode>
+    <PolicyNumber>1234567</PolicyNumber>
+    <PolicyDriverId>0100000000700000</PolicyDriverId>
+    <DeletedInd>Y</DeletedInd>
+    <LicenceNumberStatus>VL</LicenceNumberStatus>
+    <DriverRelationshipCode>PRN</DriverRelationshipCode>
+    <PrincipalOperatorInd>Y</PrincipalOperatorInd>
+    <PolicyVehicleId />
+    <LicenceProvinceCode>ON</LicenceProvinceCode>
+    <LicenceNumber>B50095278625202</LicenceNumber>
+    <YearsLicenced>0</YearsLicenced>
+    <YearsLicencedExp>0</YearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <FirstName />
+    <MiddleName />
+    <LastName />
+    <UnstructuredName>MARY T. BLACK</UnstructuredName>
+    <StructuredNameInd>N</StructuredNameInd>
+    <CompanyInd>N</CompanyInd>
+    <BirthYear>0</BirthYear>
+    <BirthMonth>0</BirthMonth>
+    <BirthDay>0</BirthDay>
+    <Gender>U</Gender>
+    <ICPBWarningPossibleMatchInd>N</ICPBWarningPossibleMatchInd>
+    <PolicyVehicleCode>001</PolicyVehicleCode>
+    <Age />
+    <MaritalStatus />
+  </PolicyDriverDT>
+  <PolicyDriverDT>
+    <CompanyCode>007</CompanyCode>
+    <PolicyNumber>1234567</PolicyNumber>
+    <PolicyDriverId>0100000000700001</PolicyDriverId>
+    <DeletedInd>N</DeletedInd>
+    <LicenceNumberStatus>VL</LicenceNumberStatus>
+    <DriverRelationshipCode>INS</DriverRelationshipCode>
+    <PrincipalOperatorInd>N</PrincipalOperatorInd>
+    <PolicyVehicleId>0100000000700000</PolicyVehicleId>
+    <LicenceProvinceCode>ON</LicenceProvinceCode>
+    <LicenceNumber>B50094077600101</LicenceNumber>
+    <YearsLicenced>0</YearsLicenced>
+    <YearsLicencedExp>0</YearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <FirstName />
+    <MiddleName />
+    <LastName />
+    <UnstructuredName>JOHN R. BLACK</UnstructuredName>
+    <StructuredNameInd>N</StructuredNameInd>
+    <CompanyInd>N</CompanyInd>
+    <BirthYear>1960</BirthYear>
+    <BirthMonth>12</BirthMonth>
+    <BirthDay>1</BirthDay>
+    <Gender>U</Gender>
+    <ICPBWarningPossibleMatchInd>N</ICPBWarningPossibleMatchInd>
+    <PolicyVehicleCode>002</PolicyVehicleCode>
+    <Age />
+    <MaritalStatus />
+  </PolicyDriverDT>
+  <PolicyVehicleDT>
+    <CompanyCode>007</CompanyCode>
+    <PolicyNumber>1234567</PolicyNumber>
+    <PolicyVehicleId>0100000000700000</PolicyVehicleId>
+    <PolicyDriverId>0100000000700001</PolicyDriverId>
+    <TerritoryCode>710</TerritoryCode>
+    <TerritoryDesc>Oshawa, Aurora, Newmarket, Orangeville District</TerritoryDesc>
+    <TypeOfBusinessCode>1</TypeOfBusinessCode>
+    <ClassTypeOfUseCode>01</ClassTypeOfUseCode>
+    <UseCode>1</UseCode>
+    <PrincipalOperatorBirthYear>0</PrincipalOperatorBirthYear>
+    <PrincipalOperatorYearsLicenced>0</PrincipalOperatorYearsLicenced>
+    <PrincipalOperatorYearsLicencedExp>0</PrincipalOperatorYearsLicencedExp>
+    <PrincipalOperatorGender>U</PrincipalOperatorGender>
+    <YearsClaimFree>0</YearsClaimFree>
+    <YearsClaimFreeExp>0</YearsClaimFreeExp>
+    <YearsClaimFreeTP>5</YearsClaimFreeTP>
+    <YearsClaimFreeColl>5</YearsClaimFreeColl>
+    <YearsOtherClaimFreeTP>0</YearsOtherClaimFreeTP>
+    <YearsOtherClaimFreeColl>0</YearsOtherClaimFreeColl>
+    <FacilityAccidentCount>0</FacilityAccidentCount>
+    <FacilityAConvictionCount>0</FacilityAConvictionCount>
+    <FacilityBConvictionCount>0</FacilityBConvictionCount>
+    <FacilityCConvictionCount>0</FacilityCConvictionCount>
+    <VIN>JT2AE96C4L3345782</VIN>
+    <VINStatus>ST</VINStatus>
+    <VehicleCode>4426</VehicleCode>
+    <ModelYear>2000</ModelYear>
+    <ICPBReportReference />
+    <VehicleFixableInd />
+    <VehicleType>A</VehicleType>
+    <BodyTypeCode />
+    <DriveTypeCode />
+    <CarCode />
+    <MakeEng />
+    <MakeFre />
+    <ModelEng />
+    <ModelFre />
+    <VehicleDescEng>MK:4426 IAO:  USE:01</VehicleDescEng>
+    <VehicleDescFre />
+    <VehicleDescInd>Y</VehicleDescInd>
+    <IAOSubClassType />
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <NumberOfClaims>0</NumberOfClaims>
+    <OtherOperatorCode>0</OtherOperatorCode>
+    <OtherOperatorMinimumYearsLicenced>0</OtherOperatorMinimumYearsLicenced>
+    <IAOUseCode />
+    <PolicyDriverCode>002</PolicyDriverCode>
+    <RIN />
+    <TerritoryFSA />
+    <MandatoryCoverage />
+    <TrailerIndicator />
+    <NewDriverDiscount />
+    <RetirementDiscount />
+    <CleanDriverIndicator />
+    <FADriverTrainingCode />
+    <FAInsuranceFraudConvictions />
+    <LastUpdateDate>00000000</LastUpdateDate>
+    <AfterMarketSecurityDevice>NA</AfterMarketSecurityDevice>
+    <LeasedVehicle>NA</LeasedVehicle>
+    <MultiCarDiscount />
+    <MultiLineDiscount />
+    <RenewalDiscount />
+    <CommutingDistance />
+    <AnnualDrivingDistance />
+    <BusinessUsePercentage />
+    <WinterTireDiscount />
+  </PolicyVehicleDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>007</CompanyCode>
+    <PolicyNumber>1234567</PolicyNumber>
+    <PolicyVehicleId>0100000000700000</PolicyVehicleId>
+    <CoverageCategoryCode>TP</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyVehicleCoverageCategoriesDT>
+    <CompanyCode>007</CompanyCode>
+    <PolicyNumber>1234567</PolicyNumber>
+    <PolicyVehicleId>0100000000700000</PolicyVehicleId>
+    <CoverageCategoryCode>CL</CoverageCategoryCode>
+  </PolicyVehicleCoverageCategoriesDT>
+  <PolicyHolderDT>
+    <CompanyCode>007</CompanyCode>
+    <PolicyNumber>1234567</PolicyNumber>
+    <PolicyHolderId>0100000000700001</PolicyHolderId>
+    <PolicyDriverId>0100000000700001</PolicyDriverId>
+    <DeletedInd>N</DeletedInd>
+    <FirstName />
+    <MiddleName />
+    <LastName />
+    <UnstructuredName>JOHN R. BLACK</UnstructuredName>
+    <StructuredNameInd>N</StructuredNameInd>
+    <CompanyInd>N</CompanyInd>
+    <BirthYear>1960</BirthYear>
+    <BirthMonth>12</BirthMonth>
+    <BirthDay>1</BirthDay>
+    <Gender>U</Gender>
+    <StreetAndUnit>101 Disney Avenue</StreetAndUnit>
+    <City>Hamilton</City>
+    <ProvinceCode>ON</ProvinceCode>
+    <PostalCode>L8N1L4</PostalCode>
+    <StructuredAddressInd>Y</StructuredAddressInd>
+    <UnstructuredAddress />
+  </PolicyHolderDT>
+  <PreviousInquiryDT>
+    <CompanyCodePolicyCompany>007</CompanyCodePolicyCompany>
+    <PolicyNumber>1234567</PolicyNumber>
+    <InquiryIncidence>1</InquiryIncidence>
+    <CompanyCodeInquiryCompany>538</CompanyCodeInquiryCompany>
+    <CompanyName>Guarantee Co. of Nor. Am. The</CompanyName>
+    <InquiryYear>2016</InquiryYear>
+    <InquiryMonth>10</InquiryMonth>
+  </PreviousInquiryDT>
+  <PreviousInquiryDT>
+    <CompanyCodePolicyCompany>007</CompanyCodePolicyCompany>
+    <PolicyNumber>1234567</PolicyNumber>
+    <InquiryIncidence>2</InquiryIncidence>
+    <CompanyCodeInquiryCompany>094</CompanyCodeInquiryCompany>
+    <CompanyName>Economical Mutual Ins. Co.</CompanyName>
+    <InquiryYear>2016</InquiryYear>
+    <InquiryMonth>10</InquiryMonth>
+  </PreviousInquiryDT>
+  <PreviousInquiryDT>
+    <CompanyCodePolicyCompany>007</CompanyCodePolicyCompany>
+    <PolicyNumber>1234567</PolicyNumber>
+    <InquiryIncidence>3</InquiryIncidence>
+    <CompanyCodeInquiryCompany>538</CompanyCodeInquiryCompany>
+    <CompanyName>Guarantee Co. of Nor. Am. The</CompanyName>
+    <InquiryYear>2016</InquiryYear>
+    <InquiryMonth>10</InquiryMonth>
+  </PreviousInquiryDT>
+  <PolicyClaimDT>
+    <ClaimId>010000000070000000003</ClaimId>
+    <CompanyCode>007</CompanyCode>
+    <PolicyNumber>1234567</PolicyNumber>
+    <ClaimYear>2016</ClaimYear>
+    <ClaimMonth>2</ClaimMonth>
+    <ClaimDay>3</ClaimDay>
+    <ExpenseAmt>0</ExpenseAmt>
+    <ClassTypeOfUseCode>00</ClassTypeOfUseCode>
+    <UseCode>0</UseCode>
+    <TPLClaimFreeYears>0</TPLClaimFreeYears>
+    <CollClaimFreeYears>0</CollClaimFreeYears>
+    <DriverBirthYear>0</DriverBirthYear>
+    <DriverYearsLicenced>0</DriverYearsLicenced>
+    <DriverYearsLicencedExp>0</DriverYearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <DriverGender>U</DriverGender>
+    <ExcludedDriverInd>0</ExcludedDriverInd>
+    <LastUpdateDate>2016-02-09T00:00:00-05:00</LastUpdateDate>
+    <PolicyVehicleId>0100000000700000</PolicyVehicleId>
+    <IAOCompanyInd>N</IAOCompanyInd>
+    <Source>IBC</Source>
+  </PolicyClaimDT>
+  <PolicyClaimDT>
+    <ClaimId>010000000070000000002</ClaimId>
+    <CompanyCode>007</CompanyCode>
+    <PolicyNumber>1234567</PolicyNumber>
+    <ClaimYear>2013</ClaimYear>
+    <ClaimMonth>8</ClaimMonth>
+    <ClaimDay>6</ClaimDay>
+    <ExpenseAmt>300</ExpenseAmt>
+    <ClassTypeOfUseCode>01</ClassTypeOfUseCode>
+    <UseCode>1</UseCode>
+    <TPLClaimFreeYears>0</TPLClaimFreeYears>
+    <CollClaimFreeYears>0</CollClaimFreeYears>
+    <DriverBirthYear>0</DriverBirthYear>
+    <DriverYearsLicenced>0</DriverYearsLicenced>
+    <DriverYearsLicencedExp>0</DriverYearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <DriverGender>U</DriverGender>
+    <ExcludedDriverInd>0</ExcludedDriverInd>
+    <PolicyVehicleId>0100000000700000</PolicyVehicleId>
+    <IAOCompanyInd>N</IAOCompanyInd>
+    <Source>IBC</Source>
+  </PolicyClaimDT>
+  <PolicyClaimDT>
+    <ClaimId>010000000070000000001</ClaimId>
+    <CompanyCode>007</CompanyCode>
+    <PolicyNumber>1234567</PolicyNumber>
+    <ClaimYear>2013</ClaimYear>
+    <ClaimMonth>7</ClaimMonth>
+    <ClaimDay>4</ClaimDay>
+    <ExpenseAmt>200</ExpenseAmt>
+    <ClassTypeOfUseCode>01</ClassTypeOfUseCode>
+    <UseCode>1</UseCode>
+    <TPLClaimFreeYears>0</TPLClaimFreeYears>
+    <CollClaimFreeYears>0</CollClaimFreeYears>
+    <DriverBirthYear>0</DriverBirthYear>
+    <DriverYearsLicenced>0</DriverYearsLicenced>
+    <DriverYearsLicencedExp>0</DriverYearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <DriverGender>U</DriverGender>
+    <ExcludedDriverInd>0</ExcludedDriverInd>
+    <PolicyVehicleId>0100000000700000</PolicyVehicleId>
+    <IAOCompanyInd>N</IAOCompanyInd>
+    <Source>IBC</Source>
+  </PolicyClaimDT>
+  <PolicyClaimDT>
+    <ClaimId>010000000070000000000</ClaimId>
+    <CompanyCode>007</CompanyCode>
+    <PolicyNumber>1234567</PolicyNumber>
+    <ClaimYear>1999</ClaimYear>
+    <ClaimMonth>10</ClaimMonth>
+    <ClaimDay>28</ClaimDay>
+    <ExpenseAmt>45</ExpenseAmt>
+    <ClassTypeOfUseCode>00</ClassTypeOfUseCode>
+    <UseCode>0</UseCode>
+    <TPLClaimFreeYears>0</TPLClaimFreeYears>
+    <CollClaimFreeYears>0</CollClaimFreeYears>
+    <DriverBirthYear>1962</DriverBirthYear>
+    <DriverYearsLicenced>0</DriverYearsLicenced>
+    <DriverYearsLicencedExp>0</DriverYearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <DriverGender>U</DriverGender>
+    <ExcludedDriverInd>0</ExcludedDriverInd>
+    <PolicyVehicleId>0100000000700000</PolicyVehicleId>
+    <IAOCompanyInd>N</IAOCompanyInd>
+    <Source>IBC</Source>
+  </PolicyClaimDT>
+  <PolicyClaimVehicleDT>
+    <ClaimId>010000000070000000003</ClaimId>
+    <PolicyVehicleId>0100000000700000</PolicyVehicleId>
+    <CompanyCode>007</CompanyCode>
+    <PolicyNumber>1234567</PolicyNumber>
+    <VIN>JT2AE96C4L3345782</VIN>
+    <ModelYear>2000</ModelYear>
+    <MakeEng />
+    <MakeFre />
+    <ModelEng />
+    <ModelFre />
+    <VehicleType>A</VehicleType>
+    <BodyTypeCode />
+    <DriveTypeCode />
+    <CarCode />
+    <VehicleFixableInd />
+    <VINStatus>ST</VINStatus>
+    <VehicleCode>4426</VehicleCode>
+    <ClassTypeOfUseCode>01</ClassTypeOfUseCode>
+    <UseCode>1</UseCode>
+    <VehicleDescEng>MK:4426 IAO:  USE:01</VehicleDescEng>
+    <VehicleDescFre />
+    <VehicleDescInd>Y</VehicleDescInd>
+  </PolicyClaimVehicleDT>
+  <PolicyClaimVehicleDT>
+    <ClaimId>010000000070000000002</ClaimId>
+    <PolicyVehicleId>0100000000700000</PolicyVehicleId>
+    <CompanyCode>007</CompanyCode>
+    <PolicyNumber>1234567</PolicyNumber>
+    <VIN>JT2AE96C4L3345782</VIN>
+    <ModelYear>2000</ModelYear>
+    <MakeEng />
+    <MakeFre />
+    <ModelEng />
+    <ModelFre />
+    <VehicleType>A</VehicleType>
+    <BodyTypeCode />
+    <DriveTypeCode />
+    <CarCode />
+    <VehicleFixableInd />
+    <VINStatus>ST</VINStatus>
+    <VehicleCode>4426</VehicleCode>
+    <ClassTypeOfUseCode>01</ClassTypeOfUseCode>
+    <UseCode>1</UseCode>
+    <VehicleDescEng>MK:4426 IAO:  USE:01</VehicleDescEng>
+    <VehicleDescFre />
+    <VehicleDescInd>Y</VehicleDescInd>
+  </PolicyClaimVehicleDT>
+  <PolicyClaimVehicleDT>
+    <ClaimId>010000000070000000001</ClaimId>
+    <PolicyVehicleId>0100000000700000</PolicyVehicleId>
+    <CompanyCode>007</CompanyCode>
+    <PolicyNumber>1234567</PolicyNumber>
+    <VIN>JT2AE96C4L3345782</VIN>
+    <ModelYear>2000</ModelYear>
+    <MakeEng />
+    <MakeFre />
+    <ModelEng />
+    <ModelFre />
+    <VehicleType>A</VehicleType>
+    <BodyTypeCode />
+    <DriveTypeCode />
+    <CarCode />
+    <VehicleFixableInd />
+    <VINStatus>ST</VINStatus>
+    <VehicleCode>4426</VehicleCode>
+    <ClassTypeOfUseCode>01</ClassTypeOfUseCode>
+    <UseCode>1</UseCode>
+    <VehicleDescEng>MK:4426 IAO:  USE:01</VehicleDescEng>
+    <VehicleDescFre />
+    <VehicleDescInd>Y</VehicleDescInd>
+  </PolicyClaimVehicleDT>
+  <PolicyClaimVehicleDT>
+    <ClaimId>010000000070000000000</ClaimId>
+    <PolicyVehicleId>0100000000700000</PolicyVehicleId>
+    <CompanyCode>007</CompanyCode>
+    <PolicyNumber>1234567</PolicyNumber>
+    <VIN>JT2AE96C4L3345782</VIN>
+    <ModelYear>2000</ModelYear>
+    <MakeEng />
+    <MakeFre />
+    <ModelEng />
+    <ModelFre />
+    <VehicleType>A</VehicleType>
+    <BodyTypeCode />
+    <DriveTypeCode />
+    <CarCode />
+    <VehicleFixableInd />
+    <VINStatus>ST</VINStatus>
+    <VehicleCode>4426</VehicleCode>
+    <ClassTypeOfUseCode>01</ClassTypeOfUseCode>
+    <UseCode>1</UseCode>
+    <VehicleDescEng>MK:4426 IAO:  USE:01</VehicleDescEng>
+    <VehicleDescFre />
+    <VehicleDescInd>Y</VehicleDescInd>
+  </PolicyClaimVehicleDT>
+  <PolicyClaimFirstPartyAccidentDriverDT>
+    <ClaimId>010000000070000000003</ClaimId>
+    <PolicyDriverId>0100000000700001</PolicyDriverId>
+    <CompanyCode>007</CompanyCode>
+    <PolicyNumber>1234567</PolicyNumber>
+    <DeletedInd>N</DeletedInd>
+    <LicenceNumberStatus>VL</LicenceNumberStatus>
+    <DriverRelationshipCode>INS</DriverRelationshipCode>
+    <PrincipalOperatorInd>N</PrincipalOperatorInd>
+    <PolicyVehicleId>0100000000700000</PolicyVehicleId>
+    <LicenceProvinceCode>ON</LicenceProvinceCode>
+    <LicenceNumber>B50094077600101</LicenceNumber>
+    <YearsLicenced>0</YearsLicenced>
+    <YearsLicencedExp>0</YearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <FirstName>JOHN</FirstName>
+    <MiddleName>R.</MiddleName>
+    <LastName>BLACK</LastName>
+    <UnstructuredName>JOHN R. BLACK</UnstructuredName>
+    <StructuredNameInd>Y</StructuredNameInd>
+    <CompanyInd>N</CompanyInd>
+    <BirthYear>1960</BirthYear>
+    <BirthMonth>12</BirthMonth>
+    <BirthDay>1</BirthDay>
+    <Gender>U</Gender>
+    <NameAvailableInd>Y</NameAvailableInd>
+    <AtFaultInd>U</AtFaultInd>
+    <AtFaultPct>50</AtFaultPct>
+    <PolicyDriverClaimCode />
+    <LastUpdateDate>00000000</LastUpdateDate>
+  </PolicyClaimFirstPartyAccidentDriverDT>
+  <PolicyClaimFirstPartyAccidentDriverDT>
+    <ClaimId>010000000070000000000</ClaimId>
+    <PolicyDriverId>0100000000700000</PolicyDriverId>
+    <CompanyCode>007</CompanyCode>
+    <PolicyNumber>1234567</PolicyNumber>
+    <DeletedInd>N</DeletedInd>
+    <LicenceNumberStatus>VL</LicenceNumberStatus>
+    <DriverRelationshipCode>PRN</DriverRelationshipCode>
+    <PrincipalOperatorInd>N</PrincipalOperatorInd>
+    <PolicyVehicleId>0100000000700000</PolicyVehicleId>
+    <LicenceProvinceCode>ON</LicenceProvinceCode>
+    <LicenceNumber>B50095278625202</LicenceNumber>
+    <YearsLicenced>0</YearsLicenced>
+    <YearsLicencedExp>0</YearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <FirstName>MARY</FirstName>
+    <MiddleName>T.</MiddleName>
+    <LastName>BLACK</LastName>
+    <UnstructuredName>MARY T. BLACK</UnstructuredName>
+    <StructuredNameInd>Y</StructuredNameInd>
+    <CompanyInd>N</CompanyInd>
+    <BirthYear>0</BirthYear>
+    <BirthMonth>0</BirthMonth>
+    <BirthDay>0</BirthDay>
+    <Gender>U</Gender>
+    <NameAvailableInd>Y</NameAvailableInd>
+    <AtFaultInd>U</AtFaultInd>
+    <AtFaultPct>75</AtFaultPct>
+    <PolicyDriverClaimCode />
+    <LastUpdateDate>00000000</LastUpdateDate>
+  </PolicyClaimFirstPartyAccidentDriverDT>
+  <PolicyClaimThirdPartyAccidentDriverDT>
+    <ClaimId>010000000070000000000</ClaimId>
+    <PolicyDriverId>0100000000700002</PolicyDriverId>
+    <NameAvailableInd>Y</NameAvailableInd>
+    <LicenceNumberStatus>VL</LicenceNumberStatus>
+    <CompanyCode>645</CompanyCode>
+    <PolicyNumber>600500800</PolicyNumber>
+    <UtilizationCode />
+    <LicenceProvinceCode>ON</LicenceProvinceCode>
+    <LicenceNumber>***************</LicenceNumber>
+    <YearsLicenced>09</YearsLicenced>
+    <YearsLicencedExp>09</YearsLicencedExp>
+    <DriverTrainingInd>N</DriverTrainingInd>
+    <FirstName />
+    <MiddleName />
+    <LastName>***************</LastName>
+    <UnstructuredName>***************</UnstructuredName>
+    <StructuredNameInd>Y</StructuredNameInd>
+    <CompanyInd>N</CompanyInd>
+    <BirthYear>1972</BirthYear>
+    <BirthMonth>4</BirthMonth>
+    <BirthDay>4</BirthDay>
+    <Gender>F</Gender>
+    <PolicyDriverClaimCode>0</PolicyDriverClaimCode>
+    <LastUpdateDate>00000000</LastUpdateDate>
+    <PolicyNumberExp>600500800</PolicyNumberExp>
+  </PolicyClaimThirdPartyAccidentDriverDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>1</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>                       AUTOPLUS GOLD REPORT               Oct 20/2016          </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>2</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>3</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>REQUESTED BY: CGI - IBSWebservice Us IDENTIFIER:                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>4</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>FOR:  JOHN R. BLACK                   SEARCH BY: ON;B50094077600101            </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>5</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>ADDRESS:         101 Disney Avenue, Hamilton, ON L8N1L4                        </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>6</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>7</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>*** ATTENTION - 3 Inquiries in last 12 months ***                              </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>8</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>9</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>*** ALERT - Claim Check - AutoPlus Check Failed ***                            </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>10</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>11</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>            Inquired Driver                                                    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>12</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>            ---------------                                                    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>13</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>            Licence Number: ON;B50094077600101        Years Licensed:          </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>14</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>                Birth Date: 1 Dec 1960                           Age: 55       </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>15</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>                    Gender: Unknown                                            </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>16</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>17</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText> Years Insured on AutoPlus: 19                       At Fault Claims: 1        </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>18</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Claims in the Last 6 years: 1                       Years Claim Free: 0        </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>19</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>20</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>     Claims on all policies                                                    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>21</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>     ----------------------                                                    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>22</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>          Number of Claims: 4                                   Paid:$ 4981    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>23</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>        Third party claims: 0                          Expenses paid:$ 545     </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>24</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>25</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>         Previous Inquiries                                                    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>26</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>         ------------------                                                    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>27</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Guarantee Co. of Nor. Am. The            Oct, 2016                             </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>28</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Economical Mutual Ins. Co.               Oct, 2016                             </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>29</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Guarantee Co. of Nor. Am. The            Oct, 2016                             </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>30</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>31</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>    Additional Data Sources                                                    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>32</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>    -----------------------                                                    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>33</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Saskatchewan Claims:                     Available                             </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>34</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Sherlock Antitheft:                      Available                             </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>35</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Roy Speed Ross Antitheft:                Available                             </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>36</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Repair History:                          Available                             </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>37</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>North American Liens:                    Available                             </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>38</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>North American Branding:                 Available                             </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>42</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>43</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>-------------------------------------------------------------------------------</PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>44</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>                           Disclaimer                                          </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>45</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>CGI and its Partners shall take reasonable steps to ensure that database       </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>46</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>information or data obtained from various sources is reliable and accurate.    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>47</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>However, CGI does not guarantee the accuracy of information obtained from      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>48</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>these sources, and in no event shall CGI be liable in any manner whatsoever    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>49</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>for any loss or injury to CUSTOMER resulting from the obtaining or furnishing  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>50</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>of such information. CGI shall not be liable under this Agreement to any       </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>51</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>third party for any damages or losses arising out of a breach by CUSTOMER.     </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>52</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>53</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>POLICIES                                                                       </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>54</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>========                                                                       </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>55</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>-------------------------------------------------------------------------------</PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>56</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>LATEST CARRIER : 007 - Dominion of Canada Gen. Ins.   POLICY #: 1234567        </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>57</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>RECORDED DATES : Feb 1997    TO Feb 2020                STATUS: RENEWAL        </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>58</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>ENDORSEMENT DATE : N/A              CANCELLATION DATE:      N/A                </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>59</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>POLICY HOLDER  : JOHN R. BLACK          LAST IBC UPDATE :1 Feb 1991            </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>60</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>61</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>ALB. GRID POL: No       GROUP MARKETING POLICY:Unknown  NO FRILL POL: Unknown  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>62</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>NAME                          ---   LICENCE  --- G DOB       AGE MS REL LIC TRN</PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>63</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>JOHN R. BLACK                 ON;B50094077600101 U  12/1/1960        INS     N </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>64</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>65</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>VEHICLES                                                                       </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>66</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>========                                                                       </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>67</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>68</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText> Vehicles for policy:1234567 (Dominion of Canada Gen. Ins.)                    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>69</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>       IBC TERRITORY: 710 Oshawa, Aurora, Newmarket, Orangeville District      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>70</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>        LOCATION FSA:                                                          </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>71</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>-------------------------------------------------------------------------------</PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>72</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>4426   - 2000 MK:4426 IAO:  USE:01                                             </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>73</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>               VIN #: JT2AE96C4L3345782    CLASS/SUB DR.: 01    5/5            </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>74</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>            COVERAGE: T.P. COLL.                     USE: Pleasure             </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>75</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>    VEH ADDED TO POL:               VEH REMOVED FROM POL:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>76</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>BUSINESS USE PERCENT:                           TYPE BUS: 1                    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>77</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>   COMMUTE (ONE WAY):            ANNUAL DRIVING DISTANCE:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>78</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>  MULTI-CAR DISCOUNT:                MULTI-LINE DISCOUNT:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>79</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>    RETIREE DISCOUNT:                NEW DRIVER DISCOUNT:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>80</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>    RENEWAL DISCOUNT:               WINTER TIRE DISCOUNT:                      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>81</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>82</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>           Principal Operator                                                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>83</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>           ------------------                                                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>84</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>                Name: JOHN R. BLACK                                            </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>85</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>  CONVICTION HISTORY: 0 A 0 B 0 C Convictions                                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>86</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>87</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>AFTERMARKET SECURITY:                                                          </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>88</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>--------------------                                                           </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>89</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Roy Speed Ross Antitheft     : No Results Returned                             </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>90</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Sherlock Antitheft           : No Results Returned                             </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>91</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>92</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Lien Information                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>93</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>----------------                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>94</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>North American Liens        : No Results Returned                              </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>95</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>96</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Branding Information                                                           </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>97</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>--------------------                                                           </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>98</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>North American Branding     UNREBUILDABLE                   ON      01 Jun 2005</PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>99</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>100</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>-------------------------------------------------------------------------------</PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>101</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>CLAIMS                                                                         </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>102</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>======                                                                         </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>103</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>104</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>-------------------------------------------------------------------------------</PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>105</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Loss Date: 3 FEB 2016                             Source: IBC                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>106</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Company: Dominion of Canada Gen. Ins.             Policy: 1234567              </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>107</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>2000 MK:4426 IAO:  USE:01 JT2AE96C4L3345782                                    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>108</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Code/Type: 20-COLL  Paid:$       500 Exp:$       0 Loss: Partial        Type:  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>109</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>                                                                       N/A     </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>110</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>111</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>   1ST: JOHN R. BLACK              Lic: ON;B50094077600101    Fault:  50%      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>112</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>113</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>-------------------------------------------------------------------------------</PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>114</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Loss Date: 6 AUG 2013                             Source: IBC                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>115</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Company: Dominion of Canada Gen. Ins.             Policy: 1234567              </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>116</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>2000 MK:4426 IAO:  USE:01 JT2AE96C4L3345782                                    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>117</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Code/Type: 23-THEFA Paid:$       300 Exp:$     300 Loss: Not Applicable Type:  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>118</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>119</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>1st Reported Driver Lic: Unknown     Born:0 Gender:U Training: N               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>120</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>121</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>-------------------------------------------------------------------------------</PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>122</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Loss Date: 4 JUL 2013                             Source: IBC                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>123</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Company: Dominion of Canada Gen. Ins.             Policy: 1234567              </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>124</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>2000 MK:4426 IAO:  USE:01 JT2AE96C4L3345782                                    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>125</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Code/Type: 24-THEFC Paid:$       300 Exp:$     200 Loss: Not Applicable Type:  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>126</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>                                                                       N/A     </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>127</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>128</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>1st Reported Driver Lic: Unknown     Born:0 Gender:U Training: N               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>129</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>130</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>-------------------------------------------------------------------------------</PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>131</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Loss Date: 28 OCT 1999                            Source: IBC                  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>132</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Company: Dominion of Canada Gen. Ins.             Policy: 1234567              </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>133</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>2000 MK:4426 IAO:  USE:01 JT2AE96C4L3345782                                    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>134</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Code/Type: 16-DCVEH Paid:$      3251 Exp:$      45 Loss: Not Applicable Type:  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>135</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Code/Type: 18-DCLOU Paid:$       630               Loss: Not Applicable Type:  </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>136</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>137</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>   1ST: MARY T. BLACK              Lic: ON;B50095278625202    Fault:  75%      </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>138</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>   3RD: ***************            Lic: ON;***************   INS:              </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>139</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>                                     State Farm Mutual Auto. Ins Co, 600500800 </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>140</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>141</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>Other Losses                                                                   </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>142</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>============                                                                   </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>143</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>None To Report                                                                 </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>144</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>145</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>REPAIR HISTORY FOR ACTIVE VIN(S):                                              </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>146</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>=================================                                              </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>147</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText xml:space="preserve">                                                                               </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>148</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>VIN: JT2AE96C4L3345782                                                         </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>149</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>4426 - 2000                                                                    </PrintLineText>
+  </PrintFormatAbstractDT>
+  <PrintFormatAbstractDT>
+    <PrintLineSequence>150</PrintLineSequence>
+    <PrintLineWidth>79</PrintLineWidth>
+    <PrintLineText>  No Repair Data Found                                                         </PrintLineText>
+  </PrintFormatAbstractDT>
+  <MessageDT>
+    <Code>200020200</Code>
+    <Text>Request Completed Successfully</Text>
+  </MessageDT>
+  <MessageDT>
+    <Code>200021502</Code>
+    <Text>3 Inquiries in last 12 months</Text>
+  </MessageDT>
+  <PolicyClaimKindOfLossDT>
+    <ClaimId>010000000070000000003</ClaimId>
+    <KindOfLossCode>20</KindOfLossCode>
+    <KindOfLossCodeExp>20</KindOfLossCodeExp>
+    <OutstandingReserveReportYear>0</OutstandingReserveReportYear>
+    <OutstandingReserveReportMonth>0</OutstandingReserveReportMonth>
+    <VehicleLossCode>P</VehicleLossCode>
+    <LossAmtTotal>500</LossAmtTotal>
+    <OutstandingReserveReportOccur>N</OutstandingReserveReportOccur>
+    <LastUpdateDate>2016-02-09T00:00:00-05:00</LastUpdateDate>
+  </PolicyClaimKindOfLossDT>
+  <PolicyClaimKindOfLossDT>
+    <ClaimId>010000000070000000002</ClaimId>
+    <KindOfLossCode>23</KindOfLossCode>
+    <KindOfLossCodeExp>23</KindOfLossCodeExp>
+    <OutstandingReserveReportYear>0</OutstandingReserveReportYear>
+    <OutstandingReserveReportMonth>0</OutstandingReserveReportMonth>
+    <VehicleLossCode>K</VehicleLossCode>
+    <LossAmtTotal>300</LossAmtTotal>
+    <OutstandingReserveReportOccur>N</OutstandingReserveReportOccur>
+  </PolicyClaimKindOfLossDT>
+  <PolicyClaimKindOfLossDT>
+    <ClaimId>010000000070000000001</ClaimId>
+    <KindOfLossCode>24</KindOfLossCode>
+    <KindOfLossCodeExp>24</KindOfLossCodeExp>
+    <OutstandingReserveReportYear>0</OutstandingReserveReportYear>
+    <OutstandingReserveReportMonth>0</OutstandingReserveReportMonth>
+    <VehicleLossCode>K</VehicleLossCode>
+    <LossAmtTotal>300</LossAmtTotal>
+    <OutstandingReserveReportOccur>N</OutstandingReserveReportOccur>
+    <LastUpdateDate>2014-10-27T00:00:00-04:00</LastUpdateDate>
+  </PolicyClaimKindOfLossDT>
+  <PolicyClaimKindOfLossDT>
+    <ClaimId>010000000070000000000</ClaimId>
+    <KindOfLossCode>16</KindOfLossCode>
+    <KindOfLossCodeExp>16</KindOfLossCodeExp>
+    <OutstandingReserveReportYear>0</OutstandingReserveReportYear>
+    <OutstandingReserveReportMonth>0</OutstandingReserveReportMonth>
+    <VehicleLossCode>K</VehicleLossCode>
+    <LossAmtTotal>3251</LossAmtTotal>
+    <OutstandingReserveReportOccur>N</OutstandingReserveReportOccur>
+  </PolicyClaimKindOfLossDT>
+  <PolicyClaimKindOfLossDT>
+    <ClaimId>010000000070000000000</ClaimId>
+    <KindOfLossCode>18</KindOfLossCode>
+    <KindOfLossCodeExp>18</KindOfLossCodeExp>
+    <OutstandingReserveReportYear>0</OutstandingReserveReportYear>
+    <OutstandingReserveReportMonth>0</OutstandingReserveReportMonth>
+    <VehicleLossCode>K</VehicleLossCode>
+    <LossAmtTotal>630</LossAmtTotal>
+    <OutstandingReserveReportOccur>N</OutstandingReserveReportOccur>
+  </PolicyClaimKindOfLossDT>
+  <PolicyClaimKindOfLossTransDT>
+    <ClaimId>010000000070000000003</ClaimId>
+    <KindOfLossCode>20</KindOfLossCode>
+    <KindOfLossCodeExp>20</KindOfLossCodeExp>
+    <Sequence>1</Sequence>
+    <LossAmt>500</LossAmt>
+    <UITTransactionTypeCode>K</UITTransactionTypeCode>
+  </PolicyClaimKindOfLossTransDT>
+  <PolicyClaimKindOfLossTransDT>
+    <ClaimId>010000000070000000002</ClaimId>
+    <KindOfLossCode>23</KindOfLossCode>
+    <KindOfLossCodeExp>23</KindOfLossCodeExp>
+    <Sequence>1</Sequence>
+    <LossAmt>300</LossAmt>
+    <UITTransactionTypeCode />
+  </PolicyClaimKindOfLossTransDT>
+  <PolicyClaimKindOfLossTransDT>
+    <ClaimId>010000000070000000001</ClaimId>
+    <KindOfLossCode>24</KindOfLossCode>
+    <KindOfLossCodeExp>24</KindOfLossCodeExp>
+    <Sequence>1</Sequence>
+    <LossAmt>300</LossAmt>
+    <UITTransactionTypeCode>K</UITTransactionTypeCode>
+  </PolicyClaimKindOfLossTransDT>
+  <PolicyClaimKindOfLossTransDT>
+    <ClaimId>010000000070000000000</ClaimId>
+    <KindOfLossCode>16</KindOfLossCode>
+    <KindOfLossCodeExp>16</KindOfLossCodeExp>
+    <Sequence>1</Sequence>
+    <LossAmt>3251</LossAmt>
+    <UITTransactionTypeCode />
+  </PolicyClaimKindOfLossTransDT>
+  <PolicyClaimKindOfLossTransDT>
+    <ClaimId>010000000070000000000</ClaimId>
+    <KindOfLossCode>18</KindOfLossCode>
+    <KindOfLossCodeExp>18</KindOfLossCodeExp>
+    <Sequence>1</Sequence>
+    <LossAmt>630</LossAmt>
+    <UITTransactionTypeCode />
+  </PolicyClaimKindOfLossTransDT>
+  <InsuredDT>
+    <CompanyCode>007</CompanyCode>
+    <PolicyNumber>1234567</PolicyNumber>
+    <FirstName />
+    <MiddleName />
+    <LastName />
+    <UnstructuredName>JOHN R. BLACK</UnstructuredName>
+    <StructuredNameInd>N</StructuredNameInd>
+    <LicenceProvinceCode>ON</LicenceProvinceCode>
+    <LicenceNumber>B50094077600101</LicenceNumber>
+  </InsuredDT>
+  <SummaryInfoDT>
+    <YearsOnAutoPlus>19</YearsOnAutoPlus>
+    <YearsClaimFree>0</YearsClaimFree>
+    <ClaimsInLast6Years>1</ClaimsInLast6Years>
+    <AtFaultClaims>1</AtFaultClaims>
+    <FirstPartyClaims>4</FirstPartyClaims>
+    <ThirdPartyClaims>0</ThirdPartyClaims>
+    <TotalLossAmount>4981</TotalLossAmount>
+    <TotalExpenseAmount>545</TotalExpenseAmount>
+    <AutoPlusCheckResult>ALERT</AutoPlusCheckResult>
+    <PolicyDriverCurrentAge>55</PolicyDriverCurrentAge>
+    <RepairHistoryAlert>N</RepairHistoryAlert>
+  </SummaryInfoDT>
+  <RequestDT>
+    <CompanyCode />
+    <PolicyNumber />
+    <LicenceProvinceCode>ON</LicenceProvinceCode>
+    <LicenceNumber>B50094077600101</LicenceNumber>
+    <RequestReference />
+    <Insured />
+    <OverrideYearLimitFeatureBln>false</OverrideYearLimitFeatureBln>
+    <DeferRequestResponseInd>N</DeferRequestResponseInd>
+    <Username>webserviceuser@cgi.com</Username>
+    <UserFirstName>Webservice</UserFirstName>
+    <UserLastName>User</UserLastName>
+    <SubscriberName>CGI - IBS</SubscriberName>
+    <RequestReceipt>6957331</RequestReceipt>
+    <AutoFillRequestInd>N</AutoFillRequestInd>
+    <AutoFillRequestReceipt>0</AutoFillRequestReceipt>
+    <SponsoringSubscriberID>99999</SponsoringSubscriberID>
+    <SponsoringSubscriberName>CGI - IBS</SponsoringSubscriberName>
+    <RequestDate>2016-10-20T16:07:18.9962142-04:00</RequestDate>
+  </RequestDT>
+  <ProviderServiceProviderDT>
+    <ProviderCode>SHLK</ProviderCode>
+    <ProviderServiceCode>VATM</ProviderServiceCode>
+    <ProviderServiceStatusCode>AVAILABLE</ProviderServiceStatusCode>
+    <DPMBatchRequestID>3498881</DPMBatchRequestID>
+  </ProviderServiceProviderDT>
+  <ProviderServiceProviderDT>
+    <ProviderCode>RSR</ProviderCode>
+    <ProviderServiceCode>VATM</ProviderServiceCode>
+    <ProviderServiceStatusCode>AVAILABLE</ProviderServiceStatusCode>
+    <DPMBatchRequestID>3498881</DPMBatchRequestID>
+  </ProviderServiceProviderDT>
+  <ProviderServiceProviderDT>
+    <ProviderCode>CPROOF</ProviderCode>
+    <ProviderServiceCode>VRH</ProviderServiceCode>
+    <ProviderServiceStatusCode>AVAILABLE</ProviderServiceStatusCode>
+    <DPMBatchRequestID>3498881</DPMBatchRequestID>
+  </ProviderServiceProviderDT>
+  <ProviderServiceProviderDT>
+    <ProviderCode>EXPN</ProviderCode>
+    <ProviderServiceCode>VLIEN</ProviderServiceCode>
+    <ProviderServiceStatusCode>AVAILABLE</ProviderServiceStatusCode>
+    <DPMBatchRequestID>3498881</DPMBatchRequestID>
+  </ProviderServiceProviderDT>
+  <ProviderServiceProviderDT>
+    <ProviderCode>EXPN</ProviderCode>
+    <ProviderServiceCode>VEVT</ProviderServiceCode>
+    <ProviderServiceStatusCode>AVAILABLE</ProviderServiceStatusCode>
+    <DPMBatchRequestID>3498881</DPMBatchRequestID>
+  </ProviderServiceProviderDT>
+  <VehicleEventDT>
+    <VehicleEventID>6957326</VehicleEventID>
+    <ProviderCode>EXPN</ProviderCode>
+    <ProviderServiceCode>VEVT</ProviderServiceCode>
+    <DPMRequestID>6957326</DPMRequestID>
+    <ResultCode>FOUND</ResultCode>
+    <VIN>JT2AE96C4L3345782</VIN>
+  </VehicleEventDT>
+  <VehicleEventDT>
+    <VehicleEventID>2</VehicleEventID>
+    <ProviderCode>NVS</ProviderCode>
+    <ProviderServiceCode>VEVT</ProviderServiceCode>
+    <DPMRequestID>2</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>JT2AE96C4L3345782</VIN>
+  </VehicleEventDT>
+  <VehicleEventDetailDT>
+    <VehicleEventID>6957326</VehicleEventID>
+    <EventDate>2005-06-01T00:00:00-04:00</EventDate>
+    <EventType>BRAND</EventType>
+    <EventDesignation>UNREBUILDABLE</EventDesignation>
+    <EventSource>Motor Vehicle Dept.</EventSource>
+    <CountryCode>CAN</CountryCode>
+    <CountryDesc>Canada</CountryDesc>
+    <ProvStateCode>ON</ProvStateCode>
+    <ProvStateDesc>Ontario</ProvStateDesc>
+  </VehicleEventDetailDT>
+  <VehicleAntiTheftMarkingDT>
+    <ProviderCode>SHLK</ProviderCode>
+    <ProviderServiceCode>VATM</ProviderServiceCode>
+    <DPMRequestID>6957327</DPMRequestID>
+    <ResultCode>NOTFOUND</ResultCode>
+    <VIN>JT2AE96C4L3345782</VIN>
+  </VehicleAntiTheftMarkingDT>
+  <VehicleAntiTheftMarkingDT>
+    <ProviderCode>RSR</ProviderCode>
+    <ProviderServiceCode>VATM</ProviderServiceCode>
+    <DPMRequestID>6957328</DPMRequestID>
+    <ResultCode>NOTFOUND</ResultCode>
+    <VIN>JT2AE96C4L3345782</VIN>
+  </VehicleAntiTheftMarkingDT>
+  <VehicleLienDT>
+    <VehicleLienID>6957329</VehicleLienID>
+    <ProviderCode>EXPN</ProviderCode>
+    <ProviderServiceCode>VLIEN</ProviderServiceCode>
+    <DPMRequestID>6957329</DPMRequestID>
+    <ResultCode>NOTFOUND</ResultCode>
+    <VIN>JT2AE96C4L3345782</VIN>
+  </VehicleLienDT>
+  <VehicleLienDT>
+    <VehicleLienID>0</VehicleLienID>
+    <ProviderCode>CSRS</ProviderCode>
+    <ProviderServiceCode>VLIEN</ProviderServiceCode>
+    <DPMRequestID>0</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>JT2AE96C4L3345782</VIN>
+  </VehicleLienDT>
+  <VehicleLienDT>
+    <VehicleLienID>1</VehicleLienID>
+    <ProviderCode>NVS</ProviderCode>
+    <ProviderServiceCode>VLIEN</ProviderServiceCode>
+    <DPMRequestID>1</DPMRequestID>
+    <ResultCode>TIMEOUT</ResultCode>
+    <VIN>JT2AE96C4L3345782</VIN>
+  </VehicleLienDT>
+  <VehicleRepairHistoryDT>
+    <VehicleRepairHistoryID>6957330</VehicleRepairHistoryID>
+    <ProviderCode>CPROOF</ProviderCode>
+    <ProviderServiceCode>VRH</ProviderServiceCode>
+    <UnavailableSources>0</UnavailableSources>
+    <DPMRequestID>6957330</DPMRequestID>
+    <ResultCode>NOTFOUND</ResultCode>
+    <VIN>JT2AE96C4L3345782</VIN>
+    <Reference />
+  </VehicleRepairHistoryDT>
+</DriverClaimHistoryGoldDS>
