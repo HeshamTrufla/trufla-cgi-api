@@ -43,7 +43,6 @@ module.exports = {
             autoPlusMachine.GetDCHUsingLicence(params).exec({
 
                 success: (result) => {
-                    console.log('response: ' + JSON.stringify(result));
                     resolve(result);
                 },
                 error: (err) => {
@@ -64,7 +63,7 @@ module.exports = {
                 var data = {
                     'LicenceNumber': params.LicenceNumber,
                     'DriverClaimHistoryGoldDS': autoPlusDoc,
-                    'raw': autoPlus.raw
+                    'raw': autoPlus.doc.raw
                 };
 
                 // Insert autoPlus in mongodb

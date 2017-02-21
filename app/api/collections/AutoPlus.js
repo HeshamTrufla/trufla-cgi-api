@@ -22,13 +22,9 @@ var schema = new mongoose.Schema({
         ThirdPartyClaimVehicleDT: [subDocs.ThirdPartyClaimVehicleDT],
         ThirdPartyClaimFirstPartyAccidentDriverDT: [subDocs.ThirdPartyClaimFirstPartyAccidentDriverDT],
         ThirdPartyClaimThirdPartyAccidentDriverDT: [subDocs.ThirdPartyClaimThirdPartyAccidentDriverDT],
-
-        PrintFormatAbstractDT: [{
-            PrintLineSequence: Number,
-            PrintLineWidth: Number,
-            PrintLineText: String
-        }],
-
+        
+        PrintFormatAbstractDT: mongoose.Schema.Types.Mixed,
+        
         MessageDT: [{
             Code: String,
             Text: String
