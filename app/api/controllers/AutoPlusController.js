@@ -83,9 +83,15 @@ module.exports = {
 
             .then((autoPlusRef) => {
 
+                var overrideCache = (params.overrideCache === 'true');
                 if (autoPlusRef) {
-                    // Found licence in redis and getting autoPlus from mongodb
-                    return AutoPlusService.findOneFromDB(autoPlusRef.autoPlusId);
+                    if (overrideCache) {
+                        // Found licence in redis and getting autoPlus from mongodb
+                        return AutoPlusService.findOneFromCGIAndupdate(params, autoPlusRef.autoPlusId);
+                    }
+                    else {
+                        return AutoPlusService.findOneFromDB(autoPlusRef.autoPlusId);
+                    }
                 } else {
                     // Licence not found so we are getting autoPlus from CGI
                     return AutoPlusService.findOneFromCGIAndSave(params);
@@ -93,10 +99,16 @@ module.exports = {
             })
             .then((autoPlus) => {
                 // AutoPlus not found
-                if (!autoPlus) return res.serverError(ResHandlerService.errorObject('UNHANDLED_ERROR', true));
-
+                if (!autoPlus || !autoPlus.raw) return res.serverError(ResHandlerService.errorObject('UNHANDLED_ERROR', true));
+                var DriverClaimHistoryGoldDS = autoPlus.raw.replace(/<DriverClaimHistoryGoldDS(.*?)>/igm, "<DriverClaimHistoryGoldDS>").match(/<DriverClaimHistoryGoldDS(.*?)<\/DriverClaimHistoryGoldDS>/igm);
+                if (DriverClaimHistoryGoldDS && DriverClaimHistoryGoldDS.length) {
+                    var autoplusXML = "<?xml version='1.0' encoding='utf-8'?><?xml-stylesheet type='text/xsl' href='/styles/AutoPlusPrintFormat.xslt'?>" + DriverClaimHistoryGoldDS[0];
+                    res.type('text/xml');
+                    return res.send(autoplusXML);
+                }
+                //console.log("XML Matches: ",autoplusXML);
                 // Return autoPlus to user
-                res.view('autoPlus.ejs', autoPlus);
+                return res.notFound();
             })
             .catch((err) => {
                 sails.log.error(err);

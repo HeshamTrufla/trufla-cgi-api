@@ -91,7 +91,7 @@ module.exports = {
                 var data = {
                     'LicenceNumber': params.LicenceNumber,
                     'DriverClaimHistoryGoldDS': autoPlusDoc,
-                    'raw': autoPlus.raw
+                    'raw': autoPlus.doc.raw
                 };
 
                 // Insert autoPlus in mongodb
