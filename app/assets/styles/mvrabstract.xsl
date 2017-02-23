@@ -161,10 +161,10 @@ http://localhost/IISDOTNETAPP/XMLSchemas/MVRAbstract.xsd.
       <head>
         <xsl:choose>
           <xsl:when test='contains($ExternalUsed,"YES")'>
-            <LINK href="../includes/mvrabstract.css" type="text/css" rel="stylesheet" />
+            <LINK href="/styles/mvrabstract.css" type="text/css" rel="stylesheet" />
           </xsl:when>
           <xsl:otherwise>
-            <LINK href="../includes/mvrabstract.css" type="text/css" rel="stylesheet" />
+            <LINK href="/styles/mvrabstract.css" type="text/css" rel="stylesheet" />
           </xsl:otherwise>
         </xsl:choose>
         <title>MVR Data</title>
@@ -802,18 +802,18 @@ http://localhost/IISDOTNETAPP/XMLSchemas/MVRAbstract.xsd.
                         <xsl:choose>
                           <xsl:when test='contains($ExternalUsed,"YES")'>
                             <td>
-                              <img height="1" alt="" src="blueline_pixel.gif" width="100%"/>
+                              <img height="1" alt="" src="/images/blueline_pixel.gif" width="100%"/>
                             </td>
                             <td>
-                              <img height="1" alt="" src="blueline_pixel.gif" width="100%"/>
+                              <img height="1" alt="" src="/images/blueline_pixel.gif" width="100%"/>
                             </td>
                           </xsl:when>
                           <xsl:otherwise>
                             <td>
-                              <img height="1" alt="" src="../images/blueline_pixel.gif" width="100%"/>
+                              <img height="1" alt="" src="/images/blueline_pixel.gif" width="100%"/>
                             </td>
                             <td>
-                              <img height="1" alt="" src="../images/blueline_pixel.gif" width="100%"/>
+                              <img height="1" alt="" src="/images/blueline_pixel.gif" width="100%"/>
                             </td>
                           </xsl:otherwise>
                         </xsl:choose>
@@ -974,10 +974,10 @@ http://localhost/IISDOTNETAPP/XMLSchemas/MVRAbstract.xsd.
                     <span class="abLabel">CONVICTIONS, DISCHARGES AND OTHER ACTIONS</span>
                     <xsl:choose>
                       <xsl:when test='contains($ExternalUsed,"YES")'>
-                        <img height="1" alt="" src="blueline_pixel.gif" width="100%"/>
+                        <img height="1" alt="" src="/images/blueline_pixel.gif" width="100%"/>
                       </xsl:when>
                       <xsl:otherwise>
-                        <img height="1" alt="" src="../images/blueline_pixel.gif" width="100%"/>
+                        <img height="1" alt="" src="/images/blueline_pixel.gif" width="100%"/>
                       </xsl:otherwise>
                     </xsl:choose>
 
@@ -1054,18 +1054,18 @@ http://localhost/IISDOTNETAPP/XMLSchemas/MVRAbstract.xsd.
                           <xsl:choose>
                             <xsl:when test='contains($ExternalUsed,"YES")'>
                               <td>
-                                <img height="1" alt="" src="blueline_pixel.gif" width="100%"/>
+                                <img height="1" alt="" src="/images/blueline_pixel.gif" width="100%"/>
                               </td>
                               <td>
-                                <img height="1" alt="" src="blueline_pixel.gif" width="100%"/>
+                                <img height="1" alt="" src="/images/blueline_pixel.gif" width="100%"/>
                               </td>
                             </xsl:when>
                             <xsl:otherwise>
                               <td>
-                                <img height="1" alt="" src="../images/blueline_pixel.gif" width="100%"/>
+                                <img height="1" alt="" src="/images/blueline_pixel.gif" width="100%"/>
                               </td>
                               <td>
-                                <img height="1" alt="" src="../images/blueline_pixel.gif" width="100%"/>
+                                <img height="1" alt="" src="/images/blueline_pixel.gif" width="100%"/>
                               </td>
                             </xsl:otherwise>
                           </xsl:choose>
@@ -1516,18 +1516,18 @@ http://localhost/IISDOTNETAPP/XMLSchemas/MVRAbstract.xsd.
                       <xsl:choose>
                         <xsl:when test='contains($ExternalUsed,"YES")'>
                           <td>
-                            <img height="1" alt="" src="blueline_pixel.gif" width="100%"/>
+                            <img height="1" alt="" src="/images/blueline_pixel.gif" width="100%"/>
                           </td>
                           <td>
-                            <img height="1" alt="" src="blueline_pixel.gif" width="100%"/>
+                            <img height="1" alt="" src="/images/blueline_pixel.gif" width="100%"/>
                           </td>
                         </xsl:when>
                         <xsl:otherwise>
                           <td>
-                            <img height="1" alt="" src="../images/blueline_pixel.gif" width="100%"/>
+                            <img height="1" alt="" src="/images/blueline_pixel.gif" width="100%"/>
                           </td>
                           <td>
-                            <img height="1" alt="" src="../images/blueline_pixel.gif" width="100%"/>
+                            <img height="1" alt="" src="/images/blueline_pixel.gif" width="100%"/>
                           </td>
                         </xsl:otherwise>
                       </xsl:choose>

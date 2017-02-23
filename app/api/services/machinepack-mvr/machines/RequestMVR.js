@@ -177,8 +177,9 @@ module.exports = {
             client.addSoapHeader(headers);
 
             // make a service call to the soap method SubmitRequest.
-            client.SubmitRequest(body, (err, result) => {
+            client.SubmitRequest(body, (err, result, raw) => {
                 if (err) return exits.error(err);
+                result.raw = raw;
                 return exits.success(result);
             });
 

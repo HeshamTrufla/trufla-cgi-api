@@ -17,12 +17,14 @@ var schema = new mongoose.Schema({
                 MVRAbstract: subDocs.MVRAbstract
             }
         },
-        MessageDT: subDocs.MessageDT
+        PrintFormatAbstractDT: mongoose.Schema.Types.Mixed,
+        MessageDT: subDocs.MessageDT,
+
     },
+    raw: String,
     Clients: [subDocs.Clients],
     IsReady: Boolean,
     ReadyDate: Date
-
 },{
     timestamps: true
 });

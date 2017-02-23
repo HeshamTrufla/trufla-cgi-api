@@ -78,7 +78,6 @@ module.exports = {
         return this.findOneFromCGI(reqParams)
             .then((mvrDoc) => ResHandlerService.MVR(mvrDoc)) // validate incoming MVR Document.
             .then((mvrObj) => {
-
                 var mvrDoc = mvrObj.doc;
                 var message = mvrObj.message;
                 var isReady = false;
@@ -96,7 +95,8 @@ module.exports = {
                         IsDelivered: isReady ? true : false
                     }],
                     IsReady: isReady ? true : false,
-                    ReadyDate: isReady ? Date.now() : null
+                    ReadyDate: isReady ? Date.now() : null,
+                    raw: isReady ? mvrDoc.raw : null
                 };
 
                 return this.createInDB(dbDoc);

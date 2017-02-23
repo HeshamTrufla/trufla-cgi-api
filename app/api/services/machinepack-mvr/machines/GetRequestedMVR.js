@@ -98,8 +98,9 @@ module.exports = {
             client.addSoapHeader(headers);
 
             // make a service call to the soap method GetResponse.
-            client.GetResponse(body, (err, result) => {
+            client.GetResponse(body, (err, result, raw) => {
                 if (err) return exits.error(err);
+                result.raw=raw;
                 return exits.success(result);
             });
 

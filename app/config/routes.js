@@ -31,10 +31,13 @@ module.exports.routes = {
   * `assets` directory)                                                      *
   *                                                                          *
   ***************************************************************************/
-
+    /******************************AUTOPLUS ROUTES*********************************************/
   'get /autoplus/licence/:LicenceNumber': 'AutoPlusController.viewOneByLicence',
   'get /api/autoplus/licence/:LicenceNumber': 'AutoPlusController.findOneByLicence',
   'get /api/autoplus/id/:id': 'AutoPlusController.findOneById',
+
+    /******************************MVR ROUTES*********************************************/
+  'get /mvr/licence/:DriverLicenceNumber': 'MVRController.viewOneByLicense',
   'get /api/mvr/licence/:DriverLicenceNumber': 'MVRController.findOneByLicence',
   'get /api/mvr/id/:id': 'MVRController.findOneById'
 
