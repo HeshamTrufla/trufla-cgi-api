@@ -33,18 +33,18 @@ module.exports = {
                 }
                 else {
                     // get From CGI
-                    return MVRService.findOneFromCGIAndSave(params);
+                    return MVRService.findOneFromCGIAndSave(params, req.apiKey);
                 }
             })
             // handle returned MVR Document either from the database or the CGI webservice.
             .then((mvrDoc) => {
                 if (!mvrDoc) return res.serverError(ResHandlerService.errorObject('UNHANDLED_ERROR', true));
-                
+
                 // check if the document is ready or not.
                 if (!mvrDoc.IsReady && params.Callback) {
                     /**
-                     * mvr document is not ready, so check 
-                     * if we already has the requested 
+                     * mvr document is not ready, so check
+                     * if we already has the requested
                      * client information or not.
                      */
                     var clientInfo = _.find(mvrDoc.Clients, (client) => client.Callback == params.Callback);
@@ -77,11 +77,11 @@ module.exports = {
                         case 400:
                             res.badRequest(ResHandlerService.errorObject(err.INTERNAL_CODE, true));
                             break;
-                        case 403: 
+                        case 403:
                             res.forbidden(ResHandlerService.errorObject(err.INTERNAL_CODE, true));
                             break;
                         default:
-                            res.serverError(ResHandlerService.errorObject(err.INTERNAL_CODE, true));    
+                            res.serverError(ResHandlerService.errorObject(err.INTERNAL_CODE, true));
                     }
                 }
                 else {
@@ -129,7 +129,7 @@ module.exports = {
                     }
                     else {
                         // get From CGI
-                        return MVRService.findOneFromCGIAndSave(params);
+                        return MVRService.findOneFromCGIAndSave(params, req.apiKey);
                     }
                 })
                 // handle returned MVR Document either from the database or the CGI webservice.

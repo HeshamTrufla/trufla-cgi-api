@@ -20,5 +20,26 @@ module.exports = {
   // models: {
   //   connection: 'someMongodbServer'
   // }
+  orm: {_hookTimeout: 120000},
+
+  cgi: {
+    Credentials: {
+      USER_NAME: 'ws.test@sharpinsurance.ca',
+      PASSWORD: 'SharpTest1'
+    },
+    FederatedCredentials: {
+      USER_NAME: 'ws.test@sharpinsurance.ca',
+      PASSWORD: 'SharpTest1'
+    },
+    MVR: {
+      URL: 'https://ibs.ct.rapidwebservices.cgi.com/rapidwebservices/WebServices/MVRWS.asmx?wsdl',
+      cost: 9
+    },
+    AutoPlus: {
+      URL: 'https://ibs.ct.rapidwebservices.cgi.com/rapidwebservices/WebServices/DriverClaimHistoryGoldWS.asmx?WSDL',
+      cost: 7.12
+    }
+
+  }
 
 };

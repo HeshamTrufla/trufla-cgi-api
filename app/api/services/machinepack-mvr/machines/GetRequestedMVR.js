@@ -26,6 +26,14 @@ module.exports = {
             description: 'Valid password provided by CGI.',
             required: true
         },
+        FederatedUserName: {
+            example: 'ws.test@sharpinsurance.ca',
+            description: ''
+        },
+        FederatedPassword: {
+            example: 'SharpTest1',
+            description: ''
+        },
         SponsorSubscriberID: {
             example: '12345',
             description: 'The subscriber id of the Insurance company paying for the service.'
@@ -70,8 +78,12 @@ module.exports = {
                 "UserName": inputs.UserName,
                 "Password": inputs.Password
             },
-            "CredentialsContext": {
+            "FederatedContext": {
                 "SponsorSubscriberId": inputs.SponsorSubscriberID
+            },
+            "FederatedCredentials": {
+                "UserName": inputs.FederatedUserName,
+                "Password": inputs.FederatedPassword
             }
         };
 
@@ -95,19 +107,18 @@ module.exports = {
             if (err) return exits.error(err);
 
             // add headers to the client object.
-            client.addSoapHeader(headers);
+            client.addSoapHeader(headers, "", "tns", "https://RapidWebServices.cgi.com/WebServices");
 
             // make a service call to the soap method GetResponse.
             client.GetResponse(body, (err, result, raw) => {
                 if (err) return exits.error(err);
-                result.raw=raw;
+                result.raw = raw;
                 return exits.success(result);
             });
 
         });
 
     }
-
 
 
 };

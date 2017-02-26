@@ -12,14 +12,14 @@ module.exports = {
                 if (autoPlusRef) {
                     if (overrideCache) {
                         // Found licence in redis and getting autoPlus from mongodb
-                        return AutoPlusService.findOneFromCGIAndupdate(params, autoPlusRef.autoPlusId);
+                        return AutoPlusService.findOneFromCGIAndupdate(params, autoPlusRef.autoPlusId, req.apiKey);
                     }
                     else {
                         return AutoPlusService.findOneFromDB(autoPlusRef.autoPlusId);
                     }
                 } else {
                     // Licence not found so we are getting autoPlus from CGI
-                    return AutoPlusService.findOneFromCGIAndSave(params);
+                    return AutoPlusService.findOneFromCGIAndSave(params, req.apiKey);
                 }
             })
             .then((autoPlus) => {
@@ -87,14 +87,14 @@ module.exports = {
                 if (autoPlusRef) {
                     if (overrideCache) {
                         // Found licence in redis and getting autoPlus from mongodb
-                        return AutoPlusService.findOneFromCGIAndupdate(params, autoPlusRef.autoPlusId);
+                        return AutoPlusService.findOneFromCGIAndupdate(params, autoPlusRef.autoPlusId, req.apiKey);
                     }
                     else {
                         return AutoPlusService.findOneFromDB(autoPlusRef.autoPlusId);
                     }
                 } else {
                     // Licence not found so we are getting autoPlus from CGI
-                    return AutoPlusService.findOneFromCGIAndSave(params);
+                    return AutoPlusService.findOneFromCGIAndSave(params, req.apiKey);
                 }
             })
             .then((autoPlus) => {
