@@ -19,8 +19,8 @@ module.exports = {
     return AutoPlusRedis.create(autoPlusRef);
   },
 
-  findOneFromCach: (licence) => {
-    return AutoPlusRedis.findOne({LicenceNumber: licence});
+  findOneFromCach: (licence, provinceCode) => {
+    return AutoPlusRedis.findOne({LicenceNumber: licence, ProvinceCode: provinceCode});
   },
 
   findOneFromDB: (autoPlusId) => {
@@ -29,7 +29,7 @@ module.exports = {
 
   findOneFromCGI: (params, apiKey) => {
     // check if the client sent the province code.
-    if (!params.LicenceProvinceCode)
+    if (!params.ProvinceCode)
       throw ResHandlerService.getMessage('PROVINCE_CODE_REQUIRED', true);
 
     return new Promise((resolve, reject) => {
@@ -51,7 +51,10 @@ module.exports = {
         success: (result) => {
           apiKey.totalCost = (apiKey.totalCost ? apiKey.totalCost : 0) + sails.config.cgi.AutoPlus.cost;
           selectedSponsor.totalCost = (selectedSponsor.totalCost ? selectedSponsor.totalCost : 0) + sails.config.cgi.AutoPlus.cost;
-          db.ApiKey.update({_id: apiKey._id}, {totalCost: apiKey.totalCost, sponsors: apiKey.sponsors}).then((updatedApiKye) => {
+          db.ApiKey.update({_id: apiKey._id}, {
+            totalCost: apiKey.totalCost,
+            sponsors: apiKey.sponsors
+          }).then((updatedApiKye) => {
             sails.log.info("Updated API Key: ", updatedApiKye)
           });
           resolve(result);
@@ -73,6 +76,7 @@ module.exports = {
         var autoPlusDoc = _.get(autoPlus.doc, 'GetDCHUsingLicenceResult.DriverClaimHistoryGoldDS');
         var data = {
           'LicenceNumber': params.LicenceNumber,
+          'ProvinceCode': params.ProvinceCode,
           'DriverClaimHistoryGoldDS': autoPlusDoc,
           'raw': autoPlus.doc.raw
         };
@@ -85,7 +89,11 @@ module.exports = {
         _autoPlus = autoPlus;
 
         // Create reference in redis
-        var autoPlusRef = {'LicenceNumber': autoPlus.LicenceNumber, 'autoPlusId': autoPlus._id.toString()}
+        var autoPlusRef = {
+          'LicenceNumber': autoPlus.LicenceNumber,
+          'ProvinceCode': autoPlus.ProvinceCode,
+          'autoPlusId': autoPlus._id.toString()
+        }
 
         return this.createInRedis(autoPlusRef);
       })

@@ -6,7 +6,7 @@ module.exports = {
 
 
         // Check if the autoPlus is available in redisautoPlusRef
-        AutoPlusService.findOneFromCach(params.LicenceNumber)
+        AutoPlusService.findOneFromCach(params.LicenceNumber, params.ProvinceCode)
             .then((autoPlusRef) => {
                 var overrideCache = (params.overrideCache === 'true');
                 if (autoPlusRef) {
@@ -79,7 +79,7 @@ module.exports = {
 
 
         // Check if the autoPlus is available in redisautoPlusRef
-        AutoPlusService.findOneFromCach(params.LicenceNumber)
+        AutoPlusService.findOneFromCach(params.LicenceNumber, params.ProvinceCode)
 
             .then((autoPlusRef) => {
 

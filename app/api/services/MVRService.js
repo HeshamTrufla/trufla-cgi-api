@@ -9,8 +9,8 @@ const cgiFederatedPassword = sails.config.cgi.FederatedCredentials.PASSWORD;
 module.exports = {
 
   // get MVR Document from Cach.
-  findOneFromCache: function (reqParams) {
-    return MVRRedis.findOne(reqParams);
+  findOneFromCache: function (licence,provinceCode) {
+    return MVRRedis.findOne({DriverLicenceNumber: licence, ProvinceCode: provinceCode});
   },
 
   // get MVR Document from DB.
@@ -35,7 +35,7 @@ module.exports = {
   findOneFromCGI: function (reqParams, apiKey) {
 
     // check if the client sent the province code.
-    if (!reqParams.DriverLicenceProvinceCode)
+    if (!reqParams.ProvinceCode)
       throw ResHandlerService.getMessage('PROVINCE_CODE_REQUIRED', true);
 
     // set request headers.
@@ -99,7 +99,8 @@ module.exports = {
         var requestResult = _.get(mvrDoc, 'SubmitRequestResult.MVRRequestResponseDS');
 
         var dbDoc = {
-          DriverLicenceNumber: reqParams.DriverLicenceNumber,
+          DriverLicenceNumber: reqParams.LicenceNumber,
+          ProvinceCode: reqParams.ProvinceCode,
           MVRRequestResponseDS: requestResult,
           Clients: [{
             // TODO: Add Client API Key => 'MongoDB _id'
@@ -118,6 +119,7 @@ module.exports = {
         _mvrFromDB = mvrFromDB;
         return this.createInCache({
           DriverLicenceNumber: mvrFromDB.DriverLicenceNumber,
+          ProvinceCode:mvrFromDB.ProvinceCode,
           MVR_ID: mvrFromDB._id.toString()
         });
       })

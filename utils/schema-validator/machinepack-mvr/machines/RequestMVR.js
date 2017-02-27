@@ -146,8 +146,8 @@ module.exports = {
                     "xmlns": "http://localhost/IISDOTNETAPP/XMLSchemas/MVRRequestDS.xsd"
                 },
                 "MVRRequestDT": {
-                    "DriverLicenceProvinceCode": inputs.DriverLicenceProvinceCode,
-                    "DriverLicenceNumber": inputs.DriverLicenceNumber,
+                    "DriverLicenceProvinceCode": inputs.ProvinceCode,
+                    "DriverLicenceNumber": inputs.LicenceNumber,
                     "OrderImmediateInd": inputs.OrderImmediateInd || 'Y',
                     "DriverDateOfBirth": inputs.DriverDateOfBirth,
                     "DriverGender": inputs.DriverGender,

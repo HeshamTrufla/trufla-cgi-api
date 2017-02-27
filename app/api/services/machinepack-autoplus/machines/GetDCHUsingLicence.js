@@ -35,7 +35,7 @@ module.exports = {
       example: '12345',
       description: 'The subscriber id of the Insurance company paying for the service.'
     },
-    LicenceProvinceCode: {
+    ProvinceCode: {
       example: 'AB',
       required: true,
       description: 'The jurisdiction of the driver’s licence number.'
@@ -125,7 +125,7 @@ module.exports = {
     const body = {
       DriverClaimHistoryGoldRequestDS: {
         RequestParametersDT: {
-          LicenceProvinceCode: inputs.LicenceProvinceCode,
+          LicenceProvinceCode: inputs.ProvinceCode,
           LicenceNumber: inputs.LicenceNumber,
           RequestReference: inputs.RequestReference || '',
           Identifier: inputs.Identifier || '',

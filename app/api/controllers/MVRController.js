@@ -21,10 +21,11 @@ module.exports = {
         var params = req.allParams();
 
         // filter params.
-        var licenceNumber =  params.DriverLicenceNumber;
+        var licenceNumber =  params.LicenceNumber;
+        var provinceCode =  params.ProvinceCode;
 
         // find MVR Document in redis cache.
-        MVRService.findOneFromCache(licenceNumber)
+        MVRService.findOneFromCache(licenceNumber, provinceCode)
             // handle returned MVR Document Reference if found in the cache memory.
             .then((mvrRef) => {
                 if (mvrRef) {
@@ -117,10 +118,11 @@ module.exports = {
             var params = req.allParams();
 
             // filter params.
-            var licenceNumber =  params.DriverLicenceNumber;
+            var licenceNumber =  params.LicenceNumber;
+            var provinceCode =  params.ProvinceCode;
 
             // find MVR Document in redis cache.
-            MVRService.findOneFromCache(licenceNumber)
+            MVRService.findOneFromCache(licenceNumber, provinceCode)
             // handle returned MVR Document Reference if found in the cache memory.
                 .then((mvrRef) => {
                     if (mvrRef) {

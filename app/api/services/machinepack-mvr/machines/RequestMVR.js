@@ -38,12 +38,12 @@ module.exports = {
       example: '12345',
       description: 'The subscriber id of the Insurance company paying for the service.'
     },
-    DriverLicenceProvinceCode: {
+    ProvinceCode: {
       example: 'ON',
       description: 'Province code',
       required: true
     },
-    DriverLicenceNumber: {
+    LicenceNumber: {
       example: 'W35125910545606',
       description: 'Driver license requested',
       required: true
@@ -158,8 +158,8 @@ module.exports = {
           "xmlns": "http://localhost/IISDOTNETAPP/XMLSchemas/MVRRequestDS.xsd"
         },
         "MVRRequestDT": {
-          "DriverLicenceProvinceCode": inputs.DriverLicenceProvinceCode,
-          "DriverLicenceNumber": inputs.DriverLicenceNumber,
+          "DriverLicenceProvinceCode": inputs.ProvinceCode,
+          "DriverLicenceNumber": inputs.LicenceNumber,
           "OrderImmediateInd": inputs.OrderImmediateInd || 'Y',
           "DriverDateOfBirth": inputs.DriverDateOfBirth,
           "DriverGender": inputs.DriverGender,

@@ -5,6 +5,7 @@ var subDocs = require('./AutoPlusSubDocs');
 var schema = new mongoose.Schema({
 
     LicenceNumber: String,
+    ProvinceCode: String,
 
     DriverClaimHistoryGoldDS: {
 
@@ -22,14 +23,14 @@ var schema = new mongoose.Schema({
         ThirdPartyClaimVehicleDT: [subDocs.ThirdPartyClaimVehicleDT],
         ThirdPartyClaimFirstPartyAccidentDriverDT: [subDocs.ThirdPartyClaimFirstPartyAccidentDriverDT],
         ThirdPartyClaimThirdPartyAccidentDriverDT: [subDocs.ThirdPartyClaimThirdPartyAccidentDriverDT],
-        
+
         PrintFormatAbstractDT: mongoose.Schema.Types.Mixed,
-        
+
         MessageDT: [{
             Code: String,
             Text: String
         }],
-        
+
         PolicyClaimKindOfLossDT: [subDocs.PolicyClaimKindOfLossDT],
         PolicyClaimKindOfLossTransDT: [subDocs.PolicyClaimKindOfLossTransDT],
         ThirdPartyClaimKindOfLossDT: [subDocs.ThirdPartyClaimKindOfLossDT],

@@ -101,12 +101,16 @@ function updateMVRRedis() {
   return MVRRedis.destroy({})
     .then(() => {
       // get only the required fields by redis, from MongoDB.
-      return db.MVR.find({}).select('DriverLicenceNumber _id');
+      return db.MVR.find({}).select('DriverLicenceNumber ProvinceCode _id');
     })
     .then((mvrDocs) => {
 
       var refs = _.map(mvrDocs, (doc) => {
-        return {DriverLicenceNumber: doc.DriverLicenceNumber, MVR_ID: doc._id.toString()};
+        return {
+          DriverLicenceNumber: doc.DriverLicenceNumber,
+          ProvinceCode: doc.ProvinceCode,
+          MVR_ID: doc._id.toString()
+        };
       });
       return MVRRedis.create(refs);
 
@@ -121,12 +125,12 @@ function updateAutoPlusRedis() {
   return AutoPlusRedis.destroy({})
     .then(() => {
       // get only the required fields by redis, from MongoDB.
-      return db.AutoPlus.find({}).select('LicenceNumber _id');
+      return db.AutoPlus.find({}).select('LicenceNumber ProvinceCode _id');
     })
     .then((autoPlusDoc) => {
 
       var refs = _.map(autoPlusDoc, (doc) => {
-        return {LicenceNumber: doc.LicenceNumber, autoPlusId: doc._id.toString()};
+        return {LicenceNumber: doc.LicenceNumber, ProvinceCode: doc.ProvinceCode, autoPlusId: doc._id.toString()};
       });
       return AutoPlusRedis.create(refs);
 
@@ -169,31 +173,31 @@ function createTestKey() {
         key: 'S33E89QP87BEE46WQ', totalCost: 0, "sponsors": [{
           id: "100410",
           name: "Aviva",
-          percent: 60,
+          percent: 0.55,
           totalCost: 0
         },
           {
             id: "100410",
             name: "Intact",
-            percent: 60,
+            percent: 0.30,
             totalCost: 0
           },
           {
             id: "100410",
             name: "RSA",
-            percent: 60,
+            percent: 0.10,
             totalCost: 0
           },
           {
             id: "100410",
             name: "RSA Facility",
-            percent: 60,
+            percent: 0.03,
             totalCost: 0
           },
           {
             id: "100410",
             name: "Pembridge",
-            percent: 60,
+            percent: 0.02,
             totalCost: 0
           }
         ], accessPrivillage: accessSet._id
