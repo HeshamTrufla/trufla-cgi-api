@@ -19,6 +19,8 @@ module.exports = {
 
         // get all params.
         var params = req.allParams();
+        if (params.Callback)
+            params.Callback = req.query.Callback;
 
         // filter params.
         var licenceNumber =  params.LicenceNumber;
@@ -48,7 +50,7 @@ module.exports = {
                      * if we already has the requested
                      * client information or not.
                      */
-                    var clientInfo = _.find(mvrDoc.Clients, (client) => client.Callback == params.Callback);
+                    var clientInfo = _.find(mvrDoc.Clients, (client) => client.Callback == params.Callback); 
                     if (clientInfo) return res.ok(mvrDoc);
                     // add client to the Document Clients.
                     MVRService.addClientToDoc(mvrDoc._id, {
@@ -116,7 +118,9 @@ module.exports = {
 
             // get all params.
             var params = req.allParams();
-
+            if (params.Callback)
+                params.Callback = req.query.Callback;
+                
             // filter params.
             var licenceNumber =  params.LicenceNumber;
             var provinceCode =  params.ProvinceCode;
