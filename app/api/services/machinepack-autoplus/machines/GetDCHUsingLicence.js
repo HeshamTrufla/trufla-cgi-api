@@ -104,7 +104,7 @@ module.exports = {
      */
 
     const url = inputs.Url;
-
+    
     // set request headers.
     const headers = {
       "Credentials": {
@@ -140,6 +140,8 @@ module.exports = {
     };
 
     soap.createClient(url, (err, client) => {
+      if (err) return exits.error(err);
+      if (!client) return exits.error('CGI connection error');
 
       client.addSoapHeader(headers,"","tns","https://RapidWebServices.cgi.com/WebServices");
 

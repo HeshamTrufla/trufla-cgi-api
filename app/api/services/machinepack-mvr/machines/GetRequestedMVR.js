@@ -105,6 +105,7 @@ module.exports = {
         // create soap client.
         soap.createClient(url, (err, client) => {
             if (err) return exits.error(err);
+            if (!client) return exits.error('CGI connection error');
 
             // add headers to the client object.
             client.addSoapHeader(headers, "", "tns", "https://RapidWebServices.cgi.com/WebServices");
