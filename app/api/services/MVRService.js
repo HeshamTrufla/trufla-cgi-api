@@ -329,6 +329,7 @@ module.exports = {
     })
       .exec({
         success: (result) => {
+          sails.log.info('Client Callback Response', result);
           // update this client status
           self.updateDB(
             {_id: task.mvrDoc._id, 'Clients._id': task.clientId},

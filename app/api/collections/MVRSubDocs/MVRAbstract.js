@@ -37,8 +37,10 @@ var schema = new mongoose.Schema({
         Text: [{
             type: String,
             set: function (v) {
-                v = v['$value'];
-                return v;
+                if (typeof v === 'string')
+                    return v;
+                else 
+                    return v['$value'];
             }
         }]
     }],

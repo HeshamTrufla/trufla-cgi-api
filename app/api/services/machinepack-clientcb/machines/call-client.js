@@ -41,7 +41,8 @@ module.exports = {
         var request = require('request');
 
         request.post(inputs.url, inputs.data, (err, res, body) => {
-            if (err) return exits.error(err);
+            console.log('Client Callback Result', body);
+            if (err) return exits.error(err); 
             return exits.success(res.statusCode);
         });
 
