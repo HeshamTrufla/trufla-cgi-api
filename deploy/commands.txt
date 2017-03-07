@@ -1,0 +1,208 @@
+# install docker
+apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+mkdir -p /etc/apt/sources.list.d
+echo deb https://apt.dockerproject.org/repo ubuntu-xenial main > /etc/apt/sources.list.d/docker.list
+
+printf 'net.ipv4.neigh.default.gc_thresh1 = 30000\nnet.ipv4.neigh.default.gc_thresh2 = 32000\nnet.ipv4.neigh.default.gc_thresh3 = 32768' >> /etc/sysctl.conf
+sysctl -p
+
+service lxcfs stop
+apt-get remove -y -q lxc-common lxcfs lxd lxd-client
+
+apt-get update -q
+
+apt-get install -y -q linux-image-extra-$(uname -r) linux-image-extra-virtual
+
+apt-get install -y -q docker-engine
+
+systemctl start docker.service
+
+mkdir -p /etc/systemd/system/docker.service.d
+printf '[Service]\nExecStart=\nExecStart=/usr/bin/dockerd -H fd:// --label=owner=cgi-master --storage-driver aufs' > /etc/systemd/system/docker.service.d/options.conf
+systemctl daemon-reload
+systemctl restart docker.service
+
+usermod ubuntu -aG docker
+
+# create docker swarm on the manager machine
+docker swarm init
+
+# run the * GENERATED * swarm token command on each worker to join the swarm.
+# BELOW IS JUST EXAMPLE **
+docker swarm join \
+    --token SWMTKN-1-2b8xrkg7ymzmb9db8yyzglkqur8k32vfoeyd64d5dppv9d6ikl-f1k3vk7ohmrl9lzgvf4ah34tj \
+    192.168.99.100:2377
+
+
+# show swarm nodes
+docker node ls
+
+# create label for each node ' we will need it in mongo setup '
+docker node update --label-add mongo.replica=1 [REPLACE WITH THE NODE ID]
+docker node update --label-add mongo.replica=2 [REPLACE WITH THE NODE ID]
+docker node update --label-add mongo.replica=3 [REPLACE WITH THE NODE ID]
+
+# create an overlay network for mongo replicas to work
+docker network create --driver overlay --internal mongo
+
+# list all docker networks * you should see mongo *
+docker network ls
+
+# create a volume so we can attach it to each container.
+docker volume create --name mongodata1
+docker volume create --name mongoconfig1
+docker volume create --name mongodata2
+docker volume create --name mongoconfig2
+docker volume create --name mongodata3
+docker volume create --name mongoconfig3
+
+# list docker volumes * you should see the created volumes *
+docker volume ls
+
+# Create a mongo keyfile 
+openssl rand -base64 756 > <path-to-keyfile>
+chmod 400 <path-to-keyfile>
+sudo chown 900 <path-to-keyfile>
+
+# EXAMPLE
+openssl rand -base64 756 > mongo-key.pem
+chmod 400 mongo-key.pem
+sudo chown 900 mongo-key.pem
+
+# you need to put this file in each node inside the corresponding 
+# mongoconfig folder, which is the config volume folder.
+# IMPORTANT NOTE: you do this inside each node, 
+# e.g you ssh to the node/worker which has mongo2 tag
+# and you put the same key file we generated, inside /var/lib/docker/volumes/mongoconfig2/_data
+# so the file will be accessible inside the docker container for this replica.
+
+# Create the MongoDB Services
+
+docker service create \
+    --replicas 1 --network mongo \
+    --mount type=volume,source=mongodata1,target=/data/db \
+    --mount type=volume,source=mongoconfig1,target=/data/configdb \
+    --constraint 'node.labels.mongo.replica == 1' \
+    --name mongo1 mongo:3.2 mongod --replSet cgi-rep --keyFile /data/configdb/mongo-key.pem
+
+docker service create \
+    --replicas 1 --network mongo \
+    --mount type=volume,source=mongodata2,target=/data/db \
+    --mount type=volume,source=mongoconfig2,target=/data/configdb \
+    --constraint 'node.labels.mongo.replica == 2' \
+    --name mongo2 mongo:3.2 mongod --replSet cgi-rep --keyFile /data/configdb/mongo-key.pem
+
+docker service create \
+    --replicas 1 --network mongo \
+    --mount type=volume,source=mongodata3,target=/data/db \
+    --mount type=volume,source=mongoconfig3,target=/data/configdb \
+    --constraint 'node.labels.mongo.replica == 3' \
+    --name mongo3 mongo:3.2 mongod --replSet cgi-rep --keyFile /data/configdb/mongo-key.pem
+
+# list docker services * look at the REPLICAS column to see if all the replicas ready *
+docker service ls
+
+# init the mongo replica set you should see '{ "ok" : 1 }' after the first command.
+
+docker exec -it \
+    $(docker ps -qf label=com.docker.swarm.service.name=mongo1) \
+    mongo --eval 'rs.initiate({ _id: "cgi-rep", members: [{ _id: 0, host: "mongo1:27017" }, { _id: 1, host: "mongo2:27017" }, { _id: 2, host: "mongo3:27017" }], settings: { getLastErrorDefaults: { w: "majority", wtimeout: 30000 }}})'
+
+docker exec -it $(docker ps -qf label=com.docker.swarm.service.name=mongo1) mongo --eval 'rs.status()'
+
+docker exec -it $(docker ps -qf label=com.docker.swarm.service.name=mongo1) mongo --eval 'rs.config()'
+
+
+
+
+
+
+# create mongo authentication
+
+mongo_root=DGc3EjoiOfDl6WofAOBvjPw6wQoOZh9S0AXRo0lQgbwVKD8rn5
+
+docker exec -it $(docker ps -qf label=com.docker.swarm.service.name=mongo1) \
+    mongo admin --eval 'db.createUser({ user: "root", pwd: "DGc3EjoiOfDl6WofAOBvjPw6wQoOZh9S0AXRo0lQgbwVKD8rn5", roles: [ { role: "root", db: "admin" } ] })'
+
+docker exec -it $(docker ps -qf label=com.docker.swarm.service.name=mongo1) \
+    mongo admin -u root -p $mongo_root --eval 'db.createUser({ user: "cluadmin", pwd: "3Rd56oRooQw31ips97ASDpo77Gskd5weqSD39713sfjhFF", roles: [ { role: "clusterAdmin", db: "admin" } ] })'
+
+docker exec -it $(docker ps -qf label=com.docker.swarm.service.name=mongo1) \
+    mongo admin -u root -p $mongo_root --eval 'db.createUser({ user: "cgiprod", pwd: "863cb08a86e8e23721f89aaa63e52ce363391d9a089090884d", roles: [ { role: "readWrite", db: "cgiprod" } ] })'
+
+
+# valid mongo url
+# MONGO_URL=mongodb://root:DGc3EjoiOfDl6WofAOBvjPw6wQoOZh9S0AXRo0lQgbwVKD8rn5@mongo1:27017,root:DGc3EjoiOfDl6WofAOBvjPw6wQoOZh9S0AXRo0lQgbwVKD8rn5@mongo2:27017,root:DGc3EjoiOfDl6WofAOBvjPw6wQoOZh9S0AXRo0lQgbwVKD8rn5@mongo3:27017/koalab?replicaSet=cgi-rep&authSource=admin'
+
+
+
+# redis setup
+
+
+# create label for each node ' we will need it in redis setup '
+docker node update --label-add mongo.replica=1 [REPLACE WITH THE NODE ID]
+docker node update --label-add mongo.replica=2 [REPLACE WITH THE NODE ID]
+docker node update --label-add mongo.replica=3 [REPLACE WITH THE NODE ID]
+
+# create an overlay network for redis replicas to work
+docker network create --driver overlay --internal redis
+
+docker service create \
+    --replicas 1 --network mongo \
+    --mount type=volume,source=redisdata1,target=/data \
+    --constraint 'node.labels.mongo.replica == 1' \
+    --name rediss1 redis:3.0 redis-server --cluster-enabled yes --cluster-config-file nodes.conf --cluster-node-timeout 5000 --appendonly yes
+
+docker service create \
+    --replicas 1 --network mongo \
+    --mount type=volume,source=redisdata2,target=/data \
+    --constraint 'node.labels.mongo.replica == 2' \
+    --name rediss2 redis:3.0 redis-server --cluster-enabled yes --cluster-config-file nodes.conf --cluster-node-timeout 5000 --appendonly yes
+
+docker service create \
+    --replicas 1 --network mongo \
+    --mount type=volume,source=redisdata3,target=/data \
+    --constraint 'node.labels.mongo.replica == 3' \
+    --name rediss3 redis:3.0 redis-server --cluster-enabled yes --cluster-config-file nodes.conf --cluster-node-timeout 5000 --appendonly yes
+
+docker service create \
+    --replicas 1 --network mongo \
+    --mount type=volume,source=redisdata4,target=/data \
+    --constraint 'node.labels.mongo.replica == 1' \
+    --name rediss4 redis:3.0 redis-server --cluster-enabled yes --cluster-config-file nodes.conf --cluster-node-timeout 5000 --appendonly yes
+
+docker service create \
+    --replicas 1 --network mongo \
+    --mount type=volume,source=redisdata5,target=/data \
+    --constraint 'node.labels.mongo.replica == 2' \
+    --name rediss5 redis:3.0 redis-server --cluster-enabled yes --cluster-config-file nodes.conf --cluster-node-timeout 5000 --appendonly yes
+
+docker service create \
+    --replicas 1 --network mongo \
+    --mount type=volume,source=redisdata6,target=/data \
+    --constraint 'node.labels.mongo.replica == 3' \
+    --name rediss6 redis:3.0 redis-server --cluster-enabled yes --cluster-config-file nodes.conf --cluster-node-timeout 5000 --appendonly yes
+
+
+./redis-trib.rb create --replicas 1 rediss1:6379 rediss2:6379 rediss3:6379 rediss4:6379 rediss5:6379 rediss6:6379
+
+./redis-trib.rb create --replicas 1 \
+    10.0.0.13:6379 \
+    10.0.0.16:6379 \
+    10.0.0.18:6379 \
+    10.0.0.20:6379 \
+    10.0.0.22:6379 \
+    10.0.0.24:6379
+
+# cgidev
+docker service create \
+    --replicas 3 --network mongo \
+    --name cgiprod cgibuild
+
+
+docker service create \
+    --replicas 1 --network mongo \
+    --name ubuntu-control ubuntu tail -f /dev/null
+
+
+    MONGODB1=`ping -c 1 mongo1 | head -1  | cut -d "(" -f 2 | cut -d ")" -f 1`
