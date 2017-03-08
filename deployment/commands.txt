@@ -211,3 +211,9 @@ docker service create \
     REDIS_FOUR=`ping -c 1 redis-four | head -1  | cut -d "(" -f 2 | cut -d ")" -f 1`
     REDIS_FIVE=`ping -c 1 redis-five | head -1  | cut -d "(" -f 2 | cut -d ")" -f 1`
     REDIS_SIX=`ping -c 1 redis-six | head -1  | cut -d "(" -f 2 | cut -d ")" -f 1`
+
+
+docker service create \
+    --network cgistack_cginet \
+    --constraint 'node.labels.mongo.replica == 1' \
+    --name redis-setup redis-setup tail -f /dev/null

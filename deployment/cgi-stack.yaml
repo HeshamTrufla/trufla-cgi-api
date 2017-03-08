@@ -121,6 +121,14 @@ services:
       - MONGO_URL=mongodb://root:DGc3EjoiOfDl6WofAOBvjPw6wQoOZh9S0AXRo0lQgbwVKD8rn5@mongo-primary:27017,root:DGc3EjoiOfDl6WofAOBvjPw6wQoOZh9S0AXRo0lQgbwVKD8rn5@mongo-secondary1:27017,root:DGc3EjoiOfDl6WofAOBvjPw6wQoOZh9S0AXRo0lQgbwVKD8rn5@mongo-secondary2:27017/cgidata?replicaSet=cgi-mongo-rep&authSource=admin
       - REDIS_URL=''
 
+  redis-setup:
+    image: redis-setup
+    networks:
+      - cginet
+    deploy:
+      placement:
+        constraints: [node.labels.cgi.replica == 1]
+
 networks:
   cginet:
     driver: overlay
