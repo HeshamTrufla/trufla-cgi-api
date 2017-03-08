@@ -7,27 +7,24 @@ services:
     networks:
       - cginet
     volumes:
-      - 'mongodata1:/data/db'
-      - 'mongoconfig1:/data/configdb'
+      - ~/mongodata1:/data/db
+      - ~/mongoconfig1:/data/configdb
     deploy:
       placement:
         constraints: [node.labels.cgi.replica == 1]
     depends_on:
       - mongo-secondary1
       - mongo-secondary2
-    environ-ment:
+    environment:
       - REPSET_NAME=cgi-mongo-rep
-      - MONGO_ROOT=DGc3EjoiOfDl6WofAOBvjPw6wQoOZh9S0AXRo0lQgbwVKD8rn5
-      - MONGO_CLUSTER_USER=3Rd56oRooQw31ips97ASDpo77Gskd5weqSD39713sfjhFF
-      - MONGO_USER=863cb08a86e8e23721f89aaa63e52ce363391d9a089090884d
 
   mongo-secondary1:
     image: cgimongo
     networks:
       - cginet
     volumes:
-      - 'mongodata2:/data/db'
-      - 'mongoconfig2:/data/configdb'
+      - ~/mongodata2:/data/db
+      - ~/mongoconfig2:/data/configdb
     deploy:
       placement:
         constraints: [node.labels.cgi.replica == 2]
@@ -39,28 +36,91 @@ services:
     networks:
       - cginet
     volumes:
-      - 'mongodata3:/data/db'
-      - 'mongoconfig3:/data/configdb'
+      - ~/mongodata3:/data/db
+      - ~/mongoconfig3:/data/configdb
     deploy:
       placement:
         constraints: [node.labels.cgi.replica == 3]
     environment:
       - REPSET_NAME=cgi-mongo-rep
 
+  redis-one:
+    image: redis:3.0
+    networks:
+      - cginet
+    volumes:
+      - ~/redisdata1:/data
+    deploy:
+      placement:
+        constraints: [node.labels.cgi.replica == 1]
+
+  redis-two:
+    image: redis:3.0
+    networks:
+      - cginet
+    volumes:
+      - ~/redisdata2:/data
+    deploy:
+      placement:
+        constraints: [node.labels.cgi.replica == 1]
+
+  redis-three:
+    image: redis:3.0
+    networks:
+      - cginet
+    volumes:
+      - ~/redisdata3:/data
+    deploy:
+      placement:
+        constraints: [node.labels.cgi.replica == 2]
+
+  redis-four:
+    image: redis:3.0
+    networks:
+      - cginet
+    volumes:
+      - ~/redisdata4:/data
+    deploy:
+      placement:
+        constraints: [node.labels.cgi.replica == 2]
+
+  redis-five:
+    image: redis:3.0
+    networks:
+      - cginet
+    volumes:
+      - ~/redisdata5:/data
+    deploy:
+      placement:
+        constraints: [node.labels.cgi.replica == 3]
+
+  redis-six:
+    image: redis:3.0
+    networks:
+      - cginet
+    volumes:
+      - ~/redisdata6:/data
+    deploy:
+      placement:
+        constraints: [node.labels.cgi.replica == 3]
+
+  cgi-api:
+    image: cgiapi
+    networks:
+      - cginet
+    deploy:
+      replicas: 3
+      update_config:
+        parallelism: 1
+        delay: 10s
+      restart_policy:
+        condition: on-failure
+    depends_on:
+      - mongo-primary
+    environment:
+      - MONGO_URL=mongodb://root:DGc3EjoiOfDl6WofAOBvjPw6wQoOZh9S0AXRo0lQgbwVKD8rn5@mongo-primary:27017,root:DGc3EjoiOfDl6WofAOBvjPw6wQoOZh9S0AXRo0lQgbwVKD8rn5@mongo-secondary1:27017,root:DGc3EjoiOfDl6WofAOBvjPw6wQoOZh9S0AXRo0lQgbwVKD8rn5@mongo-secondary2:27017/cgidata?replicaSet=cgi-mongo-rep&authSource=admin
+      - REDIS_URL=''
+
 networks:
   cginet:
     external: true
-
-volumes:
-  mongodata1:
-    driver: local
-  mongodata2:
-    driver: local
-  mongodata3:
-    driver: local
-  mongoconfig1:
-    driver: local
-  mongoconfig2:
-    driver: local
-  mongoconfig3:
-    driver: local
