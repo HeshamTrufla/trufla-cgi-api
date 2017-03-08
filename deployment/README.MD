@@ -22,9 +22,12 @@
 * and then ` db.createUser({ user: "cgiprod", pwd: "[REPLCAE WITH PASSWORD]", roles: [ { role: "readWrite", db: "cgiprod" } ] }) `
 * mongo replicaSet is now up and running in secure mode. 
 * 'NOTE: YOU SHOULD CHANGE THE PASSWORD IN THE .yaml FILE TOO, for both mongo and redis environment varibales!'.
-* now we need to setup our redis cluster so simply run
-    ` docker run --network=cginet -it --name redis-setup redis-setup /bin/bash ` 
-    it will open a temp container for redis setup.
-    ` sh redis-setup.sh `
-    if everything went fine it should ask you to save the configuration, type yes + Enter,
-    exit the container and delete it. 
+* now we need to setup our redis cluster therefore, we already have a temp container 
+    created for us in the cgi stack, so simply make sure this container is running 
+    using ` docker service ls ` cgistack_redis-setup replicas column should be 1/1
+    if it's already running then you need to get inside this container terminal,
+    by doing ` docker ps ` and lookup the container ID and 
+    ` docker exec -it [CONTAINER ID] /bin/bash ` 
+    once you get in run ` sh redis-setup.sh ` if everything went fine it should ask you to save the configuration, type yes + Enter key, exit the container and delete its service using 
+    ` docker service rm cgistack_redis-setup ` that's it you have your redis cluster.
+     

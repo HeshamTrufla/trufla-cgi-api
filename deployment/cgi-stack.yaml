@@ -53,6 +53,7 @@ services:
     deploy:
       placement:
         constraints: [node.labels.cgi.replica == 1]
+    command: --cluster-enabled yes --cluster-config-file nodes.conf --cluster-node-timeout 5000 --appendonly yes
 
   redis-two:
     image: redis:3.0
@@ -63,6 +64,7 @@ services:
     deploy:
       placement:
         constraints: [node.labels.cgi.replica == 1]
+    command: --cluster-enabled yes --cluster-config-file nodes.conf --cluster-node-timeout 5000 --appendonly yes
 
   redis-three:
     image: redis:3.0
@@ -73,6 +75,7 @@ services:
     deploy:
       placement:
         constraints: [node.labels.cgi.replica == 2]
+    command: --cluster-enabled yes --cluster-config-file nodes.conf --cluster-node-timeout 5000 --appendonly yes
 
   redis-four:
     image: redis:3.0
@@ -83,6 +86,7 @@ services:
     deploy:
       placement:
         constraints: [node.labels.cgi.replica == 2]
+    command: --cluster-enabled yes --cluster-config-file nodes.conf --cluster-node-timeout 5000 --appendonly yes
 
   redis-five:
     image: redis:3.0
@@ -93,6 +97,7 @@ services:
     deploy:
       placement:
         constraints: [node.labels.cgi.replica == 3]
+    command: --cluster-enabled yes --cluster-config-file nodes.conf --cluster-node-timeout 5000 --appendonly yes
 
   redis-six:
     image: redis:3.0
@@ -103,6 +108,7 @@ services:
     deploy:
       placement:
         constraints: [node.labels.cgi.replica == 3]
+    command: --cluster-enabled yes --cluster-config-file nodes.conf --cluster-node-timeout 5000 --appendonly yes
 
   cgi-api:
     image: cgiapi
@@ -158,4 +164,3 @@ volumes:
     driver: local
   redisdata6:
     driver: local
-  
