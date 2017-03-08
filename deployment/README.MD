@@ -1,3 +1,4 @@
+* ssh to the manager node and git clone the cgi repo, then navigate to /cgi/deployment directory.
 * run ` sh system.sh ` to install docker on each node, or use it as aprovision script.
 * run ` docker swarm init ` to initiate docker swarm.
 * copy the generated command and run it on every worker machine.
@@ -6,7 +7,7 @@
     * ` docker node update --label-add cgi.replica=1 [REPLACE WITH THE MASTER NODE ID] `
     * ` docker node update --label-add cgi.replica=2 [REPLACE WITH A SECONDARY NODE ID] `
     * ` docker node update --label-add cgi.replica=3 [REPLACE WITH A SECONDARY NODE ID] `
-* run ` sh create-services.sh ` to create all docker services. 
+* run ` docker stack deploy -c cgi-stack.yaml cgistack ` to create all docker services. 
 * run ` docker service ls ` and make sure mongo services has 1/1 in the replicas column.
 * on the primary node run 
     * ` docker ps ` and get the mongo container ID then use it to,
@@ -21,4 +22,9 @@
 * and then ` db.createUser({ user: "cgiprod", pwd: "[REPLCAE WITH PASSWORD]", roles: [ { role: "readWrite", db: "cgiprod" } ] }) `
 * mongo replicaSet is now up and running in secure mode. 
 * 'NOTE: YOU SHOULD CHANGE THE PASSWORD IN THE .yaml FILE TOO, for both mongo and redis environment varibales!'.
-
+* now we need to setup our redis cluster so simply run
+    ` docker run --network=cginet -it --name redis-setup redis-setup /bin/bash ` 
+    it will open a temp container for redis setup.
+    ` sh redis-setup.sh `
+    if everything went fine it should ask you to save the configuration, type yes + Enter,
+    exit the container and delete it. 

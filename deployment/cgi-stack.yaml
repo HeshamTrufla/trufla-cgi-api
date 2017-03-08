@@ -7,8 +7,8 @@ services:
     networks:
       - cginet
     volumes:
-      - ~/mongodata1:/data/db
-      - ~/mongoconfig1:/data/configdb
+      - mongodata1:/data/db
+      - mongoconfig1:/data/configdb
     deploy:
       placement:
         constraints: [node.labels.cgi.replica == 1]
@@ -23,8 +23,8 @@ services:
     networks:
       - cginet
     volumes:
-      - ~/mongodata2:/data/db
-      - ~/mongoconfig2:/data/configdb
+      - mongodata2:/data/db
+      - mongoconfig2:/data/configdb
     deploy:
       placement:
         constraints: [node.labels.cgi.replica == 2]
@@ -36,8 +36,8 @@ services:
     networks:
       - cginet
     volumes:
-      - ~/mongodata3:/data/db
-      - ~/mongoconfig3:/data/configdb
+      - mongodata3:/data/db
+      - mongoconfig3:/data/configdb
     deploy:
       placement:
         constraints: [node.labels.cgi.replica == 3]
@@ -49,7 +49,7 @@ services:
     networks:
       - cginet
     volumes:
-      - ~/redisdata1:/data
+      - redisdata1:/data
     deploy:
       placement:
         constraints: [node.labels.cgi.replica == 1]
@@ -59,7 +59,7 @@ services:
     networks:
       - cginet
     volumes:
-      - ~/redisdata2:/data
+      - redisdata2:/data
     deploy:
       placement:
         constraints: [node.labels.cgi.replica == 1]
@@ -69,7 +69,7 @@ services:
     networks:
       - cginet
     volumes:
-      - ~/redisdata3:/data
+      - redisdata3:/data
     deploy:
       placement:
         constraints: [node.labels.cgi.replica == 2]
@@ -79,7 +79,7 @@ services:
     networks:
       - cginet
     volumes:
-      - ~/redisdata4:/data
+      - redisdata4:/data
     deploy:
       placement:
         constraints: [node.labels.cgi.replica == 2]
@@ -89,7 +89,7 @@ services:
     networks:
       - cginet
     volumes:
-      - ~/redisdata5:/data
+      - redisdata5:/data
     deploy:
       placement:
         constraints: [node.labels.cgi.replica == 3]
@@ -99,7 +99,7 @@ services:
     networks:
       - cginet
     volumes:
-      - ~/redisdata6:/data
+      - redisdata6:/data
     deploy:
       placement:
         constraints: [node.labels.cgi.replica == 3]
@@ -123,4 +123,31 @@ services:
 
 networks:
   cginet:
-    external: true
+    driver: overlay
+    
+volumes:
+  mongodata1:
+    driver: local
+  mongodata2:
+    driver: local
+  mongodata3:
+    driver: local
+  mongoconfig1:
+    driver: local
+  mongoconfig2:
+    driver: local
+  mongoconfig3:
+    driver: local
+  redisdata1:
+    driver: local
+  redisdata2:
+    driver: local
+  redisdata3:
+    driver: local
+  redisdata4:
+    driver: local
+  redisdata5:
+    driver: local
+  redisdata6:
+    driver: local
+  

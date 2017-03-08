@@ -205,4 +205,9 @@ docker service create \
     --name ubuntu-control ubuntu tail -f /dev/null
 
 
-    MONGODB1=`ping -c 1 mongo1 | head -1  | cut -d "(" -f 2 | cut -d ")" -f 1`
+    REDIS_ONE=`ping -c 1 redis-one | head -1  | cut -d "(" -f 2 | cut -d ")" -f 1`
+    REDIS_TWO=`ping -c 1 redis-two | head -1  | cut -d "(" -f 2 | cut -d ")" -f 1`
+    REDIS_THREE=`ping -c 1 redis-three | head -1  | cut -d "(" -f 2 | cut -d ")" -f 1`
+    REDIS_FOUR=`ping -c 1 redis-four | head -1  | cut -d "(" -f 2 | cut -d ")" -f 1`
+    REDIS_FIVE=`ping -c 1 redis-five | head -1  | cut -d "(" -f 2 | cut -d ")" -f 1`
+    REDIS_SIX=`ping -c 1 redis-six | head -1  | cut -d "(" -f 2 | cut -d ")" -f 1`
