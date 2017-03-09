@@ -25,14 +25,33 @@ module.exports = {
    * Set the port in the production environment to 80                        *
    ***************************************************************************/
 
-  // port: 80,
+   port: 443,
 
   /***************************************************************************
    * Set the log level in production environment to "silent"                 *
    ***************************************************************************/
 
-  // log: {
-  //   level: "silent"
-  // }
+  log: {
+     level: "error"
+  },
+
+  cgi: {
+    Credentials: {
+      USER_NAME: 'ws.test@sharpinsurance.ca',
+      PASSWORD: 'SharpTest1'
+    },
+    FederatedCredentials: {
+      USER_NAME: 'ws.test@sharpinsurance.ca',
+      PASSWORD: 'SharpTest1'
+    },
+    MVR: {
+      URL: 'https://ibs.ct.rapidwebservices.cgi.com/rapidwebservices/WebServices/MVRWS.asmx?wsdl',
+      cost: 9
+    },
+    AutoPlus: {
+      URL: 'https://ibs.ct.rapidwebservices.cgi.com/rapidwebservices/WebServices/DriverClaimHistoryGoldWS.asmx?WSDL',
+      cost: 7.12
+    }
+  }
 
 };

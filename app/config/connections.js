@@ -65,7 +65,7 @@ module.exports.connections = {
     database: 'cgi' //optional
   },
   mongoDev: {
-    // url: process.env.MONGO_URI,
+    url: process.env.MONGO_URL,
     host: process.env.MONGO_SERVER || '192.168.0.2',
     port: 27017,
     user: 'cgidev',
@@ -74,10 +74,31 @@ module.exports.connections = {
   },
 
   redis: {
-    adapter: "sails-redis",
+    adapter: "sails-ioredis",
     port: 6379,
     host: process.env.REDIS_SERVER || '192.168.0.3',
-    password: 'f288198d9d1ba43ad6ed958dee83b68da7350ae4e12bf22273323725cacb630a'
+    password: 'f288198d9d1ba43ad6ed958dee83b68da7350ae4e12bf22273323725cacb630a',
+    // USING WITH CLUSTER
+    
+    hosts: (function () {
+      if (!process.env.REDIS_CLUSTER_URL) return null;
+      var hosts = process.env.REDIS_CLUSTER_URL.split(' ');
+      var cluster = hosts.map(function (host) {
+        if (!typeof host === 'string' || host.length < 1) return;
+        var str = host.split(':');
+        var url = '';
+        var port = 6379;
+        if (Array.isArray(str) && str.length > 0) {
+          url = str[0];
+          if (str.length > 1)
+            port = parseInt(str[1]);
+        
+          return { host: url, port: port };
+        }
+      });
+      console.log('redis cluster configuration found!');
+      return cluster;
+    })()
   }
 
   /***************************************************************************

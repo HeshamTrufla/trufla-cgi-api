@@ -1,7 +1,3 @@
-MONGO_ROOT=DGc3EjoiOfDl6WofAOBvjPw6wQoOZh9S0AXRo0lQgbwVKD8rn5
-MONGO_CLUSTER_USER=3Rd56oRooQw31ips97ASDpo77Gskd5weqSD39713sfjhFF
-MONGO_USER=863cb08a86e8e23721f89aaa63e52ce363391d9a089090884d
-
 echo 'init replication'
 docker exec -it \
     $(docker ps -qf label=com.docker.swarm.service.name=cgistack_mongo-primary) \

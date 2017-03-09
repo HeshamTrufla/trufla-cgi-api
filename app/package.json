@@ -27,6 +27,7 @@
     "request": "^2.79.0",
     "sails": "~0.12.4",
     "sails-disk": "~0.10.9",
+    "sails-ioredis": "^0.2.0",
     "sails-redis": "^0.10.7",
     "soap": "^0.18.0"
   },
