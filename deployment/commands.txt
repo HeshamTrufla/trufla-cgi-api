@@ -220,3 +220,5 @@ docker service create \
 
 
 docker service update --env-add NODE_ENV=production
+
+--with-registry-auth

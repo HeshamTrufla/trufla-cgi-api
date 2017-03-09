@@ -8,7 +8,7 @@
     * ` docker node update --label-add cgi.replica=1 [REPLACE WITH THE MASTER NODE ID] `
     * ` docker node update --label-add cgi.replica=2 [REPLACE WITH A SECONDARY NODE ID] `
     * ` docker node update --label-add cgi.replica=3 [REPLACE WITH A SECONDARY NODE ID] `
-* run ` docker stack deploy -c cgi-stack.yaml cgistack ` to create all docker services. 
+* run ` docker stack deploy -c cgi-stack.yaml cgistack --with-registry-auth ` to create all docker services. 
 * run ` docker service ls ` and make sure mongo services has 1/1 in the replicas column.
 * on the primary node run 
     * ` docker ps ` and get the mongo container ID then use it to,
