@@ -162,13 +162,14 @@ function loadApiKeys() {
 
 function createTestKey() {
   //Check for API Key before creation
-  db.ApiKey.findOne({key: 'S33E89QP87BEE46WQ'}).then((apiKey) => {
+  var testKey = process.env.NODE_ENV === 'production' ? 'MN98R34Q4CPO56UT' : 'S33E89QP87BEE46WQ';
+  db.ApiKey.findOne({key: testKey}).then((apiKey) => {
     if (!apiKey) {
       return db.AccessPrivillage.create({
         read: [{table: 'mvr'}, {table: 'autoplus'}],
         write: [{table: 'mvr'}, {table: 'autoplus'}]
       }).then((accessSet) => db.ApiKey.create({
-        key: 'S33E89QP87BEE46WQ', totalCost: 0, "sponsors": [{
+        key: testKey, totalCost: 0, "sponsors": [{
           id: "100410",
           name: "Aviva",
           percent: 0.55,

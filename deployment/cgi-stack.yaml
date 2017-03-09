@@ -124,7 +124,7 @@ services:
     depends_on:
       - mongo-primary
     ports:
-      - "443:443"
+      - "1337:80"
     environment:
       - MONGO_URL=mongodb://cgiprod:J6RJ19ZDqGQT7V82q8hgvy7arvvZX4QT@mongo-primary:27017,cgiprod:J6RJ19ZDqGQT7V82q8hgvy7arvvZX4QT@mongo-secondary1:27017,cgiprod:J6RJ19ZDqGQT7V82q8hgvy7arvvZX4QT@mongo-secondary2:27017/cgidata?replicaSet=cgi-mongo-rep&authSource=admin
       - REDIS_CLUSTER_URL='redis-one:6379 redis-two:6379 redis-three:6379 redis-four:6379 redis-five:6379 redis-six:6379'
