@@ -24,7 +24,7 @@
 * now we need to logout and login again using the root password we've created.
 * ` docker exec -it [REPLACE WITH CONTAINER ID] mongo admin -u root -p [REPLCAE WITH PASSWORD] `
 * now run ` db.createUser({ user: "cluadmin", pwd: "[REPLCAE WITH PASSWORD]", roles: [ { role: "clusterAdmin", db: "admin" } ] }) `
-* and then ` db.createUser({ user: "cgiprod", pwd: "[REPLCAE WITH PASSWORD]", roles: [ { role: "readWrite", db: "cgiprod" } ] }) `
+* and then ` db.createUser({ user: "cgiprod", pwd: "[REPLCAE WITH PASSWORD]", roles: [ { role: "readWrite", db: "cgidata" } ] }) `
 * mongo replicaSet is now up and running in secure mode. 
 * 'NOTE: YOU SHOULD CHANGE THE PASSWORD IN THE .yaml FILE TOO, for both mongo and redis environment varibales!'.
 * now we need to setup our redis cluster, so find any running redis container on the current node using

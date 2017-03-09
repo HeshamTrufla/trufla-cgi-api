@@ -222,3 +222,5 @@ docker service create \
 docker service update --env-add NODE_ENV=production
 
 --with-registry-auth
+
+db.updateUser("cgiprod",{ pwd: "J6RJ19ZDqGQT7V82q8hgvy7arvvZX4QT", roles: [ { role: "readWrite", db: "cgidata" } ] })

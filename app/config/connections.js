@@ -77,7 +77,7 @@ module.exports.connections = {
     adapter: "sails-ioredis",
     port: 6379,
     host: process.env.REDIS_SERVER || '192.168.0.3',
-    password: 'f288198d9d1ba43ad6ed958dee83b68da7350ae4e12bf22273323725cacb630a',
+    password: process.env.REDIS_CLUSTER_URL ? null : 'f288198d9d1ba43ad6ed958dee83b68da7350ae4e12bf22273323725cacb630a',
     // USING WITH CLUSTER
     
     hosts: (function () {
