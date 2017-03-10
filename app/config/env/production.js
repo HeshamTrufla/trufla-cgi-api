@@ -9,6 +9,7 @@
  * any private information to this file!
  *
  */
+var fs=require('fs');
 
 module.exports = {
 
@@ -25,7 +26,19 @@ module.exports = {
    * Set the port in the production environment to 80                        *
    ***************************************************************************/
 
-   port: 443,
+  port: 443,
+
+  // Your SSL certificate and key, if you want to be able to serve HTTP responses
+  // over https:// and/or use websockets over the wss:// protocol
+  // (recommended for HTTP, strongly encouraged for WebSockets)
+  //
+  // In this example, we'll assume you created a folder in your project, `config/ssl`
+  // and dumped your certificate/key files there:
+  ssl: {
+    ca: fs.readFileSync(__dirname + '/../ssl/fullchain.pem'),
+    key: fs.readFileSync(__dirname + '/../ssl/privkey.pem'),
+    cert: fs.readFileSync(__dirname + '/../ssl/cert.pem'),
+  },
 
   /***************************************************************************
    * Set the log level in production environment to "silent"                 *

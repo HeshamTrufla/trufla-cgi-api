@@ -111,7 +111,7 @@ services:
     command: --cluster-enabled yes --cluster-config-file nodes.conf --cluster-node-timeout 5000 --appendonly yes
 
   cgi-api:
-    image: aalisharp/cgiapi:1.1.2
+    image: aalisharp/cgiapi:1.1.4
     networks:
       - cginet
     deploy:
@@ -124,7 +124,7 @@ services:
     depends_on:
       - mongo-primary
     ports:
-      - "1337:80"
+      - "443:443"
     environment:
       - MONGO_URL=mongodb://cgiprod:J6RJ19ZDqGQT7V82q8hgvy7arvvZX4QT@mongo-primary:27017,cgiprod:J6RJ19ZDqGQT7V82q8hgvy7arvvZX4QT@mongo-secondary1:27017,cgiprod:J6RJ19ZDqGQT7V82q8hgvy7arvvZX4QT@mongo-secondary2:27017/cgidata?replicaSet=cgi-mongo-rep&authSource=admin
       - REDIS_CLUSTER_URL='redis-one:6379 redis-two:6379 redis-three:6379 redis-four:6379 redis-five:6379 redis-six:6379'
