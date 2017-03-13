@@ -58,11 +58,11 @@ module.exports = {
       PASSWORD: process.env.FEDERATED_PASSWORD
     },
     MVR: {
-      URL: 'https://ibs.ct.rapidwebservices.cgi.com/rapidwebservices/WebServices/MVRWS.asmx?wsdl',
+      URL: 'https://rapidwebservicespilot.cgi.com/rapidwebservices/WebServices/MVRWS.asmx',
       cost: 9
     },
     AutoPlus: {
-      URL: 'https://ibs.ct.rapidwebservices.cgi.com/rapidwebservices/WebServices/DriverClaimHistoryGoldWS.asmx?WSDL',
+      URL: 'https://rapidwebservicespilot.cgi.com/rapidwebservices/WebServices/DriverClaimHistoryGoldWS.asmx',
       cost: 7.12
     }
   }
