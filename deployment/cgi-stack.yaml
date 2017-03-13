@@ -111,7 +111,7 @@ services:
     command: --cluster-enabled yes --cluster-config-file nodes.conf --cluster-node-timeout 5000 --appendonly yes
 
   cgi-api:
-    image: aalisharp/cgiapi:1.1.4
+    image: codetouch/cgiapi:1.1.4
     networks:
       - cginet
     deploy:

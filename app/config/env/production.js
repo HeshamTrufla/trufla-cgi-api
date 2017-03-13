@@ -50,12 +50,12 @@ module.exports = {
 
   cgi: {
     Credentials: {
-      USER_NAME: 'ws.test@sharpinsurance.ca',
-      PASSWORD: 'SharpTest1'
+      USER_NAME: process.env.CREDENTIALS_USER_NAME,
+      PASSWORD: process.env.CREDENTIALS_PASSWORD
     },
     FederatedCredentials: {
-      USER_NAME: 'ws.test@sharpinsurance.ca',
-      PASSWORD: 'SharpTest1'
+      USER_NAME: process.env.FEDERATED_USER_NAME,
+      PASSWORD: process.env.FEDERATED_PASSWORD
     },
     MVR: {
       URL: 'https://ibs.ct.rapidwebservices.cgi.com/rapidwebservices/WebServices/MVRWS.asmx?wsdl',
