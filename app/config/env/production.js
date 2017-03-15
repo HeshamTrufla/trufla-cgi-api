@@ -48,6 +48,8 @@ module.exports = {
      level: "error"
   },
 
+  keepResponseErrors: true,
+
   cgi: {
     Credentials: {
       USER_NAME: process.env.CREDENTIALS_USER_NAME,
