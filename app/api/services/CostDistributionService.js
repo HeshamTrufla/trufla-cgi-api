@@ -3,13 +3,21 @@
  */
 module.exports = {
 
-  calculateDeviation: function (apiKey) {
+  calculateDeviation: function (apiKey, requestType) {
+    sails.log.info("requestType: ",requestType," ",typeof requestType);
+    var filteredSponsors = [];
     _.forEach(apiKey.sponsors, function (sponsor) {
-      var currentPercent = (apiKey.totalCost > 0 ? (sponsor.totalCost / apiKey.totalCost) : 0);
-      sponsor.deviation = Math.abs(sponsor.percent - currentPercent);
+      if(sponsor[requestType]){
+        filteredSponsors.push(sponsor);
+        var currentPercent = (apiKey.totalCost > 0 ? (sponsor.totalCost / apiKey.totalCost) : 0);
+        sponsor.deviation = Math.abs(sponsor.percent - currentPercent);
+      }
+
 
     });
-    apiKey.sponsors = _.sortBy(apiKey.sponsors, (sponsor) => {
+
+    sails.log.info("Filtered Sponsors: ",filteredSponsors);
+    apiKey.sponsors = _.sortBy(filteredSponsors, (sponsor) => {
       return sponsor.deviation
     });
     _.forEach(apiKey.sponsors, function (sponsor) {
@@ -17,8 +25,9 @@ module.exports = {
     });
     return apiKey.sponsors;
   },
-  selectSponsor: function (apiKey) {
-    return _.max(this.calculateDeviation(apiKey), (sponsor) => {
+  //requestType = 'mvr' or 'autoplus'
+  selectSponsor: function (apiKey, requestType) {
+    return _.max(this.calculateDeviation(apiKey, requestType), (sponsor) => {
       return sponsor.deviation;
     });
   }
