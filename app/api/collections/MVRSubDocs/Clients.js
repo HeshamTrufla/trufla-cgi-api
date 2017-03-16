@@ -8,8 +8,7 @@ var schema = new mongoose.Schema({
         ref: 'ApiKey'
     },
     Callback: {
-        type: String,
-        unique: true
+        type: String
     },
     IsDelivered: {
         type: Boolean

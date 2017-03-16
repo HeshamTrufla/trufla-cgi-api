@@ -94,7 +94,7 @@ module.exports = {
       return self.createInDB(doc)
         .then((mvrFromDB) => {
           _mvrFromDB = mvrFromDB;
-          self.createInCache({
+          return self.createInCache({
             DriverLicenceNumber: mvrFromDB.DriverLicenceNumber,
             ProvinceCode:mvrFromDB.ProvinceCode,
             MVR_ID: mvrFromDB._id.toString()

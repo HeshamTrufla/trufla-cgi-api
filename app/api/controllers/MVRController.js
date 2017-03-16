@@ -27,10 +27,11 @@ module.exports = {
     };
 
     sails.log.debug('[ REQUEST ] find MVR by license', JSON.stringify(params, null, 2));
-
+    
     // find MVR Document in redis cache.
     MVRService.findOneFromCache(licenceNumber, provinceCode)
       .then(mvrRef => {
+        sails.log.debug('mvrRef', mvrRef);
         // handle returned MVR Document Reference if found in the cache memory.
         if (mvrRef && !overrideCache) {
           sails.log.debug('Serve from Cache');
