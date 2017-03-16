@@ -41,7 +41,7 @@ module.exports = {
       params.FederatedUserName = cgiFederatedUserName;
       params.FederatedPassword = cgiFederatedPassword;
       //params.SponsorSubscriberID = '101236';
-      var selectedSponsor = CostDistributionService.selectSponsor(apiKey);
+      var selectedSponsor = CostDistributionService.selectSponsor(apiKey,'autoplus');
       sails.log.info("Selected Sponsor: ", selectedSponsor.name);
       params.SponsorSubscriberID = selectedSponsor.id;//'100410';
 

@@ -11,7 +11,9 @@ var schema = new mongoose.Schema({
     id: String,
     name: String,
     percent: Number,
-    totalCost: Number
+    totalCost: Number,
+    mvr: Boolean,
+    autoplus: Boolean
   }],
   accessPrivillage: {
     type: mongoose.Schema.Types.ObjectId,
