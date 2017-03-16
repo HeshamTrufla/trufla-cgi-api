@@ -179,25 +179,33 @@ function createTestKey() {
             id: "100410",
             name: "Intact",
             percent: 0.30,
-            totalCost: 0
+            totalCost: 0,
+            mvr: true,
+            autoplus: true
           },
           {
             id: "100410",
             name: "RSA",
             percent: 0.10,
-            totalCost: 0
+            totalCost: 0,
+            mvr: true,
+            autoplus: true
           },
           {
             id: "100410",
             name: "RSA Facility",
             percent: 0.03,
-            totalCost: 0
+            totalCost: 0,
+            mvr: true,
+            autoplus: true
           },
           {
             id: "100410",
             name: "Pembridge",
             percent: 0.02,
-            totalCost: 0
+            totalCost: 0,
+            mvr: true,
+            autoplus: true
           }
         ], accessPrivillage: accessSet._id
       }))
