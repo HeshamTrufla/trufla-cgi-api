@@ -32,12 +32,10 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
     /******************************AUTOPLUS ROUTES*********************************************/
-  'get /autoplus/province/:ProvinceCode/licence/:LicenceNumber': 'AutoPlusController.viewOneByLicence',
   'get /api/autoplus/province/:ProvinceCode/licence/:LicenceNumber': 'AutoPlusController.findOneByLicence',
   'get /api/autoplus/id/:id': 'AutoPlusController.findOneById',
 
     /******************************MVR ROUTES*********************************************/
-  'get /mvr/province/:ProvinceCode/licence/:LicenceNumber': 'MVRController.viewOneByLicense',
   'get /api/mvr/province/:ProvinceCode/licence/:LicenceNumber': 'MVRController.findOneByLicence',
   'get /api/mvr/id/:id': 'MVRController.findOneById'
 

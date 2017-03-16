@@ -7,16 +7,20 @@ var schema = new mongoose.Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref: 'ApiKey'
     },
-    Callback: String,
+    Callback: {
+        type: String,
+        unique: true
+    },
     IsDelivered: {
-        type: Boolean,
-        default: false
+        type: Boolean
     },
     RetriesNumber: {
-        type: Number,
-        default: 0
+        type: Number
     }
 
+},
+{ 
+    _id: false
 });
 
 module.exports = schema;

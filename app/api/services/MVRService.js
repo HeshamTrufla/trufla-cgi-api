@@ -31,6 +31,15 @@ module.exports = {
     return db.MVR.update(criteria, data);
   },
 
+  findOneAndUpdateDB: function (criteria, data, clients) {
+    var newData = {
+      $set: data
+    };
+    if (clients)
+      newData.$addToSet = { "Clients": clients };
+    return db.MVR.findOneAndUpdate(criteria, newData, { new: true, safe: true, upsert: true});
+  },
+
   // get MVR Document from CGI.
   findOneFromCGI: function (reqParams, apiKey) {
 
@@ -44,7 +53,7 @@ module.exports = {
     reqParams.Password = cgiPassword;
     reqParams.FederatedUserName = cgiFederatedUserName;
     reqParams.FederatedPassword = cgiFederatedPassword;
-    var selectedSponsor =CostDistributionService.selectSponsor(apiKey);
+    var selectedSponsor =CostDistributionService.selectSponsor(apiKey,'mvr');
     sails.log.info("Selected Sponsor: ", selectedSponsor.name);
     reqParams.SponsorSubscriberID = selectedSponsor.id;//'100410';
     // TODO: handle adding sponsor id.
@@ -79,52 +88,19 @@ module.exports = {
     return MVRRedis.create(docInfo);
   },
 
-  /**
-   * this function will make async promise based calls to the MVRService
-   * to get the MVR Document from CGI, and then insert the document in MonogoDB,
-   * and put a reference for the MVR Document in the cache memory 'Redis'.
-   */
-  findOneFromCGIAndSave: function (reqParams, apiKey) {
-    var _mvrFromDB = null;
-
-    return this.findOneFromCGI(reqParams, apiKey)
-      .then((mvrDoc) => ResHandlerService.MVR(mvrDoc)) // validate incoming MVR Document.
-      .then((mvrObj) => {
-        var mvrDoc = mvrObj.doc;
-        var message = mvrObj.message;
-        var isReady = false;
-
-        if (message.INTERNAL_CODE === 'ABSTRACT_FOUND') isReady = true;
-
-        var requestResult = _.get(mvrDoc, 'SubmitRequestResult.MVRRequestResponseDS');
-
-        var dbDoc = {
-          DriverLicenceNumber: reqParams.LicenceNumber,
-          ProvinceCode: reqParams.ProvinceCode,
-          MVRRequestResponseDS: requestResult,
-          Clients: [{
-            // TODO: Add Client API Key => 'MongoDB _id'
-            Callback: reqParams.Callback,
-            IsDelivered: isReady ? true : false
-          }],
-          IsReady: isReady ? true : false,
-          ReadyDate: isReady ? Date.now() : null,
-          raw: isReady ? mvrDoc.raw : null
-        };
-
-        return this.createInDB(dbDoc);
-
-      })
-      .then((mvrFromDB) => {
-        _mvrFromDB = mvrFromDB;
-        return this.createInCache({
-          DriverLicenceNumber: mvrFromDB.DriverLicenceNumber,
-          ProvinceCode:mvrFromDB.ProvinceCode,
-          MVR_ID: mvrFromDB._id.toString()
-        });
-      })
-      .then(() => _mvrFromDB);
-
+  createInDBAndCache: function (doc) {
+      var self = this;
+      var _mvrFromDB = null;
+      return self.createInDB(doc)
+        .then((mvrFromDB) => {
+          _mvrFromDB = mvrFromDB;
+          self.createInCache({
+            DriverLicenceNumber: mvrFromDB.DriverLicenceNumber,
+            ProvinceCode:mvrFromDB.ProvinceCode,
+            MVR_ID: mvrFromDB._id.toString()
+          });
+        })
+        .then(() => _mvrFromDB);
   },
 
   /**
@@ -365,8 +341,11 @@ module.exports = {
 
   },
 
-  addClientToDoc: function (mvrId, clientInfo) {
-    return db.MVR.update({_id: mvrId}, {$push: {Clients: clientInfo}});
-  }
+  addClientCallback: function (mvrDoc, clientInfo) {
+    // check that the client has never requested this document with the same callback url.
+    var clientExist = _.find(mvrDoc.Clients, (client) => client.Callback == clientInfo.Callback);
+    if (clientExist) return Promise.resolve(false);
+    return db.MVR.findOneAndUpdate({_id: mvrDoc._id}, { $addToSet: { Clients: clientInfo } }, { new: true, safe: true, upsert: true});
+  } 
 
 };

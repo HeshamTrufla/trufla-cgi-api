@@ -111,6 +111,30 @@ module.exports.cgi = {
             IS_ERROR: true
         },
         {
+            INTERNAL_CODE: 'MVR_INVALID_LICENSE_NUMBER2',
+            CODE: 'LV01',
+            TEXT: 'The Licence Number format is invalid.' ,
+            SOURCE: 'CGI',
+            HTTP_STATUS: 400,
+            IS_ERROR: true
+        },
+        {
+            INTERNAL_CODE: 'MVR_LAST_NAME_INITIAL_NOT_MATCH',
+            CODE: 'LV04',
+            TEXT: 'The Last name initial does not match.' ,
+            SOURCE: 'CGI',
+            HTTP_STATUS: 400,
+            IS_ERROR: true
+        },
+        {
+            INTERNAL_CODE: 'MVR_LICENCE_EMPTY',
+            CODE: 'LV11',
+            TEXT: 'Invalid Licence parameter, Licence is empty or nothing.' ,
+            SOURCE: 'CGI',
+            HTTP_STATUS: 400,
+            IS_ERROR: true
+        },
+        {
             INTERNAL_CODE: 'AUTOPLUS_INVALID_LICENSE_NUMBER',
             CODE: '200020202',
             TEXT: 'Invalid Licence Number parameter, Licence Number is null or spaces.',
@@ -141,7 +165,33 @@ module.exports.cgi = {
             SOURCE: 'CGI',
             HTTP_STATUS: 400,
             IS_ERROR: true
-        }
+        },
+        {
+            INTERNAL_CODE: 'PREDICTOR_NO_MVR',
+            CODE: '200230137',
+            TEXT: 'MVR Predictor returned a do NOT order MVR result.' ,
+            SOURCE: 'CGI',
+            HTTP_STATUS: 200,
+            IS_ERROR: false
+        },
+        {
+            INTERNAL_CODE: 'DOC_DB_ERROR',
+            CODE: 'CODETOUCH509',
+            TEXT: 'Error getting the Document from DB' ,
+            SOURCE: 'CT',
+            HTTP_STATUS: 500,
+            IS_ERROR: true
+        },
+
+        {
+            INTERNAL_CODE: 'MVR_UNAUTHORIZED_ACCESS',
+            CODE: '200230123',
+            TEXT: 'Unauthorized access not authorized for requested service.' ,
+            SOURCE: 'CGI',
+            HTTP_STATUS: 401,
+            IS_ERROR: true
+        },
+
     ]
 
 }
