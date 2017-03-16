@@ -16,7 +16,15 @@ module.exports = {
   },
 
   createInRedis: (autoPlusRef) => {
-    return AutoPlusRedis.create(autoPlusRef);
+    // check if this document already in the cache.
+    return AutoPlusRedis.find({ autoPlusId: autoPlusRef.autoPlusId})
+      .then(result => {
+        sails.log.debug('search result from redis', result);
+        if (!result.length)
+          return AutoPlusRedis.create(autoPlusRef);
+        else return true;
+      });
+    
   },
 
   findOneFromCach: (licence, provinceCode) => {
