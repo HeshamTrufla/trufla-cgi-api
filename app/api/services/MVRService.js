@@ -85,7 +85,14 @@ module.exports = {
 
   // save reference to the requested MVR Document in Redis Cache.
   createInCache: function (docInfo) {
-    return MVRRedis.create(docInfo);
+    // check if this document already in the cache.
+    return MVRRedis.find({ MVR_ID: docInfo.MVR_ID })
+      .then(result => {
+        if (!result.length)
+          return MVRRedis.create(docInfo);
+        else return true;
+      });
+    
   },
 
   createInDBAndCache: function (doc) {
@@ -94,7 +101,7 @@ module.exports = {
       return self.createInDB(doc)
         .then((mvrFromDB) => {
           _mvrFromDB = mvrFromDB;
-          self.createInCache({
+          return self.createInCache({
             DriverLicenceNumber: mvrFromDB.DriverLicenceNumber,
             ProvinceCode:mvrFromDB.ProvinceCode,
             MVR_ID: mvrFromDB._id.toString()

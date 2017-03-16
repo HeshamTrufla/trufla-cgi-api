@@ -12,7 +12,6 @@ module.exports = {
     MVR_ID: {
       type: 'string',
       primaryKey: true,
-      unique: true,
       required: true
     }
   }
