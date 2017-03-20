@@ -19,7 +19,7 @@ module.exports = {
 
     errorObject: function (msgCode, internalCode) {
         var msg = this.getMessage(msgCode, internalCode);
-        return { error_code: msg.INTERNAL_CODE, message: msg.TEXT };
+        return { error_code: msg.INTERNAL_CODE, message: msg.TEXT, status: msg.HTTP_STATUS };
     },  
 
     /**

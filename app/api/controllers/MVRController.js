@@ -69,6 +69,11 @@ module.exports = {
         }
         else {
           sails.log.info('Serve from CGI');
+
+          // check if one of those provinces NB, AB, PE, require dob.
+          if ((provinceCode === 'NB' || provinceCode === 'AB' || provinceCode === 'PE') && !params.DriverDateOfBirth)
+            throw (ResHandlerService.errorObject('DOB_REQUIRED', true));
+
           return MVRService.findOneFromCGI(params, req.apiKey)
             .then((mvrDoc) => ResHandlerService.MVR(mvrDoc)) // validate incoming MVR Document.
             .then(mvrObj => {

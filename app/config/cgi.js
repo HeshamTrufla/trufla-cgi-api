@@ -182,7 +182,6 @@ module.exports.cgi = {
             HTTP_STATUS: 500,
             IS_ERROR: true
         },
-
         {
             INTERNAL_CODE: 'MVR_UNAUTHORIZED_ACCESS',
             CODE: '200230123',
@@ -191,6 +190,14 @@ module.exports.cgi = {
             HTTP_STATUS: 401,
             IS_ERROR: true
         },
+        {
+            INTERNAL_CODE: 'DOB_REQUIRED',
+            CODE: 'CODETOUCH510',
+            TEXT: 'date of birth is required for the following provinces NB, AB and PE' ,
+            SOURCE: 'CT',
+            HTTP_STATUS: 400,
+            IS_ERROR: true
+        }
 
     ]
 
