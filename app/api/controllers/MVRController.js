@@ -37,7 +37,7 @@ module.exports = {
           sails.log.info('Serve from Cache');
           return MVRService.findOneFromDB({ _id: mvrRef.MVR_ID })
             .then(mvrDoc => {
-              if (!mvrDoc) throw (ResHandlerService.errorObject('DOC_DB_ERROR', true));
+              if (!mvrDoc) throw (ResHandlerService.getMessage('DOC_DB_ERROR', true));
 
               if (!mvrDoc.IsReady && clientInfo.Callback) {
                 return MVRService.addClientCallback(mvrDoc, clientInfo)
@@ -50,7 +50,7 @@ module.exports = {
                   })
                   .catch(err => {
                     sails.log.error(err);
-                    throw (ResHandlerService.errorObject('DOC_DB_ERROR', true));
+                    throw (ResHandlerService.getMessage('DOC_DB_ERROR', true));
                   });
               }
               else {
@@ -63,7 +63,7 @@ module.exports = {
             })
             .catch(err => {
               sails.log.error(err);
-              throw (ResHandlerService.errorObject('DOC_DB_ERROR', true));
+              throw (ResHandlerService.getMessage('DOC_DB_ERROR', true));
             });
 
         }
@@ -72,7 +72,7 @@ module.exports = {
 
           // check if one of those provinces NB, AB, PE, require dob.
           if ((provinceCode === 'NB' || provinceCode === 'AB' || provinceCode === 'PE') && !params.DriverDateOfBirth)
-            throw (ResHandlerService.errorObject('DOB_REQUIRED', true));
+            throw (ResHandlerService.getMessage('DOB_REQUIRED', true));
 
           return MVRService.findOneFromCGI(params, req.apiKey)
             .then((mvrDoc) => ResHandlerService.MVR(mvrDoc)) // validate incoming MVR Document.
@@ -115,7 +115,7 @@ module.exports = {
                   })
                   .catch(err => {
                     sails.log.error(err);
-                    throw (ResHandlerService.errorObject('DOC_DB_ERROR', true));
+                    throw (ResHandlerService.getMessage('DOC_DB_ERROR', true));
                   });
 
               }
@@ -136,7 +136,7 @@ module.exports = {
                   })
                   .catch(err => {
                     sails.log.error(err);
-                    throw (ResHandlerService.errorObject('DOC_DB_ERROR', true));
+                    throw (ResHandlerService.getMessage('DOC_DB_ERROR', true));
                   });
 
               }
