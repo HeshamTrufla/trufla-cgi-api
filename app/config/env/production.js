@@ -45,7 +45,7 @@ module.exports = {
    ***************************************************************************/
 
   log: {
-     level: "error"
+     level: "info"
   },
 
   keepResponseErrors: true,

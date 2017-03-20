@@ -11,7 +11,6 @@ module.exports = {
     },
     autoPlusId: {
       type: 'string',
-      primaryKey: true,
       required: true
     }
   }

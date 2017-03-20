@@ -4,6 +4,7 @@ module.exports = {
 
         var params = req.params.all();
 
+        sails.log.info('[ A+ REQUEST ] find A+ by license', JSON.stringify(params, null, 2));
 
         // Check if the autoPlus is available in redisautoPlusRef
         AutoPlusService.findOneFromCach(params.LicenceNumber, params.ProvinceCode)
@@ -15,9 +16,11 @@ module.exports = {
                         return AutoPlusService.findOneFromCGIAndupdate(params, autoPlusRef.autoPlusId, req.apiKey);
                     }
                     else {
+                        sails.log.info('Serve from Cache');
                         return AutoPlusService.findOneFromDB(autoPlusRef.autoPlusId);
                     }
                 } else {
+                    sails.log.info('Serve from CGI');
                     // Licence not found so we are getting autoPlus from CGI
                     return AutoPlusService.findOneFromCGIAndSave(params, req.apiKey);
                 }

@@ -26,15 +26,15 @@ module.exports = {
       RetriesNumber: 0
     };
 
-    sails.log.debug('[ REQUEST ] find MVR by license', JSON.stringify(params, null, 2));
+    sails.log.info('[ MVR REQUEST ] find MVR by license', JSON.stringify(params, null, 2));
     
     // find MVR Document in redis cache.
     MVRService.findOneFromCache(licenceNumber, provinceCode)
       .then(mvrRef => {
-        sails.log.debug('mvrRef', mvrRef);
+
         // handle returned MVR Document Reference if found in the cache memory.
         if (mvrRef && !overrideCache) {
-          sails.log.debug('Serve from Cache');
+          sails.log.info('Serve from Cache');
           return MVRService.findOneFromDB({ _id: mvrRef.MVR_ID })
             .then(mvrDoc => {
               if (!mvrDoc) throw (ResHandlerService.errorObject('DOC_DB_ERROR', true));
@@ -68,7 +68,7 @@ module.exports = {
 
         }
         else {
-          sails.log.debug('Serve from CGI');
+          sails.log.info('Serve from CGI');
           return MVRService.findOneFromCGI(params, req.apiKey)
             .then((mvrDoc) => ResHandlerService.MVR(mvrDoc)) // validate incoming MVR Document.
             .then(mvrObj => {
@@ -144,7 +144,10 @@ module.exports = {
         }
 
       })
-      .then(result => res.ok(result))
+      .then(result => {
+        sails.log.info('MVR Status ', result.status, 'Ready :', result.isReady);
+        res.ok(result)
+      })
       .catch(err => {
 
         sails.log.error(err);

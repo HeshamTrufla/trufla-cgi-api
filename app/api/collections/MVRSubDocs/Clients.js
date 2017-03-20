@@ -17,9 +17,6 @@ var schema = new mongoose.Schema({
         type: Number
     }
 
-},
-{ 
-    _id: false
 });
 
 module.exports = schema;
