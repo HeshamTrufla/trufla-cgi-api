@@ -11,6 +11,7 @@ module.exports = {
     },
     MVR_ID: {
       type: 'string',
+      primaryKey: true,
       required: true
     }
   }
