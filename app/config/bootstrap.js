@@ -217,24 +217,11 @@ function createTestKey() {
 module.exports.bootstrap = function (cb) {
   connectMongoose()
     .then(bindMongooseToModels)
-    .then(updateMVRRedis)
-    .then(updateAutoPlusRedis)
-    .then(createTestKey) // api_key => S33E89QP87BEE46WQ
+    //.then(updateMVRRedis)
+    //.then(updateAutoPlusRedis)
+    //.then(createTestKey) // api_key => S33E89QP87BEE46WQ
     .then(loadApiKeys)
     .then(function () {
-
-      startCrons();
-
-      // Illustrative example
-      /*db.ApiKey.create({
-       Key: 'sdasadsda'
-       })
-       .then(function(ApiKey) {
-       console.log('ApiKey: ', ApiKey);
-       })
-       .catch(function(err) {
-       console.log('er: ', err);
-       });*/
-      return cb();
+      cb();
     });
 };
