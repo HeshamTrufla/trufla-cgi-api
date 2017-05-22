@@ -9,7 +9,22 @@
  * any private information to this file!
  *
  */
+
 var fs=require('fs');
+
+//This code is a work around to load all the ca chain certificates because NodeJs only see the first certificate in the chain
+var ca=[];
+var chain=fs.readFileSync(__dirname + '/../ssl/fullchain.pem');
+chain= chain.toString().split("\n");
+var cert=[];
+for(line=0; line < chain.length; line++ ){
+	cert.push(chain[line]);
+	if(chain[line].match(/-END CERTIFICATE-/))
+	{
+		ca.push(cert.join("\n"));
+		cert=[];
+	}
+}
 
 module.exports = {
 
@@ -35,7 +50,7 @@ module.exports = {
   // In this example, we'll assume you created a folder in your project, `config/ssl`
   // and dumped your certificate/key files there:
   ssl: {
-    ca: fs.readFileSync(__dirname + '/../ssl/fullchain.pem'),
+    ca: ca,
     key: fs.readFileSync(__dirname + '/../ssl/privkey.pem'),
     cert: fs.readFileSync(__dirname + '/../ssl/cert.pem'),
   },
