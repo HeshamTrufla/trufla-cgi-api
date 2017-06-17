@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/CodeTouch/cgi.svg?style=shield&circle-token=f9e980bc18f6a6717ba036e578b5b1e8ca2f8ab7)](https://circleci.com/gh/CodeTouch/cgi)
+
 # CGI Microservice
 ![](https://media.giphy.com/media/3o6MbdekQOV3ijXu4U/giphy.gif)
 ##Getting Started Guide
