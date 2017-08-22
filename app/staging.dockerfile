@@ -18,5 +18,5 @@ RUN npm install
 # Bundle app source
 COPY . /usr/src/app
 
-EXPOSE 1337
+EXPOSE 443
 CMD ["pm2-docker", "app.js"]
