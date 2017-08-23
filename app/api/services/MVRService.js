@@ -66,7 +66,7 @@ module.exports = {
           success: (result) => {
             apiKey.totalCost= (apiKey.totalCost? apiKey.totalCost : 0) + sails.config.cgi.MVR.cost;
             selectedSponsor.totalCost = (selectedSponsor.totalCost ? selectedSponsor.totalCost : 0) + sails.config.cgi.MVR.cost;
-            db.ApiKey.update({_id: apiKey._id}, {totalCost: apiKey.totalCost}).then((updatedApiKye) => {
+            db.ApiKey.update({_id: apiKey._id}, {totalCost: apiKey.totalCost, sponsors: apiKey.sponsors}).then((updatedApiKye) => {
               sails.log.info("Updated API Key: ", updatedApiKye)
             });
             resolve(result);
