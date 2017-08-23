@@ -1,0 +1,72 @@
+stages:
+  - build
+  - deploy
+
+variables:
+  DOCKER_DRIVER: overlay
+
+build-staging:
+  image: docker:latest
+  services:
+  - docker:dind
+  tags:
+    - docker
+  stage: build
+  script:
+    - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
+    - docker build -f app/staging.dockerfile -t "$CI_REGISTRY_IMAGE/staging:$CI_COMMIT_SHA" app/
+    - docker push "$CI_REGISTRY_IMAGE/staging:$CI_COMMIT_SHA"
+  cache:
+    untracked: true
+  environment:
+    name: staging
+  only:
+    - staging
+
+deploy-staging:
+  stage: deploy
+  before_script:
+    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+    - eval $(ssh-agent -s)
+    - ssh-add <(echo "$SSH_PRIVATE_KEY_STAGING")
+    - mkdir -p ~/.ssh
+    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+  script:
+    - ssh -tt ubuntu@$STAGING_SERVER "docker service update --image $CI_REGISTRY_IMAGE/staging:$CI_COMMIT_SHA sharpone_cgi"
+  environment:
+    name: staging
+  only:
+  - staging
+
+build-production:
+  image: docker:latest
+  services:
+  - docker:dind
+  tags:
+    - docker
+  stage: build
+  script:
+    - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
+    - docker build -f app/production.dockerfile -t "$CI_REGISTRY_IMAGE/production:$CI_COMMIT_SHA" app/
+    - docker push "$CI_REGISTRY_IMAGE/production:$CI_COMMIT_SHA"
+  cache:
+    untracked: true
+  environment:
+    name: production
+  only:
+    - master
+
+deploy-production:
+  stage: deploy
+  before_script:
+    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+    - eval $(ssh-agent -s)
+    - ssh-add <(echo "$SSH_PRIVATE_KEY_PRODUCTION")
+    - mkdir -p ~/.ssh
+    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+  script:
+    - ssh -tt ubuntu@PRODUCTION_SERVER "docker service update --image $CI_REGISTRY_IMAGE/production:$CI_COMMIT_SHA cgistack_cgi-api"
+  environment:
+    name: production
+  only:
+  - master
