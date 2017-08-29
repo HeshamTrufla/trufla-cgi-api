@@ -1,6 +1,9 @@
 /**
  * Created by wasee on 2017-02-24.
  */
+
+  const _ = require('lodash');
+
 module.exports = {
 
   selectSponsor: function (apiKey, requestType) {
