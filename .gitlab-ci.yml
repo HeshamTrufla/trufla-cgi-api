@@ -65,7 +65,7 @@ deploy-production:
     - mkdir -p ~/.ssh
     - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
   script:
-    - ssh -tt ubuntu@PRODUCTION_SERVER "docker service update --image $CI_REGISTRY_IMAGE/production:$CI_COMMIT_SHA cgistack_cgi-api"
+    - ssh -tt ubuntu@$PRODUCTION_SERVER "docker service update --image $CI_REGISTRY_IMAGE/production:$CI_COMMIT_SHA cgistack_cgi-api"
   environment:
     name: production
   only:
