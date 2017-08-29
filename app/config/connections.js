@@ -66,7 +66,7 @@ module.exports.connections = {
   },
   mongoDev: {
     url: process.env.MONGO_URL,
-    host: process.env.MONGO_SERVER || '192.168.0.2',
+    host: process.env.MONGO_SERVER || 'localhost',
     port: 27017,
     user: 'cgidev',
     password: '863cb08a86e8e23721f89aaa63e49d2438816968752ce363391d9a089090884d',
@@ -76,7 +76,7 @@ module.exports.connections = {
   redis: {
     adapter: "sails-ioredis",
     port: 6379,
-    host: process.env.REDIS_SERVER || '192.168.0.3',
+    host: process.env.REDIS_SERVER || 'localhost',
     password: process.env.REDIS_CLUSTER_URL ? undefined : 'f288198d9d1ba43ad6ed958dee83b68da7350ae4e12bf22273323725cacb630a',
     // USING WITH CLUSTER
     
