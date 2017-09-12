@@ -13,6 +13,9 @@ var schema = new mongoose.Schema({
     IsDelivered: {
         type: Boolean
     },
+    errorDelivered:{
+        type: Boolean
+    },
     RetriesNumber: {
         type: Number
     }

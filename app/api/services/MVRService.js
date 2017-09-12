@@ -31,12 +31,10 @@ module.exports = {
     return db.MVR.update(criteria, data);
   },
 
-  findOneAndUpdateDB: function (criteria, data, clients) {
+  findOneAndUpdateDB: function (criteria, data) {
     var newData = {
       $set: data
     };
-    if (clients)
-      newData.$addToSet = { "Clients": clients };
     return db.MVR.findOneAndUpdate(criteria, newData, { new: true, safe: true, upsert: true});
   },
 
