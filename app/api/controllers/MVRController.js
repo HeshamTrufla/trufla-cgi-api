@@ -10,7 +10,7 @@ module.exports = {
    * 6. return to MVR Document.
    */
   findOneByLicence: function (req, res) {
-    
+
     // get all params.
     var params = req.allParams();
     if (params.Callback)
@@ -23,11 +23,12 @@ module.exports = {
     var clientInfo = {
       Callback: req.query.Callback,
       IsDelivered: false,
+      errorDelivered: false,
       RetriesNumber: 0
     };
 
     sails.log.info('[ MVR REQUEST ] find MVR by license', JSON.stringify(params, null, 2));
-    
+
     // find MVR Document in redis cache.
     MVRService.findOneFromCache(licenceNumber, provinceCode)
       .then(mvrRef => {
@@ -77,7 +78,7 @@ module.exports = {
           return MVRService.findOneFromCGI(params, req.apiKey)
             .then((mvrDoc) => ResHandlerService.MVR(mvrDoc)) // validate incoming MVR Document.
             .then(mvrObj => {
-              
+
               var mvrDoc = mvrObj.doc;
               var message = mvrObj.message;
               var isReady = false;
@@ -96,31 +97,46 @@ module.exports = {
                 MVRRequestResponseDS: requestResult,
                 IsReady: isReady,
                 ReadyDate: isReady ? Date.now() : null,
+                hasError: false,
+                errorDesc: null,
+                errorDate: null,
                 raw: isReady ? mvrDoc.raw : null
               };
 
               if (overrideCache && mvrRef) {
-
-                if (!clientInfo.Callback || isReady)
-                  clientInfo = null;
-
-                // in case of override cache, well just update the current document.
-                return MVRService.findOneAndUpdateDB({ _id: mvrRef.MVR_ID }, dbDoc, clientInfo)
-                  .then(docFromDB => {
-                    return {
-                      document: docFromDB,
-                      status: docFromDB.IsReady,
-                      isReady: docFromDB.IsReady
-                    }
+                return MVRService.findOneFromDB({ _id: mvrRef.MVR_ID }).then((mvrDoc) => {
+                  var clients = _.get(mvrDoc, "Clients") || []
+                  var client = clients.find((client) => {
+                    return client.Callback === clientInfo.Callback
                   })
-                  .catch(err => {
-                    sails.log.error(err);
-                    throw (ResHandlerService.getMessage('DOC_DB_ERROR', true));
-                  });
+
+                  if (client) {
+                    client.IsDelivered = true;
+                    client.errorDelivered = false;
+                  }
+                  if (clientInfo.Callback && !isReady)
+                    clients.push(clientInfo)
+
+                  dbDoc.Clients = clients;
+
+
+                  // in case of override cache, well just update the current document.
+                  return MVRService.findOneAndUpdateDB({ _id: mvrRef.MVR_ID }, dbDoc)
+                    .then(docFromDB => {
+                      return {
+                        document: docFromDB,
+                        status: docFromDB.IsReady,
+                        isReady: docFromDB.IsReady
+                      }
+                    })
+                    .catch(err => {
+                      sails.log.error(err);
+                      throw (ResHandlerService.getMessage('DOC_DB_ERROR', true));
+                    });
+                })
 
               }
               else {
-
                 if (clientInfo.Callback && !isReady) {
                   dbDoc.Clients = [clientInfo];
                 }

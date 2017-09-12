@@ -25,6 +25,9 @@ var schema = new mongoose.Schema({
     MessageDT: subDocs.MessageDT,
 
   },
+  hasError: Boolean,
+  errorDesc: String,
+  errorDate: Date,
   raw: String,
   Clients: [subDocs.Clients],
   IsReady: Boolean,
