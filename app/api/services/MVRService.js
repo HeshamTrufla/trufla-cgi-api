@@ -168,13 +168,13 @@ module.exports = {
 
         // validate incoming MVR Document.
         if (!mvrDoc) {
-          sails.log.error('while trying to retrive the requested MVR Document', 'No mvr document returned!');
+          sails.log.error('while trying to retrieve the requested MVR Document', 'No mvr document returned!');
           return false;
         }
 
         // TODO: we should check for CGI messages, to either keep this document in a not ready status or delete it.
         if (!mvrDoc.GetResponseResult || !mvrDoc.GetResponseResult.MVRRequestResponseDS) {
-          sails.log.error('while trying to retrive the requested MVR Document', 'returned MVR Document doesn\'t contain a result!');
+          sails.log.error('while trying to retrieve the requested MVR Document', 'returned MVR Document doesn\'t contain a result!');
           return false;
         }
 
@@ -185,7 +185,7 @@ module.exports = {
 
         // if no abstract returned => still not ready, then skip to the next Task.
         if (!isReady) {
-          sails.log.error('while trying to retrive the requested MVR Document', requestResult.MessageDT.Text);
+          sails.log.error('while trying to retrieve the requested MVR Document', requestResult.MessageDT.Text);
           return false;
         }
 
@@ -274,7 +274,7 @@ module.exports = {
       _.each(mvrDoc.Clients, (client) => {
 
         // TODO: omit clients who has maximum number of retries.
-        if (!client.IsDelivered && client.Callback) {
+        if (!client.IsDelivered && client.Callback && client.RetriesNumber < 5) {
 
           var taskObj = {
             clientUrl: client.Callback,
