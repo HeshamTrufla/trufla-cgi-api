@@ -2,22 +2,23 @@
  * Created by wasee on 2017-02-24.
  */
 
-  const _ = require('lodash');
+const _ = require('lodash');
 
 module.exports = {
 
   selectSponsor: function (apiKey, requestType) {
 
-  const selected =
-    _(apiKey.sponsors)
-      .map((sponsor) => {
-        const currentPercent = apiKey.totalCost > 0 ? (sponsor.totalCost / apiKey.totalCost) : 0;
-        sponsor.deviation = Math.abs(sponsor.percent - currentPercent);
-        return sponsor;
-      })
-      .sortBy('deviation')
-      .filter(requestType)
-      .maxBy('deviation').name;
+    const selected =
+      _(apiKey.sponsors)
+        .map((sponsor) => {
+          const optimalCost = apiKey.totalCost * sponsor.percent;
+          //Calculate the percentage between the optimal cost and the actual cost. (i.e if deviation =1 that means current actual cost is 100% of the optimal cost)
+          sponsor.deviation = optimalCost === 0 ? 1 : sponsor.totalCost / optimalCost;
+          return sponsor;
+        })
+        .sortBy('deviation')
+        .filter(requestType)
+        .minBy('deviation').name;
 
     const selectedSponsor = _.find(apiKey.sponsors, (sponsor) => {
       return sponsor.name === selected;
