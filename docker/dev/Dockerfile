@@ -6,4 +6,4 @@ RUN mkdir -p /src/app
 WORKDIR /src/app
 ENV NODE_ENV=development
 
-CMD pm2-docker app.js
+CMD pm2-docker app.js --no-auto-exit
