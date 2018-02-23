@@ -55,7 +55,7 @@ module.exports.cors = {
   *                                                                          *
   ***************************************************************************/
 
-  // credentials: true,
+  credentials: true,
 
   /***************************************************************************
   *                                                                          *
@@ -73,6 +73,6 @@ module.exports.cors = {
   *                                                                          *
   ***************************************************************************/
 
-  // headers: 'content-type'
+  headers: 'Origin,X-Requested-With,content-type,Accept,api_key,X-CSRF-Token'
 
 };
