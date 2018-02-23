@@ -73,6 +73,6 @@ module.exports.cors = {
   *                                                                          *
   ***************************************************************************/
 
-  headers: 'content-type,api_key'
+  headers: 'Origin,X-Requested-With,content-type,Accept,api_key,X-CSRF-Token'
 
 };
