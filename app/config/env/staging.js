@@ -37,13 +37,13 @@ module.exports = {
     // models: {
     //   connection: 'someMongodbServer'
     // }
-    port: 443,
+    port: 80,
 
-    ssl: {
-      ca: ca,
-      key: fs.readFileSync(__dirname + '/../ssl/privkey.pem'),
-      cert: fs.readFileSync(__dirname + '/../ssl/cert.pem'),
-    },
+    // ssl: {
+    //   ca: ca,
+    //   key: fs.readFileSync(__dirname + '/../ssl/privkey.pem'),
+    //   cert: fs.readFileSync(__dirname + '/../ssl/cert.pem'),
+    // },
 
     orm: {_hookTimeout: 120000},
   
