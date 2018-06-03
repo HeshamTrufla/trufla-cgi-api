@@ -31,6 +31,9 @@ module.exports.routes = {
   * `assets` directory)                                                      *
   *                                                                          *
   ***************************************************************************/
+
+  '/healthcheck': { response: 'ok' },
+
     /******************************AUTOPLUS ROUTES*********************************************/
   'get /api/autoplus/province/:ProvinceCode/licence/:LicenceNumber': 'AutoPlusController.findOneByLicence',
   'get /api/autoplus/id/:id': 'AutoPlusController.findOneById',
