@@ -12,7 +12,7 @@ module.exports = {
   },
 
   updateInMongo: (autoPlus, autoPlusId) => {
-    return db.AutoPlus.findOneAndUpdate({'_id': autoPlusId}, autoPlus);
+    return db.AutoPlus.findOneAndUpdate({'_id': autoPlusId}, autoPlus, { new: true });
   },
 
   createInRedis: (autoPlusRef) => {
