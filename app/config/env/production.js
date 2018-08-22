@@ -76,11 +76,11 @@ module.exports = {
     },
     MVR: {
       URL: 'https://rapidwebservicespilot.cgi.com/rapidwebservices/WebServices/MVRWS.asmx?wsdl',
-      cost: 9
+      cost: 16.5
     },
     AutoPlus: {
       URL: 'https://rapidwebservicespilot.cgi.com/rapidwebservices/WebServices/DriverClaimHistoryGoldWS.asmx?wsdl',
-      cost: 7.12
+      cost: 6.45
     }
   }
 
