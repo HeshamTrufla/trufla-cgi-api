@@ -12,10 +12,10 @@ RUN npm install -g mocha
 RUN npm install sails@0.12.4
 
 # Install app dependencies
-COPY package.json /app/
+COPY app/package.json /app/
 RUN npm install
 
 # Bundle app source
-COPY . /app
+COPY app/ /app
 
 CMD ["pm2-docker", "app.js"]
