@@ -12,7 +12,7 @@ build-staging:
   services:
   - docker:dind
   tags:
-    - docker
+    - trufla-gitlab-runner
   stage: build
   script:
     - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
@@ -26,15 +26,12 @@ build-staging:
     - staging
 
 deploy-staging:
+  image: registry.gitlab.com/codetouch/sharpone/sharpone/deploy:1.3.0
   stage: deploy
-  before_script:
-    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
-    - eval $(ssh-agent -s)
-    - ssh-add <(echo "$SSH_PRIVATE_KEY_STAGING")
-    - mkdir -p ~/.ssh
-    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+  tags:
+    - trufla-gitlab-runner
   script:
-    - ssh -tt ubuntu@$STAGING_SERVER "docker service update --image $CI_REGISTRY_IMAGE/staging:$CI_COMMIT_SHA sharpone_cgi"
+    - ecs-deploy -c STA-ECS-Cluster -n s1-cgi -i $CI_REGISTRY_IMAGE/staging:$CI_COMMIT_SHA
   environment:
     name: staging
   only:
