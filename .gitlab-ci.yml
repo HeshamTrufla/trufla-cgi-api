@@ -16,7 +16,7 @@ build-staging:
   stage: build
   script:
     - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
-    - docker build -f app/staging.dockerfile -t "$CI_REGISTRY_IMAGE/staging:$CI_COMMIT_SHA" app/
+    - docker build -f app/docker/staging/Dockerfile -t "$CI_REGISTRY_IMAGE/staging:$CI_COMMIT_SHA" app/
     - docker push "$CI_REGISTRY_IMAGE/staging:$CI_COMMIT_SHA"
   cache:
     untracked: true
@@ -46,7 +46,7 @@ build-production:
   stage: build
   script:
     - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
-    - docker build -f docker/production/Dockerfile -t "$CI_REGISTRY_IMAGE/production:$CI_COMMIT_SHA" .
+    - docker build -f app/docker/production/Dockerfile -t "$CI_REGISTRY_IMAGE/production:$CI_COMMIT_SHA" .
     - docker push "$CI_REGISTRY_IMAGE/production:$CI_COMMIT_SHA"
   cache:
     untracked: true
