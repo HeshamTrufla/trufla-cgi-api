@@ -98,11 +98,12 @@ function bindMongooseToModels() {
 function updateMVRRedis() {
   return MVRRedis.destroy({})
     .then(() => {
+      console.log("All MVR Removed from Redis");
       // get only the required fields by redis, from MongoDB.
       return db.MVR.find({}).select('DriverLicenceNumber ProvinceCode _id');
     })
     .then((mvrDocs) => {
-
+      console.log("Found "+ mvrDocs.length +" MVR Document in DB");
       var refs = _.map(mvrDocs, (doc) => {
         return {
           DriverLicenceNumber: doc.DriverLicenceNumber,
@@ -122,11 +123,12 @@ function updateMVRRedis() {
 function updateAutoPlusRedis() {
   return AutoPlusRedis.destroy({})
     .then(() => {
+      console.log("All A+ Removed from Redis");
       // get only the required fields by redis, from MongoDB.
       return db.AutoPlus.find({}).select('LicenceNumber ProvinceCode _id');
     })
     .then((autoPlusDoc) => {
-
+      console.log("Found "+ autoPlusDoc.length +" A+ Document in DB");
       var refs = _.map(autoPlusDoc, (doc) => {
         return {LicenceNumber: doc.LicenceNumber, ProvinceCode: doc.ProvinceCode, autoPlusId: doc._id.toString()};
       });
@@ -217,8 +219,8 @@ function createTestKey() {
 module.exports.bootstrap = function (cb) {
   connectMongoose()
     .then(bindMongooseToModels)
-    //.then(updateMVRRedis)
-    //.then(updateAutoPlusRedis)
+    .then(updateMVRRedis)
+    .then(updateAutoPlusRedis)
     //.then(createTestKey) // api_key => S33E89QP87BEE46WQ
     .then(loadApiKeys)
     .then(function () {
