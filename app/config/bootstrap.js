@@ -219,8 +219,8 @@ function createTestKey() {
 module.exports.bootstrap = function (cb) {
   connectMongoose()
     .then(bindMongooseToModels)
-    .then(updateMVRRedis)
-    .then(updateAutoPlusRedis)
+    // .then(updateMVRRedis)
+    // .then(updateAutoPlusRedis)
     //.then(createTestKey) // api_key => S33E89QP87BEE46WQ
     .then(loadApiKeys)
     .then(function () {
