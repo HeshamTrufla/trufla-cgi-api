@@ -12,7 +12,7 @@ build-staging:
   services:
   - docker:dind
   tags:
-    - trufla-staging-runner
+    - trufla-staging-deploy
   stage: build
   script:
     - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
@@ -64,6 +64,8 @@ build-production:
 
 deploy-production:
   stage: deploy
+  # tags:
+  #   - trufla-staging-deploy
   before_script:
     - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
     - eval $(ssh-agent -s)
@@ -71,6 +73,13 @@ deploy-production:
     - mkdir -p ~/.ssh
     - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
   script:
+    # - export AWS_DEFAULT_REGION=ca-central-1
+    # - export ROLE_ARN=$PRODUCTION_ROLE_ARN
+    # - export SESSION_NAME=${CI_JOB_ID}-$(date +%d%m%Y)
+    # - STS=$(aws sts assume-role --role-arn "${ROLE_ARN}" --role-session-name "${SESSION_NAME}" --duration-seconds 900 --query 'Credentials.[AccessKeyId,SecretAccessKey,SessionToken]' --output text)
+    # - export AWS_ACCESS_KEY_ID=$(echo $STS | awk '{print $1;}' )
+    # - export AWS_SECRET_ACCESS_KEY=$(echo $STS | awk '{print $2;}' )
+    # - export AWS_SESSION_TOKEN=$(echo $STS | awk '{print $3;}' )
     - ssh -tt ubuntu@$PRODUCTION_SERVER "docker service update --image $CI_REGISTRY_IMAGE/production:$CI_COMMIT_SHA sharpone_cgi"
   environment:
     name: production
