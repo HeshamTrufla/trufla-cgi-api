@@ -65,7 +65,7 @@ build-production:
 deploy-production:
   stage: deploy
   # tags:
-  #   - trufla-staging-deploy
+  #   - trufla-prod-deploy
   before_script:
     - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
     - eval $(ssh-agent -s)
