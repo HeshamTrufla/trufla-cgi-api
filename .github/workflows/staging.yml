@@ -1,0 +1,68 @@
+name: staging-workflow
+on:
+  push:
+    branches:
+      - github-actions
+  # pull_request:
+  #   types: [closed]
+  #   branches: 
+  #     - staging  
+  workflow_dispatch:
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ghcr.io/${{ github.repository }}/staging:${GITHUB_SHA}
+  IMAGE_TAGS: latest 
+  REGISTRY_USER: ${{ github.actor }}
+  REGISTRY_PASSWORD: ${{ secrets.LOGIN_TOKEN }}
+  TAG_VERSION: latest-sta
+  USERNAME: trufla-admin
+  AWS_DEFAULT_REGION: ca-central-1
+
+
+jobs:
+  
+  build-staging:
+      runs-on: [ sta-runner ]
+      container: docker:latest
+      env:
+        name: staging
+      services: 
+        docker:
+          image: docker:dind
+      steps:
+        - name: checkout repository
+          uses: actions/checkout@v3
+        - name: Log in to the Container registry
+          run: |
+            echo ${{ secrets.LOGIN_TOKEN }} | docker login ghcr.io -u USERNAME --password-stdin
+        - name: build and push image
+          run: |
+              docker build -f app/staging.dockerfile -t "${{ env.IMAGE_NAME }}" app/
+              docker push "${{ env.IMAGE_NAME }}"
+
+
+
+  # deploy-staging:
+  #   runs-on: [ sta-runner ]
+  #   needs: "build-staging"
+  #   container:
+  #     image: ghcr.io/trufla-technology/devops-trufla:latest
+  #     credentials:
+  #       username: ${{ github.actor }}
+  #       password: ${{ secrets.LOGIN_TOKEN }}
+  #   steps:
+  #   - name: Install aws-cli
+  #     uses: chrislennon/action-aws-cli@v1.1
+       
+  #   - name: run script
+  #     run: |
+  #       export AWS_ACCESS_KEY_ID=$AWS_ACCESS_STAGING
+  #       export AWS_SECRET_ACCESS_KEY=$AWS_SECRET_STAGING
+  #       export AWS_DEFAULT_REGION=${{ env.AWS_DEFAULT_REGION }}
+  #       /ecs-deploy -c STA-ECS-Cluster -n s1-cgi -i ${{ env.IMAGE_NAME }} -t
+
+
+
+
+
+  
